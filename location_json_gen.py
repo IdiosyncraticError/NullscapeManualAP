@@ -58,7 +58,6 @@ curses = [
     ["Accurate Telefragger", ["Level 8+", "Telefragger"]],
     ["Bloodier Meat", ["Level 5+", "Flesh"]],
     ["Blighted Jump Pads", ["Level 5+", "Flesh"]],
-    ["Springloaded", ["Level 5+", "Springer"]],
     ["Cognitive Dissonance", ["Level 5+", "NIL"]],
     ["Bigger Blast", ["Level 5+", "ICBM"]],
     ["Scorched Earth", ["Level 1+", "ICBM"]],
