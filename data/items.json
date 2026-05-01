@@ -1,0 +1,55 @@
+[
+  {
+    "count": "3",
+    "name": "Swiftness Ring Unlock",
+    "category": [
+      "Upgrade"
+    ],
+    "useful": true
+  },
+  {
+    "count": "5",
+    "name": "Paycheck Unlock",
+    "category": [
+      "Upgrade"
+    ],
+    "useful": true
+  },
+  {
+    "count": "2",
+    "name": "Business License Unlock",
+    "category": [
+      "Upgrade"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Grace Wings Unlock",
+    "category": [
+      "Upgrade"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Double Jump Unlock",
+    "category": [
+      "Upgrade"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Adrenaline Unlock",
+    "category": [
+      "Upgrade"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "category": [],
+    "filler": true
+  }
+]
