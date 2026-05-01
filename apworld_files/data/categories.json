@@ -1,1 +1,81 @@
-{}
+{
+    "Level 1+": {
+        "hidden": true
+    },
+    "Level 3+": {
+        "hidden": true
+    },
+    "Level 5+": {
+        "hidden": true
+    },
+    "Level 8+": {
+        "hidden": true
+    },
+    "Level 10+": {
+        "hidden": true
+    },
+    "Level 12+": {
+        "hidden": true
+    },
+    "Level 13+": {
+        "hidden": true
+    },
+    "Level 15+": {
+        "hidden": true
+    },
+    "Level 18+": {
+        "hidden": true
+    },
+    "Level 20+": {
+        "hidden": true
+    },
+    "Level 25+": {
+        "hidden": true
+    },
+    
+    "Bell": {
+        "hidden": true
+    },
+    "Mart": {
+        "hidden": true
+    },
+    "Husk": {
+        "hidden": true
+    },
+    "ICBM": {
+        "hidden": true
+    },
+    "Springer": {
+        "hidden": true
+    },
+    "Baby": {
+        "hidden": true
+    },
+    "Flesh": {
+        "hidden": true
+    },
+    "NIL": {
+        "hidden": true
+    },
+    "Operator": {
+        "hidden": true
+    },
+    "Guardian": {
+        "hidden": true
+    },
+    "Telefragger": {
+        "hidden": true
+    },
+    "Kolona": {
+        "hidden": true
+    },
+    "Voidbreaker": {
+        "hidden": true
+    },
+    "Cadence": {
+        "hidden": true
+    },
+    "Scrapmaw": {
+        "hidden": true
+    }
+}

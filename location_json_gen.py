@@ -99,24 +99,32 @@ output = []
 for i in rounds:
     obj = {}
     obj["name"] = "Level " + str(i)
+    obj["category"] = "Levels"
     output.append(obj)
 
 for i in enemies:
     obj = {}
     obj["name"] = i[0]
-    obj["category"] = i[1]
+    
+    cat_list = i[1]
+    cat_list.append("Enemies")
+    obj["category"] = cat_list
     output.append(obj)
 
 for i in curses:
     obj = {}
     obj["name"] = i[0]
-    obj["category"] = i[1]
+    cat_list = i[1]
+    cat_list.append("Curses")
+    obj["category"] = cat_list
     output.append(obj)
 
 for i in greater_curses:
     obj = {}
     obj["name"] = i[0]
-    obj["category"] = i[1]
+    cat_list = i[1]
+    cat_list.append("Greater Curses")
+    obj["category"] = cat_list
     output.append(obj)
     
 
