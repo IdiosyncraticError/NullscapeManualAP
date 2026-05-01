@@ -48,6 +48,13 @@ class_unlock = [
     "Prisoner"
 ]
 
+traps = [
+    "Purgatory Trap", #use the next purgatory altar you see
+    "Echo Trap" #use the next echo altar you see
+    "Purification Trap" #use the next purification altar you see
+    "No Reroll Trap" #not allowed to reroll until next intermission phase
+]
+
 output = []
 for i in upgrades:
     obj = {}

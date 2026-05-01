@@ -1,13 +1,580 @@
 [
-  {
-    "name": "Level 5",
-    "category": [
-      "Level"
-    ],
-    "requires": ""
-  },
-  {
-    "category": [],
-    "requires": ""
-  }
+    {
+        "name": "Level 1"
+    },
+    {
+        "name": "Level 2"
+    },
+    {
+        "name": "Level 3"
+    },
+    {
+        "name": "Level 4"
+    },
+    {
+        "name": "Level 5"
+    },
+    {
+        "name": "Level 6"
+    },
+    {
+        "name": "Level 8"
+    },
+    {
+        "name": "Level 10"
+    },
+    {
+        "name": "Level 12"
+    },
+    {
+        "name": "Level 13"
+    },
+    {
+        "name": "Level 14"
+    },
+    {
+        "name": "Level 15"
+    },
+    {
+        "name": "Level 16"
+    },
+    {
+        "name": "Level 18"
+    },
+    {
+        "name": "Level 20"
+    },
+    {
+        "name": "Level 22"
+    },
+    {
+        "name": "Level 23"
+    },
+    {
+        "name": "Level 24"
+    },
+    {
+        "name": "Level 25"
+    },
+    {
+        "name": "Level 26"
+    },
+    {
+        "name": "Level 28"
+    },
+    {
+        "name": "Level 30"
+    },
+    {
+        "name": "Bell",
+        "category": [
+            "Level 1+"
+        ]
+    },
+    {
+        "name": "Mart",
+        "category": [
+            "Level 1+"
+        ]
+    },
+    {
+        "name": "Baby",
+        "category": [
+            "Level 1+"
+        ]
+    },
+    {
+        "name": "Springer",
+        "category": [
+            "Level 1+"
+        ]
+    },
+    {
+        "name": "Husk",
+        "category": [
+            "Level 1+"
+        ]
+    },
+    {
+        "name": "ICBM",
+        "category": [
+            "Level 1+"
+        ]
+    },
+    {
+        "name": "Flesh",
+        "category": [
+            "Level 5+"
+        ]
+    },
+    {
+        "name": "NIL",
+        "category": [
+            "Level 5+"
+        ]
+    },
+    {
+        "name": "Operator",
+        "category": [
+            "Level 5+"
+        ]
+    },
+    {
+        "name": "Guardian",
+        "category": [
+            "Level 8+"
+        ]
+    },
+    {
+        "name": "Telefragger",
+        "category": [
+            "Level 8+"
+        ]
+    },
+    {
+        "name": "Kolona",
+        "category": [
+            "Level 10+"
+        ]
+    },
+    {
+        "name": "Voidbreaker",
+        "category": [
+            "Level 15+"
+        ]
+    },
+    {
+        "name": "Cadence",
+        "category": [
+            "Level 15+"
+        ]
+    },
+    {
+        "name": "Voidbound Baby",
+        "category": [
+            "Level 10+"
+        ]
+    },
+    {
+        "name": "Voidbound Guardian",
+        "category": [
+            "Level 20+"
+        ]
+    },
+    {
+        "name": "Scrapmaw",
+        "category": [
+            "Level 25+"
+        ]
+    },
+    {
+        "name": "Lower Gravity",
+        "category": [
+            "Level 1+"
+        ]
+    },
+    {
+        "name": "Random Spawn",
+        "category": [
+            "Level 1+"
+        ]
+    },
+    {
+        "name": "Savory Ring",
+        "category": [
+            "Level 5+"
+        ]
+    },
+    {
+        "name": "Scattered Gifts",
+        "category": [
+            "Level 5+"
+        ]
+    },
+    {
+        "name": "Weaker Jump Pads",
+        "category": [
+            "Level 1+"
+        ]
+    },
+    {
+        "name": "Beacon Mirage",
+        "category": [
+            "Level 25+"
+        ]
+    },
+    {
+        "name": "Bigger Tripmines",
+        "category": [
+            "Level 5+"
+        ]
+    },
+    {
+        "name": "High Roller",
+        "category": [
+            "Level 5+"
+        ]
+    },
+    {
+        "name": "Tweaked Odds",
+        "category": [
+            "Level 5+"
+        ]
+    },
+    {
+        "name": "Jackpot",
+        "category": [
+            "Level 12+"
+        ]
+    },
+    {
+        "name": "Lap 2",
+        "category": [
+            "Level 8+"
+        ]
+    },
+    {
+        "name": "Fragile Gifts",
+        "category": [
+            "Level 8+"
+        ]
+    },
+    {
+        "name": "More Tripmines",
+        "category": [
+            "Level 5+"
+        ]
+    },
+    {
+        "name": "Fake Count",
+        "category": [
+            "Level 8+"
+        ]
+    },
+    {
+        "name": "Nothing?",
+        "category": [
+            "Level 8+"
+        ]
+    },
+    {
+        "name": "Barotrauma",
+        "category": [
+            "Level 15+"
+        ]
+    },
+    {
+        "name": "Minefield",
+        "category": [
+            "Level 15+"
+        ]
+    },
+    {
+        "name": "More Ringing",
+        "category": [
+            "Level 1+",
+            "Bell"
+        ]
+    },
+    {
+        "name": "Mighty Gong",
+        "category": [
+            "Level 1+",
+            "Bell"
+        ]
+    },
+    {
+        "name": "Concussion",
+        "category": [
+            "Level 1+",
+            "Bell"
+        ]
+    },
+    {
+        "name": "Mart Infection",
+        "category": [
+            "Level 1+",
+            "Mart"
+        ]
+    },
+    {
+        "name": "Mart Slide",
+        "category": [
+            "Level 1+",
+            "Mart"
+        ]
+    },
+    {
+        "name": "Bigger Marts",
+        "category": [
+            "Level 1+",
+            "Mart"
+        ]
+    },
+    {
+        "name": "Closer Husk",
+        "category": [
+            "Level 1+",
+            "Husk"
+        ]
+    },
+    {
+        "name": "Further Husk",
+        "category": [
+            "Level 1+",
+            "Husk"
+        ]
+    },
+    {
+        "name": "Taller Husk",
+        "category": [
+            "Level 1+",
+            "Husk"
+        ]
+    },
+    {
+        "name": "Random Husk",
+        "category": [
+            "Level 15+",
+            "Husk"
+        ]
+    },
+    {
+        "name": "Husk Express",
+        "category": [
+            "Level 8+",
+            "Husk"
+        ]
+    },
+    {
+        "name": "Conga Line",
+        "category": [
+            "Level 10+",
+            "Husk"
+        ]
+    },
+    {
+        "name": "Springloaded",
+        "category": [
+            "Level 5+",
+            "Springer"
+        ]
+    },
+    {
+        "name": "Resonating Shockwaves",
+        "category": [
+            "Level 1+",
+            "Springer"
+        ]
+    },
+    {
+        "name": "Ambush",
+        "category": [
+            "Level 8+",
+            "Telefragger"
+        ]
+    },
+    {
+        "name": "Accurate Telefragger",
+        "category": [
+            "Level 8+",
+            "Telefragger"
+        ]
+    },
+    {
+        "name": "Bloodier Meat",
+        "category": [
+            "Level 5+",
+            "Flesh"
+        ]
+    },
+    {
+        "name": "Blighted Jump Pads",
+        "category": [
+            "Level 5+",
+            "Flesh"
+        ]
+    },
+    {
+        "name": "Springloaded",
+        "category": [
+            "Level 5+",
+            "Springer"
+        ]
+    },
+    {
+        "name": "Cognitive Dissonance",
+        "category": [
+            "Level 5+",
+            "NIL"
+        ]
+    },
+    {
+        "name": "Bigger Blast",
+        "category": [
+            "Level 5+",
+            "ICBM"
+        ]
+    },
+    {
+        "name": "Scorched Earth",
+        "category": [
+            "Level 1+",
+            "ICBM"
+        ]
+    },
+    {
+        "name": "Pacifier",
+        "category": [
+            "Level 1+",
+            "Baby"
+        ]
+    },
+    {
+        "name": "Problem Child",
+        "category": [
+            "Level 5+",
+            "Baby"
+        ]
+    },
+    {
+        "name": "Shotgun",
+        "category": [
+            "Level 5+",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Camouflage",
+        "category": [
+            "Level 5+",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Burning Bouquet",
+        "category": [
+            "Level 10+",
+            "Kolona"
+        ]
+    },
+    {
+        "name": "Lost Embers",
+        "category": [
+            "Level 10+",
+            "Kolona"
+        ]
+    },
+    {
+        "name": "Blade Carousel",
+        "category": [
+            "Level 15+",
+            "Voidbreaker"
+        ]
+    },
+    {
+        "name": "Deadly Melody",
+        "category": [
+            "Level 15+",
+            "Cadence"
+        ]
+    },
+    {
+        "name": "Blueprint: Cross Beams",
+        "category": [
+            "Level 25+",
+            "Scrapmaw"
+        ]
+    },
+    {
+        "name": "Trap Card",
+        "category": [
+            "Level 15+"
+        ]
+    },
+    {
+        "name": "Run",
+        "category": [
+            "Level 15+"
+        ]
+    },
+    {
+        "name": "One Less Choice",
+        "category": [
+            "Level 10+"
+        ]
+    },
+    {
+        "name": "Inverse Destruction",
+        "category": [
+            "Level 15+"
+        ]
+    },
+    {
+        "name": "Void Implosions",
+        "category": [
+            "Level 10+"
+        ]
+    },
+    {
+        "name": "Oblivion",
+        "category": [
+            "Level 10+"
+        ]
+    },
+    {
+        "name": "Razorbloom",
+        "category": [
+            "Level 10+"
+        ]
+    },
+    {
+        "name": "Tantrum",
+        "category": [
+            "Level 10+",
+            "Baby"
+        ]
+    },
+    {
+        "name": "Hollow Tiles",
+        "category": [
+            "Level 10+",
+            "ICBM"
+        ]
+    },
+    {
+        "name": "Destroyer",
+        "category": [
+            "Level 15+",
+            "Husk"
+        ]
+    },
+    {
+        "name": "Mass Infection",
+        "category": [
+            "Level 10+",
+            "Flesh"
+        ]
+    },
+    {
+        "name": "Ballet of Blades",
+        "category": [
+            "Level 15+",
+            "Voidbreaker"
+        ]
+    },
+    {
+        "name": "Blade Bombardment",
+        "category": [
+            "Level 15+",
+            "Voidbreaker"
+        ]
+    },
+    {
+        "name": "Malfunction",
+        "category": [
+            "Level 10+",
+            "Operator"
+        ]
+    }
 ]

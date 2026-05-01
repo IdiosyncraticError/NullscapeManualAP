@@ -1,84 +1,123 @@
 import json
 
-upgrades = [
-    ["Adrenaline", "1", ["Solo", "Level 3+"], 2],
-    ["Swiftness Ring", "3", ["Level 3+"], 4],
-    ["Business License", "2", ["Level 3+"], 4],
-    ["Paycheck", "5", ["Level 3+"], 4],
-    ["Medal", "1", ["Level 5+"], 2],
-    ["Radar", "1", ["Level 5+"], 2],
-    ["Better Jump Pads", "1", ["Level 5+"], 2],
-    ["Tria Orbs", "1", ["Level 5+"], 2],
-    ["Grapple Points", "1", ["Level 5+"], 2],
-    ["Double Jump", "1", ["Level 5+"], 4],
-    ["Defuse Kit", "3", ["Level 5+", "Standard+"], 3],
-    ["Grace Wings", "1", ["Level 8+"], 4],
-    ["Pocket Bell", "1", ["Level 8+"], 4],
-    ["Ice Skates", "1", ["Level 8+"], 3],
-    ["Helmet", "1", ["Level 8+"], 3],
-    ["Fanny Pack", "1", ["Level 8+"], 4],
-    ["Radar Module: Enemies", "1", ["Level 8+"], 3],
-    ["Radar Module: Altars", "1", ["Level 8+"], 2],
-    ["Radar Module: Tripmines", "1", ["Level 8+", "Standard+"], 3],
-    ["Radar Module: Players", "1", ["Level 8+", "Multiplayer"], 2],
-    ["Last Man Standing", "1", ["Level 8+", "Multiplayer"], 3],
-    ["Advanced Gravity Coil", "1", ["Level 8+"], 3],
-    ["More Altars", "1", ["Level 10+"], 2],
-    ["Subspacial Barrier", "2", ["Level 10+", "Standard+"], 4],
-    ["Larger Grapple Points", "1", ["Level 13+"], 2],
-    ["Ninja Belt", "1", ["Level 13+"], 4],
-    ["Shark Tail", "1", ["Level 15+"], 4],
-    ["Gift Magnet", "3", ["Level 15+"], 4],
-    ["Matrix Tetrahedron", "1", ["Level 15+"], 4],
-    ["Shield", "1", ["Level 15+"], 4],
-    ["Radar Module: Instruments", "1", ["Level 15+"], 3],
-    ["Panic Necklace", "1", ["Level 18+"], 2],
-    ["Miniature Hourglass", "1", ["Level 20+"], 3],
-    ["Gift Idol", "5", ["Level 20+"], 3],
-    ["Drowned Aegis", "1", ["Level 20+"], 3]
+enemies = [
+    ["Bell", ["Level 1+"]],
+    ["Mart", ["Level 1+"]],
+    ["Baby", ["Level 1+"]],
+    ["Springer", ["Level 1+"]],
+    ["Husk", ["Level 1+"]],
+    ["ICBM", ["Level 1+"]],
+    ["Flesh", ["Level 5+"]],
+    ["NIL", ["Level 5+"]],
+    ["Operator", ["Level 5+"]],
+    ["Guardian", ["Level 8+"]],
+    ["Telefragger", ["Level 8+"]],
+    ["Kolona", ["Level 10+"]],
+    ["Voidbreaker", ["Level 15+"]],
+    ["Cadence", ["Level 15+"]],
+    ["Voidbound Baby", ["Level 10+"]],
+    ["Voidbound Guardian", ["Level 20+"]],
+    ["Scrapmaw", ["Level 25+"]]
+    #["???", [""]]
 ]
 
-class_unlock = [
-    "Diver",
-    "Charger",
-    "Grappler",
-    "Spirit",
-    "Glider",
-    "Wanted",
-    "Prisoner"
+curses = [
+    ["Lower Gravity", ["Level 1+"]],
+    ["Random Spawn", ["Level 1+"]],
+    ["Savory Ring", ["Level 5+"]],
+    ["Scattered Gifts", ["Level 5+"]],
+    ["Weaker Jump Pads", ["Level 1+"]],
+    ["Beacon Mirage", ["Level 25+"]],
+    ["Bigger Tripmines", ["Level 5+"]],
+    ["High Roller", ["Level 5+"]],
+    ["Tweaked Odds", ["Level 5+"]],
+    ["Jackpot", ["Level 12+"]], #level unconfirmed
+    ["Lap 2", ["Level 8+"]],
+    ["Fragile Gifts", ["Level 8+"]],
+    ["More Tripmines", ["Level 5+"]],
+    ["Fake Count", ["Level 8+"]],
+    ["Nothing?", ["Level 8+"]],
+    ["Barotrauma", ["Level 15+"]],
+    ["Minefield", ["Level 15+"]],
+
+    ["More Ringing", ["Level 1+", "Bell"]],
+    ["Mighty Gong", ["Level 1+", "Bell"]],
+    ["Concussion", ["Level 1+", "Bell"]],
+    ["Mart Infection", ["Level 1+", "Mart"]],
+    ["Mart Slide", ["Level 1+", "Mart"]],
+    ["Bigger Marts", ["Level 1+", "Mart"]],
+    ["Closer Husk", ["Level 1+", "Husk"]],
+    ["Further Husk", ["Level 1+", "Husk"]],
+    ["Taller Husk", ["Level 1+", "Husk"]],
+    ["Random Husk", ["Level 15+", "Husk"]],
+    ["Husk Express", ["Level 8+", "Husk"]],
+    ["Conga Line", ["Level 10+", "Husk"]],
+    ["Springloaded", ["Level 5+", "Springer"]],
+    ["Resonating Shockwaves", ["Level 1+", "Springer"]],
+    ["Ambush", ["Level 8+", "Telefragger"]],
+    ["Accurate Telefragger", ["Level 8+", "Telefragger"]],
+    ["Bloodier Meat", ["Level 5+", "Flesh"]],
+    ["Blighted Jump Pads", ["Level 5+", "Flesh"]],
+    ["Springloaded", ["Level 5+", "Springer"]],
+    ["Cognitive Dissonance", ["Level 5+", "NIL"]],
+    ["Bigger Blast", ["Level 5+", "ICBM"]],
+    ["Scorched Earth", ["Level 1+", "ICBM"]],
+    ["Pacifier", ["Level 1+", "Baby"]],
+    ["Problem Child", ["Level 5+", "Baby"]],
+    ["Shotgun", ["Level 5+", "Guardian"]],
+    ["Camouflage", ["Level 5+", "Guardian"]],
+    ["Burning Bouquet", ["Level 10+", "Kolona"]],
+    ["Lost Embers", ["Level 10+", "Kolona"]],
+    ["Blade Carousel", ["Level 15+", "Voidbreaker"]],
+    ["Deadly Melody", ["Level 15+", "Cadence"]],
+    ["Blueprint: Cross Beams", ["Level 25+", "Scrapmaw"]],
+]
+
+greater_curses = [
+    ["Trap Card", ["Level 15+"]],
+    ["Run", ["Level 15+"]],
+    ["One Less Choice", ["Level 10+"]],
+    ["Inverse Destruction", ["Level 15+"]],
+    ["Void Implosions", ["Level 10+"]],
+    ["Oblivion", ["Level 10+"]],
+    ["Razorbloom", ["Level 10+"]],
+
+    ["Tantrum", ["Level 10+", "Baby"]],
+    ["Hollow Tiles", ["Level 10+", "ICBM"]],
+    ["Destroyer", ["Level 15+", "Husk"]],
+    ["Mass Infection", ["Level 10+", "Flesh"]],
+    ["Ballet of Blades", ["Level 15+", "Voidbreaker"]],
+    ["Blade Bombardment", ["Level 15+", "Voidbreaker"]],
+    ["Malfunction", ["Level 10+", "Operator"]],
+]
+
+rounds = [
+    1, 2, 3, 4, 5, 6, 8, 10, 12, 13, 14, 15, 16, 18, 20, 22, 23, 24, 25, 26, 28, 30
 ]
 
 output = []
-for i in upgrades:
+for i in rounds:
     obj = {}
-
-    obj["count"] = i[1]
-    obj["name"] = i[0]
-    
-    obj["category"] = i[2]
-    
-    if i[3] == 1:
-        obj["filler"] = True
-    elif i[3] == 2:
-        obj["useful"] = True
-    elif i[3] == 3:
-        obj["progression_skip_balancing"] = True
-    elif i[3] == 4:
-        obj["progression"] = True
-
+    obj["name"] = "Level " + str(i)
     output.append(obj)
 
-for i in class_unlock:
+for i in enemies:
     obj = {}
-    obj["count"] = "1"
-    obj["name"] = i + " Unlock"
+    obj["name"] = i[0]
+    obj["category"] = i[1]
+    output.append(obj)
 
-    if i == "Wanted":
-        obj["category"] = ["Wanted"]
-    elif i == "Prisoner":
-        obj["category"] = ["Prisoner"]
+for i in curses:
+    obj = {}
+    obj["name"] = i[0]
+    obj["category"] = i[1]
+    output.append(obj)
 
-    obj["progression"] = True
+for i in greater_curses:
+    obj = {}
+    obj["name"] = i[0]
+    obj["category"] = i[1]
+    output.append(obj)
     
 
 with open("data.json", "w") as file:
