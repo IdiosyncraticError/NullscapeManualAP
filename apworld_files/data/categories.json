@@ -12,25 +12,53 @@
         "hidden": true
     },
     "Level 10+": {
-        "hidden": true
+        "hidden": true,
+        "yaml_option": [
+            "level_10+"
+        ]
     },
     "Level 12+": {
-        "hidden": true
+        "hidden": true,
+        "yaml_option": [
+            "level_10+"
+        ]
     },
     "Level 13+": {
-        "hidden": true
+        "hidden": true,
+        "yaml_option": [
+            "level_10+"
+        ]
     },
     "Level 15+": {
-        "hidden": true
+        "hidden": true,
+        "yaml_option": [
+            "level_10+",
+            "level_15+"
+        ]
     },
     "Level 18+": {
-        "hidden": true
+        "hidden": true,
+        "yaml_option": [
+            "level_10+",
+            "level_15+"
+        ]
     },
     "Level 20+": {
-        "hidden": true
+        "hidden": true,
+        "yaml_option": [
+            "level_10+",
+            "level_15+",
+            "level_20+"
+        ]
     },
     "Level 25+": {
-        "hidden": true
+        "hidden": true,
+        "yaml_option": [
+            "level_10+",
+            "level_15+",
+            "level_20+",
+            "level_25+"
+        ]
     },
     
     "Bell": {
