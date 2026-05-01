@@ -81,10 +81,12 @@ for i in class_unlock:
     obj["count"] = "1"
     obj["name"] = i + " Unlock"
 
-    if i == "Wanted":
-        obj["category"] = ["Wanted"]
-    elif i == "Prisoner":
-        obj["category"] = ["Prisoner"]
+    obj["category"] = "Class Unlock"
+
+#    if i == "Wanted":
+#        obj["category"] = ["Wanted"]
+#    elif i == "Prisoner":
+#        obj["category"] = ["Prisoner"]
 
     obj["progression"] = True
     
