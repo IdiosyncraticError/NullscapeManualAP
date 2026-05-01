@@ -1,0 +1,288 @@
+[
+    {
+        "count": "1",
+        "name": "Adrenaline",
+        "category": [
+            "Solo",
+            "Level 3+"
+        ],
+        "useful": true
+    },
+    {
+        "count": "3",
+        "name": "Swiftness Ring",
+        "category": [
+            "Level 3+"
+        ],
+        "progression": true
+    },
+    {
+        "count": "2",
+        "name": "Business License",
+        "category": [
+            "Level 3+"
+        ],
+        "progression": true
+    },
+    {
+        "count": "5",
+        "name": "Paycheck",
+        "category": [
+            "Level 3+"
+        ],
+        "progression": true
+    },
+    {
+        "count": "1",
+        "name": "Medal",
+        "category": [
+            "Level 5+"
+        ],
+        "useful": true
+    },
+    {
+        "count": "1",
+        "name": "Radar",
+        "category": [
+            "Level 5+"
+        ],
+        "useful": true
+    },
+    {
+        "count": "1",
+        "name": "Better Jump Pads",
+        "category": [
+            "Level 5+"
+        ],
+        "useful": true
+    },
+    {
+        "count": "1",
+        "name": "Tria Orbs",
+        "category": [
+            "Level 5+"
+        ],
+        "useful": true
+    },
+    {
+        "count": "1",
+        "name": "Grapple Points",
+        "category": [
+            "Level 5+"
+        ],
+        "useful": true
+    },
+    {
+        "count": "1",
+        "name": "Double Jump",
+        "category": [
+            "Level 5+"
+        ],
+        "progression": true
+    },
+    {
+        "count": "3",
+        "name": "Defuse Kit",
+        "category": [
+            "Level 5+",
+            "Standard+"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": "1",
+        "name": "Grace Wings",
+        "category": [
+            "Level 8+"
+        ],
+        "progression": true
+    },
+    {
+        "count": "1",
+        "name": "Pocket Bell",
+        "category": [
+            "Level 8+"
+        ],
+        "progression": true
+    },
+    {
+        "count": "1",
+        "name": "Ice Skates",
+        "category": [
+            "Level 8+"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": "1",
+        "name": "Helmet",
+        "category": [
+            "Level 8+"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": "1",
+        "name": "Fanny Pack",
+        "category": [
+            "Level 8+"
+        ],
+        "progression": true
+    },
+    {
+        "count": "1",
+        "name": "Radar Module: Enemies",
+        "category": [
+            "Level 8+"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": "1",
+        "name": "Radar Module: Altars",
+        "category": [
+            "Level 8+"
+        ],
+        "useful": true
+    },
+    {
+        "count": "1",
+        "name": "Radar Module: Tripmines",
+        "category": [
+            "Level 8+",
+            "Standard+"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": "1",
+        "name": "Radar Module: Players",
+        "category": [
+            "Level 8+",
+            "Multiplayer"
+        ],
+        "useful": true
+    },
+    {
+        "count": "1",
+        "name": "Last Man Standing",
+        "category": [
+            "Level 8+",
+            "Multiplayer"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": "1",
+        "name": "Advanced Gravity Coil",
+        "category": [
+            "Level 8+"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": "1",
+        "name": "More Altars",
+        "category": [
+            "Level 10+"
+        ],
+        "useful": true
+    },
+    {
+        "count": "2",
+        "name": "Subspacial Barrier",
+        "category": [
+            "Level 10+",
+            "Standard+"
+        ],
+        "progression": true
+    },
+    {
+        "count": "1",
+        "name": "Larger Grapple Points",
+        "category": [
+            "Level 13+"
+        ],
+        "useful": true
+    },
+    {
+        "count": "1",
+        "name": "Ninja Belt",
+        "category": [
+            "Level 13+"
+        ],
+        "progression": true
+    },
+    {
+        "count": "1",
+        "name": "Shark Tail",
+        "category": [
+            "Level 15+"
+        ],
+        "progression": true
+    },
+    {
+        "count": "3",
+        "name": "Gift Magnet",
+        "category": [
+            "Level 15+"
+        ],
+        "progression": true
+    },
+    {
+        "count": "1",
+        "name": "Matrix Tetrahedron",
+        "category": [
+            "Level 15+"
+        ],
+        "progression": true
+    },
+    {
+        "count": "1",
+        "name": "Shield",
+        "category": [
+            "Level 15+"
+        ],
+        "progression": true
+    },
+    {
+        "count": "1",
+        "name": "Radar Module: Instruments",
+        "category": [
+            "Level 15+"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": "1",
+        "name": "Panic Necklace",
+        "category": [
+            "Level 18+"
+        ],
+        "useful": true
+    },
+    {
+        "count": "1",
+        "name": "Miniature Hourglass",
+        "category": [
+            "Level 20+"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": "5",
+        "name": "Gift Idol",
+        "category": [
+            "Level 20+"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": "1",
+        "name": "Drowned Aegis",
+        "category": [
+            "Level 20+"
+        ],
+        "progression_skip_balancing": true
+    }
+]
