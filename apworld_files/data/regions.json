@@ -9,7 +9,7 @@
   },
   "lvl 15": {
     "connects_to": ["lvl 20"],
-    "requires": "|Ninja Belt| and |Better Jump Pads| and |Tria Orbs|"
+    "requires": "|Ninja Belt| and |Swiftness Ring:3|"
   },
   "lvl 20": {
     "connects_to": ["lvl 25"],
