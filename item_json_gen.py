@@ -30,6 +30,7 @@ upgrades = [
     ["Shark Tail", "1", ["Level 15+"], 4],
     ["Gift Magnet", "3", ["Level 15+"], 4],
     ["Matrix Tetrahedron", "1", ["Level 15+"], 4],
+    ["Sports Shoes", "1", ["Level 15+"], 4],
     ["Shield", "1", ["Level 15+"], 4],
     ["Radar Module: Instruments", "1", ["Level 15+"], 3],
     ["Panic Necklace", "1", ["Level 18+"], 2],

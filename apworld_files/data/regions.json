@@ -1,6 +1,21 @@
 {
-  "undefined": {
-    "connects_to": [],
-    "requires": ""
+  "lvl 0": {
+    "starting": true,
+    "connects_to": ["lvl 10"]
+  },
+  "lvl 10": {
+    "connects_to": ["lvl 15"],
+    "requires": "|Grace Wings| and |Double Jump|"
+  },
+  "lvl 15": {
+    "connects_to": ["lvl 20"],
+    "requires": "|Ninja Belt| and |Better Jump Pads| and |Tria Orbs|"
+  },
+  "lvl 20": {
+    "connects_to": ["lvl 25"],
+    "requires": "|Sports Shoes| and |Matrix Tetrahedron| and |Shark Tail|"
+  },
+  "lvl 25": {
+    "requires": "|Gift Idol|"
   }
 }

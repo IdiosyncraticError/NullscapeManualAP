@@ -239,6 +239,14 @@
     },
     {
         "count": "1",
+        "name": "Sports Shoes",
+        "category": [
+            "Level 15+"
+        ],
+        "progression": true
+    },
+    {
+        "count": "1",
         "name": "Shield",
         "category": [
             "Level 15+"
