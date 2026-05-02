@@ -21,17 +21,17 @@
     },
     {
         "name": "Level 5",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": "Levels"
     },
     {
         "name": "Level 6",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": "Levels"
     },
     {
         "name": "Level 8",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": "Levels"
     },
     {
@@ -72,8 +72,7 @@
     {
         "name": "Level 20",
         "region": "lvl 20",
-        "category": "Levels",
-        "victory": true
+        "category": "Levels"
     },
     {
         "name": "Level 22",
@@ -160,7 +159,7 @@
     },
     {
         "name": "Flesh",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 5+",
             "Enemies"
@@ -168,7 +167,7 @@
     },
     {
         "name": "NIL",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 5+",
             "Enemies"
@@ -176,7 +175,7 @@
     },
     {
         "name": "Operator",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 5+",
             "Enemies"
@@ -184,7 +183,7 @@
     },
     {
         "name": "Guardian",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 8+",
             "Enemies"
@@ -192,7 +191,7 @@
     },
     {
         "name": "Telefragger",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 8+",
             "Enemies"
@@ -264,7 +263,7 @@
     },
     {
         "name": "Savory Ring",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 5+",
             "Curses"
@@ -272,7 +271,7 @@
     },
     {
         "name": "Scattered Gifts",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 5+",
             "Curses"
@@ -296,7 +295,7 @@
     },
     {
         "name": "Bigger Tripmines",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 5+",
             "Curses"
@@ -304,7 +303,7 @@
     },
     {
         "name": "High Roller",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 5+",
             "Curses"
@@ -312,7 +311,7 @@
     },
     {
         "name": "Tweaked Odds",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 5+",
             "Curses"
@@ -328,7 +327,7 @@
     },
     {
         "name": "Lap 2",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 8+",
             "Curses"
@@ -336,7 +335,7 @@
     },
     {
         "name": "Fragile Gifts",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 8+",
             "Curses"
@@ -344,7 +343,7 @@
     },
     {
         "name": "More Tripmines",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 5+",
             "Curses"
@@ -352,7 +351,7 @@
     },
     {
         "name": "Fake Count",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 8+",
             "Curses"
@@ -360,7 +359,7 @@
     },
     {
         "name": "Nothing?",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 8+",
             "Curses"
@@ -474,7 +473,7 @@
     },
     {
         "name": "Husk Express",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 8+",
             "Husk",
@@ -492,7 +491,7 @@
     },
     {
         "name": "Springloaded",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 5+",
             "Springer",
@@ -510,7 +509,7 @@
     },
     {
         "name": "Ambush",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 8+",
             "Telefragger",
@@ -519,7 +518,7 @@
     },
     {
         "name": "Accurate Telefragger",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 8+",
             "Telefragger",
@@ -528,7 +527,7 @@
     },
     {
         "name": "Bloodier Meat",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 5+",
             "Flesh",
@@ -537,7 +536,7 @@
     },
     {
         "name": "Blighted Jump Pads",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 5+",
             "Flesh",
@@ -546,7 +545,7 @@
     },
     {
         "name": "Cognitive Dissonance",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 5+",
             "NIL",
@@ -555,7 +554,7 @@
     },
     {
         "name": "Bigger Blast",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 5+",
             "ICBM",
@@ -582,7 +581,7 @@
     },
     {
         "name": "Problem Child",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 5+",
             "Baby",
@@ -591,7 +590,7 @@
     },
     {
         "name": "Shotgun",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 5+",
             "Guardian",
@@ -600,7 +599,7 @@
     },
     {
         "name": "Camouflage",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Level 5+",
             "Guardian",
