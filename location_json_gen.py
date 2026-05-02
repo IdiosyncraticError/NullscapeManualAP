@@ -98,8 +98,10 @@ output = []
 for i in rounds:
     obj = {}
     obj["name"] = "Level " + str(i)
-    if i < 10:
+    if i < 5:
         obj["region"] = "lvl 0"
+    elif i < 10:
+        obj["region"] = "lvl 5"
     elif i < 15:
         obj["region"] = "lvl 10"
     elif i < 20:
@@ -115,8 +117,10 @@ for i in enemies:
     obj = {}
     obj["name"] = i[0]
     
-    if i[1][0] < 10:
+    if i[1][0] < 5:
         obj["region"] = "lvl 0"
+    elif i[1][0] < 10:
+        obj["region"] = "lvl 5"
     elif i[1][0] < 15:
         obj["region"] = "lvl 10"
     elif i[1][0] < 20:
@@ -135,8 +139,10 @@ for i in curses:
     obj = {}
     obj["name"] = i[0]
 
-    if i[1][0] < 10:
+    if i[1][0] < 5:
         obj["region"] = "lvl 0"
+    elif i[1][0] < 10:
+        obj["region"] = "lvl 5"
     elif i[1][0] < 15:
         obj["region"] = "lvl 10"
     elif i[1][0] < 20:
@@ -158,10 +164,10 @@ for i in greater_curses:
     obj = {}
     obj["name"] = i[0]
 
-    if i[1][0] < 10:
+    if i[1][0] < 5:
         obj["region"] = "lvl 0"
-    elif i[1][0] < 15:
-        obj["region"] = "lvl 10"
+    elif i[1][0] < 10:
+        obj["region"] = "lvl 5"
     elif i[1][0] < 20:
         obj["region"] = "lvl 15"
     elif i[1][0] < 25:
