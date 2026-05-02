@@ -1,674 +1,773 @@
 [
     {
         "name": "Level 1",
-        "region": "lvl 0"
+        "region": "lvl 0",
+        "category": "Levels"
     },
     {
         "name": "Level 2",
-        "region": "lvl 0"
+        "region": "lvl 0",
+        "category": "Levels"
     },
     {
         "name": "Level 3",
-        "region": "lvl 0"
+        "region": "lvl 0",
+        "category": "Levels"
     },
     {
         "name": "Level 4",
-        "region": "lvl 0"
+        "region": "lvl 0",
+        "category": "Levels"
     },
     {
         "name": "Level 5",
-        "region": "lvl 0"
+        "region": "lvl 0",
+        "category": "Levels"
     },
     {
         "name": "Level 6",
-        "region": "lvl 0"
+        "region": "lvl 0",
+        "category": "Levels"
     },
     {
         "name": "Level 8",
-        "region": "lvl 0"
+        "region": "lvl 0",
+        "category": "Levels"
     },
     {
         "name": "Level 10",
-        "region": "lvl 10"
+        "region": "lvl 10",
+        "category": "Levels"
     },
     {
         "name": "Level 12",
-        "region": "lvl 10"
+        "region": "lvl 10",
+        "category": "Levels"
     },
     {
         "name": "Level 13",
-        "region": "lvl 10"
+        "region": "lvl 10",
+        "category": "Levels"
     },
     {
         "name": "Level 14",
-        "region": "lvl 10"
+        "region": "lvl 10",
+        "category": "Levels"
     },
     {
         "name": "Level 15",
-        "region": "lvl 15"
+        "region": "lvl 15",
+        "category": "Levels"
     },
     {
         "name": "Level 16",
-        "region": "lvl 15"
+        "region": "lvl 15",
+        "category": "Levels"
     },
     {
         "name": "Level 18",
-        "region": "lvl 15"
+        "region": "lvl 15",
+        "category": "Levels"
     },
     {
         "name": "Level 20",
-        "region": "lvl 20"
+        "region": "lvl 20",
+        "category": "Levels"
     },
     {
         "name": "Level 22",
-        "region": "lvl 20"
+        "region": "lvl 20",
+        "category": "Levels"
     },
     {
         "name": "Level 23",
-        "region": "lvl 20"
+        "region": "lvl 20",
+        "category": "Levels"
     },
     {
         "name": "Level 24",
-        "region": "lvl 20"
+        "region": "lvl 20",
+        "category": "Levels"
     },
     {
         "name": "Level 25",
-        "region": "lvl 25"
+        "region": "lvl 25",
+        "category": "Levels"
     },
     {
         "name": "Level 26",
-        "region": "lvl 25"
+        "region": "lvl 25",
+        "category": "Levels"
     },
     {
         "name": "Level 28",
-        "region": "lvl 25"
+        "region": "lvl 25",
+        "category": "Levels"
     },
     {
         "name": "Level 30",
-        "region": "lvl 25"
+        "region": "lvl 25",
+        "category": "Levels"
     },
     {
         "name": "Bell",
+        "region": "lvl 0",
         "category": [
-            "Level 1+"
-        ],
-        "region": "lvl 0"
+            "Level 1+",
+            "Enemies"
+        ]
     },
     {
         "name": "Mart",
+        "region": "lvl 0",
         "category": [
-            "Level 1+"
-        ],
-        "region": "lvl 0"
+            "Level 1+",
+            "Enemies"
+        ]
     },
     {
         "name": "Baby",
+        "region": "lvl 0",
         "category": [
-            "Level 1+"
-        ],
-        "region": "lvl 0"
+            "Level 1+",
+            "Enemies"
+        ]
     },
     {
         "name": "Springer",
+        "region": "lvl 0",
         "category": [
-            "Level 1+"
-        ],
-        "region": "lvl 0"
+            "Level 1+",
+            "Enemies"
+        ]
     },
     {
         "name": "Husk",
+        "region": "lvl 0",
         "category": [
-            "Level 1+"
-        ],
-        "region": "lvl 0"
+            "Level 1+",
+            "Enemies"
+        ]
     },
     {
         "name": "ICBM",
+        "region": "lvl 0",
         "category": [
-            "Level 1+"
-        ],
-        "region": "lvl 0"
+            "Level 1+",
+            "Enemies"
+        ]
     },
     {
         "name": "Flesh",
+        "region": "lvl 0",
         "category": [
-            "Level 5+"
-        ],
-        "region": "lvl 0"
+            "Level 5+",
+            "Enemies"
+        ]
     },
     {
         "name": "NIL",
+        "region": "lvl 0",
         "category": [
-            "Level 5+"
-        ],
-        "region": "lvl 0"
+            "Level 5+",
+            "Enemies"
+        ]
     },
     {
         "name": "Operator",
+        "region": "lvl 0",
         "category": [
-            "Level 5+"
-        ],
-        "region": "lvl 0"
+            "Level 5+",
+            "Enemies"
+        ]
     },
     {
         "name": "Guardian",
+        "region": "lvl 0",
         "category": [
-            "Level 8+"
-        ],
-        "region": "lvl 0"
+            "Level 8+",
+            "Enemies"
+        ]
     },
     {
         "name": "Telefragger",
+        "region": "lvl 0",
         "category": [
-            "Level 8+"
-        ],
-        "region": "lvl 0"
+            "Level 8+",
+            "Enemies"
+        ]
     },
     {
         "name": "Kolona",
+        "region": "lvl 10",
         "category": [
-            "Level 10+"
-        ],
-        "region": "lvl 10"
+            "Level 10+",
+            "Enemies"
+        ]
     },
     {
         "name": "Voidbreaker",
+        "region": "lvl 15",
         "category": [
-            "Level 15+"
-        ],
-        "region": "lvl 15"
+            "Level 15+",
+            "Enemies"
+        ]
     },
     {
         "name": "Cadence",
+        "region": "lvl 15",
         "category": [
-            "Level 15+"
-        ],
-        "region": "lvl 15"
+            "Level 15+",
+            "Enemies"
+        ]
     },
     {
         "name": "Voidbound Baby",
+        "region": "lvl 10",
         "category": [
-            "Level 10+"
-        ],
-        "region": "lvl 10"
+            "Level 10+",
+            "Enemies"
+        ]
     },
     {
         "name": "Voidbound Guardian",
+        "region": "lvl 20",
         "category": [
-            "Level 20+"
-        ],
-        "region": "lvl 20"
+            "Level 20+",
+            "Enemies"
+        ]
     },
     {
         "name": "Scrapmaw",
+        "region": "lvl 25",
         "category": [
-            "Level 25+"
-        ],
-        "region": "lvl 25"
+            "Level 25+",
+            "Enemies"
+        ]
     },
-    
     {
         "name": "Lower Gravity",
+        "region": "lvl 0",
         "category": [
-            "Level 1+"
-        ],
-        "region": "lvl 0"
+            "Level 1+",
+            "Curses"
+        ]
     },
     {
         "name": "Random Spawn",
+        "region": "lvl 0",
         "category": [
-            "Level 1+"
-        ],
-        "region": "lvl 0"
+            "Level 1+",
+            "Curses"
+        ]
     },
     {
         "name": "Savory Ring",
+        "region": "lvl 0",
         "category": [
-            "Level 5+"
-        ],
-        "region": "lvl 0"
+            "Level 5+",
+            "Curses"
+        ]
     },
     {
         "name": "Scattered Gifts",
+        "region": "lvl 0",
         "category": [
-            "Level 5+"
-        ],
-        "region": "lvl 0"
+            "Level 5+",
+            "Curses"
+        ]
     },
     {
         "name": "Weaker Jump Pads",
+        "region": "lvl 0",
         "category": [
-            "Level 1+"
-        ],
-        "region": "lvl 0"
+            "Level 1+",
+            "Curses"
+        ]
     },
     {
         "name": "Beacon Mirage",
+        "region": "lvl 25",
         "category": [
-            "Level 25+"
-        ],
-        "region": "lvl 25"
+            "Level 25+",
+            "Curses"
+        ]
     },
     {
         "name": "Bigger Tripmines",
+        "region": "lvl 0",
         "category": [
-            "Level 5+"
-        ],
-        "region": "lvl 0"
+            "Level 5+",
+            "Curses"
+        ]
     },
     {
         "name": "High Roller",
+        "region": "lvl 0",
         "category": [
-            "Level 5+"
-        ],
-        "region": "lvl 0"
+            "Level 5+",
+            "Curses"
+        ]
     },
     {
         "name": "Tweaked Odds",
+        "region": "lvl 0",
         "category": [
-            "Level 5+"
-        ],
-        "region": "lvl 0"
+            "Level 5+",
+            "Curses"
+        ]
     },
     {
         "name": "Jackpot",
+        "region": "lvl 10",
         "category": [
-            "Level 12+"
-        ],
-        "region": "lvl 10"
+            "Level 12+",
+            "Curses"
+        ]
     },
     {
         "name": "Lap 2",
+        "region": "lvl 0",
         "category": [
-            "Level 8+"
-        ],
-        "region": "lvl 0"
+            "Level 8+",
+            "Curses"
+        ]
     },
     {
         "name": "Fragile Gifts",
+        "region": "lvl 0",
         "category": [
-            "Level 8+"
-        ],
-        "region": "lvl 0"
+            "Level 8+",
+            "Curses"
+        ]
     },
     {
         "name": "More Tripmines",
+        "region": "lvl 0",
         "category": [
-            "Level 5+"
-        ],
-        "region": "lvl 0"
+            "Level 5+",
+            "Curses"
+        ]
     },
     {
         "name": "Fake Count",
+        "region": "lvl 0",
         "category": [
-            "Level 8+"
-        ],
-        "region": "lvl 0"
+            "Level 8+",
+            "Curses"
+        ]
     },
     {
         "name": "Nothing?",
+        "region": "lvl 0",
         "category": [
-            "Level 8+"
-        ],
-        "region": "lvl 0"
+            "Level 8+",
+            "Curses"
+        ]
     },
     {
         "name": "Barotrauma",
+        "region": "lvl 15",
         "category": [
-            "Level 15+"
-        ],
-        "region": "lvl 15"
+            "Level 15+",
+            "Curses"
+        ]
     },
     {
         "name": "Minefield",
+        "region": "lvl 15",
         "category": [
-            "Level 15+"
-        ],
-        "region": "lvl 15"
+            "Level 15+",
+            "Curses"
+        ]
     },
     {
         "name": "More Ringing",
+        "region": "lvl 0",
         "category": [
             "Level 1+",
-            "Bell"
-        ],
-        "region": "lvl 0"
+            "Bell",
+            "Curses"
+        ]
     },
     {
         "name": "Mighty Gong",
+        "region": "lvl 0",
         "category": [
             "Level 1+",
-            "Bell"
-        ],
-        "region": "lvl 0"
+            "Bell",
+            "Curses"
+        ]
     },
     {
         "name": "Concussion",
+        "region": "lvl 0",
         "category": [
             "Level 1+",
-            "Bell"
-        ],
-        "region": "lvl 0"
+            "Bell",
+            "Curses"
+        ]
     },
     {
         "name": "Mart Infection",
+        "region": "lvl 0",
         "category": [
             "Level 1+",
-            "Mart"
-        ],
-        "region": "lvl 0"
+            "Mart",
+            "Curses"
+        ]
     },
     {
         "name": "Mart Slide",
+        "region": "lvl 0",
         "category": [
             "Level 1+",
-            "Mart"
-        ],
-        "region": "lvl 0"
+            "Mart",
+            "Curses"
+        ]
     },
     {
         "name": "Bigger Marts",
+        "region": "lvl 0",
         "category": [
             "Level 1+",
-            "Mart"
-        ],
-        "region": "lvl 0"
+            "Mart",
+            "Curses"
+        ]
     },
     {
         "name": "Closer Husk",
+        "region": "lvl 0",
         "category": [
             "Level 1+",
-            "Husk"
-        ],
-        "region": "lvl 0"
+            "Husk",
+            "Curses"
+        ]
     },
     {
         "name": "Further Husk",
+        "region": "lvl 0",
         "category": [
             "Level 1+",
-            "Husk"
-        ],
-        "region": "lvl 0"
+            "Husk",
+            "Curses"
+        ]
     },
     {
         "name": "Taller Husk",
+        "region": "lvl 0",
         "category": [
             "Level 1+",
-            "Husk"
-        ],
-        "region": "lvl 0"
+            "Husk",
+            "Curses"
+        ]
     },
     {
         "name": "Random Husk",
+        "region": "lvl 15",
         "category": [
             "Level 15+",
-            "Husk"
-        ],
-        "region": "lvl 15"
+            "Husk",
+            "Curses"
+        ]
     },
     {
         "name": "Husk Express",
+        "region": "lvl 0",
         "category": [
             "Level 8+",
-            "Husk"
-        ],
-        "region": "lvl 0"
+            "Husk",
+            "Curses"
+        ]
     },
     {
         "name": "Conga Line",
+        "region": "lvl 10",
         "category": [
             "Level 10+",
-            "Husk"
-        ],
-        "region": "lvl 10"
+            "Husk",
+            "Curses"
+        ]
     },
     {
         "name": "Springloaded",
+        "region": "lvl 0",
         "category": [
             "Level 5+",
-            "Springer"
-        ],
-        "region": "lvl 0"
+            "Springer",
+            "Curses"
+        ]
     },
     {
         "name": "Resonating Shockwaves",
+        "region": "lvl 0",
         "category": [
             "Level 1+",
-            "Springer"
-        ],
-        "region": "lvl 0"
+            "Springer",
+            "Curses"
+        ]
     },
     {
         "name": "Ambush",
+        "region": "lvl 0",
         "category": [
             "Level 8+",
-            "Telefragger"
-        ],
-        "region": "lvl 0"
+            "Telefragger",
+            "Curses"
+        ]
     },
     {
         "name": "Accurate Telefragger",
+        "region": "lvl 0",
         "category": [
             "Level 8+",
-            "Telefragger"
-        ],
-        "region": "lvl 0"
+            "Telefragger",
+            "Curses"
+        ]
     },
     {
         "name": "Bloodier Meat",
+        "region": "lvl 0",
         "category": [
             "Level 5+",
-            "Flesh"
-        ],
-        "region": "lvl 0"
+            "Flesh",
+            "Curses"
+        ]
     },
     {
         "name": "Blighted Jump Pads",
+        "region": "lvl 0",
         "category": [
             "Level 5+",
-            "Flesh"
-        ],
-        "region": "lvl 0"
+            "Flesh",
+            "Curses"
+        ]
     },
     {
         "name": "Cognitive Dissonance",
+        "region": "lvl 0",
         "category": [
             "Level 5+",
-            "NIL"
-        ],
-        "region": "lvl 0"
+            "NIL",
+            "Curses"
+        ]
     },
     {
         "name": "Bigger Blast",
+        "region": "lvl 0",
         "category": [
             "Level 5+",
-            "ICBM"
-        ],
-        "region": "lvl 0"
+            "ICBM",
+            "Curses"
+        ]
     },
     {
         "name": "Scorched Earth",
+        "region": "lvl 0",
         "category": [
             "Level 1+",
-            "ICBM"
-        ],
-        "region": "lvl 0"
+            "ICBM",
+            "Curses"
+        ]
     },
     {
         "name": "Pacifier",
+        "region": "lvl 0",
         "category": [
             "Level 1+",
-            "Baby"
-        ],
-        "region": "lvl 0"
+            "Baby",
+            "Curses"
+        ]
     },
     {
         "name": "Problem Child",
+        "region": "lvl 0",
         "category": [
             "Level 5+",
-            "Baby"
-        ],
-        "region": "lvl 0"
+            "Baby",
+            "Curses"
+        ]
     },
     {
         "name": "Shotgun",
+        "region": "lvl 0",
         "category": [
             "Level 5+",
-            "Guardian"
-        ],
-        "region": "lvl 0"
+            "Guardian",
+            "Curses"
+        ]
     },
     {
         "name": "Camouflage",
+        "region": "lvl 0",
         "category": [
             "Level 5+",
-            "Guardian"
-        ],
-        "region": "lvl 0"
+            "Guardian",
+            "Curses"
+        ]
     },
     {
         "name": "Burning Bouquet",
+        "region": "lvl 10",
         "category": [
             "Level 10+",
-            "Kolona"
-        ],
-        "region": "lvl 10"
+            "Kolona",
+            "Curses"
+        ]
     },
     {
         "name": "Lost Embers",
+        "region": "lvl 10",
         "category": [
             "Level 10+",
-            "Kolona"
-        ],
-        "region": "lvl 10"
+            "Kolona",
+            "Curses"
+        ]
     },
     {
         "name": "Blade Carousel",
+        "region": "lvl 15",
         "category": [
             "Level 15+",
-            "Voidbreaker"
-        ],
-        "region": "lvl 15"
+            "Voidbreaker",
+            "Curses"
+        ]
     },
     {
         "name": "Deadly Melody",
+        "region": "lvl 15",
         "category": [
             "Level 15+",
-            "Cadence"
-        ],
-        "region": "lvl 15"
+            "Cadence",
+            "Curses"
+        ]
     },
     {
         "name": "Blueprint: Cross Beams",
+        "region": "lvl 25",
         "category": [
             "Level 25+",
-            "Scrapmaw"
-        ],
-        "region": "lvl 25"
+            "Scrapmaw",
+            "Curses"
+        ]
     },
     {
         "name": "Trap Card",
+        "region": "lvl 15",
         "category": [
-            "Level 15+"
-        ],
-        "region": "lvl 15"
+            "Level 15+",
+            "Greater Curses"
+        ]
     },
     {
         "name": "Run",
+        "region": "lvl 15",
         "category": [
-            "Level 15+"
-        ],
-        "region": "lvl 15"
+            "Level 15+",
+            "Greater Curses"
+        ]
     },
     {
         "name": "One Less Choice",
+        "region": "lvl 10",
         "category": [
-            "Level 10+"
-        ],
-        "region": "lvl 10"
+            "Level 10+",
+            "Greater Curses"
+        ]
     },
     {
         "name": "Inverse Destruction",
+        "region": "lvl 15",
         "category": [
-            "Level 15+"
-        ],
-        "region": "lvl 15"
+            "Level 15+",
+            "Greater Curses"
+        ]
     },
     {
         "name": "Void Implosions",
+        "region": "lvl 10",
         "category": [
-            "Level 10+"
-        ],
-        "region": "lvl 10"
+            "Level 10+",
+            "Greater Curses"
+        ]
     },
     {
         "name": "Oblivion",
+        "region": "lvl 10",
         "category": [
-            "Level 10+"
-        ],
-        "region": "lvl 10"
+            "Level 10+",
+            "Greater Curses"
+        ]
     },
     {
         "name": "Razorbloom",
+        "region": "lvl 10",
         "category": [
-            "Level 10+"
-        ],
-        "region": "lvl 10"
+            "Level 10+",
+            "Greater Curses"
+        ]
     },
     {
         "name": "Tantrum",
+        "region": "lvl 10",
         "category": [
             "Level 10+",
-            "Baby"
-        ],
-        "region": "lvl 10"
+            "Baby",
+            "Greater Curses"
+        ]
     },
     {
         "name": "Hollow Tiles",
+        "region": "lvl 10",
         "category": [
             "Level 10+",
-            "ICBM"
-        ],
-        "region": "lvl 10"
+            "ICBM",
+            "Greater Curses"
+        ]
     },
     {
         "name": "Destroyer",
+        "region": "lvl 15",
         "category": [
             "Level 15+",
-            "Husk"
-        ],
-        "region": "lvl 15"
+            "Husk",
+            "Greater Curses"
+        ]
     },
     {
         "name": "Mass Infection",
+        "region": "lvl 10",
         "category": [
             "Level 10+",
-            "Flesh"
-        ],
-        "region": "lvl 10"
+            "Flesh",
+            "Greater Curses"
+        ]
     },
     {
         "name": "Ballet of Blades",
+        "region": "lvl 15",
         "category": [
             "Level 15+",
-            "Voidbreaker"
-        ],
-        "region": "lvl 15"
+            "Voidbreaker",
+            "Greater Curses"
+        ]
     },
     {
         "name": "Blade Bombardment",
+        "region": "lvl 15",
         "category": [
             "Level 15+",
-            "Voidbreaker"
-        ],
-        "region": "lvl 15"
+            "Voidbreaker",
+            "Greater Curses"
+        ]
     },
     {
         "name": "Malfunction",
+        "region": "lvl 10",
         "category": [
             "Level 10+",
-            "Operator"
-        ],
-        "region": "lvl 10"
+            "Operator",
+            "Greater Curses"
+        ]
     }
 ]
