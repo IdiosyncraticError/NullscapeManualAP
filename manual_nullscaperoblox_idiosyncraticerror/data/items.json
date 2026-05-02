@@ -4,7 +4,8 @@
         "name": "Adrenaline",
         "category": [
             "Solo",
-            "Level 3+"
+            "Level 3+",
+            "Upgrades"
         ],
         "useful": true
     },
@@ -12,7 +13,8 @@
         "count": "3",
         "name": "Swiftness Ring",
         "category": [
-            "Level 3+"
+            "Level 3+",
+            "Upgrades"
         ],
         "progression": true
     },
@@ -20,7 +22,8 @@
         "count": "2",
         "name": "Business License",
         "category": [
-            "Level 3+"
+            "Level 3+",
+            "Upgrades"
         ],
         "progression": true
     },
@@ -28,7 +31,8 @@
         "count": "5",
         "name": "Paycheck",
         "category": [
-            "Level 3+"
+            "Level 3+",
+            "Upgrades"
         ],
         "progression": true
     },
@@ -36,7 +40,8 @@
         "count": "1",
         "name": "Medal",
         "category": [
-            "Level 5+"
+            "Level 5+",
+            "Upgrades"
         ],
         "useful": true
     },
@@ -44,7 +49,8 @@
         "count": "1",
         "name": "Radar",
         "category": [
-            "Level 5+"
+            "Level 5+",
+            "Upgrades"
         ],
         "useful": true
     },
@@ -52,7 +58,8 @@
         "count": "1",
         "name": "Better Jump Pads",
         "category": [
-            "Level 5+"
+            "Level 5+",
+            "Upgrades"
         ],
         "useful": true
     },
@@ -60,7 +67,8 @@
         "count": "1",
         "name": "Tria Orbs",
         "category": [
-            "Level 5+"
+            "Level 5+",
+            "Upgrades"
         ],
         "useful": true
     },
@@ -68,7 +76,8 @@
         "count": "1",
         "name": "Grapple Points",
         "category": [
-            "Level 5+"
+            "Level 5+",
+            "Upgrades"
         ],
         "useful": true
     },
@@ -76,7 +85,8 @@
         "count": "1",
         "name": "Double Jump",
         "category": [
-            "Level 5+"
+            "Level 5+",
+            "Upgrades"
         ],
         "progression": true
     },
@@ -85,7 +95,8 @@
         "name": "Defuse Kit",
         "category": [
             "Level 5+",
-            "Standard+"
+            "Standard+",
+            "Upgrades"
         ],
         "progression_skip_balancing": true
     },
@@ -93,7 +104,8 @@
         "count": "1",
         "name": "Grace Wings",
         "category": [
-            "Level 8+"
+            "Level 8+",
+            "Upgrades"
         ],
         "progression": true
     },
@@ -101,7 +113,8 @@
         "count": "1",
         "name": "Pocket Bell",
         "category": [
-            "Level 8+"
+            "Level 8+",
+            "Upgrades"
         ],
         "progression": true
     },
@@ -109,7 +122,8 @@
         "count": "1",
         "name": "Ice Skates",
         "category": [
-            "Level 8+"
+            "Level 8+",
+            "Upgrades"
         ],
         "progression_skip_balancing": true
     },
@@ -117,7 +131,8 @@
         "count": "1",
         "name": "Helmet",
         "category": [
-            "Level 8+"
+            "Level 8+",
+            "Upgrades"
         ],
         "progression_skip_balancing": true
     },
@@ -125,7 +140,8 @@
         "count": "1",
         "name": "Fanny Pack",
         "category": [
-            "Level 8+"
+            "Level 8+",
+            "Upgrades"
         ],
         "progression": true
     },
@@ -133,7 +149,8 @@
         "count": "1",
         "name": "Radar Module: Enemies",
         "category": [
-            "Level 8+"
+            "Level 8+",
+            "Upgrades"
         ],
         "progression_skip_balancing": true
     },
@@ -141,7 +158,8 @@
         "count": "1",
         "name": "Radar Module: Altars",
         "category": [
-            "Level 8+"
+            "Level 8+",
+            "Upgrades"
         ],
         "useful": true
     },
@@ -150,7 +168,8 @@
         "name": "Radar Module: Tripmines",
         "category": [
             "Level 8+",
-            "Standard+"
+            "Standard+",
+            "Upgrades"
         ],
         "progression_skip_balancing": true
     },
@@ -159,7 +178,8 @@
         "name": "Radar Module: Players",
         "category": [
             "Level 8+",
-            "Multiplayer"
+            "Multiplayer",
+            "Upgrades"
         ],
         "useful": true
     },
@@ -168,7 +188,8 @@
         "name": "Last Man Standing",
         "category": [
             "Level 8+",
-            "Multiplayer"
+            "Multiplayer",
+            "Upgrades"
         ],
         "progression_skip_balancing": true
     },
@@ -176,7 +197,8 @@
         "count": "1",
         "name": "Advanced Gravity Coil",
         "category": [
-            "Level 8+"
+            "Level 8+",
+            "Upgrades"
         ],
         "progression_skip_balancing": true
     },
@@ -184,7 +206,8 @@
         "count": "1",
         "name": "More Altars",
         "category": [
-            "Level 10+"
+            "Level 10+",
+            "Upgrades"
         ],
         "useful": true
     },
@@ -193,7 +216,8 @@
         "name": "Subspacial Barrier",
         "category": [
             "Level 10+",
-            "Standard+"
+            "Standard+",
+            "Upgrades"
         ],
         "progression": true
     },
@@ -201,7 +225,8 @@
         "count": "1",
         "name": "Larger Grapple Points",
         "category": [
-            "Level 13+"
+            "Level 13+",
+            "Upgrades"
         ],
         "useful": true
     },
@@ -209,7 +234,8 @@
         "count": "1",
         "name": "Ninja Belt",
         "category": [
-            "Level 13+"
+            "Level 13+",
+            "Upgrades"
         ],
         "progression": true
     },
@@ -217,7 +243,8 @@
         "count": "1",
         "name": "Shark Tail",
         "category": [
-            "Level 15+"
+            "Level 15+",
+            "Upgrades"
         ],
         "progression": true
     },
@@ -225,7 +252,8 @@
         "count": "3",
         "name": "Gift Magnet",
         "category": [
-            "Level 15+"
+            "Level 15+",
+            "Upgrades"
         ],
         "progression": true
     },
@@ -233,7 +261,8 @@
         "count": "1",
         "name": "Matrix Tetrahedron",
         "category": [
-            "Level 15+"
+            "Level 15+",
+            "Upgrades"
         ],
         "progression": true
     },
@@ -241,7 +270,8 @@
         "count": "1",
         "name": "Sports Shoes",
         "category": [
-            "Level 15+"
+            "Level 15+",
+            "Upgrades"
         ],
         "progression": true
     },
@@ -249,7 +279,8 @@
         "count": "1",
         "name": "Shield",
         "category": [
-            "Level 15+"
+            "Level 15+",
+            "Upgrades"
         ],
         "progression": true
     },
@@ -257,7 +288,8 @@
         "count": "1",
         "name": "Radar Module: Instruments",
         "category": [
-            "Level 15+"
+            "Level 15+",
+            "Upgrades"
         ],
         "progression_skip_balancing": true
     },
@@ -265,7 +297,8 @@
         "count": "1",
         "name": "Panic Necklace",
         "category": [
-            "Level 18+"
+            "Level 18+",
+            "Upgrades"
         ],
         "useful": true
     },
@@ -273,7 +306,8 @@
         "count": "1",
         "name": "Miniature Hourglass",
         "category": [
-            "Level 20+"
+            "Level 20+",
+            "Upgrades"
         ],
         "progression_skip_balancing": true
     },
@@ -281,7 +315,8 @@
         "count": "5",
         "name": "Gift Idol",
         "category": [
-            "Level 20+"
+            "Level 20+",
+            "Upgrades"
         ],
         "progression_skip_balancing": true
     },
@@ -289,7 +324,8 @@
         "count": "1",
         "name": "Drowned Aegis",
         "category": [
-            "Level 20+"
+            "Level 20+",
+            "Upgrades"
         ],
         "progression_skip_balancing": true
     },
@@ -297,7 +333,8 @@
         "count": "1",
         "name": "Diver Unlock",
         "category": [
-            "Class Unlock"
+            "Class Unlock",
+            "diver"
         ],
         "progression": true
     },
@@ -305,7 +342,8 @@
         "count": "1",
         "name": "Charger Unlock",
         "category": [
-            "Class Unlock"
+            "Class Unlock",
+            "charger"
         ],
         "progression": true
     },
@@ -313,7 +351,8 @@
         "count": "1",
         "name": "Grappler Unlock",
         "category": [
-            "Class Unlock"
+            "Class Unlock",
+            "grappler"
         ],
         "progression": true
     },
@@ -321,7 +360,8 @@
         "count": "1",
         "name": "Spirit Unlock",
         "category": [
-            "Class Unlock"
+            "Class Unlock",
+            "spirit"
         ],
         "progression": true
     },
@@ -329,7 +369,8 @@
         "count": "1",
         "name": "Glider Unlock",
         "category": [
-            "Class Unlock"
+            "Class Unlock",
+            "glider"
         ],
         "progression": true
     },
@@ -338,7 +379,7 @@
         "name": "Wanted Unlock",
         "category": [
             "Class Unlock",
-            "Wanted"
+            "wanted"
         ],
         "progression": true
     },
@@ -347,7 +388,7 @@
         "name": "Prisoner Unlock",
         "category": [
             "Class Unlock",
-            "Prisoner"
+            "prisoner"
         ],
         "progression": true
     },
