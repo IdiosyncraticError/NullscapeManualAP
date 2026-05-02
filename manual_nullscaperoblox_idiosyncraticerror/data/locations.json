@@ -72,7 +72,8 @@
     {
         "name": "Level 20",
         "region": "lvl 20",
-        "category": "Levels"
+        "category": "Levels",
+        "victory": true
     },
     {
         "name": "Level 22",
