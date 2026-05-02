@@ -64,7 +64,7 @@
                 "Enable/Disable Wanted's checks"
             ],
             "type": "Toggle",
-            "default": false,
+            "default": true,
             "group": "classes"
         },
         "Prisoner?":{
@@ -72,7 +72,7 @@
                 "Enable/Disable Prisoner's checks"
             ],
             "type": "Toggle",
-            "default": true,
+            "default": false,
             "group": "classes"
         }
     }
