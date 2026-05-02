@@ -1,7 +1,11 @@
 {
   "lvl 0": {
     "starting": true,
-    "connects_to": ["lvl 10"]
+    "connects_to": ["lvl 5"]
+  },
+  "lvl 5": {
+    "connects_to": ["lvl 10"],
+    "requires": "|Business License| and |Swiftness Ring:2|"
   },
   "lvl 10": {
     "connects_to": ["lvl 15"],
@@ -9,7 +13,7 @@
   },
   "lvl 15": {
     "connects_to": ["lvl 20"],
-    "requires": "|Ninja Belt| and |Swiftness Ring:3|"
+    "requires": "|Ninja Belt| and |Helmet|"
   },
   "lvl 20": {
     "connects_to": ["lvl 25"],

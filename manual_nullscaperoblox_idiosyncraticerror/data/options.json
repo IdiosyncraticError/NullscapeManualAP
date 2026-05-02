@@ -67,7 +67,7 @@
             "default": true,
             "group": "classes"
         },
-        "Charger":{
+        "Charger?":{
             "description": [
                 "Enable/Disable Charger's checks"
             ],
