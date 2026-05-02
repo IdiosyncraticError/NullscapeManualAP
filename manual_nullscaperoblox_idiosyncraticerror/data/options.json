@@ -24,7 +24,7 @@
     "user": {
         "_commented_out_option":{
             "type": "Toggle",
-            "default": true,
+            "default": true
         },
         "level_10+":{
             "description": [
