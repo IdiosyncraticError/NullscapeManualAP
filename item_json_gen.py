@@ -51,8 +51,8 @@ class_unlock = [
 
 traps = [
     "Purgatory Trap", #use the next purgatory altar you see
-    "Echo Trap" #use the next echo altar you see
-    "Purification Trap" #use the next purification altar you see
+    "Echo Trap", #use the next echo altar you see
+    "Purification Trap", #use the next purification altar you see
     "No Reroll Trap" #not allowed to reroll until next intermission phase
 ]
 
@@ -80,15 +80,27 @@ for i in class_unlock:
     obj = {}
     obj["count"] = "1"
     obj["name"] = i + " Unlock"
-
-    obj["category"] = "Class Unlock"
-
-#    if i == "Wanted":
-#        obj["category"] = ["Wanted"]
-#    elif i == "Prisoner":
-#        obj["category"] = ["Prisoner"]
+    
+    cat_list = ["Class Unlock"]
+    if i == "Wanted":
+        cat_list.append("Wanted")
+    elif i == "Prisoner":
+        cat_list.append("Prisoner")
+    obj["category"] = cat_list
 
     obj["progression"] = True
+
+    output.append(obj)
+
+for i in traps:
+    obj = {}
+    obj["count"] = "3"
+    obj["name"] = i
+
+    cat_list = ["Trap"]
+    obj["trap"] = True
+
+    output.append(obj)
     
 
 with open("data.json", "w") as file:

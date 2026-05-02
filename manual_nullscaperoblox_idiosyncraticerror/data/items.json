@@ -292,5 +292,83 @@
             "Level 20+"
         ],
         "progression_skip_balancing": true
+    },
+    {
+        "count": "1",
+        "name": "Diver Unlock",
+        "category": [
+            "Class Unlock"
+        ],
+        "progression": true
+    },
+    {
+        "count": "1",
+        "name": "Charger Unlock",
+        "category": [
+            "Class Unlock"
+        ],
+        "progression": true
+    },
+    {
+        "count": "1",
+        "name": "Grappler Unlock",
+        "category": [
+            "Class Unlock"
+        ],
+        "progression": true
+    },
+    {
+        "count": "1",
+        "name": "Spirit Unlock",
+        "category": [
+            "Class Unlock"
+        ],
+        "progression": true
+    },
+    {
+        "count": "1",
+        "name": "Glider Unlock",
+        "category": [
+            "Class Unlock"
+        ],
+        "progression": true
+    },
+    {
+        "count": "1",
+        "name": "Wanted Unlock",
+        "category": [
+            "Class Unlock",
+            "Wanted"
+        ],
+        "progression": true
+    },
+    {
+        "count": "1",
+        "name": "Prisoner Unlock",
+        "category": [
+            "Class Unlock",
+            "Prisoner"
+        ],
+        "progression": true
+    },
+    {
+        "count": "3",
+        "name": "Purgatory Trap",
+        "trap": true
+    },
+    {
+        "count": "3",
+        "name": "Echo Trap",
+        "trap": true
+    },
+    {
+        "count": "3",
+        "name": "Purification Trap",
+        "trap": true
+    },
+    {
+        "count": "3",
+        "name": "No Reroll Trap",
+        "trap": true
     }
 ]
