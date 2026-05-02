@@ -3,7 +3,7 @@ Manual APworld for hit game Nullscape on Roblox
 
 todo
 - hooks for determining what starting mode (prisoner start, vanilla start aka charger diver, random start)
-- hooks for levelsanity (mode + level), cursesanity, enemysanity
+- hooks for levelsanity (mode + level), cursesanity, enemysanity, class-sanity
 - alt account achievementsanity, cosmeticsanity
 - add difficulty + random + chaos to items
 - add option to enable/disable all classes
