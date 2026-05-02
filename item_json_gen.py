@@ -63,7 +63,9 @@ for i in upgrades:
     obj["count"] = i[1]
     obj["name"] = i[0]
     
-    obj["category"] = i[2]
+    cat_list = i[2]
+    cat_list.append("Upgrades")
+    obj["category"] = cat_list
     
     if i[3] == 1:
         obj["filler"] = True
@@ -82,10 +84,7 @@ for i in class_unlock:
     obj["name"] = i + " Unlock"
     
     cat_list = ["Class Unlock"]
-    if i == "Wanted":
-        cat_list.append("Wanted")
-    elif i == "Prisoner":
-        cat_list.append("Prisoner")
+    cat_list.append(i.lower())
     obj["category"] = cat_list
 
     obj["progression"] = True

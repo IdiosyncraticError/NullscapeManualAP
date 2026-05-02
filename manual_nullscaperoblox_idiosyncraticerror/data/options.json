@@ -59,6 +59,46 @@
             "group": "level limit"
         },
 
+        "Diver?":{
+            "description": [
+                "Enable/Disable Diver's checks"
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "classes"
+        },
+        "Charger":{
+            "description": [
+                "Enable/Disable Charger's checks"
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "classes"
+        },
+        "Grappler?":{
+            "description": [
+                "Enable/Disable Grappler's checks"
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "classes"
+        },
+        "Spirit?":{
+            "description": [
+                "Enable/Disable Spirit's checks"
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "classes"
+        },
+        "Glider?":{
+            "description": [
+                "Enable/Disable Glider's checks"
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "classes"
+        },
         "Wanted?":{
             "description": [
                 "Enable/Disable Wanted's checks"
