@@ -24,7 +24,7 @@
     "user": {
         "_commented_out_option":{
             "type": "Toggle",
-            "default": true
+            "default": true,
         },
         "level_10+":{
             "description": [
@@ -57,6 +57,23 @@
             "type": "Toggle",
             "default": false,
             "group": "level limit"
+        },
+
+        "Wanted?":{
+            "description": [
+                "Enable/Disable Wanted's checks"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "classes"
+        },
+        "Prisoner?":{
+            "description": [
+                "Enable/Disable Prisoner's checks"
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "classes"
         }
     }
 

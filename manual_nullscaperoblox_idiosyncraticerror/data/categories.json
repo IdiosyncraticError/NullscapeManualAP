@@ -105,5 +105,17 @@
     },
     "Scrapmaw": {
         "hidden": true
+    },
+    "Wanted": {
+        "hidden": true,
+        "yaml_option": [
+            "Wanted?"
+        ]
+    },
+    "Prisoner": {
+        "hidden": true,
+        "yaml_option": [
+            "Prisoner?"
+        ]
     }
 }
