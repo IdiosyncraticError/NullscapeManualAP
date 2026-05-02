@@ -106,16 +106,49 @@
     "Scrapmaw": {
         "hidden": true
     },
-    "Wanted": {
+    "diver": {
+        "hidden": true,
+        "yaml_option": [
+            "Diver?"
+        ]
+    },
+    "charger": {
+        "hidden": true,
+        "yaml_option": [
+            "Charger?"
+        ]
+    },
+    "grappler": {
+        "hidden": true,
+        "yaml_option": [
+            "Grappler?"
+        ]
+    },
+    "spirit": {
+        "hidden": true,
+        "yaml_option": [
+            "Spirit?"
+        ]
+    },
+    "wanted": {
         "hidden": true,
         "yaml_option": [
             "Wanted?"
         ]
     },
-    "Prisoner": {
+    "prisoner": {
         "hidden": true,
         "yaml_option": [
             "Prisoner?"
         ]
+    },
+    "Solo": {
+        "hidden": true
+    },
+    "Multiplayer": {
+        "hidden": true
+    },
+    "Standard+": {
+        "hidden": true
     }
 }
