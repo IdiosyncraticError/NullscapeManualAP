@@ -5,11 +5,11 @@
   },
   "lvl 5": {
     "connects_to": ["lvl 10"],
-    "requires": "|Swiftness Ring:2| and |Business License|"
+    "requires": "|Swiftness Ring:2| and |Double Jump|"
   },
   "lvl 10": {
     "connects_to": ["lvl 15"],
-    "requires": "|Grace Wings| or (|Double Jump| and |Ice Skates|)"
+    "requires": "|Grace Wings| and |Ice Skates|"
   },
   "lvl 15": {
     "connects_to": ["lvl 20"],
@@ -20,6 +20,6 @@
     "requires": "|Sports Shoes| and |Matrix Tetrahedron| and |Shark Tail|"
   },
   "lvl 25": {
-    "requires": "|Gift Idol|"
+    "requires": "|Gift Idol| and |Miniature Hourglass|"
   }
 }
