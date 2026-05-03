@@ -1737,5 +1737,58 @@
             "Operator",
             "Greater Curses"
         ]
+    },
+    {
+        "name": "Diver Level 10",
+        "category": "Win Condition",
+        "place_item": [
+            "Win Progression Flag"
+        ]
+    },
+    {
+        "name": "Charger Level 10",
+        "category": "Win Condition",
+        "place_item": [
+            "Win Progression Flag"
+        ]
+    },
+    {
+        "name": "Grappler Level 10",
+        "category": "Win Condition",
+        "place_item": [
+            "Win Progression Flag"
+        ]
+    },
+    {
+        "name": "Spirit Level 10",
+        "category": "Win Condition",
+        "place_item": [
+            "Win Progression Flag"
+        ]
+    },
+    {
+        "name": "Glider Level 10",
+        "category": "Win Condition",
+        "place_item": [
+            "Win Progression Flag"
+        ]
+    },
+    {
+        "name": "Wanted Level 10",
+        "category": "Win Condition",
+        "place_item": [
+            "Win Progression Flag"
+        ]
+    },
+    {
+        "name": "Prisoner Level 10",
+        "category": "Win Condition",
+        "place_item": [
+            "Win Progression Flag"
+        ]
+    },
+    {
+        "name": "win lol",
+        "requires": "|Win Progression Flag:3|"
     }
 ]

@@ -198,8 +198,17 @@ for i in greater_curses:
     
 for i in classes:
     obj = {}
-    obj["name"] = i + " Level 12"
+    obj["name"] = i + " Level 10"
     obj["category"] = "Win Condition"
+    obj["place_item"] = ["Win Progression Flag"]
+    output.append(obj)
+
+hi = {
+    "name":"win lol",
+    "requires":"|Win Progression Flag:3|"
+}
+
+output.append(hi)
 
 with open("data.json", "w") as file:
     json.dump(output, file, indent=4)

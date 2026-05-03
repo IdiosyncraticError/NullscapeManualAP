@@ -3,19 +3,19 @@ import json
 upgrades = [
     ["Adrenaline", "1", ["Solo", "Level 3+"], 2],
     ["Swiftness Ring", "3", ["Level 3+"], 4],
-    ["Business License", "2", ["Level 3+"], 4],
+    ["Business License", "2", ["Level 3+"], 3],
     ["Paycheck", "5", ["Level 3+"], 4],
     ["Medal", "1", ["Level 5+"], 2],
     ["Radar", "1", ["Level 5+"], 2],
-    ["Better Jump Pads", "1", ["Level 5+"], 2],
-    ["Tria Orbs", "1", ["Level 5+"], 2],
-    ["Grapple Points", "1", ["Level 5+"], 2],
+    ["Better Jump Pads", "1", ["Level 5+"], 3],
+    ["Tria Orbs", "1", ["Level 5+"], 3],
+    ["Grapple Points", "1", ["Level 5+"], 3],
     ["Double Jump", "1", ["Level 5+"], 4],
     ["Defuse Kit", "3", ["Level 5+", "Standard+"], 3],
     ["Grace Wings", "1", ["Level 8+"], 4],
     ["Pocket Bell", "1", ["Level 8+"], 4],
-    ["Ice Skates", "1", ["Level 8+"], 3],
-    ["Helmet", "1", ["Level 8+"], 3],
+    ["Ice Skates", "1", ["Level 8+"], 4],
+    ["Helmet", "1", ["Level 8+"], 4],
     ["Fanny Pack", "1", ["Level 8+"], 4],
     ["Radar Module: Enemies", "1", ["Level 8+"], 3],
     ["Radar Module: Altars", "1", ["Level 8+"], 2],
@@ -63,7 +63,9 @@ for i in upgrades:
     obj["count"] = i[1]
     obj["name"] = i[0]
     
-    obj["category"] = i[2]
+    cat_list = i[2]
+    cat_list.append("Upgrades")
+    obj["category"] = cat_list
     
     if i[3] == 1:
         obj["filler"] = True
@@ -82,10 +84,7 @@ for i in class_unlock:
     obj["name"] = i + " Unlock"
     
     cat_list = ["Class Unlock"]
-    if i == "Wanted":
-        cat_list.append("Wanted")
-    elif i == "Prisoner":
-        cat_list.append("Prisoner")
+    cat_list.append(i.lower())
     obj["category"] = cat_list
 
     obj["progression"] = True
@@ -101,6 +100,13 @@ for i in traps:
     obj["trap"] = True
 
     output.append(obj)
+
+hi = {
+    "name":"Win Progression Flag",
+    "count":"7"
+}
+
+output.append(hi)
     
 
 with open("data.json", "w") as file:

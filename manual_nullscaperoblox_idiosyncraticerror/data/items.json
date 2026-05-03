@@ -25,7 +25,7 @@
             "Level 3+",
             "Upgrades"
         ],
-        "progression": true
+        "progression_skip_balancing": true
     },
     {
         "count": "5",
@@ -61,7 +61,7 @@
             "Level 5+",
             "Upgrades"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": "1",
@@ -70,7 +70,7 @@
             "Level 5+",
             "Upgrades"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": "1",
@@ -79,7 +79,7 @@
             "Level 5+",
             "Upgrades"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": "1",
@@ -125,7 +125,7 @@
             "Level 8+",
             "Upgrades"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": "1",
@@ -134,7 +134,7 @@
             "Level 8+",
             "Upgrades"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": "1",
@@ -411,5 +411,9 @@
         "count": "3",
         "name": "No Reroll Trap",
         "trap": true
+    },
+    {
+        "name": "Win Progression Flag",
+        "count": "7"
     }
 ]
