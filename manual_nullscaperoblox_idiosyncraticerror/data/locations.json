@@ -2,113 +2,1080 @@
     {
         "name": "Level 1",
         "region": "lvl 0",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 2",
         "region": "lvl 0",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 3",
         "region": "lvl 0",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 4",
         "region": "lvl 0",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 5",
         "region": "lvl 5",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 6",
         "region": "lvl 5",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 8",
         "region": "lvl 5",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 10",
         "region": "lvl 10",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 12",
         "region": "lvl 10",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 13",
         "region": "lvl 10",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 14",
         "region": "lvl 10",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 15",
         "region": "lvl 15",
-        "category": "Levels",
-        "victory": true
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 16",
         "region": "lvl 15",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 18",
         "region": "lvl 15",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 20",
         "region": "lvl 20",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 22",
         "region": "lvl 20",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 23",
         "region": "lvl 20",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 24",
         "region": "lvl 20",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 25",
         "region": "lvl 25",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 26",
         "region": "lvl 25",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 28",
         "region": "lvl 25",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
     },
     {
         "name": "Level 30",
         "region": "lvl 25",
-        "category": "Levels"
+        "category": [
+            "Diver Levels"
+        ]
+    },
+    {
+        "name": "Level 1",
+        "region": "lvl 0",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 2",
+        "region": "lvl 0",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 3",
+        "region": "lvl 0",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 4",
+        "region": "lvl 0",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 5",
+        "region": "lvl 5",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 6",
+        "region": "lvl 5",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 8",
+        "region": "lvl 5",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 10",
+        "region": "lvl 10",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 12",
+        "region": "lvl 10",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 13",
+        "region": "lvl 10",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 14",
+        "region": "lvl 10",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 15",
+        "region": "lvl 15",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 16",
+        "region": "lvl 15",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 18",
+        "region": "lvl 15",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 20",
+        "region": "lvl 20",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 22",
+        "region": "lvl 20",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 23",
+        "region": "lvl 20",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 24",
+        "region": "lvl 20",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 25",
+        "region": "lvl 25",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 26",
+        "region": "lvl 25",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 28",
+        "region": "lvl 25",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 30",
+        "region": "lvl 25",
+        "category": [
+            "Charger Levels"
+        ]
+    },
+    {
+        "name": "Level 1",
+        "region": "lvl 0",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 2",
+        "region": "lvl 0",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 3",
+        "region": "lvl 0",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 4",
+        "region": "lvl 0",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 5",
+        "region": "lvl 5",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 6",
+        "region": "lvl 5",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 8",
+        "region": "lvl 5",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 10",
+        "region": "lvl 10",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 12",
+        "region": "lvl 10",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 13",
+        "region": "lvl 10",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 14",
+        "region": "lvl 10",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 15",
+        "region": "lvl 15",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 16",
+        "region": "lvl 15",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 18",
+        "region": "lvl 15",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 20",
+        "region": "lvl 20",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 22",
+        "region": "lvl 20",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 23",
+        "region": "lvl 20",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 24",
+        "region": "lvl 20",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 25",
+        "region": "lvl 25",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 26",
+        "region": "lvl 25",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 28",
+        "region": "lvl 25",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 30",
+        "region": "lvl 25",
+        "category": [
+            "Grappler Levels"
+        ]
+    },
+    {
+        "name": "Level 1",
+        "region": "lvl 0",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 2",
+        "region": "lvl 0",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 3",
+        "region": "lvl 0",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 4",
+        "region": "lvl 0",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 5",
+        "region": "lvl 5",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 6",
+        "region": "lvl 5",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 8",
+        "region": "lvl 5",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 10",
+        "region": "lvl 10",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 12",
+        "region": "lvl 10",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 13",
+        "region": "lvl 10",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 14",
+        "region": "lvl 10",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 15",
+        "region": "lvl 15",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 16",
+        "region": "lvl 15",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 18",
+        "region": "lvl 15",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 20",
+        "region": "lvl 20",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 22",
+        "region": "lvl 20",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 23",
+        "region": "lvl 20",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 24",
+        "region": "lvl 20",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 25",
+        "region": "lvl 25",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 26",
+        "region": "lvl 25",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 28",
+        "region": "lvl 25",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 30",
+        "region": "lvl 25",
+        "category": [
+            "Spirit Levels"
+        ]
+    },
+    {
+        "name": "Level 1",
+        "region": "lvl 0",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 2",
+        "region": "lvl 0",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 3",
+        "region": "lvl 0",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 4",
+        "region": "lvl 0",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 5",
+        "region": "lvl 5",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 6",
+        "region": "lvl 5",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 8",
+        "region": "lvl 5",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 10",
+        "region": "lvl 10",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 12",
+        "region": "lvl 10",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 13",
+        "region": "lvl 10",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 14",
+        "region": "lvl 10",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 15",
+        "region": "lvl 15",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 16",
+        "region": "lvl 15",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 18",
+        "region": "lvl 15",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 20",
+        "region": "lvl 20",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 22",
+        "region": "lvl 20",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 23",
+        "region": "lvl 20",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 24",
+        "region": "lvl 20",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 25",
+        "region": "lvl 25",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 26",
+        "region": "lvl 25",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 28",
+        "region": "lvl 25",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 30",
+        "region": "lvl 25",
+        "category": [
+            "Glider Levels"
+        ]
+    },
+    {
+        "name": "Level 1",
+        "region": "lvl 0",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 2",
+        "region": "lvl 0",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 3",
+        "region": "lvl 0",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 4",
+        "region": "lvl 0",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 5",
+        "region": "lvl 5",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 6",
+        "region": "lvl 5",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 8",
+        "region": "lvl 5",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 10",
+        "region": "lvl 10",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 12",
+        "region": "lvl 10",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 13",
+        "region": "lvl 10",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 14",
+        "region": "lvl 10",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 15",
+        "region": "lvl 15",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 16",
+        "region": "lvl 15",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 18",
+        "region": "lvl 15",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 20",
+        "region": "lvl 20",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 22",
+        "region": "lvl 20",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 23",
+        "region": "lvl 20",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 24",
+        "region": "lvl 20",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 25",
+        "region": "lvl 25",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 26",
+        "region": "lvl 25",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 28",
+        "region": "lvl 25",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 30",
+        "region": "lvl 25",
+        "category": [
+            "Wanted Levels"
+        ]
+    },
+    {
+        "name": "Level 1",
+        "region": "lvl 0",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 2",
+        "region": "lvl 0",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 3",
+        "region": "lvl 0",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 4",
+        "region": "lvl 0",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 5",
+        "region": "lvl 5",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 6",
+        "region": "lvl 5",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 8",
+        "region": "lvl 5",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 10",
+        "region": "lvl 10",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 12",
+        "region": "lvl 10",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 13",
+        "region": "lvl 10",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 14",
+        "region": "lvl 10",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 15",
+        "region": "lvl 15",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 16",
+        "region": "lvl 15",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 18",
+        "region": "lvl 15",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 20",
+        "region": "lvl 20",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 22",
+        "region": "lvl 20",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 23",
+        "region": "lvl 20",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 24",
+        "region": "lvl 20",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 25",
+        "region": "lvl 25",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 26",
+        "region": "lvl 25",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 28",
+        "region": "lvl 25",
+        "category": [
+            "Prisoner Levels"
+        ]
+    },
+    {
+        "name": "Level 30",
+        "region": "lvl 25",
+        "category": [
+            "Prisoner Levels"
+        ]
     },
     {
         "name": "Bell",

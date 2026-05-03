@@ -121,7 +121,7 @@ for j in classes:
             obj["region"] = "lvl 20"
         else:
             obj["region"] = "lvl 25"
-        obj["category"] = ["Levels", j]
+        obj["category"] = [j + " Levels"]
         output.append(obj)
 
 for i in enemies:
@@ -196,6 +196,10 @@ for i in greater_curses:
     obj["category"] = cat_list
     output.append(obj)
     
+for i in classes:
+    obj = {}
+    obj["name"] = i + " Level 12"
+    obj["category"] = "Win Condition"
 
 with open("data.json", "w") as file:
     json.dump(output, file, indent=4)
