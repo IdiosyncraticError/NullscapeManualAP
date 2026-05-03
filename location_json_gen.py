@@ -94,24 +94,35 @@ rounds = [
     1, 2, 3, 4, 5, 6, 8, 10, 12, 13, 14, 15, 16, 18, 20, 22, 23, 24, 25, 26, 28, 30
 ]
 
+classes = [
+    "Diver",
+    "Charger",
+    "Grappler",
+    "Spirit",
+    "Glider",
+    "Wanted",
+    "Prisoner"
+]
+
 output = []
-for i in rounds:
-    obj = {}
-    obj["name"] = "Level " + str(i)
-    if i < 5:
-        obj["region"] = "lvl 0"
-    elif i < 10:
-        obj["region"] = "lvl 5"
-    elif i < 15:
-        obj["region"] = "lvl 10"
-    elif i < 20:
-        obj["region"] = "lvl 15"
-    elif i < 25:
-        obj["region"] = "lvl 20"
-    else:
-        obj["region"] = "lvl 25"
-    obj["category"] = "Levels"
-    output.append(obj)
+for j in classes:
+    for i in rounds:
+        obj = {}
+        obj["name"] = "Level " + str(i)
+        if i < 5:
+            obj["region"] = "lvl 0"
+        elif i < 10:
+            obj["region"] = "lvl 5"
+        elif i < 15:
+            obj["region"] = "lvl 10"
+        elif i < 20:
+            obj["region"] = "lvl 15"
+        elif i < 25:
+            obj["region"] = "lvl 20"
+        else:
+            obj["region"] = "lvl 25"
+        obj["category"] = ["Levels", j]
+        output.append(obj)
 
 for i in enemies:
     obj = {}
