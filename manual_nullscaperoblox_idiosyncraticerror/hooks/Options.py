@@ -39,7 +39,7 @@ class LevelWinRequirement(Range):
     default = 15
 
 class StartingClass(Choice):
-    display_name = "Starting Class Unlock"
+    display_name = "Starting Classes"
     option_random = 0
     option_prisoner = 1
     option_vanilla = 2
@@ -54,6 +54,8 @@ class RandomClassStart(Range):
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options["class_win_requirement"] = ClassWinRequirement
     options["level_win_requirement"] = LevelWinRequirement
+    options["start_type"] = StartingClass
+    options["random_class_start"] = RandomClassStart
 
     return options
 

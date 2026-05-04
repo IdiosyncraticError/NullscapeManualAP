@@ -45,7 +45,6 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
 
     class_win_req = world.options.class_win_requirement.value
     level_win_req = world.options.level_win_requirement.value
-    starting_class = []
     pass
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
@@ -79,9 +78,23 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     
-    itemNamesToRemove = []
-    for itemName in itemNamesToRemove:
-        item = next(i for i in item_pool if i.name == itemName)
+    start_type = world.options.start_type.value
+    starting_class = []
+
+    if start_type == 0:
+        random_classes = world.options.random_class_start.value
+    elif start_type == 1:
+        starting_class = ["Prisoner Unlock"]
+    elif start_type == 2:
+        starting_class = ["Diver Unlock", "Charger Unlock"]
+
+    if start_type == 0: #random class unlocks
+        classes = ["Diver Unlock", "Charger Unlock", "Grappler Unlock", "Spirit Unlock", "Glider Unlock", "Wanted Unlock", "Prisoner Unlock"] #eventually replace this with smth that searches thru item_pool in the case of future classes
+        for _ in range(random_classes):
+            starting_class.append(world.random.choice(classes))
+
+    for unlock in starting_class:
+        item = next(i for i in item_pool if i.name == unlock)
         multiworld.push_precollected(item)
         item_pool.remove(item)
 
