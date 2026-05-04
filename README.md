@@ -6,7 +6,7 @@ cursesanity: either you check location when taking it or you check location when
 IF YOU HAVE UNIVERSAL TRACKER INSTALLED, REMOVE IT FROM YOUR CUSTOM_WORLD FOLDER!!! This APworld uses SOFT PROGRESSION REQUIREMENTS to limit number of checks per sphere, so you will often be out-of-logic!
 
 todo
-- hooks for determining what starting mode (prisoner start, vanilla start aka charger diver, random start)
+- hooks for determining what starting mode (prisoner start, vanilla start aka charger diver, random start) IF A CLASS IS TURNED OFF REMOVE IT FROM POTENTIAL OPTIONS ESPECIALLY PRISONER + PRISONER START (but also setting a max limit on number of random classes u can play with, making vanilla only start u with whatevers enabled, etc
 - hooks for levelsanity (mode + level), cursesanity, enemysanity
 - alt account achievementsanity, cosmeticsanity
 - add difficulty + random + chaos to items
