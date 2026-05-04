@@ -26,25 +26,38 @@ from typing import Type, Any
 #   options["total_characters_to_win_with"] = TotalCharactersToWinWith
 #
 class ClassWinRequirement(Range):
-    """Instead of having to beat the game with all characters, you can limit locations to a subset of character victory locations."""
+    """
+    Number of classes that have to reach goal level to progress the win condition
+    """
     display_name = "Number of classes to goal on"
     range_start = 1
     range_end = 7
     default = 3
 
 class LevelWinRequirement(Range):
-    display_name = "Level each class must reach to goal"
+    """
+    What level each class (except Prisoner) must reach to progress the win condition
+    """
+    display_name = "Goal level"
     range_start = 10
     range_end = 40
     default = 15
 
 class StartingClass(Choice):
+    """
+    Random: See number of starting random classes\n
+    Prisoner: Start on Prisoner\n
+    Vanilla: Start with Diver and Charger
+    """
     display_name = "Starting Classes"
     option_random = 0
     option_prisoner = 1
     option_vanilla = 2
 
 class RandomClassStart(Range):
+    """
+    How many classes you will start with
+    """
     display_name = "Number of random starting classes"
     range_start = 1
     range_end = 7
