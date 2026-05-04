@@ -81,16 +81,16 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     start_type = world.options.start_type.value
     starting_class = []
 
-    if start_type == "random": #using random_class_start for this instead somehow
+    if start_type == 0: #using random_class_start for this instead somehow
         random_classes = world.options.random_class_start.value
         classes = ["Diver Unlock", "Charger Unlock", "Grappler Unlock", "Spirit Unlock", "Glider Unlock", "Wanted Unlock", "Prisoner Unlock"] #eventually replace this with smth that searches thru item_pool in the case of future classes
         for _ in range(random_classes):
             chosen = world.random.choice(classes)
             starting_class.append(chosen)
             classes.remove(chosen)
-    if start_type == "prisoner":
+    if start_type == 1:
         starting_class = ["Prisoner Unlock"]
-    if start_type == "vanilla":
+    if start_type == 2:
         starting_class = ["Diver Unlock", "Charger Unlock"]
 
     for unlock in starting_class:
