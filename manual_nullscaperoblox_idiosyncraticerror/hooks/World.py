@@ -88,9 +88,9 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             chosen = world.random.choice(classes)
             starting_class.append(chosen)
             classes.remove(chosen)
-    elif start_type == 1:
+    if start_type == 1:
         starting_class = ["Prisoner Unlock"]
-    elif start_type == 2:
+    if start_type == 2:
         starting_class = ["Diver Unlock", "Charger Unlock"]
 
     for unlock in starting_class:
