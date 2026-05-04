@@ -3,6 +3,8 @@ Manual APworld for hit game Nullscape on Roblox
 
 cursesanity: either you check location when taking it or you check location when it shows up in an intermission (dont need to take it)
 
+IF YOU HAVE UNIVERSAL TRACKER INSTALLED, REMOVE IT FROM YOUR CUSTOM_WORLD FOLDER!!! This APworld uses SOFT PROGRESSION REQUIREMENTS to limit number of checks per sphere, so you will often be out-of-logic!
+
 todo
 - hooks for determining what starting mode (prisoner start, vanilla start aka charger diver, random start)
 - hooks for levelsanity (mode + level), cursesanity, enemysanity
