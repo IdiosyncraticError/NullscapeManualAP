@@ -5,20 +5,5 @@ cursesanity: either you check location when taking it or you check location when
 
 IF YOU HAVE UNIVERSAL TRACKER INSTALLED, REMOVE IT FROM YOUR CUSTOM_WORLD FOLDER!!! This APworld uses SOFT PROGRESSION REQUIREMENTS to limit number of checks per sphere, so you will often be out-of-logic!
 
-todo
-- hooks for determining what starting mode (prisoner start, vanilla start aka charger diver, random start) IF A CLASS IS TURNED OFF REMOVE IT FROM POTENTIAL OPTIONS ESPECIALLY PRISONER + PRISONER START (but also setting a max limit on number of random classes u can play with, making vanilla only start u with whatevers enabled, etc
-- hooks for levelsanity (mode + level), cursesanity, enemysanity
-- alt account achievementsanity, cosmeticsanity
-- add difficulty + random + chaos to items
-- add option to enable/disable all classes
-- make win condition reach [x] level on [x] classes (prisoner max is 10)
-- trust me on that one (i got 1 hour 30 mins on prisoner now 😭)
-- setting to choose what % of items will be filler items
-- choose what proportion is enemysanity and what proportion is cursesanity
-- location exclusion in sanity
-- prehint all greater curses
-- add mart infection to multiplayer category
-- add a party type setting (solo/duo, multiplayer, or both)
-
 changelog:
 - removed Springloaded
