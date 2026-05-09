@@ -75,11 +75,11 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     
-    start_type = world.options.start_type.value
+    start_type = get_option_value(multiworld, player, "start_type")
     starting_class = []
 
     if start_type == 0: #using random_class_start for this instead somehow
-        random_classes = get_option_value(multiworld, player, "start_type")
+        random_classes = world.options.random_class_start.value
 
         starting_class_temp = []
         starting_class_temp.extend([
