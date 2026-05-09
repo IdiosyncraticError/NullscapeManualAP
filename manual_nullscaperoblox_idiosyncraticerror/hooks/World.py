@@ -87,8 +87,6 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
                 if "Class Unlock" in i.get("category", [])
         ])
 
-        starting_class_temp = set(starting_class_temp)
-
         for _ in range(random_classes):
             chosen = world.random.choice(starting_class_temp)
             starting_class_temp.remove(chosen)
