@@ -75,10 +75,10 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     
-    start_type = get_option_value(multiworld, player, "start_type")
+    start_type = world.options.start_type.value
     starting_class = []
 
-    if start_type == 0: #using random_class_start for this instead somehow
+    if start_type == world.options.start_type.option_random: #using random_class_start for this instead somehow
         random_classes = world.options.random_class_start.value
 
         starting_class_temp = []
@@ -93,9 +93,9 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             chosen = world.random.choice(starting_class)
             starting_class_temp.remove(chosen)
             starting_class.append(chosen)
-    elif start_type == 1:
+    elif start_type == world.options.start_type.option_prisoner:
         starting_class = ["Prisoner Unlock"]
-    elif start_type == 2:
+    elif start_type == world.options.start_type.option_vanilla:
         starting_class = ["Diver Unlock", "Charger Unlock"]
 
     for unlock in starting_class:
