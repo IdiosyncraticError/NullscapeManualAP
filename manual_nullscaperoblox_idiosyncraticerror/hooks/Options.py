@@ -50,13 +50,13 @@ class StartingClass(Choice):
     Vanilla: Start with Diver and Charger
     """
     display_name = "Starting Classes"
-    option_random = 0
-    option_prisoner = 1
-    option_vanilla = 2
+    option_random = 1
+    option_prisoner = 2
+    option_vanilla = 3
 
 class RandomClassStart(Range):
     """
-    How many classes you will start with
+    How many classes you will start with if you pick random
     """
     display_name = "Number of random starting classes"
     range_start = 1
