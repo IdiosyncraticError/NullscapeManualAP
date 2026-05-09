@@ -90,7 +90,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         starting_class_temp = set(starting_class_temp)
 
         for _ in range(random_classes):
-            chosen = world.random.choice(starting_class)
+            chosen = world.random.choice(starting_class_temp)
             starting_class_temp.remove(chosen)
             starting_class.append(chosen)
     elif start_type == world.options.start_type.option_prisoner:
