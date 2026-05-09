@@ -79,7 +79,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     starting_class = []
 
     if start_type == 0: #using random_class_start for this instead somehow
-        random_classes = world.options.random_class_start.value
+        random_classes = get_option_value(multiworld, player, start_type)
 
         starting_class_temp = []
         starting_class_temp.extend([

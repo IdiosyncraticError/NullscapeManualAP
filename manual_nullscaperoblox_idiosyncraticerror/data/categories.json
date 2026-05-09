@@ -150,11 +150,5 @@
     },
     "Standard+": {
         "hidden": true
-    },
-    "fuck ass category to make the choice option work:": {
-        "hidden": true,
-        "yaml_option": [
-            "start_type"
-        ]
     }
 }
