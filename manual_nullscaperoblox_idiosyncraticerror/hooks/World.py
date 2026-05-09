@@ -42,10 +42,6 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     This is the earliest hook called during generation, before anything else is done.
     Use it to check or modify incompatible options, or to set up variables for later use.
     """
-
-    class_win_req = world.options.class_win_requirement.value
-    level_win_req = world.options.level_win_requirement.value
-    starting_class = []
     pass
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
@@ -79,9 +75,29 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     
-    itemNamesToRemove = []
-    for itemName in itemNamesToRemove:
-        item = next(i for i in item_pool if i.name == itemName)
+    start_type = world.options.start_type.value
+    starting_class = []
+
+    if start_type == world.options.start_type.option_random:
+        random_classes = world.options.random_class_start.value
+
+        starting_class_temp = []
+        starting_class_temp.extend([
+            name for name, i in world.item_name_to_item.items()
+                if "Class Unlock" in i.get("category", [])
+        ])
+
+        for _ in range(random_classes):
+            chosen = world.random.choice(starting_class_temp)
+            starting_class_temp.remove(chosen)
+            starting_class.append(chosen)
+    elif start_type == world.options.start_type.option_prisoner:
+        starting_class = ["Prisoner Unlock"]
+    elif start_type == world.options.start_type.option_vanilla:
+        starting_class = ["Diver Unlock", "Charger Unlock"]
+
+    for unlock in starting_class:
+        item = next(i for i in item_pool if i.name == unlock)
         multiworld.push_precollected(item)
         item_pool.remove(item)
 
