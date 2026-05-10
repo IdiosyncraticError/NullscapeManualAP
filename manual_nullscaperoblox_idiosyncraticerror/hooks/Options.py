@@ -63,12 +63,22 @@ class RandomClassStart(Range):
     range_end = 7
     default = 1
 
+class FillerCount(Range):
+    """
+    What percentage of filler checks should be enabled?
+    """
+    display_name = "Proportion of Filler"
+    range_start = 0
+    range_end = 100
+    default = 30
+
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options["class_win_requirement"] = ClassWinRequirement
     options["level_win_requirement"] = LevelWinRequirement
     options["start_type"] = StartingClass
     options["random_class_start"] = RandomClassStart
+    options["filler_percent"] = FillerCount
 
     return options
 
