@@ -121,28 +121,25 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     filler_count = len(item_pool)*(world.options.filler_percent.value/100)
     total_locations = filler_count + item_count
     locations = []
-    max_locations = 0
 
     for region in multiworld.region:
         if region.player == player:
-            max_locations += len(list(region.locations))
             locations.extend(list(region.locations))
 
-    if total_locations > max_locations:
-        total_locations = max_locations
+    if total_locations > len(locations):
+        total_locations = len(locations)
     if world.options.filler_percent.value == 100:
-        total_locations = max_locations
+        total_locations = len(locations) #redundant but yk
 
 
-    while max_locations != total_locations:
+    while len(locations) != total_locations:
         chosen = world.random.choice(locations)
         for region in multiworld.region:
             if region.player == player:
                 for location in list(region.locations):
-                    if location.name == chosen:
+                    if location.name == chosen.name:
                         region.locations.remove(chosen)
         locations.remove(chosen)
-        max_locations -= 1
         #then go through the location and if it matches chosen, remove it
 
     return item_pool
