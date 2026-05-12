@@ -65,7 +65,8 @@ class RandomClassStart(Range):
 
 class FillerCount(Range):
     """
-    What percentage of filler checks should be enabled?
+    What percentage of your locations should be filler?
+    Note: 0 = none, 100 = include all locations
     """
     display_name = "Proportion of Filler"
     range_start = 0

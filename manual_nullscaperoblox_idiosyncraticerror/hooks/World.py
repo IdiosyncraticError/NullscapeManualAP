@@ -117,6 +117,34 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         item = next(i for i in item_pool if i.name == itemName)
         remove_specific_item(item_pool, item)
 
+    item_count = len(item_pool)
+    filler_count = len(item_pool)*(world.options.filler_percent.value/100)
+    total_locations = filler_count + item_count
+    locations = []
+    max_locations = 0
+
+    for region in multiworld.region:
+        if region.player == player:
+            max_locations += len(list(region.locations))
+            locations.append(list(region.locations))
+
+    if total_locations > max_locations:
+        total_locations = max_locations
+    if world.options.filler_percent.value == 100:
+        total_locations = max_locations
+
+
+    while max_locations != total_locations:
+        chosen = world.random.choice(locations)
+        for region in multiworld.region:
+            if region.player == player:
+                for location in list(region.locations):
+                    if location.name == chosen:
+                        region.locations.remove(chosen)
+        locations.remove(chosen)
+        max_locations -= 1
+        #then go through the location and if it matches chosen, remove it
+
     return item_pool
 
     # Some other useful hook options:
