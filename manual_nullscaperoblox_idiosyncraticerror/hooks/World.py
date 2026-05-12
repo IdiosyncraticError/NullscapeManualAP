@@ -131,8 +131,8 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     if world.options.filler_percent.value == 100:
         total_locations = len(locations) #redundant but yk
 
-
-    while len(locations) != total_locations:
+    ###why dafaq is locations empty
+    while len(locations) > total_locations:
         chosen = world.random.choice(locations)
         for region in multiworld.regions:
             if region.player == player:
