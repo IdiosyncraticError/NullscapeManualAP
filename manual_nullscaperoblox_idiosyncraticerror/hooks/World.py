@@ -122,7 +122,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     total_locations = filler_count + item_count
     locations = []
 
-    for region in multiworld.region:
+    for region in multiworld.regions:
         if region.player == player:
             locations.extend(list(region.locations))
 
@@ -134,7 +134,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 
     while len(locations) != total_locations:
         chosen = world.random.choice(locations)
-        for region in multiworld.region:
+        for region in multiworld.regions:
             if region.player == player:
                 for location in list(region.locations):
                     if location.name == chosen.name:
