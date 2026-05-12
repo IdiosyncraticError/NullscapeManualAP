@@ -126,7 +126,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     for region in multiworld.region:
         if region.player == player:
             max_locations += len(list(region.locations))
-            locations.append(list(region.locations))
+            locations.extend(list(region.locations))
 
     if total_locations > max_locations:
         total_locations = max_locations
