@@ -18,6 +18,8 @@ from ..Helpers import is_option_enabled, get_option_value, format_state_prog_ite
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
 import logging
 
+import math
+
 ########################################################################################
 ## Order of method calls when the world generates:
 ##    1. create_regions - Creates regions and locations
@@ -119,7 +121,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 
     item_count = len(item_pool)
     filler_count = len(item_pool)*(world.options.filler_percent.value/100)
-    total_locations = filler_count + item_count
+    total_locations = math.ceil(filler_count) + item_count
     locations = []
 
     for region in multiworld.regions:
