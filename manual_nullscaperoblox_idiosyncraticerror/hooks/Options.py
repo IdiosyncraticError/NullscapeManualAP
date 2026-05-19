@@ -50,7 +50,7 @@ class StartingClass(Choice):
     Vanilla: Start with Diver and Charger
     """
     display_name = "Starting Classes"
-    option_random_class = 1
+    option_randomstart = 1
     option_prisoner = 2
     option_vanilla = 3
 
