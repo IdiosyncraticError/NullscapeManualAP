@@ -42,7 +42,7 @@ class LevelWinRequirement(Range):
     """
     display_name = "Goal level"
     range_start = 10
-    range_end = 40
+    range_end = 50
     default = 15
 
 class StartingClass(Choice):

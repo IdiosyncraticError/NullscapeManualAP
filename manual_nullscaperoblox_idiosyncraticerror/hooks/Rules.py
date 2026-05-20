@@ -28,5 +28,31 @@ def requiresMelee():
     """Returns a requires string that checks if the player has unlocked the tank."""
     return "|Figher Level:15| or |Black Belt Level:15| or |Thief Level:15|"
 
-def checkWin():
+def checkWin(world: World, character: str, state: CollectionState):
     """checks if class has reached level or not"""
+    win_lvl = world.options.level_win_requirement.value
+    check_lvl = 0
+    if win_lvl%10 == 1 or win_lvl%10 == 7 or win_lvl%10 == 9:
+        check_lvl = win_lvl - 1
+        
+    completed_levels = (check_lvl//10)*7
+    if check_lvl%10 >= 2:
+        completed_levels += 1
+    elif check_lvl%10 >= 3:
+        completed_levels += 2
+    elif check_lvl%10 >= 4:
+        completed_levels += 3
+    elif check_lvl%10 >= 5:
+        completed_levels += 4
+    elif check_lvl%10 >= 6:
+        completed_levels += 5
+    elif check_lvl%10 >= 8:
+        completed_levels += 6
+        
+    if state.count(item, player) >= int(level):
+        return True
+    #literally copy pasted from above but lets first see how tf this works
+    
+    
+    #uhh how is this going to incorporate meeting/beating celestial LOL
+    #i guess that can be the victory choice option - between levels and celestial
