@@ -95,6 +95,10 @@ rounds = [
     1, 2, 3, 4, 5, 6, 8, 10, 12, 13, 14, 15, 16, 18, 20, 22, 23, 24, 25, 26, 28, 30
 ]
 
+victory_rounds = [
+    8, 10, 15, 18, 20, 25, 30, 35, 40, 45, 50, "Meet Celestial", "Beat Celestial"
+]
+
 output = []
 for i in rounds:
     obj = {}
@@ -183,6 +187,19 @@ for i in greater_curses:
     cat_list.append("Greater Curses")
     obj["category"] = cat_list
     output.append(obj)
+
+for l in victory_rounds:
+    obj = {}
+    if type(l) == str:
+        obj["name"] = l
+        obj["region"] = "lvl 25"
+    else:
+        obj["name"] = "(Victory) Level " + str(l)
+        region = (l//5)*5
+        if region > 25:
+            region = 25
+        obj["region"] = "lvl " + str(region)
+    obj["victory"] = True,
     
 
 with open("data.json", "w") as file:
