@@ -15,7 +15,7 @@ enemies = [
     ["Kolona", [10]],
     ["Voidbreaker", [15]],
     ["Cadence", [15]],
-    ["Sigil", [15]]
+    ["Sigil", [15]],
     ["Voidbound Baby", [10]],
     ["Voidbound Guardian", [20]],
     ["Scrapmaw", [25]]
@@ -186,6 +186,7 @@ for i in greater_curses:
         cat_list.append(i[1][1]) #will need to change to accomodate more categories in the future but this is fine for now
     cat_list.append("Greater Curses")
     obj["category"] = cat_list
+    obj["prehint"] = True
     output.append(obj)
 
 for l in victory_rounds:

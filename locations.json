@@ -166,6 +166,14 @@
         ]
     },
     {
+        "name": "NIL",
+        "region": "lvl 5",
+        "category": [
+            "Level 5+",
+            "Enemies"
+        ]
+    },
+    {
         "name": "Operator",
         "region": "lvl 5",
         "category": [
@@ -207,14 +215,6 @@
     },
     {
         "name": "Cadence",
-        "region": "lvl 15",
-        "category": [
-            "Level 15+",
-            "Enemies"
-        ]
-    },
-    {
-        "name": "Sigil",
         "region": "lvl 15",
         "category": [
             "Level 15+",
@@ -410,18 +410,18 @@
     },
     {
         "name": "Mart Infection",
-        "region": "lvl 5",
+        "region": "lvl 0",
         "category": [
-            "Level 8+",
+            "Level 1+",
             "Mart",
             "Curses"
         ]
     },
     {
         "name": "Mart Slide",
-        "region": "lvl 5",
+        "region": "lvl 0",
         "category": [
-            "Level 8+",
+            "Level 1+",
             "Mart",
             "Curses"
         ]
@@ -544,6 +544,15 @@
         ]
     },
     {
+        "name": "Cognitive Dissonance",
+        "region": "lvl 5",
+        "category": [
+            "Level 5+",
+            "NIL",
+            "Curses"
+        ]
+    },
+    {
         "name": "Bigger Blast",
         "region": "lvl 5",
         "category": [
@@ -648,8 +657,7 @@
         "category": [
             "Level 15+",
             "Greater Curses"
-        ],
-        "prehint": true
+        ]
     },
     {
         "name": "Run",
@@ -657,8 +665,7 @@
         "category": [
             "Level 15+",
             "Greater Curses"
-        ],
-        "prehint": true
+        ]
     },
     {
         "name": "One Less Choice",
@@ -666,8 +673,7 @@
         "category": [
             "Level 10+",
             "Greater Curses"
-        ],
-        "prehint": true
+        ]
     },
     {
         "name": "Inverse Destruction",
@@ -675,8 +681,7 @@
         "category": [
             "Level 15+",
             "Greater Curses"
-        ],
-        "prehint": true
+        ]
     },
     {
         "name": "Void Implosions",
@@ -684,8 +689,7 @@
         "category": [
             "Level 10+",
             "Greater Curses"
-        ],
-        "prehint": true
+        ]
     },
     {
         "name": "Oblivion",
@@ -693,8 +697,7 @@
         "category": [
             "Level 10+",
             "Greater Curses"
-        ],
-        "prehint": true
+        ]
     },
     {
         "name": "Razorbloom",
@@ -702,8 +705,7 @@
         "category": [
             "Level 10+",
             "Greater Curses"
-        ],
-        "prehint": true
+        ]
     },
     {
         "name": "Tantrum",
@@ -712,8 +714,7 @@
             "Level 10+",
             "Baby",
             "Greater Curses"
-        ],
-        "prehint": true
+        ]
     },
     {
         "name": "Hollow Tiles",
@@ -722,8 +723,7 @@
             "Level 10+",
             "ICBM",
             "Greater Curses"
-        ],
-        "prehint": true
+        ]
     },
     {
         "name": "Destroyer",
@@ -732,8 +732,7 @@
             "Level 15+",
             "Husk",
             "Greater Curses"
-        ],
-        "prehint": true
+        ]
     },
     {
         "name": "Mass Infection",
@@ -742,8 +741,7 @@
             "Level 10+",
             "Flesh",
             "Greater Curses"
-        ],
-        "prehint": true
+        ]
     },
     {
         "name": "Ballet of Blades",
@@ -752,8 +750,7 @@
             "Level 15+",
             "Voidbreaker",
             "Greater Curses"
-        ],
-        "prehint": true
+        ]
     },
     {
         "name": "Blade Bombardment",
@@ -762,8 +759,7 @@
             "Level 15+",
             "Voidbreaker",
             "Greater Curses"
-        ],
-        "prehint": true
+        ]
     },
     {
         "name": "Malfunction",
@@ -772,7 +768,6 @@
             "Level 10+",
             "Operator",
             "Greater Curses"
-        ],
-        "prehint": true
+        ]
     }
 ]
