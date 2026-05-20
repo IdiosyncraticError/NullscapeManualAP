@@ -779,5 +779,15 @@
             "Greater Curses"
         ],
         "prehint": true
+    },
+    {
+        "name": "Meet Celestial",
+        "region": "lvl 25",
+        "victory": true
+    },
+    {
+        "name": "Beat Celestial",
+        "region": "lvl 25",
+        "victory": true
     }
 ]
