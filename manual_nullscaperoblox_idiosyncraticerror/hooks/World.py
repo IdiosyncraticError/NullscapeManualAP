@@ -48,11 +48,6 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
-    #i might be insane :3
-    #retrieve win level from option
-    #create location obj ???
-    #int divide (//) by 5 to find which region it should be in
-    #category as victory
     pass
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
@@ -89,10 +84,13 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         random_classes = world.options.random_class_start.value
 
         starting_class_temp = []
-        starting_class_temp.append([
-            name for name, i in world.item_name_to_item.items()
-                if "Class Unlock" in i.get("category", [])
+        starting_class_temp.extend([
+            i.name for i in item_pool
+                if "Class Unlock" in world.item_name_to_item[i.name].get("category", [])
         ])
+        
+        while random_classes > len(starting_class_temp):
+            random_classes -= 1
 
         for _ in range(random_classes):
             chosen = world.random.choice(starting_class_temp)

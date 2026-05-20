@@ -36,7 +36,9 @@ class ClassWinRequirement(Range):
 
 class LevelWinRequirement(Range):
     """
-    What level each class (except Prisoner) must reach to progress the win condition
+    What level each class must reach to progress the win condition
+    Prisoner doesn't count because we hate prisoner
+    (I also don't want to make an exception for this bum)
     """
     display_name = "Goal level"
     range_start = 10
@@ -53,6 +55,7 @@ class StartingClass(Choice):
     option_random = 1
     option_prisoner = 2
     option_vanilla = 3
+    default = 1
 
 class RandomClassStart(Range):
     """
