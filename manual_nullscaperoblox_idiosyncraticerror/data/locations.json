@@ -776,7 +776,67 @@
         "prehint": true
     },
     {
+        "name": "(Victory) Level 8",
+        "region": "lvl 5",
+        "victory": true
+    },
+    {
+        "name": "(Victory) Level 10",
+        "region": "lvl 10",
+        "victory": true
+    },
+    {
+        "name": "(Victory) Level 15",
+        "region": "lvl 15",
+        "victory": true
+    },
+    {
+        "name": "(Victory) Level 18",
+        "region": "lvl 15",
+        "victory": true
+    },
+    {
+        "name": "(Victory) Level 20",
+        "region": "lvl 20",
+        "victory": true
+    },
+    {
+        "name": "(Victory) Level 25",
+        "region": "lvl 25",
+        "victory": true
+    },
+    {
+        "name": "(Victory) Level 30",
+        "region": "lvl 25",
+        "victory": true
+    },
+    {
+        "name": "(Victory) Level 35",
+        "region": "lvl 25",
+        "victory": true
+    },
+    {
+        "name": "(Victory) Level 40",
+        "region": "lvl 25",
+        "victory": true
+    },
+    {
+        "name": "(Victory) Level 45",
+        "region": "lvl 25",
+        "victory": true
+    },
+    {
+        "name": "(Victory) Level 50",
+        "region": "lvl 25",
+        "victory": true
+    },
+    {
         "name": "Meet Celestial",
+        "region": "lvl 25",
+        "victory": true
+    },
+    {
+        "name": "Beat Celestial",
         "region": "lvl 25",
         "victory": true
     }
