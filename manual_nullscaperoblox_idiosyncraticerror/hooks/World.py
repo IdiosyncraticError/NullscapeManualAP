@@ -48,6 +48,11 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
+    #i might be insane :3
+    #retrieve win level from option
+    #create location obj ???
+    #int divide (//) by 5 to find which region it should be in
+    #category as victory
     pass
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
@@ -142,7 +147,6 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
                     if location.name == chosen.name:
                         region.locations.remove(chosen)
         locations.remove(chosen)
-        #then go through the location and if it matches chosen, remove it
 
     return item_pool
 
