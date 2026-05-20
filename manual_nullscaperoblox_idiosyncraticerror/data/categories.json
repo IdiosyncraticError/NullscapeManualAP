@@ -130,6 +130,12 @@
             "Spirit?"
         ]
     },
+    "glider": {
+        "hidden": true,
+        "yaml_option": [
+            "Glider?"
+        ]
+    },
     "wanted": {
         "hidden": true,
         "yaml_option": [
