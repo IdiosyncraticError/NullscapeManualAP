@@ -200,7 +200,8 @@ for l in victory_rounds:
         if region > 25:
             region = 25
         obj["region"] = "lvl " + str(region)
-    obj["victory"] = True,
+    obj["victory"] = True
+    output.append(obj)
     
 
 with open("data.json", "w") as file:
