@@ -55,7 +55,7 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     obj = {
         "name": "victory",
         "victory": True,
-        "region": "lvl " + region
+        "region": "lvl " + str(region)
     }
     for region in multiworld.regions:
         if region.player == player and region.name == obj.region:
