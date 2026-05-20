@@ -85,8 +85,8 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
         starting_class_temp = []
         starting_class_temp.extend([
-            name for name, i in world.item_name_to_item.items()
-                if "Class Unlock" in i.get("category", [])
+            i.name for i in item_pool
+                if "Class Unlock" in i.category
         ])
 
         for _ in range(random_classes):
