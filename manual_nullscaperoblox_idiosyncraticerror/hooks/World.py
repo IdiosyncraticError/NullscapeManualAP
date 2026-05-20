@@ -89,8 +89,8 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
                 if "Class Unlock" in i.category
         ])
         
-        while random_classes < len(starting_class_temp):
-            random_classes += 1
+        while random_classes > len(starting_class_temp):
+            random_classes -= 1
 
         for _ in range(random_classes):
             chosen = world.random.choice(starting_class_temp)
