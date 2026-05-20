@@ -55,6 +55,7 @@ class StartingClass(Choice):
     option_random = 1
     option_prisoner = 2
     option_vanilla = 3
+    default = 1
 
 class RandomClassStart(Range):
     """
