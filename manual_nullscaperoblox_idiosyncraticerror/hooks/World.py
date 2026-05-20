@@ -18,6 +18,8 @@ from ..Helpers import is_option_enabled, get_option_value, format_state_prog_ite
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
 import logging
 
+import math
+
 ########################################################################################
 ## Order of method calls when the world generates:
 ##    1. create_regions - Creates regions and locations
@@ -82,7 +84,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         random_classes = world.options.random_class_start.value
 
         starting_class_temp = []
-        starting_class_temp.extend([
+        starting_class_temp.append([
             name for name, i in world.item_name_to_item.items()
                 if "Class Unlock" in i.get("category", [])
         ])
@@ -116,6 +118,31 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)
         remove_specific_item(item_pool, item)
+
+    item_count = len(item_pool)
+    filler_count = len(item_pool)*(world.options.filler_percent.value/100)
+    total_locations = math.ceil(filler_count) + item_count
+    locations = []
+
+    for region in multiworld.regions:
+        if region.player == player:
+            locations.extend(list(region.locations))
+
+    if total_locations > len(locations):
+        total_locations = len(locations)
+    if world.options.filler_percent.value == 100:
+        total_locations = len(locations) #redundant but yk
+
+    ###why dafaq is locations empty
+    while len(locations) > total_locations:
+        chosen = world.random.choice(locations)
+        for region in multiworld.regions:
+            if region.player == player:
+                for location in list(region.locations):
+                    if location.name == chosen.name:
+                        region.locations.remove(chosen)
+        locations.remove(chosen)
+        #then go through the location and if it matches chosen, remove it
 
     return item_pool
 
