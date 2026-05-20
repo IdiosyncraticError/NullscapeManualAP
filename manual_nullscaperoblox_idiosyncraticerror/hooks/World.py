@@ -48,11 +48,18 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
-    #i might be insane :3
-    #retrieve win level from option
-    #create location obj ???
-    #int divide (//) by 5 to find which region it should be in
-    #category as victory
+    level = world.options.level_win_requirement.value
+    region = (level//5)*5
+    if region > 25:
+        region = 25
+    obj = {
+        "name": "victory",
+        "victory": True,
+        "region": "lvl " + region
+    }
+    for region in multiworld.regions:
+        if region.player == player and region.name == obj.region:
+            region.append(obj)
     pass
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
