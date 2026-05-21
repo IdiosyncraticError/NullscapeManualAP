@@ -96,7 +96,7 @@ rounds = [
 ]
 
 victory_rounds = [
-    "Reach a Level", "Meet Celestial", "Beat Celestial"
+    8, 10, 15, 18, 20, 25, 30, 35, 40, 45, 50, "Meet Celestial", "Beat Celestial"
 ]
 
 classes = [
@@ -110,21 +110,6 @@ classes = [
 ]
 
 output = []
-for i in victory_rounds:
-    obj = {}
-    obj["name"] = i
-    obj["victory"] = True
-    obj["requires"] = "{OptionCount(@Win Progression, class_win_requirement)}"
-
-for i in classes:
-    obj = {}
-    obj["name"] = i + " Win Requirement"
-    obj["category"] = "Class Win Tracker"
-    obj["place_item"] = [i + " Win Progression Flag"]
-    if i == "prisoner":
-        obj["requires"] = 
-    else:
-        obj["requires"] = "{OptionCount(@Win Progression, class_win_requirement)}"
 
 for i in rounds:
     obj = {}
@@ -213,6 +198,33 @@ for i in greater_curses:
     cat_list.append("Greater Curses")
     obj["category"] = cat_list
     obj["prehint"] = True
+    output.append(obj)
+
+for l in victory_rounds:
+    obj = {}
+    if type(l) == str:
+        obj["name"] = l
+        obj["region"] = "lvl 40"
+    else:
+        obj["name"] = "(Victory) Level " + str(l)
+        region = (l//5)*5
+        if region >= 5:
+            region = 5
+        if region >= 10:
+            region = 10
+        if region >= 15:
+            region = 15
+        if region >= 20:
+            region = 20
+        if region >= 25:
+            region = 25
+        if region >= 30:
+            region = 30
+        if region >= 40:
+            region = 40
+        obj["region"] = "lvl " + str(region)
+    obj["victory"] = True
+    obj["requires"] = "{OptionCount(@Win Progression, class_win_requirement)}"
     output.append(obj)
     
 
