@@ -80,7 +80,7 @@ for i in upgrades:
 
 for i in class_unlock:
     obj = {}
-    obj["count"] = "1"
+    obj["count"] = 1
     obj["name"] = i + " Unlock"
     
     cat_list = ["Class Unlock"]
@@ -93,13 +93,19 @@ for i in class_unlock:
 
 for i in traps:
     obj = {}
-    obj["count"] = "3"
+    obj["count"] = 3
     obj["name"] = i
 
     cat_list = ["Trap"]
     obj["trap"] = True
 
     output.append(obj)
+
+for i in class_unlock:
+    obj = {}
+    obj["count"] = 1
+    obj["name"] = i + " Win Progression Flag"
+    obj["category"] = ["Win Progression"]
     
 
 with open("data.json", "w") as file:

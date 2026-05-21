@@ -99,15 +99,32 @@ victory_rounds = [
     "Reach a Level", "Meet Celestial", "Beat Celestial"
 ]
 
+classes = [
+    "Diver",
+    "Charger",
+    "Grappler",
+    "Spirit",
+    "Glider",
+    "Wanted",
+    "Prisoner"
+]
+
 output = []
 for i in victory_rounds:
     obj = {}
     obj["name"] = i
+    obj["victory"] = True
     obj["requires"] = "{OptionCount(@Win Progression, class_win_requirement)}"
-    if i == "Reach a Level":
-        obj["region"] = 
+
+for i in classes:
+    obj = {}
+    obj["name"] = i + " Win Requirement"
+    obj["category"] = "Class Win Tracker"
+    obj["place_item"] = [i + " Win Progression Flag"]
+    if i == "prisoner":
+        obj["requires"] = 
     else:
-        obj["region"] = "lvl 40"
+        obj["requires"] = "{OptionCount(@Win Progression, class_win_requirement)}"
 
 for i in rounds:
     obj = {}
