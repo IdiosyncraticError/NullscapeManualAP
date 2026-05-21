@@ -96,10 +96,19 @@ rounds = [
 ]
 
 victory_rounds = [
-    "Meet Celestial", "Beat Celestial"
+    "Reach a Level", "Meet Celestial", "Beat Celestial"
 ]
 
 output = []
+for i in victory_rounds:
+    obj = {}
+    obj["name"] = i
+    obj["requires"] = "{OptionCount(@Win Progression, class_win_requirement)}"
+    if i == "Reach a Level":
+        obj["region"] = 
+    else:
+        obj["region"] = "lvl 40"
+
 for i in rounds:
     obj = {}
     obj["name"] = "Level " + str(i)
