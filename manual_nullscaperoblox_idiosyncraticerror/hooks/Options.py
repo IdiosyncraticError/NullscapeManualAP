@@ -52,10 +52,10 @@ class StartingClass(Choice):
     Vanilla: Start with Diver and Charger
     """
     display_name = "Starting Classes"
-    option_random = 1
-    option_prisoner = 2
-    option_vanilla = 3
-    default = 1
+    option_randomclass = 0
+    option_prisoner = 1
+    option_vanilla = 2
+    default = 0
 
 class RandomClassStart(Range):
     """
