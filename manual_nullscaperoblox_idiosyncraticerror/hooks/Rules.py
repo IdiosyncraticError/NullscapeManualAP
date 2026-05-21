@@ -49,9 +49,11 @@ def checkWin(world: World, character: str, state: CollectionState):
     elif check_lvl%10 >= 8:
         completed_levels += 6
         
-    if state.count(item, player) >= int(level):
-        return True
-    #literally copy pasted from above but lets first see how tf this works
+    #if state.count(item, player) >= int(level):
+    #    return True
+    #return False
+    #vro i think we gotta make copy locations for every fucking level dude
+    #shmuck this shit we're only implementing multiple classes, fuck custom level selection
     
     
     #uhh how is this going to incorporate meeting/beating celestial LOL
