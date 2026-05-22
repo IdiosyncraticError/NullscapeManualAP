@@ -29,31 +29,34 @@ def requiresMelee():
     return "|Figher Level:15| or |Black Belt Level:15| or |Thief Level:15|"
 
 def checkWin(world: World, character: str, state: CollectionState):
-    """checks if class has reached level or not"""
+    """returns require string based on region of goal level"""
+    region_reqs = [
+        "|Business License| and |Swiftness Ring:2|",
+        "|Grace Wings| and |Double Jump|",
+        "|Ninja Belt| and |Helmet| and |Defuse Kit:3|",
+        "|Sports Shoes| and |Matrix Tetrahedron| and |Shark Tail|",
+        "|Subspacial Barrier| and |Miniature Hourglass|",
+        "|Gift Magnet:3|",
+        "|Gift Idol:2|"
+    ]
+
     win_lvl = world.options.level_win_requirement.value
-    check_lvl = 0
-    if win_lvl%10 == 1 or win_lvl%10 == 7 or win_lvl%10 == 9:
-        check_lvl = win_lvl - 1
-        
-    completed_levels = (check_lvl//10)*7
-    if check_lvl%10 >= 2:
-        completed_levels += 1
-    elif check_lvl%10 >= 3:
-        completed_levels += 2
-    elif check_lvl%10 >= 4:
-        completed_levels += 3
-    elif check_lvl%10 >= 5:
-        completed_levels += 4
-    elif check_lvl%10 >= 6:
-        completed_levels += 5
-    elif check_lvl%10 >= 8:
-        completed_levels += 6
-        
-    #if state.count(item, player) >= int(level):
-    #    return True
-    #return False
-    #vro i think we gotta make copy locations for every fucking level dude
-    #shmuck this shit we're only implementing multiple classes, fuck custom level selection
+    requires = ""
+
+    if win_lvl == 10:
+        requires += region_reqs[0] + " and " + region_reqs[1]
+    if win_lvl <= 15:
+        requires += " and " + region_reqs[2]
+    if win_lvl <= 20:
+        requires += " and " + region_reqs[3]
+    if win_lvl <= 25:
+        requires += " and " + region_reqs[4]
+    if win_lvl <= 30:
+        requires += " and " + region_reqs[5]
+    if win_lvl <= 40:
+        requires += " and " + region_reqs[6]
+    
+    return requires
     
     
     #uhh how is this going to incorporate meeting/beating celestial LOL
