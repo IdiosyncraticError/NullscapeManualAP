@@ -96,7 +96,7 @@ rounds = [
 ]
 
 victory_rounds = [
-    8, 10, 15, 18, 20, 25, 30, 35, 40, 45, 50, "Meet Celestial", "Beat Celestial"
+    "Reach a Level", "Meet Celestial", "Beat Celestial"
 ]
 
 classes = [
@@ -202,30 +202,21 @@ for i in greater_curses:
 
 for l in victory_rounds:
     obj = {}
-    if type(l) == str:
-        obj["name"] = l
-        obj["region"] = "lvl 40"
-    else:
-        obj["name"] = "(Victory) Level " + str(l)
-        region = (l//5)*5
-        if region >= 5:
-            region = 5
-        if region >= 10:
-            region = 10
-        if region >= 15:
-            region = 15
-        if region >= 20:
-            region = 20
-        if region >= 25:
-            region = 25
-        if region >= 30:
-            region = 30
-        if region >= 40:
-            region = 40
-        obj["region"] = "lvl " + str(region)
+    obj["name"] = l
+    #i could lowkey just make a region for the class tracker locations and make the requires the req func theyre using rn but tme bro + connections
     obj["victory"] = True
     obj["requires"] = "{OptionCount(@Win Progression, class_win_requirement)}"
     output.append(obj)
+
+for i in classes:
+    obj = {}
+    obj["name"] = i + " Win Requirement"
+    obj["category"] = "Class Win Tracker"
+    obj["place_item"] = [i + " Win Progression Flag"]
+    if i == "prisoner":
+        obj["requires"] = "{CheckPrisoner()}"
+    else:
+        obj["requires"] = "{CheckWin()}"
     
 
 with open("data.json", "w") as file:
