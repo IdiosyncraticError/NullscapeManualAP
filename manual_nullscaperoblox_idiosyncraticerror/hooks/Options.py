@@ -47,7 +47,7 @@ class LevelWinRequirement(Range):
 
 class StartingClass(Choice):
     """
-    Random: See number of starting random classes\n
+    Randomclass: See number of starting random classes\n
     Prisoner: Start on Prisoner\n
     Vanilla: Start with Diver and Charger
     """
