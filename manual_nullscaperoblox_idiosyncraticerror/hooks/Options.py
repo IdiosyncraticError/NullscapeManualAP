@@ -51,6 +51,7 @@ class StartingClass(Choice):
     Randomclass: See number of starting random classes
     Prisoner: Start on Prisoner
     Vanilla: Start with Diver and Charger
+    If on Prisoner or Vanilla, Prisoner or Diver+Charger MUST be enabled
     """
     display_name = "Starting Classes"
     option_randomclass = 0

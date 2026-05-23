@@ -101,10 +101,13 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     elif start_type == world.options.start_type.option_vanilla:
         starting_class = ["Diver Unlock", "Charger Unlock"]
 
-    for unlock in starting_class:
-        item = next(i for i in item_pool if i.name == unlock)
-        multiworld.push_precollected(item)
-        item_pool.remove(item)
+    try:
+        for unlock in starting_class:
+            item = next(i for i in item_pool if i.name == unlock)
+            multiworld.push_precollected(item)
+            item_pool.remove(item)
+    except Exception as ex:
+         raise Exception("Starting inventory of classes not compatible with start type")
 
     return item_pool
 
