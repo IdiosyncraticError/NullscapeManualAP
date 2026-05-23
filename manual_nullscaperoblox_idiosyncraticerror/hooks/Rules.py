@@ -43,17 +43,17 @@ def checkWin(world: World):
     win_lvl = world.options.level_win_requirement.value
     requires = ""
 
-    if win_lvl == 10:
+    if win_lvl >= 10:
         requires += region_reqs[0] + " and " + region_reqs[1]
-    if win_lvl <= 15:
+    if win_lvl >= 15:
         requires += " and " + region_reqs[2]
-    if win_lvl <= 20:
+    if win_lvl >= 20:
         requires += " and " + region_reqs[3]
-    if win_lvl <= 25:
+    if win_lvl >= 25:
         requires += " and " + region_reqs[4]
-    if win_lvl <= 30:
+    if win_lvl >= 30:
         requires += " and " + region_reqs[5]
-    if win_lvl <= 40:
+    if win_lvl >= 40:
         requires += " and " + region_reqs[6]
     
     return requires
@@ -73,9 +73,9 @@ def checkPrisoner(world: World):
     win_lvl = world.options.level_win_requirement.value
     requires = ""
 
-    if win_lvl == 10:
+    if win_lvl >= 10:
         requires += region_reqs[0] + " and " + region_reqs[1]
-    if win_lvl <= 15:
+    if win_lvl >= 15:
         requires += " and " + region_reqs[2]
     
     return requires
