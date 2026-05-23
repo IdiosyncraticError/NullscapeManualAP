@@ -28,7 +28,7 @@ def requiresMelee():
     """Returns a requires string that checks if the player has unlocked the tank."""
     return "|Figher Level:15| or |Black Belt Level:15| or |Thief Level:15|"
 
-def checkWin(world: World):
+def checkWin(world: World, character: str):
     """returns require string based on region of goal level"""
     region_reqs = [
         "|Business License| and |Swiftness Ring:2|",
@@ -41,7 +41,7 @@ def checkWin(world: World):
     ]
 
     win_lvl = world.options.level_win_requirement.value
-    requires = ""
+    requires = "|" + character + " Unlock| and "
 
     if win_lvl >= 10:
         requires += region_reqs[0] + " and " + region_reqs[1]
@@ -71,7 +71,7 @@ def checkPrisoner(world: World):
     ]
 
     win_lvl = world.options.level_win_requirement.value
-    requires = ""
+    requires = "|Prisoner Unlock| and "
 
     if win_lvl >= 10:
         requires += region_reqs[0] + " and " + region_reqs[1]

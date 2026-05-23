@@ -216,7 +216,7 @@ for i in classes:
     if i == "Prisoner":
         obj["requires"] = "{checkPrisoner()}"
     else:
-        obj["requires"] = "{checkWin()}"
+        obj["requires"] = "{checkWin(" + i + ")}"
     output.append(obj)
     
 
