@@ -114,6 +114,22 @@
             "type": "Toggle",
             "default": false,
             "group": "classes"
+        },
+        "Multiplayer?":{
+            "description": [
+                "Enable Multiplayer only curses and upgrades"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "gameplay"
+        },
+        "Solo?":{
+            "description": [
+                "Enable Solo only upgrades (Adrenaline)"
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "gameplay"
         }
     }
 

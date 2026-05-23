@@ -151,10 +151,16 @@
         ]
     },
     "Solo": {
-        "hidden": true
+        "hidden": true,
+        "yaml_option": [
+            "Solo?"
+        ]
     },
     "Multiplayer": {
-        "hidden": true
+        "hidden": true,
+        "yaml_option": [
+            "Multiplayer?"
+        ]
     },
     "Standard+": {
         "hidden": true
