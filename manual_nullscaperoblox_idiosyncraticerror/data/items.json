@@ -417,48 +417,55 @@
         "name": "Diver Win Progression Flag",
         "category": [
             "Win Progression"
-        ]
+        ],
+        "progression": true
     },
     {
         "count": 1,
         "name": "Charger Win Progression Flag",
         "category": [
             "Win Progression"
-        ]
+        ],
+        "progression": true
     },
     {
         "count": 1,
         "name": "Grappler Win Progression Flag",
         "category": [
             "Win Progression"
-        ]
+        ],
+        "progression": true
     },
     {
         "count": 1,
         "name": "Spirit Win Progression Flag",
         "category": [
             "Win Progression"
-        ]
+        ],
+        "progression": true
     },
     {
         "count": 1,
         "name": "Glider Win Progression Flag",
         "category": [
             "Win Progression"
-        ]
+        ],
+        "progression": true
     },
     {
         "count": 1,
         "name": "Wanted Win Progression Flag",
         "category": [
             "Win Progression"
-        ]
+        ],
+        "progression": true
     },
     {
         "count": 1,
         "name": "Prisoner Win Progression Flag",
         "category": [
             "Win Progression"
-        ]
+        ],
+        "progression": true
     }
 ]
