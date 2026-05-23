@@ -60,7 +60,9 @@
             "level_25+"
         ]
     },
-    
+    "Win Progression": {
+        "hidden": true
+    },
     "Bell": {
         "hidden": true
     },

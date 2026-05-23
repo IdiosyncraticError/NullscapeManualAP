@@ -106,6 +106,7 @@ for i in class_unlock:
     obj["count"] = 1
     obj["name"] = i + " Win Progression Flag"
     obj["category"] = ["Win Progression"]
+    output.append(obj)
     
 
 with open("data.json", "w") as file:

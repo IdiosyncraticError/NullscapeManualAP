@@ -1,10 +1,5 @@
 [
     {
-        "name": "victory",
-        "victory": true,
-        "requires": "{OptionCount(@Win Progression, class_win_requirement)}"
-    },
-    {
         "name": "Level 1",
         "region": "lvl 0",
         "category": "Levels"
@@ -781,13 +776,74 @@
         "prehint": true
     },
     {
+        "name": "Reach a Level",
+        "victory": true,
+        "requires": "{OptionCount(@Win Progression, class_win_requirement)}"
+    },
+    {
         "name": "Meet Celestial",
-        "region": "lvl 25",
-        "victory": true
+        "victory": true,
+        "requires": "{OptionCount(@Win Progression, class_win_requirement)}"
     },
     {
         "name": "Beat Celestial",
-        "region": "lvl 25",
-        "victory": true
+        "victory": true,
+        "requires": "{OptionCount(@Win Progression, class_win_requirement)}"
+    },
+    {
+        "name": "Diver Win Requirement",
+        "category": "Class Win Tracker",
+        "place_item": [
+            "Diver Win Progression Flag"
+        ],
+        "requires": "{CheckWin()}"
+    },
+    {
+        "name": "Charger Win Requirement",
+        "category": "Class Win Tracker",
+        "place_item": [
+            "Charger Win Progression Flag"
+        ],
+        "requires": "{CheckWin()}"
+    },
+    {
+        "name": "Grappler Win Requirement",
+        "category": "Class Win Tracker",
+        "place_item": [
+            "Grappler Win Progression Flag"
+        ],
+        "requires": "{CheckWin()}"
+    },
+    {
+        "name": "Spirit Win Requirement",
+        "category": "Class Win Tracker",
+        "place_item": [
+            "Spirit Win Progression Flag"
+        ],
+        "requires": "{CheckWin()}"
+    },
+    {
+        "name": "Glider Win Requirement",
+        "category": "Class Win Tracker",
+        "place_item": [
+            "Glider Win Progression Flag"
+        ],
+        "requires": "{CheckWin()}"
+    },
+    {
+        "name": "Wanted Win Requirement",
+        "category": "Class Win Tracker",
+        "place_item": [
+            "Wanted Win Progression Flag"
+        ],
+        "requires": "{CheckWin()}"
+    },
+    {
+        "name": "Prisoner Win Requirement",
+        "category": "Class Win Tracker",
+        "place_item": [
+            "Prisoner Win Progression Flag"
+        ],
+        "requires": "{CheckWin()}"
     }
 ]

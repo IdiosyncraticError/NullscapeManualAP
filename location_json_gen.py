@@ -217,6 +217,7 @@ for i in classes:
         obj["requires"] = "{CheckPrisoner()}"
     else:
         obj["requires"] = "{CheckWin()}"
+    output.append(obj)
     
 
 with open("data.json", "w") as file:
