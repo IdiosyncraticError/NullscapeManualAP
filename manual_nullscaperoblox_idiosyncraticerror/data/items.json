@@ -98,7 +98,7 @@
             "Standard+",
             "Upgrades"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": "1",
@@ -309,7 +309,7 @@
             "Level 20+",
             "Upgrades"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": "5",
