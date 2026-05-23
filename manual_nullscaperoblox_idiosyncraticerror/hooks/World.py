@@ -143,7 +143,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     while len(locations) > total_locations:
         chosen = world.random.choice(locations)
         for region in multiworld.regions:
-            if region.player == player:
+            if region.player == player and region.name.startswith("lvl"):
                 for location in list(region.locations):
                     if location.name == chosen.name:
                         region.locations.remove(chosen)
