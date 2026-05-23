@@ -107,7 +107,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             multiworld.push_precollected(item)
             item_pool.remove(item)
     except Exception as ex:
-         raise Exception("Starting inventory of classes not compatible with start type(prisoner or vanilla) or starting number of classes (random class)")
+         raise Exception("Starting inventory of classes not compatible with start type(prisoner or vanilla) or starting number of classes(random class)")
 
     return item_pool
 
