@@ -36,7 +36,7 @@ def checkWin(world: World):
         "|Ninja Belt| and |Helmet| and |Defuse Kit:3|",
         "|Sports Shoes| and |Matrix Tetrahedron| and |Shark Tail|",
         "|Subspacial Barrier| and |Miniature Hourglass|",
-        "|Gift Magnet:3|",
+        "|Gift Magnet:3| and |Shield|",
         "|Gift Idol:2|"
     ]
 
@@ -66,7 +66,7 @@ def checkPrisoner(world: World):
         "|Ninja Belt| and |Helmet| and |Defuse Kit:3|",
         "|Sports Shoes| and |Matrix Tetrahedron| and |Shark Tail|",
         "|Subspacial Barrier| and |Miniature Hourglass|",
-        "|Gift Magnet:3|",
+        "|Gift Magnet:3| and |Shield|",
         "|Gift Idol:2|"
     ]
 

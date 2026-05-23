@@ -25,7 +25,7 @@
   },
   "lvl 30": {
     "connects_to": ["lvl 40"],
-    "requires": "|Gift Magnet:3|"
+    "requires": "|Gift Magnet:3| and |Shield|"
   },
   "lvl 40": {
     "requires": "|Gift Idol:2|"
