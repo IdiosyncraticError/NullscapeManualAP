@@ -13,13 +13,21 @@
   },
   "lvl 15": {
     "connects_to": ["lvl 20"],
-    "requires": "|Ninja Belt| and |Helmet|"
+    "requires": "|Ninja Belt| and |Helmet| and |Defuse Kit:3|"
   },
   "lvl 20": {
     "connects_to": ["lvl 25"],
     "requires": "|Sports Shoes| and |Matrix Tetrahedron| and |Shark Tail|"
   },
   "lvl 25": {
-    "requires": "|Gift Idol|"
+    "connects_to": ["lvl 30"],
+    "requires": "|Subspacial Barrier| and |Miniature Hourglass|"
+  },
+  "lvl 30": {
+    "connects_to": ["lvl 40"],
+    "requires": "|Gift Magnet:3| and |Shield|"
+  },
+  "lvl 40": {
+    "requires": "|Gift Idol:2|"
   }
 }

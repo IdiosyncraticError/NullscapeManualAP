@@ -96,10 +96,21 @@ rounds = [
 ]
 
 victory_rounds = [
-    8, 10, 15, 18, 20, 25, 30, 35, 40, 45, 50, "Meet Celestial", "Beat Celestial"
+    "Reach a Level", "Meet Celestial", "Beat Celestial"
+]
+
+classes = [
+    "Diver",
+    "Charger",
+    "Grappler",
+    "Spirit",
+    "Glider",
+    "Wanted",
+    "Prisoner"
 ]
 
 output = []
+
 for i in rounds:
     obj = {}
     obj["name"] = "Level " + str(i)
@@ -191,16 +202,21 @@ for i in greater_curses:
 
 for l in victory_rounds:
     obj = {}
-    if type(l) == str:
-        obj["name"] = l
-        obj["region"] = "lvl 25"
-    else:
-        obj["name"] = "(Victory) Level " + str(l)
-        region = (l//5)*5
-        if region > 25:
-            region = 25
-        obj["region"] = "lvl " + str(region)
+    obj["name"] = l
+    #i could lowkey just make a region for the class tracker locations and make the requires the req func theyre using rn but tme bro + connections
     obj["victory"] = True
+    obj["requires"] = "{OptionCount(@Win Progression, class_win_requirement)}"
+    output.append(obj)
+
+for i in classes:
+    obj = {}
+    obj["name"] = i + " Win Requirement"
+    obj["category"] = "Class Win Tracker"
+    obj["place_item"] = [i + " Win Progression Flag"]
+    if i == "Prisoner":
+        obj["requires"] = "{checkPrisoner()}"
+    else:
+        obj["requires"] = "{checkWin(" + i + ")}"
     output.append(obj)
     
 

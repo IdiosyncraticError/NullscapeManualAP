@@ -776,68 +776,74 @@
         "prehint": true
     },
     {
-        "name": "(Victory) Level 8",
-        "region": "lvl 5",
-        "victory": true
-    },
-    {
-        "name": "(Victory) Level 10",
-        "region": "lvl 10",
-        "victory": true
-    },
-    {
-        "name": "(Victory) Level 15",
-        "region": "lvl 15",
-        "victory": true
-    },
-    {
-        "name": "(Victory) Level 18",
-        "region": "lvl 15",
-        "victory": true
-    },
-    {
-        "name": "(Victory) Level 20",
-        "region": "lvl 20",
-        "victory": true
-    },
-    {
-        "name": "(Victory) Level 25",
-        "region": "lvl 25",
-        "victory": true
-    },
-    {
-        "name": "(Victory) Level 30",
-        "region": "lvl 25",
-        "victory": true
-    },
-    {
-        "name": "(Victory) Level 35",
-        "region": "lvl 25",
-        "victory": true
-    },
-    {
-        "name": "(Victory) Level 40",
-        "region": "lvl 25",
-        "victory": true
-    },
-    {
-        "name": "(Victory) Level 45",
-        "region": "lvl 25",
-        "victory": true
-    },
-    {
-        "name": "(Victory) Level 50",
-        "region": "lvl 25",
-        "victory": true
+        "name": "Reach a Level",
+        "victory": true,
+        "requires": "{OptionCount(@Win Progression, class_win_requirement)}"
     },
     {
         "name": "Meet Celestial",
-        "region": "lvl 25",
-        "victory": true
+        "victory": true,
+        "requires": "{OptionCount(@Win Progression, class_win_requirement)}"
     },
     {
         "name": "Beat Celestial",
-        "region": "lvl 25",
-        "victory": true
+        "victory": true,
+        "requires": "{OptionCount(@Win Progression, class_win_requirement)}"
+    },
+    {
+        "name": "Diver Win Requirement",
+        "category": "Class Win Tracker",
+        "place_item": [
+            "Diver Win Progression Flag"
+        ],
+        "requires": "{checkWin(Diver)}"
+    },
+    {
+        "name": "Charger Win Requirement",
+        "category": "Class Win Tracker",
+        "place_item": [
+            "Charger Win Progression Flag"
+        ],
+        "requires": "{checkWin(Charger)}"
+    },
+    {
+        "name": "Grappler Win Requirement",
+        "category": "Class Win Tracker",
+        "place_item": [
+            "Grappler Win Progression Flag"
+        ],
+        "requires": "{checkWin(Grappler)}"
+    },
+    {
+        "name": "Spirit Win Requirement",
+        "category": "Class Win Tracker",
+        "place_item": [
+            "Spirit Win Progression Flag"
+        ],
+        "requires": "{checkWin(Spirit)}"
+    },
+    {
+        "name": "Glider Win Requirement",
+        "category": "Class Win Tracker",
+        "place_item": [
+            "Glider Win Progression Flag"
+        ],
+        "requires": "{checkWin(Glider)}"
+    },
+    {
+        "name": "Wanted Win Requirement",
+        "category": "Class Win Tracker",
+        "place_item": [
+            "Wanted Win Progression Flag"
+        ],
+        "requires": "{checkWin(Wanted)}"
+    },
+    {
+        "name": "Prisoner Win Requirement",
+        "category": "Class Win Tracker",
+        "place_item": [
+            "Prisoner Win Progression Flag"
+        ],
+        "requires": "{checkPrisoner()}"
     }
 ]

@@ -37,19 +37,21 @@ class ClassWinRequirement(Range):
 class LevelWinRequirement(Range):
     """
     What level each class must reach to progress the win condition
-    Prisoner doesn't count because we hate prisoner
-    (I also don't want to make an exception for this bum)
+    Logic will treat Prisoner's goal level as 15 at the highest. If you manage to go higher send me proof and I'll change the logic lol
+    !!! If you select Celestial as a goal, set level win requirement to at least 40 or the logic might be broken !!!
+    !!! If you selected a level as a goal, you will need to remember what level you chose (this is the best I can do I Think) !!!
     """
     display_name = "Goal level"
     range_start = 10
-    range_end = 40
+    range_end = 50
     default = 15
 
 class StartingClass(Choice):
     """
-    Random: See number of starting random classes\n
-    Prisoner: Start on Prisoner\n
+    Randomclass: See number of starting random classes
+    Prisoner: Start on Prisoner
     Vanilla: Start with Diver and Charger
+    If on Prisoner or Vanilla, Prisoner or Diver+Charger MUST be enabled
     """
     display_name = "Starting Classes"
     option_randomclass = 0

@@ -11,7 +11,7 @@ upgrades = [
     ["Tria Orbs", "1", ["Level 5+"], 2],
     ["Grapple Points", "1", ["Level 5+"], 2],
     ["Double Jump", "1", ["Level 5+"], 4],
-    ["Defuse Kit", "3", ["Level 5+", "Standard+"], 3],
+    ["Defuse Kit", "3", ["Level 5+", "Standard+"], 4],
     ["Grace Wings", "1", ["Level 8+"], 4],
     ["Pocket Bell", "1", ["Level 8+"], 4],
     ["Ice Skates", "1", ["Level 8+"], 3],
@@ -34,7 +34,7 @@ upgrades = [
     ["Shield", "1", ["Level 15+"], 4],
     ["Radar Module: Instruments", "1", ["Level 15+"], 3],
     ["Panic Necklace", "1", ["Level 18+"], 2],
-    ["Miniature Hourglass", "1", ["Level 20+"], 3],
+    ["Miniature Hourglass", "1", ["Level 20+"], 4],
     ["Gift Idol", "5", ["Level 20+"], 3],
     ["Drowned Aegis", "1", ["Level 20+"], 3]
 ]
@@ -80,7 +80,7 @@ for i in upgrades:
 
 for i in class_unlock:
     obj = {}
-    obj["count"] = "1"
+    obj["count"] = 1
     obj["name"] = i + " Unlock"
     
     cat_list = ["Class Unlock"]
@@ -93,12 +93,20 @@ for i in class_unlock:
 
 for i in traps:
     obj = {}
-    obj["count"] = "3"
+    obj["count"] = 3
     obj["name"] = i
 
     cat_list = ["Trap"]
     obj["trap"] = True
 
+    output.append(obj)
+
+for i in class_unlock:
+    obj = {}
+    obj["count"] = 1
+    obj["name"] = i + " Win Progression Flag"
+    obj["category"] = ["Win Progression"]
+    obj["progression"] = True
     output.append(obj)
     
 

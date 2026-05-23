@@ -27,3 +27,58 @@ def anyClassLevel(state: CollectionState, player: int, level: str):
 def requiresMelee():
     """Returns a requires string that checks if the player has unlocked the tank."""
     return "|Figher Level:15| or |Black Belt Level:15| or |Thief Level:15|"
+
+def checkWin(world: World, character: str):
+    """returns require string based on region of goal level"""
+    region_reqs = [
+        "|Business License| and |Swiftness Ring:2|",
+        "|Grace Wings| and |Double Jump|",
+        "|Ninja Belt| and |Helmet| and |Defuse Kit:3|",
+        "|Sports Shoes| and |Matrix Tetrahedron| and |Shark Tail|",
+        "|Subspacial Barrier| and |Miniature Hourglass|",
+        "|Gift Magnet:3| and |Shield|",
+        "|Gift Idol:2|"
+    ]
+
+    win_lvl = world.options.level_win_requirement.value
+    requires = "|" + character + " Unlock| and "
+
+    if win_lvl >= 10:
+        requires += region_reqs[0] + " and " + region_reqs[1]
+    if win_lvl >= 15:
+        requires += " and " + region_reqs[2]
+    if win_lvl >= 20:
+        requires += " and " + region_reqs[3]
+    if win_lvl >= 25:
+        requires += " and " + region_reqs[4]
+    if win_lvl >= 30:
+        requires += " and " + region_reqs[5]
+    if win_lvl >= 40:
+        requires += " and " + region_reqs[6]
+    
+    return requires
+
+def checkPrisoner(world: World):
+    """returns require string based on region of goal level"""
+    region_reqs = [
+        "|Business License| and |Swiftness Ring:2|",
+        "|Grace Wings| and |Double Jump|",
+        "|Ninja Belt| and |Helmet| and |Defuse Kit:3|",
+        "|Sports Shoes| and |Matrix Tetrahedron| and |Shark Tail|",
+        "|Subspacial Barrier| and |Miniature Hourglass|",
+        "|Gift Magnet:3| and |Shield|",
+        "|Gift Idol:2|"
+    ]
+
+    win_lvl = world.options.level_win_requirement.value
+    requires = "|Prisoner Unlock| and "
+
+    if win_lvl >= 10:
+        requires += region_reqs[0] + " and " + region_reqs[1]
+    if win_lvl >= 15:
+        requires += " and " + region_reqs[2]
+    
+    return requires
+    
+    #uhh how is this going to incorporate meeting/beating celestial LOL
+    #i guess that can be the victory choice option - between levels and celestial

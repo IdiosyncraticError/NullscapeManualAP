@@ -101,10 +101,13 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     elif start_type == world.options.start_type.option_vanilla:
         starting_class = ["Diver Unlock", "Charger Unlock"]
 
-    for unlock in starting_class:
-        item = next(i for i in item_pool if i.name == unlock)
-        multiworld.push_precollected(item)
-        item_pool.remove(item)
+    try:
+        for unlock in starting_class:
+            item = next(i for i in item_pool if i.name == unlock)
+            multiworld.push_precollected(item)
+            item_pool.remove(item)
+    except Exception as ex:
+         raise Exception("Inventory of classes not compatible with start type(prisoner or vanilla) or starting number of classes(random class)")
 
     return item_pool
 
@@ -140,7 +143,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     while len(locations) > total_locations:
         chosen = world.random.choice(locations)
         for region in multiworld.regions:
-            if region.player == player:
+            if region.player == player and region.name.startswith("lvl"):
                 for location in list(region.locations):
                     if location.name == chosen.name:
                         region.locations.remove(chosen)
