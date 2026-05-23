@@ -213,10 +213,10 @@ for i in classes:
     obj["name"] = i + " Win Requirement"
     obj["category"] = "Class Win Tracker"
     obj["place_item"] = [i + " Win Progression Flag"]
-    if i == "prisoner":
-        obj["requires"] = "{CheckPrisoner()}"
+    if i == "Prisoner":
+        obj["requires"] = "{checkPrisoner()}"
     else:
-        obj["requires"] = "{CheckWin()}"
+        obj["requires"] = "{checkWin()}"
     output.append(obj)
     
 

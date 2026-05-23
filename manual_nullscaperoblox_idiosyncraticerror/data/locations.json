@@ -796,7 +796,7 @@
         "place_item": [
             "Diver Win Progression Flag"
         ],
-        "requires": "{CheckWin()}"
+        "requires": "{checkWin()}"
     },
     {
         "name": "Charger Win Requirement",
@@ -804,7 +804,7 @@
         "place_item": [
             "Charger Win Progression Flag"
         ],
-        "requires": "{CheckWin()}"
+        "requires": "{checkWin()}"
     },
     {
         "name": "Grappler Win Requirement",
@@ -812,7 +812,7 @@
         "place_item": [
             "Grappler Win Progression Flag"
         ],
-        "requires": "{CheckWin()}"
+        "requires": "{checkWin()}"
     },
     {
         "name": "Spirit Win Requirement",
@@ -820,7 +820,7 @@
         "place_item": [
             "Spirit Win Progression Flag"
         ],
-        "requires": "{CheckWin()}"
+        "requires": "{checkWin()}"
     },
     {
         "name": "Glider Win Requirement",
@@ -828,7 +828,7 @@
         "place_item": [
             "Glider Win Progression Flag"
         ],
-        "requires": "{CheckWin()}"
+        "requires": "{checkWin()}"
     },
     {
         "name": "Wanted Win Requirement",
@@ -836,7 +836,7 @@
         "place_item": [
             "Wanted Win Progression Flag"
         ],
-        "requires": "{CheckWin()}"
+        "requires": "{checkWin()}"
     },
     {
         "name": "Prisoner Win Requirement",
@@ -844,6 +844,6 @@
         "place_item": [
             "Prisoner Win Progression Flag"
         ],
-        "requires": "{CheckWin()}"
+        "requires": "{checkPrisoner()}"
     }
 ]
