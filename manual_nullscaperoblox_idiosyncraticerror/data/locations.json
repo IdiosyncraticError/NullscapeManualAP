@@ -2,112 +2,178 @@
     {
         "name": "Level 1",
         "region": "lvl 0",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 1+"
+        ]
     },
     {
         "name": "Level 2",
         "region": "lvl 0",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 1+"
+        ]
     },
     {
         "name": "Level 3",
         "region": "lvl 0",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 1+"
+        ]
     },
     {
         "name": "Level 4",
         "region": "lvl 0",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 1+"
+        ]
     },
     {
         "name": "Level 5",
         "region": "lvl 5",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 5+"
+        ]
     },
     {
         "name": "Level 6",
         "region": "lvl 5",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 5+"
+        ]
     },
     {
         "name": "Level 8",
         "region": "lvl 5",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 5+"
+        ]
     },
     {
         "name": "Level 10",
         "region": "lvl 10",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 10+"
+        ]
     },
     {
         "name": "Level 12",
         "region": "lvl 10",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 10+"
+        ]
     },
     {
         "name": "Level 13",
         "region": "lvl 10",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 10+"
+        ]
     },
     {
         "name": "Level 14",
         "region": "lvl 10",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 10+"
+        ]
     },
     {
         "name": "Level 15",
         "region": "lvl 15",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 15+"
+        ]
     },
     {
         "name": "Level 16",
         "region": "lvl 15",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 15+"
+        ]
     },
     {
         "name": "Level 18",
         "region": "lvl 15",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 15+"
+        ]
     },
     {
         "name": "Level 20",
         "region": "lvl 20",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 20+"
+        ]
     },
     {
         "name": "Level 22",
         "region": "lvl 20",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 20+"
+        ]
     },
     {
         "name": "Level 23",
         "region": "lvl 20",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 20+"
+        ]
     },
     {
         "name": "Level 24",
         "region": "lvl 20",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 20+"
+        ]
     },
     {
         "name": "Level 25",
         "region": "lvl 25",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 25+"
+        ]
     },
     {
         "name": "Level 26",
         "region": "lvl 25",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 25+"
+        ]
     },
     {
         "name": "Level 28",
         "region": "lvl 25",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 25+"
+        ]
     },
     {
         "name": "Level 30",
         "region": "lvl 25",
-        "category": "Levels"
+        "category": [
+            "Levels",
+            "Level 25+"
+        ]
     },
     {
         "name": "Bell",

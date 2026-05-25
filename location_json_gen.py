@@ -114,19 +114,26 @@ output = []
 for i in rounds:
     obj = {}
     obj["name"] = "Level " + str(i)
+    spec_lvl_cat = ""
     if i < 5:
         obj["region"] = "lvl 0"
+        spec_lvl_cat = "Level 1+"
     elif i < 10:
         obj["region"] = "lvl 5"
+        spec_lvl_cat = "Level 5+"
     elif i < 15:
         obj["region"] = "lvl 10"
+        spec_lvl_cat = "Level 10+"
     elif i < 20:
         obj["region"] = "lvl 15"
+        spec_lvl_cat = "Level 15+"
     elif i < 25:
         obj["region"] = "lvl 20"
+        spec_lvl_cat = "Level 20+"
     else:
         obj["region"] = "lvl 25"
-    obj["category"] = "Levels"
+        spec_lvl_cat = "Level 25+"
+    obj["category"] = ["Levels", spec_lvl_cat]
     output.append(obj)
 
 for i in enemies:
