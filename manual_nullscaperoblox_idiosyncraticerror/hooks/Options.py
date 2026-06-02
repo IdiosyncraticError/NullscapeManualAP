@@ -77,6 +77,12 @@ class FillerCount(Range):
     range_start = 0
     range_end = 100
     default = 30
+    
+class PostGoalContent(Toggle):
+    """
+    Toggle locations and items after goal?
+    """
+    display_name = "Post-Goal Content"
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
@@ -85,6 +91,7 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["start_type"] = StartingClass
     options["random_class_start"] = RandomClassStart
     options["filler_percent"] = FillerCount
+    options["post_goal"] = PostGoalContent
 
     return options
 
