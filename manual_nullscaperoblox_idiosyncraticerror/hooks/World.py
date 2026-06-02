@@ -120,6 +120,8 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     #
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
+    
+    #remove postgoal stuff here first before % checks
 
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)
