@@ -14,50 +14,43 @@
     "Level 10+": {
         "hidden": true,
         "yaml_option": [
-            "level_10+"
+            "level_10"
         ]
     },
     "Level 12+": {
         "hidden": true,
         "yaml_option": [
-            "level_10+"
+            "level_12"
         ]
     },
     "Level 13+": {
         "hidden": true,
         "yaml_option": [
-            "level_10+"
+            "level_13"
         ]
     },
     "Level 15+": {
         "hidden": true,
         "yaml_option": [
-            "level_10+",
-            "level_15+"
+            "level_15"
         ]
     },
     "Level 18+": {
         "hidden": true,
         "yaml_option": [
-            "level_10+",
-            "level_15+"
+            "level_18"
         ]
     },
     "Level 20+": {
         "hidden": true,
         "yaml_option": [
-            "level_10+",
-            "level_15+",
-            "level_20+"
+            "level_20"
         ]
     },
     "Level 25+": {
         "hidden": true,
         "yaml_option": [
-            "level_10+",
-            "level_15+",
-            "level_20+",
-            "level_25+"
+            "level_20"
         ]
     },
     "Win Progression": {

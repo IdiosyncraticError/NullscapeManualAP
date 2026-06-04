@@ -18,7 +18,7 @@ enemies = [
     ["Sigil", [15]],
     ["Voidbound Baby", [10]],
     ["Voidbound Guardian", [20]],
-    ["Scrapmaw", [25]]
+    ["Scrapmaw", [20]]
     #["???", [""]]
 ]
 
@@ -70,7 +70,7 @@ curses = [
     ["Lost Embers", [10, "Kolona"]],
     ["Blade Carousel", [15, "Voidbreaker"]],
     ["Deadly Melody", [15, "Cadence"]],
-    ["Blueprint: Cross Beams", [25, "Scrapmaw"]],
+    #["Blueprint: Cross Beams", [25, "Scrapmaw"]],
 ]
 
 greater_curses = [

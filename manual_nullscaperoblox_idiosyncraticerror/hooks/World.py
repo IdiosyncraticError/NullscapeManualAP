@@ -44,6 +44,20 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     This is the earliest hook called during generation, before anything else is done.
     Use it to check or modify incompatible options, or to set up variables for later use.
     """
+    
+    victory_level = world.options.level_win_requirement.value
+    if world.options.post_goal.value == False:
+        if victory_level < 12:
+            world.options.level_12.value = False
+        if victory_level < 13:
+            world.options.level_13.value = False
+        if victory_level < 15:
+            world.options.level_15.value = False
+        if victory_level < 18:
+            world.options.level_18.value = False
+        if victory_level < 20:
+            world.options.level_20.value = False
+    
     pass
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
@@ -141,7 +155,6 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     if world.options.filler_percent.value == 100:
         total_locations = len(locations) #redundant but yk
 
-    ###why dafaq is locations empty
     while len(locations) > total_locations:
         chosen = world.random.choice(locations)
         for region in multiworld.regions:
