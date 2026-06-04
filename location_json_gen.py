@@ -124,15 +124,24 @@ for i in rounds:
     elif i < 15:
         obj["region"] = "lvl 10"
         spec_lvl_cat = "Level 10+"
-    elif i < 20:
+    elif i < 18:
         obj["region"] = "lvl 15"
         spec_lvl_cat = "Level 15+"
+    elif i < 20:
+        obj["region"] = "lvl 15"
+        spec_lvl_cat = "Level 18+"
     elif i < 25:
         obj["region"] = "lvl 20"
         spec_lvl_cat = "Level 20+"
-    else:
+    elif i < 30:
         obj["region"] = "lvl 25"
-        spec_lvl_cat = "Level 25+"
+        spec_lvl_cat = "Level 20+"
+    elif i < 40:
+        obj["region"] = "lvl 30"
+        spec_lvl_cat = "Level 20+"
+    else:
+        obj["region"] = "lvl 40"
+        spec_lvl_cat = "Level 20+"
     obj["category"] = ["Levels", spec_lvl_cat]
     output.append(obj)
 
@@ -186,16 +195,14 @@ for i in curses:
 for i in greater_curses:
     obj = {}
     obj["name"] = i[0]
-
-    if i[1][0] < 5:
-        obj["region"] = "lvl 0"
-    elif i[1][0] < 10:
-        obj["region"] = "lvl 5"
-    elif i[1][0] < 20:
+    
+    if i[1][0] == 10:
+        obj["region"] = "lvl 10"
+    elif i[1][0] == 15:
         obj["region"] = "lvl 15"
-    elif i[1][0] < 25:
+    elif i[1][0] == 20:
         obj["region"] = "lvl 20"
-    else:
+    elif i[1][0] == 25:
         obj["region"] = "lvl 25"
 
     cat_list = []

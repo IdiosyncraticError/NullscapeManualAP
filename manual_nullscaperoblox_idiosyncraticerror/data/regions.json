@@ -9,7 +9,7 @@
   },
   "lvl 10": {
     "connects_to": ["lvl 15"],
-    "requires": "|Grace Wings| and |Double Jump|"
+    "requires": "|Grace Wings| and |Double Jump| and |Ice Skates|"
   },
   "lvl 15": {
     "connects_to": ["lvl 20"],
