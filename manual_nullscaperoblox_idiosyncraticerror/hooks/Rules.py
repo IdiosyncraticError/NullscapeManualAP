@@ -63,9 +63,9 @@ def checkPrisoner(world: World):
     region_reqs = [
         "|Business License| and |Swiftness Ring:2|",
         "|Grace Wings| and |Double Jump|",
-        "|Ninja Belt| and |Helmet| and |Defuse Kit:3|",
+        "|Ninja Belt| and |Helmet| and {OptOne(|Defuse Kit:3|)}",
         "|Sports Shoes| and |Matrix Tetrahedron| and |Shark Tail|",
-        "|Subspacial Barrier| and |Miniature Hourglass|",
+        "{OptOne(|Subspacial Barrier|)} and |Miniature Hourglass|",
         "|Gift Magnet:3| and |Shield|",
         "|Gift Idol:2|"
     ]
