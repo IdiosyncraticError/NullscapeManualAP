@@ -146,16 +146,19 @@
     "Solo": {
         "hidden": true,
         "yaml_option": [
-            "Solo?"
+            "solo"
         ]
     },
     "Multiplayer": {
         "hidden": true,
         "yaml_option": [
-            "Multiplayer?"
+            "multiplayer"
         ]
     },
     "Standard+": {
-        "hidden": true
+        "hidden": true,
+        "yaml_option": [
+            "!casual_only"
+        ]
     }
 }

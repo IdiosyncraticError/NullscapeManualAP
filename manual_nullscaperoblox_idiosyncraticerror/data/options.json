@@ -26,39 +26,6 @@
             "type": "Toggle",
             "default": true
         },
-        "level_10+":{
-            "description": [
-                "If Level 10+ checks should be enabled"
-            ],
-            "type": "Toggle",
-            "default": true,
-            "group": "level limit"
-        },
-        "level_15+":{
-            "description": [
-                "If Level 15+ checks should be enabled"
-            ],
-            "type": "Toggle",
-            "default": true,
-            "group": "level limit"
-        },
-        "level_20+":{
-            "description": [
-                "If Level 20+ checks should be enabled"
-            ],
-            "type": "Toggle",
-            "default": true,
-            "group": "level limit"
-        },
-        "level_25+":{
-            "description": [
-                "If Level 25+ checks should be enabled"
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "level limit"
-        },
-
         "Diver?":{
             "description": [
                 "Enable/Disable Diver's checks"
@@ -114,22 +81,6 @@
             "type": "Toggle",
             "default": false,
             "group": "classes"
-        },
-        "Multiplayer?":{
-            "description": [
-                "Enable Multiplayer only curses and upgrades"
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "gameplay"
-        },
-        "Solo?":{
-            "description": [
-                "Enable Solo only upgrades (Adrenaline)"
-            ],
-            "type": "Toggle",
-            "default": true,
-            "group": "gameplay"
         }
     }
 

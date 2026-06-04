@@ -84,6 +84,24 @@ class PostGoalContent(Toggle):
     """
     display_name = "Post-Goal Content"
 
+class Casual(Toggle):
+    """
+    Removes all Tripmine curses from location pool
+    """
+    display_name = "Casual Mode Only"
+
+class Party(Choice):
+    """
+    Solo: removes all multiplayer curses and upgrades
+    Multiplayer: removes Adrenaline
+    Both: solo and multiplayer exclusive items and curses are included
+    """
+    display_name = "Party Size"
+    option_solo = 0
+    option_multiplayer = 1
+    option_both = 2
+    default = 0
+
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options["class_win_requirement"] = ClassWinRequirement
@@ -92,6 +110,8 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["random_class_start"] = RandomClassStart
     options["filler_percent"] = FillerCount
     options["post_goal"] = PostGoalContent
+    options["casual_only"] = Casual
+    options["party_size"] = Party
 
     return options
 
@@ -111,6 +131,9 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
     options.type_hints["level_15"].visibility = Visibility.none
     options.type_hints["level_18"].visibility = Visibility.none
     options.type_hints["level_20"].visibility = Visibility.none
+    
+    options.type_hints["solo"].visibility = Visibility.none
+    options.type_hints["multiplayer"].visibility = Visibility.none
 
     pass
 
