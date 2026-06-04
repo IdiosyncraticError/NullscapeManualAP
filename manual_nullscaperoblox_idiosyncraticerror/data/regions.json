@@ -9,11 +9,11 @@
   },
   "lvl 10": {
     "connects_to": ["lvl 15"],
-    "requires": "|Grace Wings| and |Double Jump|"
+    "requires": "|Grace Wings| and |Double Jump| and |Ice Skates|"
   },
   "lvl 15": {
     "connects_to": ["lvl 20"],
-    "requires": "|Ninja Belt| and |Helmet| and |Defuse Kit:3|"
+    "requires": "|Ninja Belt| and |Helmet| and {OptOne(|Defuse Kit:3|)}"
   },
   "lvl 20": {
     "connects_to": ["lvl 25"],
@@ -21,7 +21,7 @@
   },
   "lvl 25": {
     "connects_to": ["lvl 30"],
-    "requires": "|Subspacial Barrier| and |Miniature Hourglass|"
+    "requires": "{OptOne(|Subspacial Barrier|)} and |Miniature Hourglass|"
   },
   "lvl 30": {
     "connects_to": ["lvl 40"],

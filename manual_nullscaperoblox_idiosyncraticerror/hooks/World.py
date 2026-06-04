@@ -44,6 +44,30 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     This is the earliest hook called during generation, before anything else is done.
     Use it to check or modify incompatible options, or to set up variables for later use.
     """
+    
+    victory_level = world.options.level_win_requirement.value
+    if world.options.post_goal.value == False:
+        if victory_level < 12:
+            world.options.level_12.value = False
+        if victory_level < 13:
+            world.options.level_13.value = False
+        if victory_level < 15:
+            world.options.level_15.value = False
+        if victory_level < 18:
+            world.options.level_18.value = False
+        if victory_level < 20:
+            world.options.level_20.value = False
+            
+    party = world.options.party_size.value
+    
+    if party == 0:
+        world.options.solo.value = True
+    elif party == 1:
+        world.options.multiplayer.value = True
+    elif party == 2:
+        world.options.solo.value = True
+        world.options.multiplayer.value = False
+    
     pass
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
@@ -120,6 +144,8 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     #
     # Because multiple copies of an item can exist, you need to add an item name
     # to the list multiple times if you want to remove multiple copies of it.
+    
+    #remove postgoal stuff here first before % checks
 
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)
@@ -139,7 +165,6 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     if world.options.filler_percent.value == 100:
         total_locations = len(locations) #redundant but yk
 
-    ###why dafaq is locations empty
     while len(locations) > total_locations:
         chosen = world.random.choice(locations)
         for region in multiworld.regions:

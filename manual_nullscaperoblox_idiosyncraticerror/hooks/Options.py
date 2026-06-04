@@ -1,5 +1,5 @@
 # Object classes from AP that represent different types of options that you can create
-from Options import Option, FreeText, NumericOption, Toggle, DefaultOnToggle, Choice, TextChoice, Range, NamedRange, OptionGroup, PerGameCommonOptions
+from Options import Option, FreeText, NumericOption, Toggle, DefaultOnToggle, Choice, TextChoice, Range, NamedRange, OptionGroup, PerGameCommonOptions, Visibility
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
 from ..Helpers import is_option_enabled, get_option_value
 from typing import Type, Any
@@ -77,6 +77,30 @@ class FillerCount(Range):
     range_start = 0
     range_end = 100
     default = 30
+    
+class PostGoalContent(Toggle):
+    """
+    Toggle locations and items after goal?
+    """
+    display_name = "Post-Goal Content"
+
+class Casual(Toggle):
+    """
+    Removes all Tripmine curses from location pool
+    """
+    display_name = "Casual Mode Only"
+
+class Party(Choice):
+    """
+    Solo: removes all multiplayer curses and upgrades
+    Multiplayer: removes Adrenaline
+    Both: solo and multiplayer exclusive items and curses are included
+    """
+    display_name = "Party Size"
+    option_solo = 0
+    option_multiplayer = 1
+    option_both = 2
+    default = 0
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
@@ -85,6 +109,9 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["start_type"] = StartingClass
     options["random_class_start"] = RandomClassStart
     options["filler_percent"] = FillerCount
+    options["post_goal"] = PostGoalContent
+    options["casual_only"] = Casual
+    options["party_size"] = Party
 
     return options
 
@@ -97,6 +124,16 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
     #  Here's an example on how to add your aliases to the generated goal
     # options.type_hints['goal'].aliases.update({"example": 0, "second_alias": 1})
     # options.type_hints['goal'].options.update({"example": 0, "second_alias": 1})  #for an alias to be valid it must also be in options
+    
+    options.type_hints["level_10"].visibility = Visibility.none
+    options.type_hints["level_12"].visibility = Visibility.none
+    options.type_hints["level_13"].visibility = Visibility.none
+    options.type_hints["level_15"].visibility = Visibility.none
+    options.type_hints["level_18"].visibility = Visibility.none
+    options.type_hints["level_20"].visibility = Visibility.none
+    
+    options.type_hints["solo"].visibility = Visibility.none
+    options.type_hints["multiplayer"].visibility = Visibility.none
 
     pass
 
