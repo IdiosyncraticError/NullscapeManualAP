@@ -19,7 +19,7 @@ def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str,
         from ..Helpers import get_option_value
         enabled_class = get_option_value(multiworld, player, "enabled_classes")
         for i in enabled_class:
-            if item["name"].startswith(i):
+            if item["name"].startswith(i["name"]): #if not this try .name instead of ["name"]
                 return True
         return False
     
@@ -32,7 +32,7 @@ def before_is_location_enabled(multiworld: MultiWorld, player: int, location:  d
         from ..Helpers import get_option_value
         enabled_class = get_option_value(multiworld, player, "enabled_classes")
         for i in enabled_class:
-            if location["name"].startswith(i):
+            if location["name"].startswith(i["name"]):
                 return True
         return False
     return None
