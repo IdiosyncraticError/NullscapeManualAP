@@ -10,5 +10,4 @@ changelog:
 
 todo:
 - add difficulty + random + chaos to items and enabling/disabling of them in settings (as well as a sanity mode for class + difficulty + random + chaos + level locations)
-- if casual only is enabled, disable grace wings as an item
 - give a setting for traps lol bcs lwk they kinda lame

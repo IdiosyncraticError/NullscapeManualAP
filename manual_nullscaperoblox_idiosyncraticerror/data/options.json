@@ -13,12 +13,6 @@
         },
         "death_link": {
             "default": false
-        },
-        "filler_traps": {
-            "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
-            "values": {
-                "recommended": 20
-            }
         }
     },
     "user": {
