@@ -136,6 +136,7 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
     # options.type_hints['goal'].aliases.update({"example": 0, "second_alias": 1})
     # options.type_hints['goal'].options.update({"example": 0, "second_alias": 1})  #for an alias to be valid it must also be in options
     
+    #invisible options to help with hooks
     options.type_hints["level_10"].visibility = Visibility.none
     options.type_hints["level_12"].visibility = Visibility.none
     options.type_hints["level_13"].visibility = Visibility.none

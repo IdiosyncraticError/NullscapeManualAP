@@ -66,7 +66,7 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
         world.options.multiplayer.value = True
     elif party == 2:
         world.options.solo.value = True
-        world.options.multiplayer.value = False
+        world.options.multiplayer.value = True
     
     pass
 
@@ -104,27 +104,34 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     start_type = world.options.start_type.value
     starting_class = []
 
-    if start_type == world.options.start_type.option_randomclass:
+    if start_type == world.options.start_type.option_randomclass: #if random starting classes was chosen as option
         random_classes = world.options.random_class_start.value
 
+        #finds all classes in the item pool
         starting_class_temp = []
         starting_class_temp.extend([
             i.name for i in item_pool
                 if "Class Unlock" in world.item_name_to_item[i.name].get("category", [])
         ])
         
-        while random_classes > len(starting_class_temp):
-            random_classes -= 1
+        #if the number of random classes set by the option value is greater than enabled classes,
+        #sets number of starting classes equal to number of classes in the pool
+        if random_classes > len(starting_class_temp):
+            random_classes = len(starting_class_temp)
 
+        #randomly selects a class from the list of classes and adds it to the starting class list
+        #adds to that list so it can share the actual remove part with the other two modes
         for _ in range(random_classes):
             chosen = world.random.choice(starting_class_temp)
             starting_class_temp.remove(chosen)
             starting_class.append(chosen)
-    elif start_type == world.options.start_type.option_prisoner:
+    elif start_type == world.options.start_type.option_prisoner: #prisoner start
         starting_class = ["Prisoner Unlock"]
-    elif start_type == world.options.start_type.option_vanilla:
+    elif start_type == world.options.start_type.option_vanilla: #vanilla start
         starting_class = ["Diver Unlock", "Charger Unlock"]
 
+    #for each class in starting class, removes it from pool
+    #except if it doesnt work returns error based on what may have potentially happened
     try:
         for unlock in starting_class:
             item = next(i for i in item_pool if i.name == unlock)
@@ -151,24 +158,29 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         item = next(i for i in item_pool if i.name == itemName)
         remove_specific_item(item_pool, item)
 
+    #calculates number of filler depending on percentage chosen
     item_count = len(item_pool)
     filler_count = len(item_pool)*(world.options.filler_percent.value/100)
-    total_locations = math.ceil(filler_count) + item_count
+    total_locations = math.ceil(filler_count) + item_count #ceiling function so that it doesnt return a decimal
     locations = []
 
+    #list of every location in the game
     for region in multiworld.regions:
         if region.player == player:
             locations.extend(list(region.locations))
 
+    #if the expected number of locations with filler option is greater than available locations,
+    #set it to the total number of available locations
     if total_locations > len(locations):
         total_locations = len(locations)
     if world.options.filler_percent.value == 100:
         total_locations = len(locations) #redundant but yk
 
+    #randomly removes location until locations reaches expected number
     while len(locations) > total_locations:
         chosen = world.random.choice(locations)
         for region in multiworld.regions:
-            if region.player == player and region.name.startswith("lvl"):
+            if region.player == player and region.name.startswith("lvl"): #makes sure it doesnt accidentally remove a win progression location
                 for location in list(region.locations):
                     if location.name == chosen.name:
                         region.locations.remove(chosen)

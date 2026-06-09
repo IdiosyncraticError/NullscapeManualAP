@@ -55,6 +55,8 @@ def checkWin(world: World, character: str):
         requires += " and " + region_reqs[5]
     if win_lvl >= 40:
         requires += " and " + region_reqs[6]
+    #keeps adding region requires depending on the win level set by option
+    #done this way bcs this location would have to change region based on that option, and i dont want to deal with that
     
     return requires
 
@@ -77,5 +79,7 @@ def checkPrisoner(world: World):
         requires += region_reqs[0] + " and " + region_reqs[1]
     if win_lvl >= 15:
         requires += " and " + region_reqs[2]
+    #accessible starting from round 15
+    #but i guess it doesnt matter if you dont have universal tracker on lol
     
     return requires
