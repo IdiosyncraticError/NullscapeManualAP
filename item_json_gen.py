@@ -83,9 +83,7 @@ for i in class_unlock:
     obj["count"] = 1
     obj["name"] = i + " Unlock"
     
-    cat_list = ["Class Unlock"]
-    cat_list.append(i.lower())
-    obj["category"] = cat_list
+    obj["category"] = ["Class Unlock"]
 
     obj["progression"] = True
 

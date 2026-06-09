@@ -79,6 +79,3 @@ def checkPrisoner(world: World):
         requires += " and " + region_reqs[2]
     
     return requires
-    
-    #uhh how is this going to incorporate meeting/beating celestial LOL
-    #i guess that can be the victory choice option - between levels and celestial

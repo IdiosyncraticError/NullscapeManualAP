@@ -10,11 +10,31 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
 # Use this if you want to override the default behavior of is_option_enabled
 # Return True to enable the item, False to disable it, or None to use the default behavior
 def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str, Any]) -> Optional[bool]:
+    if item["name"].endswith("Unlock"):
+        from ..Helpers import get_option_value
+        enabled_class = get_option_value(multiworld, player, "enabled_classes")
+        return item["name"] in enabled_class
+
+    if item["name"].endswith("Win Progression Flag"):
+        from ..Helpers import get_option_value
+        enabled_class = get_option_value(multiworld, player, "enabled_classes")
+        for i in enabled_class:
+            if item["name"].startswith(i.removesuffix("Unlock")):
+                return True
+        return False
+    
     return None
 
 # Use this if you want to override the default behavior of is_option_enabled
 # Return True to enable the location, False to disable it, or None to use the default behavior
 def before_is_location_enabled(multiworld: MultiWorld, player: int, location:  dict[str, Any]) -> Optional[bool]:
+    if location["name"].endswith("Win Requirement"):
+        from ..Helpers import get_option_value
+        enabled_class = get_option_value(multiworld, player, "enabled_classes")
+        for i in enabled_class:
+            if location["name"].startswith(i.removesuffix("Unlock")):
+                return True
+        return False
     return None
 
 # Use this if you want to override the default behavior of is_option_enabled

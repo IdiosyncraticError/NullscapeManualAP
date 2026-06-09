@@ -1,7 +1,8 @@
 # Object classes from AP that represent different types of options that you can create
-from Options import Option, FreeText, NumericOption, Toggle, DefaultOnToggle, Choice, TextChoice, Range, NamedRange, OptionGroup, PerGameCommonOptions, Visibility
+from Options import Option, FreeText, NumericOption, Toggle, DefaultOnToggle, Choice, TextChoice, Range, NamedRange, OptionSet, OptionGroup, PerGameCommonOptions, Visibility
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
 from ..Helpers import is_option_enabled, get_option_value
+from ..Items import item_name_groups
 from typing import Type, Any
 
 
@@ -45,6 +46,15 @@ class LevelWinRequirement(Range):
     range_start = 10
     range_end = 50
     default = 15
+
+class EnabledClass(OptionSet):
+    """
+    Classes that will be randomized
+    MUST CONTAIN AT LEAST ONE CLASS
+    """
+    display_name = "Enabled Classes"
+    valid_keys = item_name_groups["Class Unlock"]
+    default = frozenset(valid_keys)
 
 class StartingClass(Choice):
     """
@@ -106,6 +116,7 @@ class Party(Choice):
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options["class_win_requirement"] = ClassWinRequirement
     options["level_win_requirement"] = LevelWinRequirement
+    options["enabled_classes"] = EnabledClass
     options["start_type"] = StartingClass
     options["random_class_start"] = RandomClassStart
     options["filler_percent"] = FillerCount

@@ -333,8 +333,7 @@
         "count": 1,
         "name": "Diver Unlock",
         "category": [
-            "Class Unlock",
-            "diver"
+            "Class Unlock"
         ],
         "progression": true
     },
@@ -342,8 +341,7 @@
         "count": 1,
         "name": "Charger Unlock",
         "category": [
-            "Class Unlock",
-            "charger"
+            "Class Unlock"
         ],
         "progression": true
     },
@@ -351,8 +349,7 @@
         "count": 1,
         "name": "Grappler Unlock",
         "category": [
-            "Class Unlock",
-            "grappler"
+            "Class Unlock"
         ],
         "progression": true
     },
@@ -360,8 +357,7 @@
         "count": 1,
         "name": "Spirit Unlock",
         "category": [
-            "Class Unlock",
-            "spirit"
+            "Class Unlock"
         ],
         "progression": true
     },
@@ -369,8 +365,7 @@
         "count": 1,
         "name": "Glider Unlock",
         "category": [
-            "Class Unlock",
-            "glider"
+            "Class Unlock"
         ],
         "progression": true
     },
@@ -378,8 +373,7 @@
         "count": 1,
         "name": "Wanted Unlock",
         "category": [
-            "Class Unlock",
-            "wanted"
+            "Class Unlock"
         ],
         "progression": true
     },
@@ -387,8 +381,7 @@
         "count": 1,
         "name": "Prisoner Unlock",
         "category": [
-            "Class Unlock",
-            "prisoner"
+            "Class Unlock"
         ],
         "progression": true
     },
