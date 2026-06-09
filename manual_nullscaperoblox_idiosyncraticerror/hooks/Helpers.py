@@ -14,6 +14,14 @@ def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str,
         from ..Helpers import get_option_value
         enabled_class = get_option_value(multiworld, player, "enabled_classes")
         return item["name"] in enabled_class
+
+    if "Win Progression" in item["category"]:
+        from ..Helpers import get_option_value
+        enabled_class = get_option_value(multiworld, player, "enabled_classes")
+        for i in enabled_class:
+            if item["name"].startswith(i):
+                return True
+        return False
     
     return None
 
@@ -22,12 +30,11 @@ def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str,
 def before_is_location_enabled(multiworld: MultiWorld, player: int, location:  dict[str, Any]) -> Optional[bool]:
     if "Class Win Tracker" in location["category"]:
         from ..Helpers import get_option_value
-        enabled_class = get_option_value(multiworld, player, "enabled_classes") #location name.starts with(enabled class)
+        enabled_class = get_option_value(multiworld, player, "enabled_classes")
         for i in enabled_class:
             if location["name"].startswith(i):
                 return True
-            else:
-                return False
+        return False
     return None
 
 # Use this if you want to override the default behavior of is_option_enabled
