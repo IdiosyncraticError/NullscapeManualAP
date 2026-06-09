@@ -71,7 +71,7 @@ class StartingClass(Choice):
 
 class RandomClassStart(Range):
     """
-    How many classes you will start with if you pick random
+    How many classes you will start with if you pick randomclass
     """
     display_name = "Number of random starting classes"
     range_start = 1
@@ -96,7 +96,7 @@ class PostGoalContent(Toggle):
 
 class Casual(Toggle):
     """
-    Removes all Tripmine curses from location pool
+    Removes all Tripmine curses, Tripmine upgrades, and Grace Wings
     """
     display_name = "Casual Mode Only"
 
