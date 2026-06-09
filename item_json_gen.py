@@ -12,7 +12,7 @@ upgrades = [
     ["Grapple Points", 1, ["Level 5+"], 2],
     ["Double Jump", 1, ["Level 5+"], 4],
     ["Defuse Kit", 3, ["Level 5+", "Standard+"], 4],
-    ["Grace Wings", 1, ["Level 8+"], 4],
+    ["Grace Wings", 1, ["Level 8+", "Standard+"], 4],
     ["Pocket Bell", 1, ["Level 8+"], 4],
     ["Ice Skates", 1, ["Level 8+"], 4],
     ["Helmet", 1, ["Level 8+"], 4],
