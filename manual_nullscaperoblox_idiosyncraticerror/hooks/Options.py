@@ -50,6 +50,7 @@ class LevelWinRequirement(Range):
 class EnabledClass(OptionSet):
     """
     Classes that will be randomized
+    MUST CONTAIN AT LEAST ONE CLASS
     """
     display_name = "Enabled Classes"
     valid_keys = item_name_groups["Class Unlock"]
