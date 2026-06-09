@@ -10,8 +10,7 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
 # Use this if you want to override the default behavior of is_option_enabled
 # Return True to enable the item, False to disable it, or None to use the default behavior
 def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str, Any]) -> Optional[bool]:
-    from ..Items import item_name_groups
-    if "Class Unlock" in item["category"]:
+    if item["name"].endswith("Unlock"):
         from ..Helpers import get_option_value
         enabled_class = get_option_value(multiworld, player, "enabled_classes")
         return item["name"] in enabled_class
