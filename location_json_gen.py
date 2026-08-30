@@ -15,7 +15,7 @@ enemies = [
     ["Kolona", [10]],
     ["Voidbreaker", [15]],
     ["Cadence", [15]],
-    ["Sigil", [15]],
+    ["Sigil", [20]],
     ["Voidbound Baby", [10]],
     ["Voidbound Guardian", [20]],
     ["Scrapmaw", [20]]
