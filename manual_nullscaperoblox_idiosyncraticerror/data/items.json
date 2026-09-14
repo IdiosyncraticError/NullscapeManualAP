@@ -176,16 +176,6 @@
     },
     {
         "count": 1,
-        "name": "Radar Module: Players",
-        "category": [
-            "Level 8+",
-            "Multiplayer",
-            "Upgrades"
-        ],
-        "useful": true
-    },
-    {
-        "count": 1,
         "name": "Last Man Standing",
         "category": [
             "Level 8+",

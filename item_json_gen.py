@@ -20,7 +20,6 @@ upgrades = [
     ["Radar Module: Enemies", 1, ["Level 8+"], 3],
     ["Radar Module: Altars", 1, ["Level 8+"], 2],
     ["Radar Module: Tripmines", 1, ["Level 8+", "Standard+"], 3],
-    ["Radar Module: Players", 1, ["Level 8+", "Multiplayer"], 2],
     ["Last Man Standing", 1, ["Level 8+", "Multiplayer"], 3],
     ["Advanced Gravity Coil", 1, ["Level 8+"], 3],
     ["More Altars", 1, ["Level 10+"], 2],
@@ -108,5 +107,5 @@ for i in class_unlock:
     output.append(obj)
     
 
-with open("data.json", "w") as file:
+with open("items.json", "w") as file:
     json.dump(output, file, indent=4)
