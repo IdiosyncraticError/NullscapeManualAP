@@ -92,6 +92,12 @@
     "Kolona": {
         "hidden": true
     },
+    "Razorbloom": {
+        "hidden": true
+    },
+    "Oblivion": {
+        "hidden": true
+    },
     "Voidbreaker": {
         "hidden": true
     },
@@ -107,7 +113,7 @@
             "solo"
         ]
     },
-    "Multiplayer": {
+    "Party": {
         "hidden": true,
         "yaml_option": [
             "multiplayer"
@@ -117,6 +123,12 @@
         "hidden": true,
         "yaml_option": [
             "!casual_only"
+        ]
+    },
+    "Extreme-": {
+        "hidden": true,
+        "yaml_option": [
+            "!extreme_only"
         ]
     }
 }

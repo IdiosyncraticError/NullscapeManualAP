@@ -8,14 +8,6 @@
         ]
     },
     {
-        "name": "Level 2",
-        "region": "lvl 0",
-        "category": [
-            "Levels",
-            "Level 1+"
-        ]
-    },
-    {
         "name": "Level 3",
         "region": "lvl 0",
         "category": [
@@ -24,23 +16,7 @@
         ]
     },
     {
-        "name": "Level 4",
-        "region": "lvl 0",
-        "category": [
-            "Levels",
-            "Level 1+"
-        ]
-    },
-    {
         "name": "Level 5",
-        "region": "lvl 5",
-        "category": [
-            "Levels",
-            "Level 5+"
-        ]
-    },
-    {
-        "name": "Level 6",
         "region": "lvl 5",
         "category": [
             "Levels",
@@ -64,14 +40,6 @@
         ]
     },
     {
-        "name": "Level 12",
-        "region": "lvl 10",
-        "category": [
-            "Levels",
-            "Level 10+"
-        ]
-    },
-    {
         "name": "Level 13",
         "region": "lvl 10",
         "category": [
@@ -80,23 +48,7 @@
         ]
     },
     {
-        "name": "Level 14",
-        "region": "lvl 10",
-        "category": [
-            "Levels",
-            "Level 10+"
-        ]
-    },
-    {
         "name": "Level 15",
-        "region": "lvl 15",
-        "category": [
-            "Levels",
-            "Level 15+"
-        ]
-    },
-    {
-        "name": "Level 16",
         "region": "lvl 15",
         "category": [
             "Levels",
@@ -120,23 +72,7 @@
         ]
     },
     {
-        "name": "Level 22",
-        "region": "lvl 20",
-        "category": [
-            "Levels",
-            "Level 20+"
-        ]
-    },
-    {
         "name": "Level 23",
-        "region": "lvl 20",
-        "category": [
-            "Levels",
-            "Level 20+"
-        ]
-    },
-    {
-        "name": "Level 24",
         "region": "lvl 20",
         "category": [
             "Levels",
@@ -148,15 +84,7 @@
         "region": "lvl 25",
         "category": [
             "Levels",
-            "Level 20+"
-        ]
-    },
-    {
-        "name": "Level 26",
-        "region": "lvl 25",
-        "category": [
-            "Levels",
-            "Level 20+"
+            "Level 25+"
         ]
     },
     {
@@ -164,7 +92,7 @@
         "region": "lvl 25",
         "category": [
             "Levels",
-            "Level 20+"
+            "Level 25+"
         ]
     },
     {
@@ -172,7 +100,39 @@
         "region": "lvl 30",
         "category": [
             "Levels",
-            "Level 20+"
+            "Level 30+"
+        ]
+    },
+    {
+        "name": "Level 33",
+        "region": "lvl 30",
+        "category": [
+            "Levels",
+            "Level 30+"
+        ]
+    },
+    {
+        "name": "Level 35",
+        "region": "lvl 30",
+        "category": [
+            "Levels",
+            "Level 30+"
+        ]
+    },
+    {
+        "name": "Level 38",
+        "region": "lvl 30",
+        "category": [
+            "Levels",
+            "Level 30+"
+        ]
+    },
+    {
+        "name": "Level 40",
+        "region": "lvl 40",
+        "category": [
+            "Levels",
+            "Level 30+"
         ]
     },
     {
@@ -280,10 +240,18 @@
         ]
     },
     {
-        "name": "Sigil",
+        "name": "Voidbound ICBM",
         "region": "lvl 15",
         "category": [
             "Level 15+",
+            "Enemies"
+        ]
+    },
+    {
+        "name": "Sigil",
+        "region": "lvl 20",
+        "category": [
+            "Level 20+",
             "Enemies"
         ]
     },
@@ -313,6 +281,14 @@
     },
     {
         "name": "Lower Gravity",
+        "region": "lvl 0",
+        "category": [
+            "Level 1+",
+            "Curses"
+        ]
+    },
+    {
+        "name": "Higher Gravity",
         "region": "lvl 0",
         "category": [
             "Level 1+",
@@ -385,14 +361,6 @@
         ]
     },
     {
-        "name": "Jackpot",
-        "region": "lvl 10",
-        "category": [
-            "Level 12+",
-            "Curses"
-        ]
-    },
-    {
         "name": "Lap 2",
         "region": "lvl 5",
         "category": [
@@ -418,7 +386,7 @@
         ]
     },
     {
-        "name": "Fake Count",
+        "name": "Nothing?",
         "region": "lvl 5",
         "category": [
             "Level 8+",
@@ -426,10 +394,18 @@
         ]
     },
     {
-        "name": "Nothing?",
-        "region": "lvl 5",
+        "name": "Jackpot",
+        "region": "lvl 10",
         "category": [
-            "Level 8+",
+            "Level 10+",
+            "Curses"
+        ]
+    },
+    {
+        "name": "Concussive Blast",
+        "region": "lvl 10",
+        "category": [
+            "Level 10+",
             "Curses"
         ]
     },
@@ -443,6 +419,22 @@
     },
     {
         "name": "Minefield",
+        "region": "lvl 15",
+        "category": [
+            "Level 15+",
+            "Curses"
+        ]
+    },
+    {
+        "name": "Run",
+        "region": "lvl 15",
+        "category": [
+            "Level 15+",
+            "Curses"
+        ]
+    },
+    {
+        "name": "Volatile Implosions",
         "region": "lvl 15",
         "category": [
             "Level 15+",
@@ -499,6 +491,24 @@
         "region": "lvl 0",
         "category": [
             "Level 1+",
+            "Mart",
+            "Curses"
+        ]
+    },
+    {
+        "name": "Red Marts",
+        "region": "lvl 0",
+        "category": [
+            "Level 1+",
+            "Mart",
+            "Curses"
+        ]
+    },
+    {
+        "name": "Beacon Imp",
+        "region": "lvl 15",
+        "category": [
+            "Level 18+",
             "Mart",
             "Curses"
         ]
@@ -576,6 +586,24 @@
         ]
     },
     {
+        "name": "Seahorse",
+        "region": "lvl 15",
+        "category": [
+            "Level 15+",
+            "Springer",
+            "Curses"
+        ]
+    },
+    {
+        "name": "Horse Skipping",
+        "region": "lvl 5",
+        "category": [
+            "Level 5+",
+            "Springer",
+            "Curses"
+        ]
+    },
+    {
         "name": "Ambush",
         "region": "lvl 5",
         "category": [
@@ -603,7 +631,7 @@
         ]
     },
     {
-        "name": "Blighted Jump Pads",
+        "name": "Airborne Flesh",
         "region": "lvl 5",
         "category": [
             "Level 5+",
@@ -630,11 +658,20 @@
         ]
     },
     {
-        "name": "Pacifier",
+        "name": "Magic Missile",
         "region": "lvl 0",
         "category": [
             "Level 1+",
-            "Baby",
+            "ICBM",
+            "Curses"
+        ]
+    },
+    {
+        "name": "Incendiary Shrapnel",
+        "region": "lvl 0",
+        "category": [
+            "Level 1+",
+            "ICBM",
             "Curses"
         ]
     },
@@ -648,10 +685,28 @@
         ]
     },
     {
-        "name": "Shotgun",
+        "name": "Big Baby",
+        "region": "lvl 0",
+        "category": [
+            "Level 1+",
+            "Baby",
+            "Curses"
+        ]
+    },
+    {
+        "name": "Baby Steps",
         "region": "lvl 5",
         "category": [
             "Level 5+",
+            "Baby",
+            "Curses"
+        ]
+    },
+    {
+        "name": "Shotgun",
+        "region": "lvl 5",
+        "category": [
+            "Level 8+",
             "Guardian",
             "Curses"
         ]
@@ -660,7 +715,7 @@
         "name": "Camouflage",
         "region": "lvl 5",
         "category": [
-            "Level 5+",
+            "Level 8+",
             "Guardian",
             "Curses"
         ]
@@ -684,7 +739,43 @@
         ]
     },
     {
+        "name": "Angry Bird",
+        "region": "lvl 10",
+        "category": [
+            "Level 10+",
+            "Razorbloom",
+            "Curses"
+        ]
+    },
+    {
+        "name": "Smart Little Bird",
+        "region": "lvl 25",
+        "category": [
+            "Level 25+",
+            "Razorbloom",
+            "Curses"
+        ]
+    },
+    {
+        "name": "Stronger Wings",
+        "region": "lvl 10",
+        "category": [
+            "Level 10+",
+            "Razorbloom",
+            "Curses"
+        ]
+    },
+    {
         "name": "Blade Carousel",
+        "region": "lvl 15",
+        "category": [
+            "Level 15+",
+            "Voidbreaker",
+            "Curses"
+        ]
+    },
+    {
+        "name": "Corrupted Blades",
         "region": "lvl 15",
         "category": [
             "Level 15+",
@@ -702,16 +793,79 @@
         ]
     },
     {
-        "name": "Trap Card",
+        "name": "Jumping Instruments",
         "region": "lvl 15",
         "category": [
             "Level 15+",
-            "Greater Curses"
-        ],
-        "prehint": true
+            "Cadence",
+            "Curses"
+        ]
     },
     {
-        "name": "Run",
+        "name": "Encore",
+        "region": "lvl 15",
+        "category": [
+            "Level 15+",
+            "Cadence",
+            "Curses"
+        ]
+    },
+    {
+        "name": "Alluring Arrangement",
+        "region": "lvl 15",
+        "category": [
+            "Level 15+",
+            "Cadence",
+            "Curses"
+        ]
+    },
+    {
+        "name": "Leo",
+        "region": "lvl 20",
+        "category": [
+            "Level 20+",
+            "Sigil",
+            "Curses"
+        ]
+    },
+    {
+        "name": "Sagittarius",
+        "region": "lvl 20",
+        "category": [
+            "Level 20+",
+            "Sigil",
+            "Curses"
+        ]
+    },
+    {
+        "name": "Blueprint: Cross Beams",
+        "region": "lvl 25",
+        "category": [
+            "Level 25+",
+            "Scrapmaw",
+            "Curses"
+        ]
+    },
+    {
+        "name": "Blueprint: Supersonic Lasers",
+        "region": "lvl 25",
+        "category": [
+            "Level 25+",
+            "Scrapmaw",
+            "Curses"
+        ]
+    },
+    {
+        "name": "Blueprint: Efficient Coolant",
+        "region": "lvl 25",
+        "category": [
+            "Level 25+",
+            "Scrapmaw",
+            "Curses"
+        ]
+    },
+    {
+        "name": "Trap Card",
         "region": "lvl 15",
         "category": [
             "Level 15+",
@@ -724,15 +878,6 @@
         "region": "lvl 10",
         "category": [
             "Level 10+",
-            "Greater Curses"
-        ],
-        "prehint": true
-    },
-    {
-        "name": "Inverse Destruction",
-        "region": "lvl 15",
-        "category": [
-            "Level 15+",
             "Greater Curses"
         ],
         "prehint": true
@@ -765,6 +910,25 @@
         "prehint": true
     },
     {
+        "name": "Mania",
+        "region": "lvl 20",
+        "category": [
+            "Level 20+",
+            "Greater Curses"
+        ],
+        "prehint": true
+    },
+    {
+        "name": "Water Planet",
+        "region": "lvl 10",
+        "category": [
+            "Level 10+",
+            "Mart",
+            "Greater Curses"
+        ],
+        "prehint": true
+    },
+    {
         "name": "Tantrum",
         "region": "lvl 10",
         "category": [
@@ -786,9 +950,19 @@
     },
     {
         "name": "Destroyer",
-        "region": "lvl 15",
+        "region": "lvl 10",
         "category": [
-            "Level 15+",
+            "Level 10+",
+            "Husk",
+            "Greater Curses"
+        ],
+        "prehint": true
+    },
+    {
+        "name": "Ouroboros",
+        "region": "lvl 10",
+        "category": [
+            "Level 10+",
             "Husk",
             "Greater Curses"
         ],
@@ -800,6 +974,16 @@
         "category": [
             "Level 10+",
             "Flesh",
+            "Greater Curses"
+        ],
+        "prehint": true
+    },
+    {
+        "name": "Joined Symphony",
+        "region": "lvl 15",
+        "category": [
+            "Level 15+",
+            "Bell",
             "Greater Curses"
         ],
         "prehint": true
@@ -830,6 +1014,16 @@
         "category": [
             "Level 10+",
             "Operator",
+            "Greater Curses"
+        ],
+        "prehint": true
+    },
+    {
+        "name": "Blueprint: Dimensional Beams",
+        "region": "lvl 25",
+        "category": [
+            "Level 25+",
+            "Scrapmaw",
             "Greater Curses"
         ],
         "prehint": true
