@@ -15,6 +15,7 @@ enemies = [
     ["Kolona", [10]],
     ["Voidbreaker", [15]],
     ["Cadence", [15]],
+    ["Voidbound ICBM", [15]],
     ["Sigil", [20]],
     ["Voidbound Baby", [10]],
     ["Voidbound Guardian", [20]],
@@ -24,6 +25,7 @@ enemies = [
 
 curses = [
     ["Lower Gravity", [1]],
+    ["Higher Gravity", [1]],
     ["Random Spawn", [1]],
     ["Savory Ring", [5]],
     ["Scattered Gifts", [5]],
@@ -32,21 +34,25 @@ curses = [
     ["Bigger Tripmines", [5, "Standard+"]],
     ["High Roller", [5]],
     ["Tweaked Odds", [5]],
-    ["Jackpot", [12]], #level unconfirmed
     ["Lap 2", [8]],
     ["Fragile Gifts", [8]],
     ["More Tripmines", [5, "Standard+"]],
-    ["Fake Count", [8]],
     ["Nothing?", [8]],
+    ["Jackpot", [10]],
+    ["Concussive Blast", [10]],
     ["Barotrauma", [15]],
     ["Minefield", [15]],
+    ["Run", [15]],
+    ["Volatile Implosions", [15]],
 
     ["More Ringing", [1, "Bell"]],
     ["Mighty Gong", [1, "Bell"]],
     ["Concussion", [1, "Bell"]],
-    ["Mart Infection", [8, "Mart", "Multiplayer"]],
+    ["Mart Infection", [8, "Mart"]],
     ["Mart Slide", [8, "Mart"]],
     ["Bigger Marts", [1, "Mart"]],
+    ["Red Marts", [1, "Mart"]],
+    ["Beacon Imp", [18, "Mart"]],
     ["Closer Husk", [1, "Husk"]],
     ["Further Husk", [1, "Husk"]],
     ["Taller Husk", [1, "Husk"]],
@@ -55,44 +61,62 @@ curses = [
     ["Conga Line", [10, "Husk"]],
     ["Springloaded", [5, "Springer"]],
     ["Resonating Shockwaves", [1, "Springer"]],
+    ["Seahorse", [15, "Springer"]],
+    ["Horse Skipping", [5, "Springer"]],
     ["Ambush", [8, "Telefragger"]],
     ["Accurate Telefragger", [8, "Telefragger"]],
     ["Bloodier Meat", [5, "Flesh"]],
-    ["Blighted Jump Pads", [5, "Flesh"]],
+    ["Airborne Flesh", [5, "Flesh"]],
     #["Cognitive Dissonance", [5, "NIL"]],
     ["Bigger Blast", [5, "ICBM"]],
     ["Scorched Earth", [1, "ICBM"]],
-    ["Pacifier", [1, "Baby"]],
+    ["Magic Missile", [1, "ICBM"]],
+    ["Incendiary Shrapnel", [1, "ICBM"]],
     ["Problem Child", [5, "Baby"]],
+    ["Big Baby", [1, "Baby"]],
+    ["Baby Steps", [5, "Baby"]],
     ["Shotgun", [8, "Guardian"]],
     ["Camouflage", [8, "Guardian"]],
     ["Burning Bouquet", [10, "Kolona"]],
     ["Lost Embers", [10, "Kolona"]],
+    ["Angry Bird", [10, "Razorbloom"]],
+    ["Smart Little Bird", [25, "Razorbloom", "Oblivion"]],
+    ["Stronger Wings", [10, "Razorbloom"]],
     ["Blade Carousel", [15, "Voidbreaker"]],
+    ["Corrupted Blades", [15, "Voidbreaker"]],
     ["Deadly Melody", [15, "Cadence"]],
-    #["Blueprint: Cross Beams", [25, "Scrapmaw"]],
+    ["Jumping Instruments", [15, "Cadence", "Springer"]],
+    ["Encore", [15, "Cadence"]],
+    ["Alluring Arrangement", [15, "Cadence"]],
+    ["Leo", [20, "Sigil"]],
+    ["Sagittarius", [20, "Sigil"]],
+    ["Blueprint: Cross Beams", [25, "Scrapmaw"]],
+    ["Blueprint: Supersonic Lasers", [25, "Scrapmaw"]],
+    ["Blueprint: Efficient Coolant", [25, "Scrapmaw"]]
 ]
 
 greater_curses = [
     ["Trap Card", [15]],
-    ["Run", [15]],
     ["One Less Choice", [10]],
-    ["Inverse Destruction", [15]],
     ["Void Implosions", [10]],
     ["Oblivion", [10]],
     ["Razorbloom", [10]],
+    ["Mania", [20]],
 
+    ["Water Planet", [10, "Mart"]],
     ["Tantrum", [10, "Baby"]],
     ["Hollow Tiles", [10, "ICBM"]],
-    ["Destroyer", [15, "Husk"]],
+    ["Destroyer", [10, "Husk"]],
+    ["Ouroboros", [10, "Husk"]],
     ["Mass Infection", [10, "Flesh"]],
+    ["Joined Symphony", [15, "Bell", "Cadence"]],
     ["Ballet of Blades", [15, "Voidbreaker"]],
     ["Blade Bombardment", [15, "Voidbreaker"]],
     ["Malfunction", [10, "Operator"]],
+    ["Blueprint: Dimensional Beams", [25, "Scrapmaw"]]
 ]
-
 rounds = [
-    1, 2, 3, 4, 5, 6, 8, 10, 12, 13, 14, 15, 16, 18, 20, 22, 23, 24, 25, 26, 28, 30
+    1, 3, 5, 8, 10, 13, 15, 18, 20, 23, 25, 28, 30, 33, 35, 38, 40
 ]
 
 victory_rounds = [
@@ -135,13 +159,13 @@ for i in rounds:
         spec_lvl_cat = "Level 20+"
     elif i < 30:
         obj["region"] = "lvl 25"
-        spec_lvl_cat = "Level 20+"
+        spec_lvl_cat = "Level 25+"
     elif i < 40:
         obj["region"] = "lvl 30"
-        spec_lvl_cat = "Level 20+"
+        spec_lvl_cat = "Level 30+"
     else:
         obj["region"] = "lvl 40"
-        spec_lvl_cat = "Level 20+"
+        spec_lvl_cat = "Level 30+"
     obj["category"] = ["Levels", spec_lvl_cat]
     output.append(obj)
 
@@ -234,5 +258,5 @@ for i in classes:
     output.append(obj)
     
 
-with open("data.json", "w") as file:
+with open("locations.json", "w") as file:
     json.dump(output, file, indent=4)

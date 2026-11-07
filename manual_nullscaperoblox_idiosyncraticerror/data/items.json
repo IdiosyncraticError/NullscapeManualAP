@@ -16,7 +16,7 @@
             "Level 3+",
             "Upgrades"
         ],
-        "progression": true
+        "progression_skip_balancing": true
     },
     {
         "count": 2,
@@ -43,7 +43,7 @@
             "Level 5+",
             "Upgrades"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -52,7 +52,7 @@
             "Level 5+",
             "Upgrades"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -61,7 +61,7 @@
             "Level 5+",
             "Upgrades"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -70,7 +70,7 @@
             "Level 5+",
             "Upgrades"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -79,7 +79,7 @@
             "Level 5+",
             "Upgrades"
         ],
-        "useful": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -144,7 +144,27 @@
             "Level 8+",
             "Upgrades"
         ],
-        "progression": true
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Health Insurance",
+        "category": [
+            "Level 8+",
+            "Party",
+            "Extreme-",
+            "Upgrades"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Altar Boons",
+        "category": [
+            "Level 8+",
+            "Upgrades"
+        ],
+        "useful": true
     },
     {
         "count": 1,
@@ -153,7 +173,7 @@
             "Level 8+",
             "Upgrades"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -176,10 +196,10 @@
     },
     {
         "count": 1,
-        "name": "Last Man Standing",
+        "name": "Final Stand",
         "category": [
             "Level 8+",
-            "Multiplayer",
+            "Party",
             "Upgrades"
         ],
         "progression_skip_balancing": true
@@ -187,6 +207,24 @@
     {
         "count": 1,
         "name": "Advanced Gravity Coil",
+        "category": [
+            "Level 8+",
+            "Upgrades"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Star Marts",
+        "category": [
+            "Level 8+",
+            "Upgrades"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "Spring Shoes",
         "category": [
             "Level 8+",
             "Upgrades"
@@ -200,7 +238,16 @@
             "Level 10+",
             "Upgrades"
         ],
-        "useful": true
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Birthday Pony",
+        "category": [
+            "Level 10+",
+            "Upgrades"
+        ],
+        "progression_skip_balancing": true
     },
     {
         "count": 2,
@@ -232,12 +279,40 @@
     },
     {
         "count": 1,
+        "name": "Soul Tracers",
+        "category": [
+            "Level 13+",
+            "Extreme-",
+            "Upgrades"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
         "name": "Shark Tail",
         "category": [
             "Level 15+",
             "Upgrades"
         ],
         "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Propeller Hat",
+        "category": [
+            "Level 15+",
+            "Upgrades"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Shadow Cloak",
+        "category": [
+            "Level 15+",
+            "Upgrades"
+        ],
+        "progression_skip_balancing": true
     },
     {
         "count": 3,
@@ -291,13 +366,41 @@
             "Level 18+",
             "Upgrades"
         ],
-        "useful": true
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Fleeting Fate",
+        "category": [
+            "Level 18+",
+            "Upgrades"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Aggro Magnet",
+        "category": [
+            "Level 18+",
+            "Upgrades"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Debuff Magnet",
+        "category": [
+            "Level 18+",
+            "Upgrades"
+        ],
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
         "name": "Miniature Hourglass",
         "category": [
             "Level 20+",
+            "Standard+",
             "Upgrades"
         ],
         "progression": true
@@ -319,6 +422,177 @@
             "Upgrades"
         ],
         "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Jet Boosters",
+        "category": [
+            "Level 25+",
+            "Upgrades"
+        ],
+        "progression": true
+    },
+    {
+        "count": 1,
+        "name": "Magnified Levels",
+        "category": [
+            "Level 30+",
+            "Upgrades"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Quixotic Wing",
+        "category": [
+            "Level 30+",
+            "Upgrades"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Transient Pennon",
+        "category": [
+            "Level 30+",
+            "Upgrades"
+        ],
+        "progression_skip_balancing": true
+    },
+    {
+        "count": 1,
+        "name": "Conceit",
+        "category": [
+            "Delusions",
+            "Level 15+"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "Arrogance",
+        "category": [
+            "Delusions",
+            "Level 15+"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "Dependence",
+        "category": [
+            "Delusions",
+            "Level 15+"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "Hope",
+        "category": [
+            "Delusions",
+            "Level 15+"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "Corrosion",
+        "category": [
+            "Delusions",
+            "Level 15+"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "Vandalism",
+        "category": [
+            "Delusions",
+            "Level 15+"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "Ignorance",
+        "category": [
+            "Delusions",
+            "Level 15+"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "Overconfidence",
+        "category": [
+            "Delusions",
+            "Level 15+"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "Burnout",
+        "category": [
+            "Delusions",
+            "Level 15+"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "Gambling",
+        "category": [
+            "Delusions",
+            "Level 15+"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "Assurance",
+        "category": [
+            "Delusions",
+            "Level 15+"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "Perseverance",
+        "category": [
+            "Delusions",
+            "Level 15+"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "Hoarding",
+        "category": [
+            "Delusions",
+            "Level 15+"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "Desire",
+        "category": [
+            "Delusions",
+            "Level 15+"
+        ],
+        "useful": true
+    },
+    {
+        "count": 1,
+        "name": "Greed",
+        "category": [
+            "Delusions",
+            "Level 15+"
+        ],
+        "useful": true
     },
     {
         "count": 1,
@@ -375,26 +649,6 @@
             "Class Unlock"
         ],
         "progression": true
-    },
-    {
-        "count": 3,
-        "name": "Purgatory Trap",
-        "trap": true
-    },
-    {
-        "count": 3,
-        "name": "Echo Trap",
-        "trap": true
-    },
-    {
-        "count": 3,
-        "name": "Purification Trap",
-        "trap": true
-    },
-    {
-        "count": 3,
-        "name": "No Reroll Trap",
-        "trap": true
     },
     {
         "count": 1,

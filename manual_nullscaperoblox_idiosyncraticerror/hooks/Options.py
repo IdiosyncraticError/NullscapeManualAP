@@ -96,21 +96,42 @@ class PostGoalContent(Toggle):
 
 class Casual(Toggle):
     """
-    Removes all Tripmine curses, Tripmine upgrades, and Grace Wings
+    Removes all Tripmine curses, Tripmine upgrades, Grace Wings, and Miniature Hourglass
     """
     display_name = "Casual Mode Only"
 
+class Extreme(Toggle):
+    """
+    Removes upgrades that do not appear in Extreme from the item pool
+    """
+    display_name = "Extreme Mode Only"
+
 class Party(Choice):
     """
-    Solo: removes all multiplayer curses and upgrades
-    Multiplayer: removes Adrenaline
+    Solo: removes all multiplayer curses and upgrades (pick this if you plan to play duo)
+    (final stand, health insurance, altar boons)
+    Party: removes Adrenaline
     Both: solo and multiplayer exclusive items and curses are included
     """
     display_name = "Party Size"
     option_solo = 0
-    option_multiplayer = 1
+    option_party = 1
     option_both = 2
     default = 0
+
+class Delusion(Toggle):
+    """
+    Adds delusions to the randomizer
+    """
+    display_name = "Delusions"
+
+class DelusionList(OptionSet):
+    """
+    Toggle which delusions will be randomized
+    """
+    display_name = "Enabled Delusions"
+    valid_keys = item_name_groups["Delusions"]
+    default = frozenset(valid_keys)
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
@@ -122,7 +143,10 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["filler_percent"] = FillerCount
     options["post_goal"] = PostGoalContent
     options["casual_only"] = Casual
+    options["extreme_only"] = Extreme
     options["party_size"] = Party
+    options["delusions"] = Delusion
+    options["enabled_delusions"] = DelusionList
 
     return options
 
@@ -145,7 +169,7 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
     options.type_hints["level_20"].visibility = Visibility.none
     
     options.type_hints["solo"].visibility = Visibility.none
-    options.type_hints["multiplayer"].visibility = Visibility.none
+    options.type_hints["Party"].visibility = Visibility.none
 
     pass
 
