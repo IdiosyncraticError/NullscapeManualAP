@@ -49,7 +49,7 @@ curses = [
     ["Mighty Gong", [1, "Bell"]],
     ["Concussion", [1, "Bell"]],
     ["Mart Infection", [8, "Mart"]],
-    ["Mart Slide", [8, "Mart"]],
+    #["Mart Slide", [8, "Mart"]],
     ["Bigger Marts", [1, "Mart"]],
     ["Red Marts", [1, "Mart"]],
     ["Beacon Imp", [18, "Mart"]],
