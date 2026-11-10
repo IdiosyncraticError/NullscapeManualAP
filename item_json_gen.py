@@ -45,7 +45,7 @@ upgrades = [
     ["Aggro Magnet", 1, ["Level 18+"], 3],
     ["Debuff Magnet", 1, ["Level 18+"], 2],
     ["Miniature Hourglass", 1, ["Level 20+", "Standard+"], 4],
-    ["Gift Idol", 5, ["Level 20+"], 3],
+    ["Gift Idol", 5, ["Level 20+"], 4],
     ["Drowned Aegis", 1, ["Level 20+"], 3],
     ["Jet Boosters", 1, ["Level 25+"], 4],
     ["Magnified Levels", 1, ["Level 30+"], 4],

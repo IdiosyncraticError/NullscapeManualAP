@@ -7,7 +7,7 @@
             "Level 3+",
             "Upgrades"
         ],
-        "progression": true
+        "useful": true
     },
     {
         "count": 3,
@@ -412,7 +412,7 @@
             "Level 20+",
             "Upgrades"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,

@@ -100,6 +100,28 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 
     if shopsanity_on:
         item_config["Adrenaline"] = {"progression":1}
+        item_config["Better Jump Pads"] = {"progression":1}
+        item_config["Tria Orbs"] = {"progression":1}
+        item_config["Grapple Points"] = {"progression":1}
+        item_config["Health Insurance"] = {"progression":1}
+        item_config["Altar Boons"] = {"progression":1}
+        item_config["Radar Module Altars"] = {"progression":1}
+        item_config["Radar Module Tripmines"] = {"progression":1}
+        item_config["Final Stand"] = {"progression":1}
+        item_config["Star Marts"] = {"progression":1}
+        item_config["Spring Shoes"] = {"progression":1}
+        item_config["More Altars"] = {"progression":1}
+        item_config["Birthday Pony"] = {"progression":1}
+        item_config["Larger Grapple Points"] = {"progression":1}
+        item_config["Soul Tracers"] = {"progression":1}
+        item_config["Radar Module Instruments"] = {"progression":1}
+        item_config["Panic Necklace"] = {"progression":1}
+        item_config["Fleeting Fate"] = {"progression":1}
+        item_config["Aggro Magnet"] = {"progression":1}
+        item_config["Debuff Magnet"] = {"progression":1}
+        item_config["Drowned Aegis"] = {"progression":1}
+        item_config["Quixotic Wing"] = {"progression":1}
+        item_config["Transient Pennon"] = {"progression":1}
 
     return item_config
 
