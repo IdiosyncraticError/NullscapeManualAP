@@ -1089,5 +1089,599 @@
             "Prisoner Win Progression Flag"
         ],
         "requires": "{checkPrisoner()}"
+    },
+    {
+        "name": "Buy Adrenaline",
+        "region": "lvl 3",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "|Adrenaline|"
+    },
+    {
+        "name": "Buy Swiftness Ring 1",
+        "region": "lvl 3",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "|Swiftness Ring:1|"
+    },
+    {
+        "name": "Buy Swiftness Ring 2",
+        "region": "lvl 3",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "|Swiftness Ring:2|"
+    },
+    {
+        "name": "Buy Swiftness Ring 3",
+        "region": "lvl 3",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "|Swiftness Ring:3|"
+    },
+    {
+        "name": "Buy Business License 1",
+        "region": "lvl 3",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "|Business License:1|"
+    },
+    {
+        "name": "Buy Business License 2",
+        "region": "lvl 3",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "|Business License:2|"
+    },
+    {
+        "name": "Buy Paycheck 1",
+        "region": "lvl 3",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "|Paycheck:1|"
+    },
+    {
+        "name": "Buy Paycheck 2",
+        "region": "lvl 3",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "|Paycheck:2|"
+    },
+    {
+        "name": "Buy Paycheck 3",
+        "region": "lvl 3",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "|Paycheck:3|"
+    },
+    {
+        "name": "Buy Paycheck 4",
+        "region": "lvl 3",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "|Paycheck:4|"
+    },
+    {
+        "name": "Buy Paycheck 5",
+        "region": "lvl 3",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "|Paycheck:5|"
+    },
+    {
+        "name": "Buy Medal",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 5+"
+        ],
+        "requires": "|Medal|"
+    },
+    {
+        "name": "Buy Radar",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 5+"
+        ],
+        "requires": "|Radar|"
+    },
+    {
+        "name": "Buy Better Jump Pads",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 5+"
+        ],
+        "requires": "|Better Jump Pads|"
+    },
+    {
+        "name": "Buy Tria Orbs",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 5+"
+        ],
+        "requires": "|Tria Orbs|"
+    },
+    {
+        "name": "Buy Grapple Points",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 5+"
+        ],
+        "requires": "|Grapple Points|"
+    },
+    {
+        "name": "Buy Double Jump",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 5+"
+        ],
+        "requires": "|Double Jump|"
+    },
+    {
+        "name": "Buy Defuse Kit 1",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 5+"
+        ],
+        "requires": "|Defuse Kit:1|"
+    },
+    {
+        "name": "Buy Defuse Kit 2",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 5+"
+        ],
+        "requires": "|Defuse Kit:2|"
+    },
+    {
+        "name": "Buy Defuse Kit 3",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 5+"
+        ],
+        "requires": "|Defuse Kit:3|"
+    },
+    {
+        "name": "Buy Grace Wings",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 5+"
+        ],
+        "requires": "|Grace Wings|"
+    },
+    {
+        "name": "Buy Pocket Bell",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "|Double Jump| and |Pocket Bell|"
+    },
+    {
+        "name": "Buy Ice Skates",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "|Ice Skates|"
+    },
+    {
+        "name": "Buy Helmet",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "|Helmet|"
+    },
+    {
+        "name": "Buy Fanny Pack",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "|Fanny Pack|"
+    },
+    {
+        "name": "Buy Health Insurance",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "|Paycheck:1| and |Health Insurance|"
+    },
+    {
+        "name": "Buy Altar Boons",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "|Altar Boons|"
+    },
+    {
+        "name": "Buy Radar Module: Enemies",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "|Radar| and |Radar Module: Enemies|"
+    },
+    {
+        "name": "Buy Radar Module: Altars",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "|Radar| and |Radar Module: Altars|"
+    },
+    {
+        "name": "Buy Radar Module: Tripmines",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "|Radar| and |Radar Module: Tripmines|"
+    },
+    {
+        "name": "Buy Final Stand",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "|Final Stand|"
+    },
+    {
+        "name": "Buy Advanced Gravity Coil",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "|Advanced Gravity Coil|"
+    },
+    {
+        "name": "Buy Star Marts",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "|Star Marts|"
+    },
+    {
+        "name": "Buy Spring Shoes",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "|Spring Shoes|"
+    },
+    {
+        "name": "Buy More Altars",
+        "region": "lvl 10",
+        "category": [
+            "Buy Upgrades",
+            "Level 10+"
+        ],
+        "requires": "|More Altars|"
+    },
+    {
+        "name": "Buy Birthday Pony",
+        "region": "lvl 10",
+        "category": [
+            "Buy Upgrades",
+            "Level 10+"
+        ],
+        "requires": "|Birthday Pony|"
+    },
+    {
+        "name": "Buy Subspacial Barrier 1",
+        "region": "lvl 10",
+        "category": [
+            "Buy Upgrades",
+            "Level 10+"
+        ],
+        "requires": "|Defuse Kit:3| and |Subspacial Barrier:1|"
+    },
+    {
+        "name": "Buy Subspacial Barrier 2",
+        "region": "lvl 10",
+        "category": [
+            "Buy Upgrades",
+            "Level 10+"
+        ],
+        "requires": "|Defuse Kit:3| and |Subspacial Barrier:2|"
+    },
+    {
+        "name": "Buy Larger Grapple Points",
+        "region": "lvl 10",
+        "category": [
+            "Buy Upgrades",
+            "Level 13+"
+        ],
+        "requires": "|Grapple Points| and |Larger Grapple Points|"
+    },
+    {
+        "name": "Buy Ninja Belt",
+        "region": "lvl 10",
+        "category": [
+            "Buy Upgrades",
+            "Level 13+"
+        ],
+        "requires": "|Ninja Belt|"
+    },
+    {
+        "name": "Buy Soul Tracers",
+        "region": "lvl 10",
+        "category": [
+            "Buy Upgrades",
+            "Level 13+"
+        ],
+        "requires": "|Soul Tracers|"
+    },
+    {
+        "name": "Buy Shark Tail",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 15+"
+        ],
+        "requires": "|Ninja Belt| and |Shark Tail|"
+    },
+    {
+        "name": "Buy Propeller Hat",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 15+"
+        ],
+        "requires": "|Helmet| and |Propeller Hat|"
+    },
+    {
+        "name": "Buy Shadow Cloak",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 15+"
+        ],
+        "requires": "|Shadow Cloak|"
+    },
+    {
+        "name": "Buy Gift Magnet 1",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 15+"
+        ],
+        "requires": "|Gift Magnet:1|"
+    },
+    {
+        "name": "Buy Gift Magnet 2",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 15+"
+        ],
+        "requires": "|Gift Magnet:2|"
+    },
+    {
+        "name": "Buy Gift Magnet 3",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 15+"
+        ],
+        "requires": "|Gift Magnet:3|"
+    },
+    {
+        "name": "Buy Matrix Tetrahedron",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 15+"
+        ],
+        "requires": "|Matrix Tetrahedron|"
+    },
+    {
+        "name": "Buy Sports Shoes",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 15+"
+        ],
+        "requires": "|Sports Shoes|"
+    },
+    {
+        "name": "Buy Shield",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 15+"
+        ],
+        "requires": "|Shield|"
+    },
+    {
+        "name": "Buy Radar Module: Instruments",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 15+"
+        ],
+        "requires": "|Radar| and |Radar Module: Instruments|"
+    },
+    {
+        "name": "Buy Panic Necklace",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 18+"
+        ],
+        "requires": "|Shield| and |Panic Necklace|"
+    },
+    {
+        "name": "Buy Fleeting Fate",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 18+"
+        ],
+        "requires": "|Fleeting Fate|"
+    },
+    {
+        "name": "Buy Aggro Magnet",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 18+"
+        ],
+        "requires": "|Gift Magnet:1| and |Aggro Magnet|"
+    },
+    {
+        "name": "Buy Debuff Magnet",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 18+"
+        ],
+        "requires": "|Gift Magnet:1| and |Debuff Magnet|"
+    },
+    {
+        "name": "Buy Miniature Hourglass",
+        "region": "lvl 20",
+        "category": [
+            "Buy Upgrades",
+            "Level 20+"
+        ],
+        "requires": "|Ninja Belt| and |Miniature Hourglass|"
+    },
+    {
+        "name": "Buy Gift Idol 1",
+        "region": "lvl 20",
+        "category": [
+            "Buy Upgrades",
+            "Level 20+"
+        ],
+        "requires": "|Gift Magnet:1| and |Gift Idol:1|"
+    },
+    {
+        "name": "Buy Gift Idol 2",
+        "region": "lvl 20",
+        "category": [
+            "Buy Upgrades",
+            "Level 20+"
+        ],
+        "requires": "|Gift Magnet:1| and |Gift Idol:2|"
+    },
+    {
+        "name": "Buy Gift Idol 3",
+        "region": "lvl 20",
+        "category": [
+            "Buy Upgrades",
+            "Level 20+"
+        ],
+        "requires": "|Gift Magnet:1| and |Gift Idol:3|"
+    },
+    {
+        "name": "Buy Gift Idol 4",
+        "region": "lvl 20",
+        "category": [
+            "Buy Upgrades",
+            "Level 20+"
+        ],
+        "requires": "|Gift Magnet:1| and |Gift Idol:4|"
+    },
+    {
+        "name": "Buy Gift Idol 5",
+        "region": "lvl 20",
+        "category": [
+            "Buy Upgrades",
+            "Level 20+"
+        ],
+        "requires": "|Gift Magnet:1| and |Gift Idol:5|"
+    },
+    {
+        "name": "Buy Drowned Aegis",
+        "region": "lvl 20",
+        "category": [
+            "Buy Upgrades",
+            "Level 20+"
+        ],
+        "requires": "|More Altars| and |Drowned Aegis|"
+    },
+    {
+        "name": "Buy Jet Boosters",
+        "region": "lvl 25",
+        "category": [
+            "Buy Upgrades",
+            "Level 25+"
+        ],
+        "requires": "|Jet Boosters|"
+    },
+    {
+        "name": "Buy Magnified Levels",
+        "region": "lvl 30",
+        "category": [
+            "Buy Upgrades",
+            "Level 30+"
+        ],
+        "requires": "|Magnified Levels|"
+    },
+    {
+        "name": "Buy Quixotic Wing",
+        "region": "lvl 30",
+        "category": [
+            "Buy Upgrades",
+            "Level 30+"
+        ],
+        "requires": "|Quixotic Wing|"
+    },
+    {
+        "name": "Buy Transient Pennon",
+        "region": "lvl 30",
+        "category": [
+            "Buy Upgrades",
+            "Level 30+"
+        ],
+        "requires": "|Transient Pennon|"
     }
 ]

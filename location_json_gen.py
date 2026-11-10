@@ -133,6 +133,59 @@ classes = [
     "Prisoner"
 ]
 
+upgrades = [
+    ["Adrenaline", 1, ["Solo"], 3],
+    ["Swiftness Ring", 3, [], 3],
+    ["Business License", 2, [], 3],
+    ["Paycheck", 5, [], 3],
+    ["Medal", 1, [], 5],
+    ["Radar", 1, [], 5],
+    ["Better Jump Pads", 1, [], 5],
+    ["Tria Orbs", 1, [], 5],
+    ["Grapple Points", 1, [], 5],
+    ["Double Jump", 1, [], 5],
+    ["Defuse Kit", 3, ["Standard+"], 5],
+    ["Grace Wings", 1, ["Standard+"], 5],
+    ["Pocket Bell", 1, [], 8, "|Double Jump|"],
+    ["Ice Skates", 1, [], 8],
+    ["Helmet", 1, [], 8],
+    ["Fanny Pack", 1, [], 8],
+    ["Health Insurance", 1, ["Party", "Extreme-"], 8, "|Paycheck:1|"], #not in extreme or <4 players
+    ["Altar Boons", 1, [], 8],
+    ["Radar Module: Enemies", 1, [], 8, "|Radar|"],
+    ["Radar Module: Altars", 1, [], 8, "|Radar|"],
+    ["Radar Module: Tripmines", 1, ["Standard+"], 8, "|Radar|"],
+    ["Final Stand", 1, ["Party"], 8],
+    ["Advanced Gravity Coil", 1, [], 8],
+    ["Star Marts", 1, [], 8],
+    ["Spring Shoes", 1, [], 8],
+    ["More Altars", 1, [], 10],
+    ["Birthday Pony", 1, [], 10],
+    ["Subspacial Barrier", 2, ["Standard+"], 10, "|Defuse Kit:3|"],
+    ["Larger Grapple Points", 1, [], 13, "|Grapple Points|"],
+    ["Ninja Belt", 1, [], 13],
+    ["Soul Tracers", 1, ["Extreme-"], 13], #not in extreme mode
+    ["Shark Tail", 1, [], 15, "|Ninja Belt|"],
+    ["Propeller Hat", 1, [], 15, "|Helmet|"],
+    ["Shadow Cloak", 1, [], 15],
+    ["Gift Magnet", 3, [], 15],
+    ["Matrix Tetrahedron", 1, [], 15],
+    ["Sports Shoes", 1, [], 15],
+    ["Shield", 1, [], 15],
+    ["Radar Module: Instruments", 1, [], 15, "|Radar|"],
+    ["Panic Necklace", 1, [], 18, "|Shield|"],
+    ["Fleeting Fate", 1, [], 18],
+    ["Aggro Magnet", 1, [], 18, "|Gift Magnet:1|"],
+    ["Debuff Magnet", 1, [], 18, "|Gift Magnet:1|"],
+    ["Miniature Hourglass", 1, ["Standard+"], 20, "|Ninja Belt|"],
+    ["Gift Idol", 5, [], 20, "|Gift Magnet:1|"],
+    ["Drowned Aegis", 1, [], 20, "|More Altars|"],
+    ["Jet Boosters", 1, [], 25],
+    ["Magnified Levels", 1, [], 30],
+    ["Quixotic Wing", 1, [], 30],
+    ["Transient Pennon", 1, [], 30]
+]
+
 output = []
 
 for i in rounds:
@@ -256,6 +309,65 @@ for i in classes:
     else:
         obj["requires"] = "{checkWin(" + i + ")}"
     output.append(obj)
+
+for i in upgrades:
+    for j in range(i[1]):
+        obj = {}
+        if i[1] > 1:
+            obj["name"] = "Buy " + i[0] + " " + str(j + 1)
+        else:
+            obj["name"] = "Buy " + i[0]
+
+        cat_list = ["Buy Upgrades"]
+        if i[3] == 3:
+            obj["region"] = "lvl 3"
+            cat_list.append("Level 3+")
+        elif i[3] == 5:
+            obj["region"] = "lvl 5"
+            cat_list.append("Level 5+")
+        elif i[3] == 8:
+            obj["region"] = "lvl 5"
+            cat_list.append("Level 8+")
+        elif i[3] == 10:
+            obj["region"] = "lvl 10"
+            cat_list.append("Level 10+")
+        elif i[3] == 13:
+            obj["region"] = "lvl 10"
+            cat_list.append("Level 13+")
+        elif i[3] == 15:
+            obj["region"] = "lvl 15"
+            cat_list.append("Level 15+")
+        elif i[3] == 18:
+            obj["region"] = "lvl 15"
+            cat_list.append("Level 18+")
+        elif i[3] == 20:
+            obj["region"] = "lvl 20"
+            cat_list.append("Level 20+")
+        elif i[3] == 25:
+            obj["region"] = "lvl 25"
+            cat_list.append("Level 25+")
+        elif i[3] == 30:
+            obj["region"] = "lvl 30"
+            cat_list.append("Level 30+")
+        obj["category"] = cat_list
+
+        print(obj["name"])
+        if i[1] > 1:
+            if len(i) == 5:
+                require_len = len(i[0])
+                obj["requires"] = i[4] + " and |" + i[0] + ":" + str(j + 1) + "|"
+            else:
+                require_len = len(i[0])
+                obj["requires"] = "|" + i[0] + ":" + str(j + 1) + "|"
+        else:
+            if len(i) == 5:
+                obj["requires"] = i[4] + " and |" + i[0] + "|"
+            else:
+                obj["requires"] = "|" + i[0] + "|"
+        print(obj["requires"])
+
+        output.append(obj)
+
     
 
 with open("locations.json", "w") as file:

@@ -50,7 +50,7 @@ upgrades = [
     ["Jet Boosters", 1, ["Level 25+"], 4],
     ["Magnified Levels", 1, ["Level 30+"], 4],
     ["Quixotic Wing", 1, ["Level 30+"], 3],
-    ["Transient Pennon", 1, ["Level 30+"], 3],
+    ["Transient Pennon", 1, ["Level 30+"], 3]
 ]
 
 delusions = [
