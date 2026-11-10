@@ -1,7 +1,7 @@
 import json
 
 upgrades = [
-    ["Adrenaline", 1, ["Solo", "Level 3+"], 4],
+    ["Adrenaline", 1, ["Solo", "Level 3+"], 2],
     ["Swiftness Ring", 3, ["Level 3+"], 4],
     ["Business License", 2, ["Level 3+"], 4],
     ["Paycheck", 5, ["Level 3+"], 4],
