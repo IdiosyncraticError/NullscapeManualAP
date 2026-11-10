@@ -169,7 +169,7 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
     options.type_hints["level_20"].visibility = Visibility.none
     
     options.type_hints["solo"].visibility = Visibility.none
-    options.type_hints["Party"].visibility = Visibility.none
+    options.type_hints["party"].visibility = Visibility.none
 
     pass
 

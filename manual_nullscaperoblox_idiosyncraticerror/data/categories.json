@@ -116,7 +116,7 @@
     "Party": {
         "hidden": true,
         "yaml_option": [
-            "multiplayer"
+            "party"
         ]
     },
     "Standard+": {

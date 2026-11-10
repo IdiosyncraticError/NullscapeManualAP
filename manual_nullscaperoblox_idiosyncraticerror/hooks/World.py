@@ -63,10 +63,10 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     if party == 0:
         world.options.solo.value = True
     elif party == 1:
-        world.options.multiplayer.value = True
+        world.options.party.value = True
     elif party == 2:
         world.options.solo.value = True
-        world.options.multiplayer.value = True
+        world.options.party.value = True
     
     pass
 

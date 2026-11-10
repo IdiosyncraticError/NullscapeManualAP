@@ -16,7 +16,7 @@
             "Level 3+",
             "Upgrades"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 2,
@@ -144,7 +144,7 @@
             "Level 8+",
             "Upgrades"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -303,7 +303,7 @@
             "Level 15+",
             "Upgrades"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -312,7 +312,7 @@
             "Level 15+",
             "Upgrades"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 3,

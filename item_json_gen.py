@@ -16,7 +16,7 @@ upgrades = [
     ["Pocket Bell", 1, ["Level 8+"], 4],
     ["Ice Skates", 1, ["Level 8+"], 4],
     ["Helmet", 1, ["Level 8+"], 4],
-    ["Fanny Pack", 1, ["Level 8+"], 3],
+    ["Fanny Pack", 1, ["Level 8+"], 4],
     ["Health Insurance", 1, ["Level 8+", "Party", "Extreme-"], 3], #not in extreme or <4 players
     ["Altar Boons", 1, ["Level 8+"], 2],
     ["Radar Module: Enemies", 1, ["Level 8+"], 4],
@@ -34,7 +34,7 @@ upgrades = [
     ["Soul Tracers", 1, ["Level 13+", "Extreme-"], 2], #not in extreme mode
     ["Shark Tail", 1, ["Level 15+"], 4],
     ["Propeller Hat", 1, ["Level 15+"], 4],
-    ["Shadow Cloak", 1, ["Level 15+"], 3],
+    ["Shadow Cloak", 1, ["Level 15+"], 4],
     ["Gift Magnet", 3, ["Level 15+"], 4],
     ["Matrix Tetrahedron", 1, ["Level 15+"], 4],
     ["Sports Shoes", 1, ["Level 15+"], 4],
