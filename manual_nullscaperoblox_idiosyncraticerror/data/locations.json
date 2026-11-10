@@ -1092,7 +1092,7 @@
     },
     {
         "name": "Buy Adrenaline",
-        "region": "lvl 3",
+        "region": "lvl 0",
         "category": [
             "Buy Upgrades",
             "Level 3+"
@@ -1101,7 +1101,7 @@
     },
     {
         "name": "Buy Swiftness Ring 1",
-        "region": "lvl 3",
+        "region": "lvl 0",
         "category": [
             "Buy Upgrades",
             "Level 3+"
@@ -1110,7 +1110,7 @@
     },
     {
         "name": "Buy Swiftness Ring 2",
-        "region": "lvl 3",
+        "region": "lvl 0",
         "category": [
             "Buy Upgrades",
             "Level 3+"
@@ -1119,7 +1119,7 @@
     },
     {
         "name": "Buy Swiftness Ring 3",
-        "region": "lvl 3",
+        "region": "lvl 0",
         "category": [
             "Buy Upgrades",
             "Level 3+"
@@ -1128,7 +1128,7 @@
     },
     {
         "name": "Buy Business License 1",
-        "region": "lvl 3",
+        "region": "lvl 0",
         "category": [
             "Buy Upgrades",
             "Level 3+"
@@ -1137,7 +1137,7 @@
     },
     {
         "name": "Buy Business License 2",
-        "region": "lvl 3",
+        "region": "lvl 0",
         "category": [
             "Buy Upgrades",
             "Level 3+"
@@ -1146,7 +1146,7 @@
     },
     {
         "name": "Buy Paycheck 1",
-        "region": "lvl 3",
+        "region": "lvl 0",
         "category": [
             "Buy Upgrades",
             "Level 3+"
@@ -1155,7 +1155,7 @@
     },
     {
         "name": "Buy Paycheck 2",
-        "region": "lvl 3",
+        "region": "lvl 0",
         "category": [
             "Buy Upgrades",
             "Level 3+"
@@ -1164,7 +1164,7 @@
     },
     {
         "name": "Buy Paycheck 3",
-        "region": "lvl 3",
+        "region": "lvl 0",
         "category": [
             "Buy Upgrades",
             "Level 3+"
@@ -1173,7 +1173,7 @@
     },
     {
         "name": "Buy Paycheck 4",
-        "region": "lvl 3",
+        "region": "lvl 0",
         "category": [
             "Buy Upgrades",
             "Level 3+"
@@ -1182,7 +1182,7 @@
     },
     {
         "name": "Buy Paycheck 5",
-        "region": "lvl 3",
+        "region": "lvl 0",
         "category": [
             "Buy Upgrades",
             "Level 3+"
@@ -1334,31 +1334,31 @@
         "requires": "|Altar Boons|"
     },
     {
-        "name": "Buy Radar Module: Enemies",
+        "name": "Buy Radar Module Enemies",
         "region": "lvl 5",
         "category": [
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "|Radar| and |Radar Module: Enemies|"
+        "requires": "|Radar| and |Radar Module Enemies|"
     },
     {
-        "name": "Buy Radar Module: Altars",
+        "name": "Buy Radar Module Altars",
         "region": "lvl 5",
         "category": [
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "|Radar| and |Radar Module: Altars|"
+        "requires": "|Radar| and |Radar Module Altars|"
     },
     {
-        "name": "Buy Radar Module: Tripmines",
+        "name": "Buy Radar Module Tripmines",
         "region": "lvl 5",
         "category": [
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "|Radar| and |Radar Module: Tripmines|"
+        "requires": "|Radar| and |Radar Module Tripmines|"
     },
     {
         "name": "Buy Final Stand",
@@ -1541,13 +1541,13 @@
         "requires": "|Shield|"
     },
     {
-        "name": "Buy Radar Module: Instruments",
+        "name": "Buy Radar Module Instruments",
         "region": "lvl 15",
         "category": [
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "|Radar| and |Radar Module: Instruments|"
+        "requires": "|Radar| and |Radar Module Instruments|"
     },
     {
         "name": "Buy Panic Necklace",

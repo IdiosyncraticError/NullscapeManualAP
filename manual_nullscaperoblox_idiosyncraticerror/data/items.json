@@ -7,7 +7,7 @@
             "Level 3+",
             "Upgrades"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 3,
@@ -168,7 +168,7 @@
     },
     {
         "count": 1,
-        "name": "Radar Module: Enemies",
+        "name": "Radar Module Enemies",
         "category": [
             "Level 8+",
             "Upgrades"
@@ -177,7 +177,7 @@
     },
     {
         "count": 1,
-        "name": "Radar Module: Altars",
+        "name": "Radar Module Altars",
         "category": [
             "Level 8+",
             "Upgrades"
@@ -186,7 +186,7 @@
     },
     {
         "count": 1,
-        "name": "Radar Module: Tripmines",
+        "name": "Radar Module Tripmines",
         "category": [
             "Level 8+",
             "Standard+",
@@ -352,7 +352,7 @@
     },
     {
         "count": 1,
-        "name": "Radar Module: Instruments",
+        "name": "Radar Module Instruments",
         "category": [
             "Level 15+",
             "Upgrades"

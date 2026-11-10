@@ -1,7 +1,7 @@
 import json
 
 upgrades = [
-    ["Adrenaline", 1, ["Solo", "Level 3+"], 2],
+    ["Adrenaline", 1, ["Solo", "Level 3+"], 4],
     ["Swiftness Ring", 3, ["Level 3+"], 4],
     ["Business License", 2, ["Level 3+"], 4],
     ["Paycheck", 5, ["Level 3+"], 4],
@@ -19,9 +19,9 @@ upgrades = [
     ["Fanny Pack", 1, ["Level 8+"], 4],
     ["Health Insurance", 1, ["Level 8+", "Party", "Extreme-"], 3], #not in extreme or <4 players
     ["Altar Boons", 1, ["Level 8+"], 2],
-    ["Radar Module: Enemies", 1, ["Level 8+"], 4],
-    ["Radar Module: Altars", 1, ["Level 8+"], 2],
-    ["Radar Module: Tripmines", 1, ["Level 8+", "Standard+"], 3],
+    ["Radar Module Enemies", 1, ["Level 8+"], 4],
+    ["Radar Module Altars", 1, ["Level 8+"], 2],
+    ["Radar Module Tripmines", 1, ["Level 8+", "Standard+"], 3],
     ["Final Stand", 1, ["Level 8+", "Party"], 3],
     ["Advanced Gravity Coil", 1, ["Level 8+"], 4],
     ["Star Marts", 1, ["Level 8+"], 2],
@@ -39,7 +39,7 @@ upgrades = [
     ["Matrix Tetrahedron", 1, ["Level 15+"], 4],
     ["Sports Shoes", 1, ["Level 15+"], 4],
     ["Shield", 1, ["Level 15+"], 4],
-    ["Radar Module: Instruments", 1, ["Level 15+"], 3],
+    ["Radar Module Instruments", 1, ["Level 15+"], 3],
     ["Panic Necklace", 1, ["Level 18+"], 2],
     ["Fleeting Fate", 1, ["Level 18+"], 3],
     ["Aggro Magnet", 1, ["Level 18+"], 3],

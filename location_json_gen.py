@@ -152,9 +152,9 @@ upgrades = [
     ["Fanny Pack", 1, [], 8],
     ["Health Insurance", 1, ["Party", "Extreme-"], 8, "|Paycheck:1|"], #not in extreme or <4 players
     ["Altar Boons", 1, [], 8],
-    ["Radar Module: Enemies", 1, [], 8, "|Radar|"],
-    ["Radar Module: Altars", 1, [], 8, "|Radar|"],
-    ["Radar Module: Tripmines", 1, ["Standard+"], 8, "|Radar|"],
+    ["Radar Module Enemies", 1, [], 8, "|Radar|"],
+    ["Radar Module Altars", 1, [], 8, "|Radar|"],
+    ["Radar Module Tripmines", 1, ["Standard+"], 8, "|Radar|"],
     ["Final Stand", 1, ["Party"], 8],
     ["Advanced Gravity Coil", 1, [], 8],
     ["Star Marts", 1, [], 8],
@@ -172,7 +172,7 @@ upgrades = [
     ["Matrix Tetrahedron", 1, [], 15],
     ["Sports Shoes", 1, [], 15],
     ["Shield", 1, [], 15],
-    ["Radar Module: Instruments", 1, [], 15, "|Radar|"],
+    ["Radar Module Instruments", 1, [], 15, "|Radar|"],
     ["Panic Necklace", 1, [], 18, "|Shield|"],
     ["Fleeting Fate", 1, [], 18],
     ["Aggro Magnet", 1, [], 18, "|Gift Magnet:1|"],
@@ -320,7 +320,7 @@ for i in upgrades:
 
         cat_list = ["Buy Upgrades"]
         if i[3] == 3:
-            obj["region"] = "lvl 3"
+            obj["region"] = "lvl 0"
             cat_list.append("Level 3+")
         elif i[3] == 5:
             obj["region"] = "lvl 5"
@@ -351,7 +351,6 @@ for i in upgrades:
             cat_list.append("Level 30+")
         obj["category"] = cat_list
 
-        print(obj["name"])
         if i[1] > 1:
             if len(i) == 5:
                 require_len = len(i[0])
@@ -364,7 +363,6 @@ for i in upgrades:
                 obj["requires"] = i[4] + " and |" + i[0] + "|"
             else:
                 obj["requires"] = "|" + i[0] + "|"
-        print(obj["requires"])
 
         output.append(obj)
 
