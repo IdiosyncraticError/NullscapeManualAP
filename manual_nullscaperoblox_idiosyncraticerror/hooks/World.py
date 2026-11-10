@@ -96,7 +96,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 #       will create 5 items that are the "useful trap" class
 # {"Item Name": {ItemClassification.useful: 5}} <- You can also use the classification directly
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
-    shopsanity_on = get_option_value(multiworld, player, "shopsanity")
+    shopsanity_on = is_option_enabled(multiworld, player, "shopsanity")
 
     if shopsanity_on:
         item_config["Adrenaline"] = {"progression":1}
