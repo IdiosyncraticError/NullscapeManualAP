@@ -6,8 +6,8 @@ upgrades = [
     ["Business License", 2, ["Level 3+"], 4],
     ["Paycheck", 5, ["Level 3+"], 4],
     ["Medal", 1, ["Level 5+"], 4],
-    ["Radar", 1, ["Level 5+"], 3],
-    ["Better Jump Pads", 1, ["Level 5+"], 3],
+    ["Radar", 1, ["Level 5+"], 4],
+    ["Better Jump Pads", 1, ["Level 5+"], 2],
     ["Tria Orbs", 1, ["Level 5+"], 3],
     ["Grapple Points", 1, ["Level 5+"], 3],
     ["Double Jump", 1, ["Level 5+"], 4],
@@ -25,9 +25,9 @@ upgrades = [
     ["Final Stand", 1, ["Level 8+", "Party"], 3],
     ["Advanced Gravity Coil", 1, ["Level 8+"], 4],
     ["Star Marts", 1, ["Level 8+"], 2],
-    ["Spring Shoes", 1, ["Level 8+"], 3],
-    ["More Altars", 1, ["Level 10+"], 3],
-    ["Birthday Pony", 1, ["Level 10+"], 3],
+    ["Spring Shoes", 1, ["Level 8+"], 2],
+    ["More Altars", 1, ["Level 10+"], 2],
+    ["Birthday Pony", 1, ["Level 10+"], 2],
     ["Subspacial Barrier", 2, ["Level 10+", "Standard+"], 4],
     ["Larger Grapple Points", 1, ["Level 13+"], 2],
     ["Ninja Belt", 1, ["Level 13+"], 4],
@@ -40,35 +40,35 @@ upgrades = [
     ["Sports Shoes", 1, ["Level 15+"], 4],
     ["Shield", 1, ["Level 15+"], 4],
     ["Radar Module: Instruments", 1, ["Level 15+"], 3],
-    ["Panic Necklace", 1, ["Level 18+"], 3],
+    ["Panic Necklace", 1, ["Level 18+"], 2],
     ["Fleeting Fate", 1, ["Level 18+"], 3],
     ["Aggro Magnet", 1, ["Level 18+"], 3],
-    ["Debuff Magnet", 1, ["Level 18+"], 3],
+    ["Debuff Magnet", 1, ["Level 18+"], 2],
     ["Miniature Hourglass", 1, ["Level 20+", "Standard+"], 4],
     ["Gift Idol", 5, ["Level 20+"], 3],
     ["Drowned Aegis", 1, ["Level 20+"], 3],
     ["Jet Boosters", 1, ["Level 25+"], 4],
-    ["Magnified Levels", 1, ["Level 30+"], 3],
+    ["Magnified Levels", 1, ["Level 30+"], 4],
     ["Quixotic Wing", 1, ["Level 30+"], 3],
     ["Transient Pennon", 1, ["Level 30+"], 3],
 ]
 
 delusions = [
-    "Conceit",
-    "Arrogance",
-    "Dependence",
-    "Hope",
-    "Corrosion",
-    "Vandalism",
-    "Ignorance",
-    "Overconfidence",
-    "Burnout",
-    "Gambling",
-    "Assurance",
-    "Perseverance",
-    "Hoarding",
-    "Desire",
-    "Greed"
+    ["Conceit", 2],
+    ["Arrogance", 2],
+    ["Dependence", 4],
+    ["Hope", 4],
+    ["Corrosion", 4],
+    ["Vandalism", 4],
+    ["Ignorance", 4],
+    ["Overconfidence", 2],
+    ["Burnout", 2],
+    ["Gambling", 2],
+    ["Assurance", 2],
+    ["Perseverance", 4],
+    ["Hoarding", 2],
+    ["Desire", 2],
+    ["Greed", 2]
 ]
 
 class_unlock = [
@@ -107,9 +107,12 @@ for i in delusions:
     obj = {}
 
     obj["count"] = 1
-    obj["name"] = i
+    obj["name"] = i[0]
     obj["category"] = ["Delusions", "Level 15+"]
-    obj["useful"] = True
+    if i[1] == 2:
+        obj["useful"] = True
+    elif i[1] == 4:
+        obj["progression"] = True
     output.append(obj)
 
 for i in class_unlock:
