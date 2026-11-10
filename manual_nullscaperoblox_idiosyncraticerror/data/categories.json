@@ -130,5 +130,10 @@
         "yaml_option": [
             "!extreme_only"
         ]
+    },
+    "Buy Upgrades": {
+        "yaml_option": [
+            "shopsanity"
+        ]
     }
 }
