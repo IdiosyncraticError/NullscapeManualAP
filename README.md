@@ -11,3 +11,4 @@ the level logic is assigned to standard for things that change based on level (g
 todo:
 - add difficulty + random + chaos to items and enabling/disabling of them in settings (as well as a sanity mode for class + difficulty + random + chaos + level locations)
 - add chaos mode
+- turn casual only and extreme only into a choice option instead of two toggles
