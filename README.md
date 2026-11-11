@@ -10,5 +10,12 @@ the level logic is assigned to standard for things that change based on level (g
 
 todo:
 - add difficulty + random + chaos to items and enabling/disabling of them in settings (as well as a sanity mode for class + difficulty + random + chaos + level locations)
-- add chaos mode
+  - what the fuck is this again
+  - random is kinda ahh i might just not do this
+- add chaos and chaos+ mode as an option
 - turn casual only and extreme only into a choice option instead of two toggles
+- option to add arrogance/conceit to shopsanity for the evil Extra stacks
+  - (optone(arrogance) or optone(conceit)) and yamlenabled(extra stacks) and |this upgrade:max stacks|
+- option to remove transient pennon and quixotic wing from shopsanity
+  - nobody is getting ts so might as well make it an option instead of forcing ppl to manually exclude it themselves
+  - i say this like ANYONE other than me is ever going to play this
