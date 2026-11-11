@@ -351,18 +351,7 @@ for i in upgrades:
             cat_list.append("Level 30+")
         obj["category"] = cat_list
 
-        if i[1] > 1:
-            if len(i) == 5:
-                require_len = len(i[0])
-                obj["requires"] = "{YamlEnabled(shopsanity)} and " + i[4] + " and |" + i[0] + ":" + str(j + 1) + "| or {YamlDisabled(shopsanity)}"
-            else:
-                require_len = len(i[0])
-                obj["requires"] = "{YamlEnabled(shopsanity)} and |" + i[0] + ":" + str(j + 1) + "| or {YamlDisabled(shopsanity)}"
-        else:
-            if len(i) == 5:
-                obj["requires"] = "{YamlEnabled(shopsanity)} and " + i[4] + " and |" + i[0] + "| or {YamlDisabled(shopsanity)}"
-            else:
-                obj["requires"] = "{YamlEnabled(shopsanity)} and |" + i[0] + "| or {YamlDisabled(shopsanity)}"
+        obj["requires"] = "{shopsanityReq(" + i[0] + ")}"
 
         output.append(obj)
 

@@ -83,3 +83,39 @@ def checkPrisoner(world: World):
     #but i guess it doesnt matter if you dont have universal tracker on lol
     
     return requires
+
+def shopsanityReq(world: World, item: str, count: int):
+    """return require string if shopsanity is enabled"""
+
+    # if shopsanity is off, dont bother
+    if not world.options.shopsanity.value:
+        return ""
+    
+    special_case = {
+        "Pocket Bell": "Double Jump",
+        "Health Insurance": "Paycheck:1",
+        "Radar Module Enemies": "Radar",
+        "Radar Module Altars": "Radar",
+        "Radar Module Tripmines": "Radar",
+        "Subspacial Barrier": "Defuse Kit:3",
+        "Larger Grapple Points": "Grapple Points",
+        "Shark Tail": "Ninja Belt",
+        "Propeller Hat": "Helmet",
+        "Radar Module Instruments": "Radar",
+        "Panic Necklace": "Shield",
+        "Aggro Magnet": "Magnet:1",
+        "Debuff Magnet": "Magnet:1",
+        "Miniature Hourglass": "Ninja Belt",
+        "Gift Idol": "Magnet:1",
+        "Drowned Aegis": "More Altars"
+    }
+
+    output = ""
+    # set count to 0 for all items that dont stack
+    if count > 0:
+        output += "|" + item + ":" + str(count) + "|"
+    else:
+        output += "|" + item + "|"
+
+    if item in special_case.keys():
+        output += " and |" + special_case[item] + "|"
