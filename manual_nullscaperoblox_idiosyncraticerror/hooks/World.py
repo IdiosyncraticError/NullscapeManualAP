@@ -99,6 +99,7 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
     shopsanity_on = is_option_enabled(multiworld, player, "shopsanity")
 
     if shopsanity_on:
+        print("shopsanity enabled")
         item_config["Adrenaline"] = {"progression":1}
         item_config["Better Jump Pads"] = {"progression":1}
         item_config["Tria Orbs"] = {"progression":1}
