@@ -7,7 +7,7 @@
             "Level 3+",
             "Upgrades"
         ],
-        "progression": true
+        "useful": true
     },
     {
         "count": 3,
@@ -61,7 +61,7 @@
             "Level 5+",
             "Upgrades"
         ],
-        "progression": true
+        "useful": true
     },
     {
         "count": 1,
@@ -70,7 +70,7 @@
             "Level 5+",
             "Upgrades"
         ],
-        "progression": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -155,7 +155,7 @@
             "Extreme-",
             "Upgrades"
         ],
-        "progression": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -164,7 +164,7 @@
             "Level 8+",
             "Upgrades"
         ],
-        "progression": true
+        "useful": true
     },
     {
         "count": 1,
@@ -182,7 +182,7 @@
             "Level 8+",
             "Upgrades"
         ],
-        "progression": true
+        "useful": true
     },
     {
         "count": 1,
@@ -192,7 +192,7 @@
             "Standard+",
             "Upgrades"
         ],
-        "progression": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -202,7 +202,7 @@
             "Party",
             "Upgrades"
         ],
-        "progression": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -220,7 +220,7 @@
             "Level 8+",
             "Upgrades"
         ],
-        "progression": true
+        "useful": true
     },
     {
         "count": 1,
@@ -229,7 +229,7 @@
             "Level 8+",
             "Upgrades"
         ],
-        "progression": true
+        "useful": true
     },
     {
         "count": 1,
@@ -238,7 +238,7 @@
             "Level 10+",
             "Upgrades"
         ],
-        "progression": true
+        "useful": true
     },
     {
         "count": 1,
@@ -247,7 +247,7 @@
             "Level 10+",
             "Upgrades"
         ],
-        "progression": true
+        "useful": true
     },
     {
         "count": 2,
@@ -266,7 +266,7 @@
             "Level 13+",
             "Upgrades"
         ],
-        "progression": true
+        "useful": true
     },
     {
         "count": 1,
@@ -285,7 +285,7 @@
             "Extreme-",
             "Upgrades"
         ],
-        "progression": true
+        "useful": true
     },
     {
         "count": 1,
@@ -357,7 +357,7 @@
             "Level 15+",
             "Upgrades"
         ],
-        "progression": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -366,7 +366,7 @@
             "Level 18+",
             "Upgrades"
         ],
-        "progression": true
+        "useful": true
     },
     {
         "count": 1,
@@ -375,7 +375,7 @@
             "Level 18+",
             "Upgrades"
         ],
-        "progression": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -384,7 +384,7 @@
             "Level 18+",
             "Upgrades"
         ],
-        "progression": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -393,7 +393,7 @@
             "Level 18+",
             "Upgrades"
         ],
-        "progression": true
+        "useful": true
     },
     {
         "count": 1,
@@ -421,7 +421,7 @@
             "Level 20+",
             "Upgrades"
         ],
-        "progression": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -448,7 +448,7 @@
             "Level 30+",
             "Upgrades"
         ],
-        "progression": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
@@ -457,7 +457,7 @@
             "Level 30+",
             "Upgrades"
         ],
-        "progression": true
+        "progression_skip_balancing": true
     },
     {
         "count": 1,
