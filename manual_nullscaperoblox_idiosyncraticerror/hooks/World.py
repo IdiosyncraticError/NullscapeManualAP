@@ -105,7 +105,6 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
         item_config["Tria Orbs"] = {"progression":1}
         item_config["Health Insurance"] = {"progression":1}
         item_config["Altar Boons"] = {"progression":1}
-        item_config["Grapple Points"] = {"progression":1}
         item_config["Radar Module Altars"] = {"progression":1}
         item_config["Radar Module Tripmines"] = {"progression":1}
         item_config["Final Stand"] = {"progression":1}
