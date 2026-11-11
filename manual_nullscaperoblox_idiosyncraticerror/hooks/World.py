@@ -45,7 +45,7 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     Use it to check or modify incompatible options, or to set up variables for later use.
     """
     
-    victory_level = world.options.level_win_requirement.value
+    victory_level = get_option_value(multiworld, world, "level_win_requirement")
     if world.options.post_goal.value == False:
         if victory_level < 12:
             world.options.level_12.value = False
@@ -58,7 +58,7 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
         if victory_level < 20:
             world.options.level_20.value = False
             
-    party = world.options.party_size.value
+    party = get_option_value(multiworld, world, "party_size")
     
     if party == 0:
         world.options.solo.value = True
@@ -96,7 +96,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 #       will create 5 items that are the "useful trap" class
 # {"Item Name": {ItemClassification.useful: 5}} <- You can also use the classification directly
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
-    shopsanity_on = world.options.shopsanity.value
+    shopsanity_on = is_option_enabled(multiworld, world, "shopsanity")
 
     if shopsanity_on:
         print("shopsanity enabled")
@@ -129,11 +129,11 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     
-    start_type = world.options.start_type.value
+    start_type = get_option_value(multiworld, player, "start_type")
     starting_class = []
 
     if start_type == world.options.start_type.option_randomclass: #if random starting classes was chosen as option
-        random_classes = get_option_value(multiworld, player, "random_class_start") #world.options.random_class_start.value
+        random_classes = get_option_value(multiworld, player, "random_class_start")
 
         #finds all classes in the item pool
         starting_class_temp = []
@@ -188,7 +188,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 
     #calculates number of filler depending on percentage chosen
     item_count = len(item_pool)
-    filler_count = len(item_pool)*(world.options.filler_percent.value/100)
+    filler_count = len(item_pool)*(get_option_value(multiworld, player, "filler_percent")/100)
     total_locations = math.ceil(filler_count) + item_count #ceiling function so that it doesnt return a decimal
     locations = []
 
@@ -201,7 +201,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     #set it to the total number of available locations
     if total_locations > len(locations):
         total_locations = len(locations)
-    if world.options.filler_percent.value == 100:
+    if get_option_value(multiworld, player, "filler_percent") == 100:
         total_locations = len(locations) #redundant but yk
 
     #randomly removes location until locations reaches expected number
