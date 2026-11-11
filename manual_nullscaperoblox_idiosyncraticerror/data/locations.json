@@ -1097,7 +1097,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{shopsanityReq(Adrenaline)}"
+        "requires": "{shopsanityReq(Adrenaline, 0)}"
     },
     {
         "name": "Buy Swiftness Ring 1",
@@ -1106,7 +1106,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{shopsanityReq(Swiftness Ring)}"
+        "requires": "{shopsanityReq(Swiftness Ring, 1)}"
     },
     {
         "name": "Buy Swiftness Ring 2",
@@ -1115,7 +1115,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{shopsanityReq(Swiftness Ring)}"
+        "requires": "{shopsanityReq(Swiftness Ring, 2)}"
     },
     {
         "name": "Buy Swiftness Ring 3",
@@ -1124,7 +1124,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{shopsanityReq(Swiftness Ring)}"
+        "requires": "{shopsanityReq(Swiftness Ring, 3)}"
     },
     {
         "name": "Buy Business License 1",
@@ -1133,7 +1133,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{shopsanityReq(Business License)}"
+        "requires": "{shopsanityReq(Business License, 1)}"
     },
     {
         "name": "Buy Business License 2",
@@ -1142,7 +1142,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{shopsanityReq(Business License)}"
+        "requires": "{shopsanityReq(Business License, 2)}"
     },
     {
         "name": "Buy Paycheck 1",
@@ -1151,7 +1151,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{shopsanityReq(Paycheck)}"
+        "requires": "{shopsanityReq(Paycheck, 1)}"
     },
     {
         "name": "Buy Paycheck 2",
@@ -1160,7 +1160,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{shopsanityReq(Paycheck)}"
+        "requires": "{shopsanityReq(Paycheck, 2)}"
     },
     {
         "name": "Buy Paycheck 3",
@@ -1169,7 +1169,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{shopsanityReq(Paycheck)}"
+        "requires": "{shopsanityReq(Paycheck, 3)}"
     },
     {
         "name": "Buy Paycheck 4",
@@ -1178,7 +1178,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{shopsanityReq(Paycheck)}"
+        "requires": "{shopsanityReq(Paycheck, 4)}"
     },
     {
         "name": "Buy Paycheck 5",
@@ -1187,7 +1187,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{shopsanityReq(Paycheck)}"
+        "requires": "{shopsanityReq(Paycheck, 5)}"
     },
     {
         "name": "Buy Medal",
@@ -1196,7 +1196,7 @@
             "Buy Upgrades",
             "Level 5+"
         ],
-        "requires": "{shopsanityReq(Medal)}"
+        "requires": "{shopsanityReq(Medal, 0)}"
     },
     {
         "name": "Buy Radar",
@@ -1205,7 +1205,7 @@
             "Buy Upgrades",
             "Level 5+"
         ],
-        "requires": "{shopsanityReq(Radar)}"
+        "requires": "{shopsanityReq(Radar, 0)}"
     },
     {
         "name": "Buy Better Jump Pads",
@@ -1214,7 +1214,7 @@
             "Buy Upgrades",
             "Level 5+"
         ],
-        "requires": "{shopsanityReq(Better Jump Pads)}"
+        "requires": "{shopsanityReq(Better Jump Pads, 0)}"
     },
     {
         "name": "Buy Tria Orbs",
@@ -1223,7 +1223,7 @@
             "Buy Upgrades",
             "Level 5+"
         ],
-        "requires": "{shopsanityReq(Tria Orbs)}"
+        "requires": "{shopsanityReq(Tria Orbs, 0)}"
     },
     {
         "name": "Buy Grapple Points",
@@ -1232,7 +1232,7 @@
             "Buy Upgrades",
             "Level 5+"
         ],
-        "requires": "{shopsanityReq(Grapple Points)}"
+        "requires": "{shopsanityReq(Grapple Points, 0)}"
     },
     {
         "name": "Buy Double Jump",
@@ -1241,7 +1241,7 @@
             "Buy Upgrades",
             "Level 5+"
         ],
-        "requires": "{shopsanityReq(Double Jump)}"
+        "requires": "{shopsanityReq(Double Jump, 0)}"
     },
     {
         "name": "Buy Defuse Kit 1",
@@ -1250,7 +1250,7 @@
             "Buy Upgrades",
             "Level 5+"
         ],
-        "requires": "{shopsanityReq(Defuse Kit)}"
+        "requires": "{shopsanityReq(Defuse Kit, 1)}"
     },
     {
         "name": "Buy Defuse Kit 2",
@@ -1259,7 +1259,7 @@
             "Buy Upgrades",
             "Level 5+"
         ],
-        "requires": "{shopsanityReq(Defuse Kit)}"
+        "requires": "{shopsanityReq(Defuse Kit, 2)}"
     },
     {
         "name": "Buy Defuse Kit 3",
@@ -1268,7 +1268,7 @@
             "Buy Upgrades",
             "Level 5+"
         ],
-        "requires": "{shopsanityReq(Defuse Kit)}"
+        "requires": "{shopsanityReq(Defuse Kit, 3)}"
     },
     {
         "name": "Buy Grace Wings",
@@ -1277,7 +1277,7 @@
             "Buy Upgrades",
             "Level 5+"
         ],
-        "requires": "{shopsanityReq(Grace Wings)}"
+        "requires": "{shopsanityReq(Grace Wings, 0)}"
     },
     {
         "name": "Buy Pocket Bell",
@@ -1286,7 +1286,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{shopsanityReq(Pocket Bell)}"
+        "requires": "{shopsanityReq(Pocket Bell, 0)}"
     },
     {
         "name": "Buy Ice Skates",
@@ -1295,7 +1295,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{shopsanityReq(Ice Skates)}"
+        "requires": "{shopsanityReq(Ice Skates, 0)}"
     },
     {
         "name": "Buy Helmet",
@@ -1304,7 +1304,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{shopsanityReq(Helmet)}"
+        "requires": "{shopsanityReq(Helmet, 0)}"
     },
     {
         "name": "Buy Fanny Pack",
@@ -1313,7 +1313,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{shopsanityReq(Fanny Pack)}"
+        "requires": "{shopsanityReq(Fanny Pack, 0)}"
     },
     {
         "name": "Buy Health Insurance",
@@ -1322,7 +1322,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{shopsanityReq(Health Insurance)}"
+        "requires": "{shopsanityReq(Health Insurance, 0)}"
     },
     {
         "name": "Buy Altar Boons",
@@ -1331,7 +1331,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{shopsanityReq(Altar Boons)}"
+        "requires": "{shopsanityReq(Altar Boons, 0)}"
     },
     {
         "name": "Buy Radar Module Enemies",
@@ -1340,7 +1340,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{shopsanityReq(Radar Module Enemies)}"
+        "requires": "{shopsanityReq(Radar Module Enemies, 0)}"
     },
     {
         "name": "Buy Radar Module Altars",
@@ -1349,7 +1349,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{shopsanityReq(Radar Module Altars)}"
+        "requires": "{shopsanityReq(Radar Module Altars, 0)}"
     },
     {
         "name": "Buy Radar Module Tripmines",
@@ -1358,7 +1358,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{shopsanityReq(Radar Module Tripmines)}"
+        "requires": "{shopsanityReq(Radar Module Tripmines, 0)}"
     },
     {
         "name": "Buy Final Stand",
@@ -1367,7 +1367,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{shopsanityReq(Final Stand)}"
+        "requires": "{shopsanityReq(Final Stand, 0)}"
     },
     {
         "name": "Buy Advanced Gravity Coil",
@@ -1376,7 +1376,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{shopsanityReq(Advanced Gravity Coil)}"
+        "requires": "{shopsanityReq(Advanced Gravity Coil, 0)}"
     },
     {
         "name": "Buy Star Marts",
@@ -1385,7 +1385,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{shopsanityReq(Star Marts)}"
+        "requires": "{shopsanityReq(Star Marts, 0)}"
     },
     {
         "name": "Buy Spring Shoes",
@@ -1394,7 +1394,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{shopsanityReq(Spring Shoes)}"
+        "requires": "{shopsanityReq(Spring Shoes, 0)}"
     },
     {
         "name": "Buy More Altars",
@@ -1403,7 +1403,7 @@
             "Buy Upgrades",
             "Level 10+"
         ],
-        "requires": "{shopsanityReq(More Altars)}"
+        "requires": "{shopsanityReq(More Altars, 0)}"
     },
     {
         "name": "Buy Birthday Pony",
@@ -1412,7 +1412,7 @@
             "Buy Upgrades",
             "Level 10+"
         ],
-        "requires": "{shopsanityReq(Birthday Pony)}"
+        "requires": "{shopsanityReq(Birthday Pony, 0)}"
     },
     {
         "name": "Buy Subspacial Barrier 1",
@@ -1421,7 +1421,7 @@
             "Buy Upgrades",
             "Level 10+"
         ],
-        "requires": "{shopsanityReq(Subspacial Barrier)}"
+        "requires": "{shopsanityReq(Subspacial Barrier, 1)}"
     },
     {
         "name": "Buy Subspacial Barrier 2",
@@ -1430,7 +1430,7 @@
             "Buy Upgrades",
             "Level 10+"
         ],
-        "requires": "{shopsanityReq(Subspacial Barrier)}"
+        "requires": "{shopsanityReq(Subspacial Barrier, 2)}"
     },
     {
         "name": "Buy Larger Grapple Points",
@@ -1439,7 +1439,7 @@
             "Buy Upgrades",
             "Level 13+"
         ],
-        "requires": "{shopsanityReq(Larger Grapple Points)}"
+        "requires": "{shopsanityReq(Larger Grapple Points, 0)}"
     },
     {
         "name": "Buy Ninja Belt",
@@ -1448,7 +1448,7 @@
             "Buy Upgrades",
             "Level 13+"
         ],
-        "requires": "{shopsanityReq(Ninja Belt)}"
+        "requires": "{shopsanityReq(Ninja Belt, 0)}"
     },
     {
         "name": "Buy Soul Tracers",
@@ -1457,7 +1457,7 @@
             "Buy Upgrades",
             "Level 13+"
         ],
-        "requires": "{shopsanityReq(Soul Tracers)}"
+        "requires": "{shopsanityReq(Soul Tracers, 0)}"
     },
     {
         "name": "Buy Shark Tail",
@@ -1466,7 +1466,7 @@
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "{shopsanityReq(Shark Tail)}"
+        "requires": "{shopsanityReq(Shark Tail, 0)}"
     },
     {
         "name": "Buy Propeller Hat",
@@ -1475,7 +1475,7 @@
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "{shopsanityReq(Propeller Hat)}"
+        "requires": "{shopsanityReq(Propeller Hat, 0)}"
     },
     {
         "name": "Buy Shadow Cloak",
@@ -1484,7 +1484,7 @@
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "{shopsanityReq(Shadow Cloak)}"
+        "requires": "{shopsanityReq(Shadow Cloak, 0)}"
     },
     {
         "name": "Buy Gift Magnet 1",
@@ -1493,7 +1493,7 @@
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "{shopsanityReq(Gift Magnet)}"
+        "requires": "{shopsanityReq(Gift Magnet, 1)}"
     },
     {
         "name": "Buy Gift Magnet 2",
@@ -1502,7 +1502,7 @@
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "{shopsanityReq(Gift Magnet)}"
+        "requires": "{shopsanityReq(Gift Magnet, 2)}"
     },
     {
         "name": "Buy Gift Magnet 3",
@@ -1511,7 +1511,7 @@
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "{shopsanityReq(Gift Magnet)}"
+        "requires": "{shopsanityReq(Gift Magnet, 3)}"
     },
     {
         "name": "Buy Matrix Tetrahedron",
@@ -1520,7 +1520,7 @@
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "{shopsanityReq(Matrix Tetrahedron)}"
+        "requires": "{shopsanityReq(Matrix Tetrahedron, 0)}"
     },
     {
         "name": "Buy Sports Shoes",
@@ -1529,7 +1529,7 @@
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "{shopsanityReq(Sports Shoes)}"
+        "requires": "{shopsanityReq(Sports Shoes, 0)}"
     },
     {
         "name": "Buy Shield",
@@ -1538,7 +1538,7 @@
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "{shopsanityReq(Shield)}"
+        "requires": "{shopsanityReq(Shield, 0)}"
     },
     {
         "name": "Buy Radar Module Instruments",
@@ -1547,7 +1547,7 @@
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "{shopsanityReq(Radar Module Instruments)}"
+        "requires": "{shopsanityReq(Radar Module Instruments, 0)}"
     },
     {
         "name": "Buy Panic Necklace",
@@ -1556,7 +1556,7 @@
             "Buy Upgrades",
             "Level 18+"
         ],
-        "requires": "{shopsanityReq(Panic Necklace)}"
+        "requires": "{shopsanityReq(Panic Necklace, 0)}"
     },
     {
         "name": "Buy Fleeting Fate",
@@ -1565,7 +1565,7 @@
             "Buy Upgrades",
             "Level 18+"
         ],
-        "requires": "{shopsanityReq(Fleeting Fate)}"
+        "requires": "{shopsanityReq(Fleeting Fate, 0)}"
     },
     {
         "name": "Buy Aggro Magnet",
@@ -1574,7 +1574,7 @@
             "Buy Upgrades",
             "Level 18+"
         ],
-        "requires": "{shopsanityReq(Aggro Magnet)}"
+        "requires": "{shopsanityReq(Aggro Magnet, 0)}"
     },
     {
         "name": "Buy Debuff Magnet",
@@ -1583,7 +1583,7 @@
             "Buy Upgrades",
             "Level 18+"
         ],
-        "requires": "{shopsanityReq(Debuff Magnet)}"
+        "requires": "{shopsanityReq(Debuff Magnet, 0)}"
     },
     {
         "name": "Buy Miniature Hourglass",
@@ -1592,7 +1592,7 @@
             "Buy Upgrades",
             "Level 20+"
         ],
-        "requires": "{shopsanityReq(Miniature Hourglass)}"
+        "requires": "{shopsanityReq(Miniature Hourglass, 0)}"
     },
     {
         "name": "Buy Gift Idol 1",
@@ -1601,7 +1601,7 @@
             "Buy Upgrades",
             "Level 20+"
         ],
-        "requires": "{shopsanityReq(Gift Idol)}"
+        "requires": "{shopsanityReq(Gift Idol, 1)}"
     },
     {
         "name": "Buy Gift Idol 2",
@@ -1610,7 +1610,7 @@
             "Buy Upgrades",
             "Level 20+"
         ],
-        "requires": "{shopsanityReq(Gift Idol)}"
+        "requires": "{shopsanityReq(Gift Idol, 2)}"
     },
     {
         "name": "Buy Gift Idol 3",
@@ -1619,7 +1619,7 @@
             "Buy Upgrades",
             "Level 20+"
         ],
-        "requires": "{shopsanityReq(Gift Idol)}"
+        "requires": "{shopsanityReq(Gift Idol, 3)}"
     },
     {
         "name": "Buy Gift Idol 4",
@@ -1628,7 +1628,7 @@
             "Buy Upgrades",
             "Level 20+"
         ],
-        "requires": "{shopsanityReq(Gift Idol)}"
+        "requires": "{shopsanityReq(Gift Idol, 4)}"
     },
     {
         "name": "Buy Gift Idol 5",
@@ -1637,7 +1637,7 @@
             "Buy Upgrades",
             "Level 20+"
         ],
-        "requires": "{shopsanityReq(Gift Idol)}"
+        "requires": "{shopsanityReq(Gift Idol, 5)}"
     },
     {
         "name": "Buy Drowned Aegis",
@@ -1646,7 +1646,7 @@
             "Buy Upgrades",
             "Level 20+"
         ],
-        "requires": "{shopsanityReq(Drowned Aegis)}"
+        "requires": "{shopsanityReq(Drowned Aegis, 0)}"
     },
     {
         "name": "Buy Jet Boosters",
@@ -1655,7 +1655,7 @@
             "Buy Upgrades",
             "Level 25+"
         ],
-        "requires": "{shopsanityReq(Jet Boosters)}"
+        "requires": "{shopsanityReq(Jet Boosters, 0)}"
     },
     {
         "name": "Buy Magnified Levels",
@@ -1664,7 +1664,7 @@
             "Buy Upgrades",
             "Level 30+"
         ],
-        "requires": "{shopsanityReq(Magnified Levels)}"
+        "requires": "{shopsanityReq(Magnified Levels, 0)}"
     },
     {
         "name": "Buy Quixotic Wing",
@@ -1673,7 +1673,7 @@
             "Buy Upgrades",
             "Level 30+"
         ],
-        "requires": "{shopsanityReq(Quixotic Wing)}"
+        "requires": "{shopsanityReq(Quixotic Wing, 0)}"
     },
     {
         "name": "Buy Transient Pennon",
@@ -1682,6 +1682,6 @@
             "Buy Upgrades",
             "Level 30+"
         ],
-        "requires": "{shopsanityReq(Transient Pennon)}"
+        "requires": "{shopsanityReq(Transient Pennon, 0)}"
     }
 ]

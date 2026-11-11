@@ -351,7 +351,14 @@ for i in upgrades:
             cat_list.append("Level 30+")
         obj["category"] = cat_list
 
-        obj["requires"] = "{shopsanityReq(" + i[0] + ")}"
+        obj["requires"] = "{shopsanityReq(" + i[0] + ", "
+
+        if (i[1] > 1):
+            obj["requires"] += str(j + 1)
+        else:
+            obj["requires"] += "0"
+        
+        obj["requires"] += ")}"
 
         output.append(obj)
 
