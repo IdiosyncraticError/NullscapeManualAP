@@ -1097,7 +1097,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Adrenaline|"
+        "requires": "{YamlEnabled(shopsanity)} and |Adrenaline| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Swiftness Ring 1",
@@ -1106,7 +1106,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Swiftness Ring:1|"
+        "requires": "{YamlEnabled(shopsanity)} and |Swiftness Ring:1| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Swiftness Ring 2",
@@ -1115,7 +1115,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Swiftness Ring:2|"
+        "requires": "{YamlEnabled(shopsanity)} and |Swiftness Ring:2| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Swiftness Ring 3",
@@ -1124,7 +1124,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Swiftness Ring:3|"
+        "requires": "{YamlEnabled(shopsanity)} and |Swiftness Ring:3| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Business License 1",
@@ -1133,7 +1133,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Business License:1|"
+        "requires": "{YamlEnabled(shopsanity)} and |Business License:1| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Business License 2",
@@ -1142,7 +1142,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Business License:2|"
+        "requires": "{YamlEnabled(shopsanity)} and |Business License:2| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Paycheck 1",
@@ -1151,7 +1151,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Paycheck:1|"
+        "requires": "{YamlEnabled(shopsanity)} and |Paycheck:1| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Paycheck 2",
@@ -1160,7 +1160,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Paycheck:2|"
+        "requires": "{YamlEnabled(shopsanity)} and |Paycheck:2| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Paycheck 3",
@@ -1169,7 +1169,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Paycheck:3|"
+        "requires": "{YamlEnabled(shopsanity)} and |Paycheck:3| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Paycheck 4",
@@ -1178,7 +1178,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Paycheck:4|"
+        "requires": "{YamlEnabled(shopsanity)} and |Paycheck:4| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Paycheck 5",
@@ -1187,7 +1187,7 @@
             "Buy Upgrades",
             "Level 3+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Paycheck:5|"
+        "requires": "{YamlEnabled(shopsanity)} and |Paycheck:5| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Medal",
@@ -1196,7 +1196,7 @@
             "Buy Upgrades",
             "Level 5+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Medal|"
+        "requires": "{YamlEnabled(shopsanity)} and |Medal| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Radar",
@@ -1205,7 +1205,7 @@
             "Buy Upgrades",
             "Level 5+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Radar|"
+        "requires": "{YamlEnabled(shopsanity)} and |Radar| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Better Jump Pads",
@@ -1214,7 +1214,7 @@
             "Buy Upgrades",
             "Level 5+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Better Jump Pads|"
+        "requires": "{YamlEnabled(shopsanity)} and |Better Jump Pads| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Tria Orbs",
@@ -1223,7 +1223,7 @@
             "Buy Upgrades",
             "Level 5+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Tria Orbs|"
+        "requires": "{YamlEnabled(shopsanity)} and |Tria Orbs| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Grapple Points",
@@ -1232,7 +1232,7 @@
             "Buy Upgrades",
             "Level 5+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Grapple Points|"
+        "requires": "{YamlEnabled(shopsanity)} and |Grapple Points| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Double Jump",
@@ -1241,7 +1241,7 @@
             "Buy Upgrades",
             "Level 5+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Double Jump|"
+        "requires": "{YamlEnabled(shopsanity)} and |Double Jump| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Defuse Kit 1",
@@ -1250,7 +1250,7 @@
             "Buy Upgrades",
             "Level 5+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Defuse Kit:1|"
+        "requires": "{YamlEnabled(shopsanity)} and |Defuse Kit:1| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Defuse Kit 2",
@@ -1259,7 +1259,7 @@
             "Buy Upgrades",
             "Level 5+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Defuse Kit:2|"
+        "requires": "{YamlEnabled(shopsanity)} and |Defuse Kit:2| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Defuse Kit 3",
@@ -1268,7 +1268,7 @@
             "Buy Upgrades",
             "Level 5+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Defuse Kit:3|"
+        "requires": "{YamlEnabled(shopsanity)} and |Defuse Kit:3| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Grace Wings",
@@ -1277,7 +1277,7 @@
             "Buy Upgrades",
             "Level 5+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Grace Wings|"
+        "requires": "{YamlEnabled(shopsanity)} and |Grace Wings| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Pocket Bell",
@@ -1286,7 +1286,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Double Jump| and |Pocket Bell|"
+        "requires": "{YamlEnabled(shopsanity)} and |Double Jump| and |Pocket Bell| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Ice Skates",
@@ -1295,7 +1295,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Ice Skates|"
+        "requires": "{YamlEnabled(shopsanity)} and |Ice Skates| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Helmet",
@@ -1304,7 +1304,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Helmet|"
+        "requires": "{YamlEnabled(shopsanity)} and |Helmet| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Fanny Pack",
@@ -1313,7 +1313,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Fanny Pack|"
+        "requires": "{YamlEnabled(shopsanity)} and |Fanny Pack| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Health Insurance",
@@ -1322,7 +1322,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Paycheck:1| and |Health Insurance|"
+        "requires": "{YamlEnabled(shopsanity)} and |Paycheck:1| and |Health Insurance| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Altar Boons",
@@ -1331,7 +1331,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Altar Boons|"
+        "requires": "{YamlEnabled(shopsanity)} and |Altar Boons| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Radar Module Enemies",
@@ -1340,7 +1340,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Radar| and |Radar Module Enemies|"
+        "requires": "{YamlEnabled(shopsanity)} and |Radar| and |Radar Module Enemies| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Radar Module Altars",
@@ -1349,7 +1349,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Radar| and |Radar Module Altars|"
+        "requires": "{YamlEnabled(shopsanity)} and |Radar| and |Radar Module Altars| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Radar Module Tripmines",
@@ -1358,7 +1358,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Radar| and |Radar Module Tripmines|"
+        "requires": "{YamlEnabled(shopsanity)} and |Radar| and |Radar Module Tripmines| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Final Stand",
@@ -1367,7 +1367,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Final Stand|"
+        "requires": "{YamlEnabled(shopsanity)} and |Final Stand| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Advanced Gravity Coil",
@@ -1376,7 +1376,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Advanced Gravity Coil|"
+        "requires": "{YamlEnabled(shopsanity)} and |Advanced Gravity Coil| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Star Marts",
@@ -1385,7 +1385,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Star Marts|"
+        "requires": "{YamlEnabled(shopsanity)} and |Star Marts| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Spring Shoes",
@@ -1394,7 +1394,7 @@
             "Buy Upgrades",
             "Level 8+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Spring Shoes|"
+        "requires": "{YamlEnabled(shopsanity)} and |Spring Shoes| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy More Altars",
@@ -1403,7 +1403,7 @@
             "Buy Upgrades",
             "Level 10+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |More Altars|"
+        "requires": "{YamlEnabled(shopsanity)} and |More Altars| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Birthday Pony",
@@ -1412,7 +1412,7 @@
             "Buy Upgrades",
             "Level 10+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Birthday Pony|"
+        "requires": "{YamlEnabled(shopsanity)} and |Birthday Pony| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Subspacial Barrier 1",
@@ -1421,7 +1421,7 @@
             "Buy Upgrades",
             "Level 10+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Defuse Kit:3| and |Subspacial Barrier:1|"
+        "requires": "{YamlEnabled(shopsanity)} and |Defuse Kit:3| and |Subspacial Barrier:1| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Subspacial Barrier 2",
@@ -1430,7 +1430,7 @@
             "Buy Upgrades",
             "Level 10+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Defuse Kit:3| and |Subspacial Barrier:2|"
+        "requires": "{YamlEnabled(shopsanity)} and |Defuse Kit:3| and |Subspacial Barrier:2| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Larger Grapple Points",
@@ -1439,7 +1439,7 @@
             "Buy Upgrades",
             "Level 13+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Grapple Points| and |Larger Grapple Points|"
+        "requires": "{YamlEnabled(shopsanity)} and |Grapple Points| and |Larger Grapple Points| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Ninja Belt",
@@ -1448,7 +1448,7 @@
             "Buy Upgrades",
             "Level 13+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Ninja Belt|"
+        "requires": "{YamlEnabled(shopsanity)} and |Ninja Belt| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Soul Tracers",
@@ -1457,7 +1457,7 @@
             "Buy Upgrades",
             "Level 13+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Soul Tracers|"
+        "requires": "{YamlEnabled(shopsanity)} and |Soul Tracers| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Shark Tail",
@@ -1466,7 +1466,7 @@
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Ninja Belt| and |Shark Tail|"
+        "requires": "{YamlEnabled(shopsanity)} and |Ninja Belt| and |Shark Tail| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Propeller Hat",
@@ -1475,7 +1475,7 @@
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Helmet| and |Propeller Hat|"
+        "requires": "{YamlEnabled(shopsanity)} and |Helmet| and |Propeller Hat| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Shadow Cloak",
@@ -1484,7 +1484,7 @@
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Shadow Cloak|"
+        "requires": "{YamlEnabled(shopsanity)} and |Shadow Cloak| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Gift Magnet 1",
@@ -1493,7 +1493,7 @@
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Gift Magnet:1|"
+        "requires": "{YamlEnabled(shopsanity)} and |Gift Magnet:1| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Gift Magnet 2",
@@ -1502,7 +1502,7 @@
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Gift Magnet:2|"
+        "requires": "{YamlEnabled(shopsanity)} and |Gift Magnet:2| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Gift Magnet 3",
@@ -1511,7 +1511,7 @@
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Gift Magnet:3|"
+        "requires": "{YamlEnabled(shopsanity)} and |Gift Magnet:3| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Matrix Tetrahedron",
@@ -1520,7 +1520,7 @@
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Matrix Tetrahedron|"
+        "requires": "{YamlEnabled(shopsanity)} and |Matrix Tetrahedron| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Sports Shoes",
@@ -1529,7 +1529,7 @@
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Sports Shoes|"
+        "requires": "{YamlEnabled(shopsanity)} and |Sports Shoes| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Shield",
@@ -1538,7 +1538,7 @@
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Shield|"
+        "requires": "{YamlEnabled(shopsanity)} and |Shield| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Radar Module Instruments",
@@ -1547,7 +1547,7 @@
             "Buy Upgrades",
             "Level 15+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Radar| and |Radar Module Instruments|"
+        "requires": "{YamlEnabled(shopsanity)} and |Radar| and |Radar Module Instruments| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Panic Necklace",
@@ -1556,7 +1556,7 @@
             "Buy Upgrades",
             "Level 18+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Shield| and |Panic Necklace|"
+        "requires": "{YamlEnabled(shopsanity)} and |Shield| and |Panic Necklace| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Fleeting Fate",
@@ -1565,7 +1565,7 @@
             "Buy Upgrades",
             "Level 18+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Fleeting Fate|"
+        "requires": "{YamlEnabled(shopsanity)} and |Fleeting Fate| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Aggro Magnet",
@@ -1574,7 +1574,7 @@
             "Buy Upgrades",
             "Level 18+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Gift Magnet:1| and |Aggro Magnet|"
+        "requires": "{YamlEnabled(shopsanity)} and |Gift Magnet:1| and |Aggro Magnet| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Debuff Magnet",
@@ -1583,7 +1583,7 @@
             "Buy Upgrades",
             "Level 18+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Gift Magnet:1| and |Debuff Magnet|"
+        "requires": "{YamlEnabled(shopsanity)} and |Gift Magnet:1| and |Debuff Magnet| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Miniature Hourglass",
@@ -1592,7 +1592,7 @@
             "Buy Upgrades",
             "Level 20+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Ninja Belt| and |Miniature Hourglass|"
+        "requires": "{YamlEnabled(shopsanity)} and |Ninja Belt| and |Miniature Hourglass| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Gift Idol 1",
@@ -1601,7 +1601,7 @@
             "Buy Upgrades",
             "Level 20+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Gift Magnet:1| and |Gift Idol:1|"
+        "requires": "{YamlEnabled(shopsanity)} and |Gift Magnet:1| and |Gift Idol:1| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Gift Idol 2",
@@ -1610,7 +1610,7 @@
             "Buy Upgrades",
             "Level 20+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Gift Magnet:1| and |Gift Idol:2|"
+        "requires": "{YamlEnabled(shopsanity)} and |Gift Magnet:1| and |Gift Idol:2| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Gift Idol 3",
@@ -1619,7 +1619,7 @@
             "Buy Upgrades",
             "Level 20+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Gift Magnet:1| and |Gift Idol:3|"
+        "requires": "{YamlEnabled(shopsanity)} and |Gift Magnet:1| and |Gift Idol:3| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Gift Idol 4",
@@ -1628,7 +1628,7 @@
             "Buy Upgrades",
             "Level 20+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Gift Magnet:1| and |Gift Idol:4|"
+        "requires": "{YamlEnabled(shopsanity)} and |Gift Magnet:1| and |Gift Idol:4| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Gift Idol 5",
@@ -1637,7 +1637,7 @@
             "Buy Upgrades",
             "Level 20+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Gift Magnet:1| and |Gift Idol:5|"
+        "requires": "{YamlEnabled(shopsanity)} and |Gift Magnet:1| and |Gift Idol:5| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Drowned Aegis",
@@ -1646,7 +1646,7 @@
             "Buy Upgrades",
             "Level 20+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |More Altars| and |Drowned Aegis|"
+        "requires": "{YamlEnabled(shopsanity)} and |More Altars| and |Drowned Aegis| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Jet Boosters",
@@ -1655,7 +1655,7 @@
             "Buy Upgrades",
             "Level 25+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Jet Boosters|"
+        "requires": "{YamlEnabled(shopsanity)} and |Jet Boosters| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Magnified Levels",
@@ -1664,7 +1664,7 @@
             "Buy Upgrades",
             "Level 30+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Magnified Levels|"
+        "requires": "{YamlEnabled(shopsanity)} and |Magnified Levels| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Quixotic Wing",
@@ -1673,7 +1673,7 @@
             "Buy Upgrades",
             "Level 30+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Quixotic Wing|"
+        "requires": "{YamlEnabled(shopsanity)} and |Quixotic Wing| or {YamlDisabled(shopsanity)}"
     },
     {
         "name": "Buy Transient Pennon",
@@ -1682,6 +1682,6 @@
             "Buy Upgrades",
             "Level 30+"
         ],
-        "requires": "{YamlDisabled(shopsanity)} or |Transient Pennon|"
+        "requires": "{YamlEnabled(shopsanity)} and |Transient Pennon| or {YamlDisabled(shopsanity)}"
     }
 ]

@@ -354,15 +354,15 @@ for i in upgrades:
         if i[1] > 1:
             if len(i) == 5:
                 require_len = len(i[0])
-                obj["requires"] = "{YamlDisabled(shopsanity)} or " + i[4] + " and |" + i[0] + ":" + str(j + 1) + "|"
+                obj["requires"] = "{YamlEnabled(shopsanity)} and " + i[4] + " and |" + i[0] + ":" + str(j + 1) + "| or {YamlDisabled(shopsanity)}"
             else:
                 require_len = len(i[0])
-                obj["requires"] = "{YamlDisabled(shopsanity)} or |" + i[0] + ":" + str(j + 1) + "|"
+                obj["requires"] = "{YamlEnabled(shopsanity)} and |" + i[0] + ":" + str(j + 1) + "| or {YamlDisabled(shopsanity)}"
         else:
             if len(i) == 5:
-                obj["requires"] = "{YamlDisabled(shopsanity)} or " + i[4] + " and |" + i[0] + "|"
+                obj["requires"] = "{YamlEnabled(shopsanity)} and " + i[4] + " and |" + i[0] + "| or {YamlDisabled(shopsanity)}"
             else:
-                obj["requires"] = "{YamlDisabled(shopsanity)} or |" + i[0] + "|"
+                obj["requires"] = "{YamlEnabled(shopsanity)} and |" + i[0] + "| or {YamlDisabled(shopsanity)}"
 
         output.append(obj)
 
