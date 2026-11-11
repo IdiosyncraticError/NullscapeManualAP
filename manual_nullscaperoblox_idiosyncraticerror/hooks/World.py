@@ -45,7 +45,7 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     Use it to check or modify incompatible options, or to set up variables for later use.
     """
     
-    victory_level = get_option_value(multiworld, world, "level_win_requirement")
+    victory_level = get_option_value(multiworld, player, "level_win_requirement")
     if world.options.post_goal.value == False:
         if victory_level < 12:
             world.options.level_12.value = False
@@ -58,7 +58,7 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
         if victory_level < 20:
             world.options.level_20.value = False
             
-    party = get_option_value(multiworld, world, "party_size")
+    party = get_option_value(multiworld, player, "party_size")
     
     if party == 0:
         world.options.solo.value = True
@@ -96,7 +96,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 #       will create 5 items that are the "useful trap" class
 # {"Item Name": {ItemClassification.useful: 5}} <- You can also use the classification directly
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
-    shopsanity_on = is_option_enabled(multiworld, world, "shopsanity")
+    shopsanity_on = is_option_enabled(multiworld, player, "shopsanity")
 
     if shopsanity_on:
         print("shopsanity enabled")
