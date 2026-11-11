@@ -119,3 +119,5 @@ def shopsanityReq(world: World, item: str, count: int):
 
     if item in special_case.keys():
         output += " and |" + special_case[item] + "|"
+
+    return output
