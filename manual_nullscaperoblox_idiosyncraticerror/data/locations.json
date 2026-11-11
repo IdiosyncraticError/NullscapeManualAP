@@ -1110,19 +1110,19 @@
     },
     {
         "name": "Buy Swiftness Ring 2",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Buy Upgrades",
-            "Level 3+"
+            "Level 5+"
         ],
         "requires": "{shopsanityReq(Swiftness Ring, 2)}"
     },
     {
         "name": "Buy Swiftness Ring 3",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Buy Upgrades",
-            "Level 3+"
+            "Level 8+"
         ],
         "requires": "{shopsanityReq(Swiftness Ring, 3)}"
     },
@@ -1137,10 +1137,10 @@
     },
     {
         "name": "Buy Business License 2",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Buy Upgrades",
-            "Level 3+"
+            "Level 5+"
         ],
         "requires": "{shopsanityReq(Business License, 2)}"
     },
@@ -1155,37 +1155,37 @@
     },
     {
         "name": "Buy Paycheck 2",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Buy Upgrades",
-            "Level 3+"
+            "Level 5+"
         ],
         "requires": "{shopsanityReq(Paycheck, 2)}"
     },
     {
         "name": "Buy Paycheck 3",
-        "region": "lvl 0",
+        "region": "lvl 5",
         "category": [
             "Buy Upgrades",
-            "Level 3+"
+            "Level 8+"
         ],
         "requires": "{shopsanityReq(Paycheck, 3)}"
     },
     {
         "name": "Buy Paycheck 4",
-        "region": "lvl 0",
+        "region": "lvl 10",
         "category": [
             "Buy Upgrades",
-            "Level 3+"
+            "Level 10+"
         ],
         "requires": "{shopsanityReq(Paycheck, 4)}"
     },
     {
         "name": "Buy Paycheck 5",
-        "region": "lvl 0",
+        "region": "lvl 10",
         "category": [
             "Buy Upgrades",
-            "Level 3+"
+            "Level 13+"
         ],
         "requires": "{shopsanityReq(Paycheck, 5)}"
     },
@@ -1257,16 +1257,16 @@
         "region": "lvl 5",
         "category": [
             "Buy Upgrades",
-            "Level 5+"
+            "Level 8+"
         ],
         "requires": "{shopsanityReq(Defuse Kit, 2)}"
     },
     {
         "name": "Buy Defuse Kit 3",
-        "region": "lvl 5",
+        "region": "lvl 10",
         "category": [
             "Buy Upgrades",
-            "Level 5+"
+            "Level 10+"
         ],
         "requires": "{shopsanityReq(Defuse Kit, 3)}"
     },
@@ -1428,7 +1428,7 @@
         "region": "lvl 10",
         "category": [
             "Buy Upgrades",
-            "Level 10+"
+            "Level 13+"
         ],
         "requires": "{shopsanityReq(Subspacial Barrier, 2)}"
     },
@@ -1500,16 +1500,16 @@
         "region": "lvl 15",
         "category": [
             "Buy Upgrades",
-            "Level 15+"
+            "Level 18+"
         ],
         "requires": "{shopsanityReq(Gift Magnet, 2)}"
     },
     {
         "name": "Buy Gift Magnet 3",
-        "region": "lvl 15",
+        "region": "lvl 20",
         "category": [
             "Buy Upgrades",
-            "Level 15+"
+            "Level 20+"
         ],
         "requires": "{shopsanityReq(Gift Magnet, 3)}"
     },
@@ -1605,37 +1605,33 @@
     },
     {
         "name": "Buy Gift Idol 2",
-        "region": "lvl 20",
         "category": [
-            "Buy Upgrades",
-            "Level 20+"
+            "Buy Upgrades"
         ],
         "requires": "{shopsanityReq(Gift Idol, 2)}"
     },
     {
         "name": "Buy Gift Idol 3",
-        "region": "lvl 20",
+        "region": "lvl 25",
         "category": [
             "Buy Upgrades",
-            "Level 20+"
+            "Level 25+"
         ],
         "requires": "{shopsanityReq(Gift Idol, 3)}"
     },
     {
         "name": "Buy Gift Idol 4",
-        "region": "lvl 20",
         "category": [
-            "Buy Upgrades",
-            "Level 20+"
+            "Buy Upgrades"
         ],
         "requires": "{shopsanityReq(Gift Idol, 4)}"
     },
     {
         "name": "Buy Gift Idol 5",
-        "region": "lvl 20",
+        "region": "lvl 30",
         "category": [
             "Buy Upgrades",
-            "Level 20+"
+            "Level 30+"
         ],
         "requires": "{shopsanityReq(Gift Idol, 5)}"
     },
@@ -1668,19 +1664,15 @@
     },
     {
         "name": "Buy Magnified Levels 2",
-        "region": "lvl 30",
         "category": [
-            "Buy Upgrades",
-            "Level 30+"
+            "Buy Upgrades"
         ],
         "requires": "{shopsanityReq(Magnified Levels, 2)}"
     },
     {
         "name": "Buy Magnified Levels 3",
-        "region": "lvl 30",
         "category": [
-            "Buy Upgrades",
-            "Level 30+"
+            "Buy Upgrades"
         ],
         "requires": "{shopsanityReq(Magnified Levels, 3)}"
     },

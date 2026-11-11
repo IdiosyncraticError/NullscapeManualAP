@@ -318,6 +318,12 @@ for i in upgrades:
         else:
             obj["name"] = "Buy " + i[0]
 
+        if j != 0:
+            if i[3] % 5 == 3:
+                i[3] += 2
+            else:
+                i[3] += 3
+
         cat_list = ["Buy Upgrades"]
         if i[3] == 3:
             obj["region"] = "lvl 0"
