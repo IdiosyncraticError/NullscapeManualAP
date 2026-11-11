@@ -181,7 +181,7 @@ upgrades = [
     ["Gift Idol", 5, [], 20, "|Gift Magnet:1|"],
     ["Drowned Aegis", 1, [], 20, "|More Altars|"],
     ["Jet Boosters", 1, [], 25],
-    ["Magnified Levels", 1, [], 30],
+    ["Magnified Levels", 3, [], 30],
     ["Quixotic Wing", 1, [], 30],
     ["Transient Pennon", 1, [], 30]
 ]

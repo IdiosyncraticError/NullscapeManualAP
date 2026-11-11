@@ -1658,13 +1658,31 @@
         "requires": "{shopsanityReq(Jet Boosters, 0)}"
     },
     {
-        "name": "Buy Magnified Levels",
+        "name": "Buy Magnified Levels 1",
         "region": "lvl 30",
         "category": [
             "Buy Upgrades",
             "Level 30+"
         ],
-        "requires": "{shopsanityReq(Magnified Levels, 0)}"
+        "requires": "{shopsanityReq(Magnified Levels, 1)}"
+    },
+    {
+        "name": "Buy Magnified Levels 2",
+        "region": "lvl 30",
+        "category": [
+            "Buy Upgrades",
+            "Level 30+"
+        ],
+        "requires": "{shopsanityReq(Magnified Levels, 2)}"
+    },
+    {
+        "name": "Buy Magnified Levels 3",
+        "region": "lvl 30",
+        "category": [
+            "Buy Upgrades",
+            "Level 30+"
+        ],
+        "requires": "{shopsanityReq(Magnified Levels, 3)}"
     },
     {
         "name": "Buy Quixotic Wing",
