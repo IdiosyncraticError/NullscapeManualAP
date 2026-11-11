@@ -25,7 +25,7 @@
   },
   "lvl 30": {
     "connects_to": ["lvl 40"],
-    "requires": "|Shadow Cloak| and |Gifft Idol:2|"
+    "requires": "|Shadow Cloak| and |Gift Idol:2|"
   },
   "lvl 40": {
     "requires": "|Magnified Levels| and |Jet Boosters|"

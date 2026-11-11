@@ -133,6 +133,12 @@ class DelusionList(OptionSet):
     valid_keys = item_name_groups["Delusions"]
     default = frozenset(valid_keys)
 
+class Shopsanity(Toggle):
+    """
+    Buying upgrades is now a check
+    """
+    display_name = "Shopsanity"
+
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options["class_win_requirement"] = ClassWinRequirement
@@ -147,6 +153,7 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["party_size"] = Party
     options["delusions"] = Delusion
     options["enabled_delusions"] = DelusionList
+    options["shopsanity"] = Shopsanity
 
     return options
 

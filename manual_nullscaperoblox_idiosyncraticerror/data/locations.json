@@ -1089,5 +1089,599 @@
             "Prisoner Win Progression Flag"
         ],
         "requires": "{checkPrisoner()}"
+    },
+    {
+        "name": "Buy Adrenaline",
+        "region": "lvl 0",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "{shopsanityReq(Adrenaline, 0)}"
+    },
+    {
+        "name": "Buy Swiftness Ring 1",
+        "region": "lvl 0",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "{shopsanityReq(Swiftness Ring, 1)}"
+    },
+    {
+        "name": "Buy Swiftness Ring 2",
+        "region": "lvl 0",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "{shopsanityReq(Swiftness Ring, 2)}"
+    },
+    {
+        "name": "Buy Swiftness Ring 3",
+        "region": "lvl 0",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "{shopsanityReq(Swiftness Ring, 3)}"
+    },
+    {
+        "name": "Buy Business License 1",
+        "region": "lvl 0",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "{shopsanityReq(Business License, 1)}"
+    },
+    {
+        "name": "Buy Business License 2",
+        "region": "lvl 0",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "{shopsanityReq(Business License, 2)}"
+    },
+    {
+        "name": "Buy Paycheck 1",
+        "region": "lvl 0",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "{shopsanityReq(Paycheck, 1)}"
+    },
+    {
+        "name": "Buy Paycheck 2",
+        "region": "lvl 0",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "{shopsanityReq(Paycheck, 2)}"
+    },
+    {
+        "name": "Buy Paycheck 3",
+        "region": "lvl 0",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "{shopsanityReq(Paycheck, 3)}"
+    },
+    {
+        "name": "Buy Paycheck 4",
+        "region": "lvl 0",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "{shopsanityReq(Paycheck, 4)}"
+    },
+    {
+        "name": "Buy Paycheck 5",
+        "region": "lvl 0",
+        "category": [
+            "Buy Upgrades",
+            "Level 3+"
+        ],
+        "requires": "{shopsanityReq(Paycheck, 5)}"
+    },
+    {
+        "name": "Buy Medal",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 5+"
+        ],
+        "requires": "{shopsanityReq(Medal, 0)}"
+    },
+    {
+        "name": "Buy Radar",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 5+"
+        ],
+        "requires": "{shopsanityReq(Radar, 0)}"
+    },
+    {
+        "name": "Buy Better Jump Pads",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 5+"
+        ],
+        "requires": "{shopsanityReq(Better Jump Pads, 0)}"
+    },
+    {
+        "name": "Buy Tria Orbs",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 5+"
+        ],
+        "requires": "{shopsanityReq(Tria Orbs, 0)}"
+    },
+    {
+        "name": "Buy Grapple Points",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 5+"
+        ],
+        "requires": "{shopsanityReq(Grapple Points, 0)}"
+    },
+    {
+        "name": "Buy Double Jump",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 5+"
+        ],
+        "requires": "{shopsanityReq(Double Jump, 0)}"
+    },
+    {
+        "name": "Buy Defuse Kit 1",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 5+"
+        ],
+        "requires": "{shopsanityReq(Defuse Kit, 1)}"
+    },
+    {
+        "name": "Buy Defuse Kit 2",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 5+"
+        ],
+        "requires": "{shopsanityReq(Defuse Kit, 2)}"
+    },
+    {
+        "name": "Buy Defuse Kit 3",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 5+"
+        ],
+        "requires": "{shopsanityReq(Defuse Kit, 3)}"
+    },
+    {
+        "name": "Buy Grace Wings",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 5+"
+        ],
+        "requires": "{shopsanityReq(Grace Wings, 0)}"
+    },
+    {
+        "name": "Buy Pocket Bell",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "{shopsanityReq(Pocket Bell, 0)}"
+    },
+    {
+        "name": "Buy Ice Skates",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "{shopsanityReq(Ice Skates, 0)}"
+    },
+    {
+        "name": "Buy Helmet",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "{shopsanityReq(Helmet, 0)}"
+    },
+    {
+        "name": "Buy Fanny Pack",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "{shopsanityReq(Fanny Pack, 0)}"
+    },
+    {
+        "name": "Buy Health Insurance",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "{shopsanityReq(Health Insurance, 0)}"
+    },
+    {
+        "name": "Buy Altar Boons",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "{shopsanityReq(Altar Boons, 0)}"
+    },
+    {
+        "name": "Buy Radar Module Enemies",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "{shopsanityReq(Radar Module Enemies, 0)}"
+    },
+    {
+        "name": "Buy Radar Module Altars",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "{shopsanityReq(Radar Module Altars, 0)}"
+    },
+    {
+        "name": "Buy Radar Module Tripmines",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "{shopsanityReq(Radar Module Tripmines, 0)}"
+    },
+    {
+        "name": "Buy Final Stand",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "{shopsanityReq(Final Stand, 0)}"
+    },
+    {
+        "name": "Buy Advanced Gravity Coil",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "{shopsanityReq(Advanced Gravity Coil, 0)}"
+    },
+    {
+        "name": "Buy Star Marts",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "{shopsanityReq(Star Marts, 0)}"
+    },
+    {
+        "name": "Buy Spring Shoes",
+        "region": "lvl 5",
+        "category": [
+            "Buy Upgrades",
+            "Level 8+"
+        ],
+        "requires": "{shopsanityReq(Spring Shoes, 0)}"
+    },
+    {
+        "name": "Buy More Altars",
+        "region": "lvl 10",
+        "category": [
+            "Buy Upgrades",
+            "Level 10+"
+        ],
+        "requires": "{shopsanityReq(More Altars, 0)}"
+    },
+    {
+        "name": "Buy Birthday Pony",
+        "region": "lvl 10",
+        "category": [
+            "Buy Upgrades",
+            "Level 10+"
+        ],
+        "requires": "{shopsanityReq(Birthday Pony, 0)}"
+    },
+    {
+        "name": "Buy Subspacial Barrier 1",
+        "region": "lvl 10",
+        "category": [
+            "Buy Upgrades",
+            "Level 10+"
+        ],
+        "requires": "{shopsanityReq(Subspacial Barrier, 1)}"
+    },
+    {
+        "name": "Buy Subspacial Barrier 2",
+        "region": "lvl 10",
+        "category": [
+            "Buy Upgrades",
+            "Level 10+"
+        ],
+        "requires": "{shopsanityReq(Subspacial Barrier, 2)}"
+    },
+    {
+        "name": "Buy Larger Grapple Points",
+        "region": "lvl 10",
+        "category": [
+            "Buy Upgrades",
+            "Level 13+"
+        ],
+        "requires": "{shopsanityReq(Larger Grapple Points, 0)}"
+    },
+    {
+        "name": "Buy Ninja Belt",
+        "region": "lvl 10",
+        "category": [
+            "Buy Upgrades",
+            "Level 13+"
+        ],
+        "requires": "{shopsanityReq(Ninja Belt, 0)}"
+    },
+    {
+        "name": "Buy Soul Tracers",
+        "region": "lvl 10",
+        "category": [
+            "Buy Upgrades",
+            "Level 13+"
+        ],
+        "requires": "{shopsanityReq(Soul Tracers, 0)}"
+    },
+    {
+        "name": "Buy Shark Tail",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 15+"
+        ],
+        "requires": "{shopsanityReq(Shark Tail, 0)}"
+    },
+    {
+        "name": "Buy Propeller Hat",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 15+"
+        ],
+        "requires": "{shopsanityReq(Propeller Hat, 0)}"
+    },
+    {
+        "name": "Buy Shadow Cloak",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 15+"
+        ],
+        "requires": "{shopsanityReq(Shadow Cloak, 0)}"
+    },
+    {
+        "name": "Buy Gift Magnet 1",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 15+"
+        ],
+        "requires": "{shopsanityReq(Gift Magnet, 1)}"
+    },
+    {
+        "name": "Buy Gift Magnet 2",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 15+"
+        ],
+        "requires": "{shopsanityReq(Gift Magnet, 2)}"
+    },
+    {
+        "name": "Buy Gift Magnet 3",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 15+"
+        ],
+        "requires": "{shopsanityReq(Gift Magnet, 3)}"
+    },
+    {
+        "name": "Buy Matrix Tetrahedron",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 15+"
+        ],
+        "requires": "{shopsanityReq(Matrix Tetrahedron, 0)}"
+    },
+    {
+        "name": "Buy Sports Shoes",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 15+"
+        ],
+        "requires": "{shopsanityReq(Sports Shoes, 0)}"
+    },
+    {
+        "name": "Buy Shield",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 15+"
+        ],
+        "requires": "{shopsanityReq(Shield, 0)}"
+    },
+    {
+        "name": "Buy Radar Module Instruments",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 15+"
+        ],
+        "requires": "{shopsanityReq(Radar Module Instruments, 0)}"
+    },
+    {
+        "name": "Buy Panic Necklace",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 18+"
+        ],
+        "requires": "{shopsanityReq(Panic Necklace, 0)}"
+    },
+    {
+        "name": "Buy Fleeting Fate",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 18+"
+        ],
+        "requires": "{shopsanityReq(Fleeting Fate, 0)}"
+    },
+    {
+        "name": "Buy Aggro Magnet",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 18+"
+        ],
+        "requires": "{shopsanityReq(Aggro Magnet, 0)}"
+    },
+    {
+        "name": "Buy Debuff Magnet",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Level 18+"
+        ],
+        "requires": "{shopsanityReq(Debuff Magnet, 0)}"
+    },
+    {
+        "name": "Buy Miniature Hourglass",
+        "region": "lvl 20",
+        "category": [
+            "Buy Upgrades",
+            "Level 20+"
+        ],
+        "requires": "{shopsanityReq(Miniature Hourglass, 0)}"
+    },
+    {
+        "name": "Buy Gift Idol 1",
+        "region": "lvl 20",
+        "category": [
+            "Buy Upgrades",
+            "Level 20+"
+        ],
+        "requires": "{shopsanityReq(Gift Idol, 1)}"
+    },
+    {
+        "name": "Buy Gift Idol 2",
+        "region": "lvl 20",
+        "category": [
+            "Buy Upgrades",
+            "Level 20+"
+        ],
+        "requires": "{shopsanityReq(Gift Idol, 2)}"
+    },
+    {
+        "name": "Buy Gift Idol 3",
+        "region": "lvl 20",
+        "category": [
+            "Buy Upgrades",
+            "Level 20+"
+        ],
+        "requires": "{shopsanityReq(Gift Idol, 3)}"
+    },
+    {
+        "name": "Buy Gift Idol 4",
+        "region": "lvl 20",
+        "category": [
+            "Buy Upgrades",
+            "Level 20+"
+        ],
+        "requires": "{shopsanityReq(Gift Idol, 4)}"
+    },
+    {
+        "name": "Buy Gift Idol 5",
+        "region": "lvl 20",
+        "category": [
+            "Buy Upgrades",
+            "Level 20+"
+        ],
+        "requires": "{shopsanityReq(Gift Idol, 5)}"
+    },
+    {
+        "name": "Buy Drowned Aegis",
+        "region": "lvl 20",
+        "category": [
+            "Buy Upgrades",
+            "Level 20+"
+        ],
+        "requires": "{shopsanityReq(Drowned Aegis, 0)}"
+    },
+    {
+        "name": "Buy Jet Boosters",
+        "region": "lvl 25",
+        "category": [
+            "Buy Upgrades",
+            "Level 25+"
+        ],
+        "requires": "{shopsanityReq(Jet Boosters, 0)}"
+    },
+    {
+        "name": "Buy Magnified Levels",
+        "region": "lvl 30",
+        "category": [
+            "Buy Upgrades",
+            "Level 30+"
+        ],
+        "requires": "{shopsanityReq(Magnified Levels, 0)}"
+    },
+    {
+        "name": "Buy Quixotic Wing",
+        "region": "lvl 30",
+        "category": [
+            "Buy Upgrades",
+            "Level 30+"
+        ],
+        "requires": "{shopsanityReq(Quixotic Wing, 0)}"
+    },
+    {
+        "name": "Buy Transient Pennon",
+        "region": "lvl 30",
+        "category": [
+            "Buy Upgrades",
+            "Level 30+"
+        ],
+        "requires": "{shopsanityReq(Transient Pennon, 0)}"
     }
 ]

@@ -52,7 +52,7 @@
             "Level 5+",
             "Upgrades"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -61,7 +61,7 @@
             "Level 5+",
             "Upgrades"
         ],
-        "progression_skip_balancing": true
+        "useful": true
     },
     {
         "count": 1,
@@ -79,7 +79,7 @@
             "Level 5+",
             "Upgrades"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -168,7 +168,7 @@
     },
     {
         "count": 1,
-        "name": "Radar Module: Enemies",
+        "name": "Radar Module Enemies",
         "category": [
             "Level 8+",
             "Upgrades"
@@ -177,7 +177,7 @@
     },
     {
         "count": 1,
-        "name": "Radar Module: Altars",
+        "name": "Radar Module Altars",
         "category": [
             "Level 8+",
             "Upgrades"
@@ -186,7 +186,7 @@
     },
     {
         "count": 1,
-        "name": "Radar Module: Tripmines",
+        "name": "Radar Module Tripmines",
         "category": [
             "Level 8+",
             "Standard+",
@@ -229,7 +229,7 @@
             "Level 8+",
             "Upgrades"
         ],
-        "progression_skip_balancing": true
+        "useful": true
     },
     {
         "count": 1,
@@ -238,7 +238,7 @@
             "Level 10+",
             "Upgrades"
         ],
-        "progression_skip_balancing": true
+        "useful": true
     },
     {
         "count": 1,
@@ -247,7 +247,7 @@
             "Level 10+",
             "Upgrades"
         ],
-        "progression_skip_balancing": true
+        "useful": true
     },
     {
         "count": 2,
@@ -352,7 +352,7 @@
     },
     {
         "count": 1,
-        "name": "Radar Module: Instruments",
+        "name": "Radar Module Instruments",
         "category": [
             "Level 15+",
             "Upgrades"
@@ -366,7 +366,7 @@
             "Level 18+",
             "Upgrades"
         ],
-        "progression_skip_balancing": true
+        "useful": true
     },
     {
         "count": 1,
@@ -393,7 +393,7 @@
             "Level 18+",
             "Upgrades"
         ],
-        "progression_skip_balancing": true
+        "useful": true
     },
     {
         "count": 1,
@@ -412,7 +412,7 @@
             "Level 20+",
             "Upgrades"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -439,7 +439,7 @@
             "Level 30+",
             "Upgrades"
         ],
-        "progression_skip_balancing": true
+        "progression": true
     },
     {
         "count": 1,
@@ -484,7 +484,7 @@
             "Delusions",
             "Level 15+"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -493,7 +493,7 @@
             "Delusions",
             "Level 15+"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -502,7 +502,7 @@
             "Delusions",
             "Level 15+"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -511,7 +511,7 @@
             "Delusions",
             "Level 15+"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -520,7 +520,7 @@
             "Delusions",
             "Level 15+"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
@@ -565,7 +565,7 @@
             "Delusions",
             "Level 15+"
         ],
-        "useful": true
+        "progression": true
     },
     {
         "count": 1,
