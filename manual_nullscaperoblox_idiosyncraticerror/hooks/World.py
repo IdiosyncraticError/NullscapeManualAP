@@ -98,29 +98,29 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
     shopsanity_on = is_option_enabled(multiworld, player, "shopsanity")
 
-    if shopsanity_on:
-        item_config["Adrenaline"] = {"progression":1}
-        item_config["Better Jump Pads"] = {"progression":1}
-        item_config["Tria Orbs"] = {"progression":1}
-        item_config["Health Insurance"] = {"progression":1}
-        item_config["Altar Boons"] = {"progression":1}
-        item_config["Radar Module Altars"] = {"progression":1}
-        item_config["Radar Module Tripmines"] = {"progression":1}
-        item_config["Final Stand"] = {"progression":1}
-        item_config["Star Marts"] = {"progression":1}
-        item_config["Spring Shoes"] = {"progression":1}
-        item_config["More Altars"] = {"progression":1}
-        item_config["Birthday Pony"] = {"progression":1}
-        item_config["Larger Grapple Points"] = {"progression":1}
-        item_config["Soul Tracers"] = {"progression":1}
-        item_config["Radar Module Instruments"] = {"progression":1}
-        item_config["Panic Necklace"] = {"progression":1}
-        item_config["Fleeting Fate"] = {"progression":1}
-        item_config["Aggro Magnet"] = {"progression":1}
-        item_config["Debuff Magnet"] = {"progression":1}
-        item_config["Drowned Aegis"] = {"progression":1}
-        item_config["Quixotic Wing"] = {"progression":1}
-        item_config["Transient Pennon"] = {"progression":1}
+    if not shopsanity_on:
+        item_config["Adrenaline"] = {"useful":1}
+        item_config["Better Jump Pads"] = {"useful":1}
+        item_config["Tria Orbs"] = {"progression_skip_balancing":1}
+        item_config["Health Insurance"] = {"progression_skip_balancing":1}
+        item_config["Altar Boons"] = {"useful":1}
+        item_config["Radar Module Altars"] = {"useful":1}
+        item_config["Radar Module Tripmines"] = {"progression_skip_balancing":1}
+        item_config["Final Stand"] = {"progression_skip_balancing":1}
+        item_config["Star Marts"] = {"useful":1}
+        item_config["Spring Shoes"] = {"useful":1}
+        item_config["More Altars"] = {"useful":1}
+        item_config["Birthday Pony"] = {"useful":1}
+        item_config["Larger Grapple Points"] = {"useful":1}
+        item_config["Soul Tracers"] = {"useful":1}
+        item_config["Radar Module Instruments"] = {"progression_skip_balancing":1}
+        item_config["Panic Necklace"] = {"useful":1}
+        item_config["Fleeting Fate"] = {"progression_skip_balancing":1}
+        item_config["Aggro Magnet"] = {"progression_skip_balancing":1}
+        item_config["Debuff Magnet"] = {"useful":1}
+        item_config["Drowned Aegis"] = {"progression_skip_balancing":1}
+        item_config["Quixotic Wing"] = {"progression_skip_balancing":1}
+        item_config["Transient Pennon"] = {"progression_skip_balancing":1}
 
     return item_config
 
