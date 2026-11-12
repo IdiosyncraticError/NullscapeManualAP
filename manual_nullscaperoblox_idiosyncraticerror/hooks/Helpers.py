@@ -29,7 +29,7 @@ def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str,
     if "Delusions" in item["category"]:
         from ..Helpers import get_option_value
         enabled_delusion = get_option_value(multiworld, player, "enabled_delusions")
-        return item["name"] in enabled_delusion
+        return get_option_value(multiworld, player, "delusions") and item["name"] in enabled_delusion
     
     return None
 
