@@ -23,4 +23,5 @@ todo:
   - i say this like ANYONE other than me is ever going to play this
 - i guess Cele checks now that cele practice mode is real
   - okay but there's no items to randomize in cele practice mode. like yeah you could reach chokepoints on higher grav + lower grav in combination with other classes, plus the grav curses are broken and can stack right now. well i GUESS.........
-
+- add option to make altar of wish locked
+  - >:)

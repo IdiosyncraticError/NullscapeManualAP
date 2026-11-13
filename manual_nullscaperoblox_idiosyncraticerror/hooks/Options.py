@@ -159,8 +159,6 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["random_class_start"] = RandomClassStart
     options["filler_percent"] = FillerCount
     options["post_goal"] = PostGoalContent
-    options["casual_only"] = Casual
-    options["extreme_only"] = Extreme
     options["lobby_difficulty"] = Difficulty
     options["party_size"] = Party
     options["delusions"] = Delusion
@@ -188,9 +186,6 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
     options.type_hints["level_20"].visibility = Visibility.none
     options.type_hints["level_25"].visibility = Visibility.none
     options.type_hints["level_30"].visibility = Visibility.none
-    
-    options.type_hints["solo"].visibility = Visibility.none
-    options.type_hints["party"].visibility = Visibility.none
 
     pass
 

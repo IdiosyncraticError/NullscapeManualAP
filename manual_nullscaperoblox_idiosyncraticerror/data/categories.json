@@ -114,16 +114,10 @@
         "hidden": true
     },
     "Solo": {
-        "hidden": true,
-        "yaml_option": [
-            "solo"
-        ]
+        "hidden": true
     },
     "Party": {
-        "hidden": true,
-        "yaml_option": [
-            "party"
-        ]
+        "hidden": true
     },
     "Standard+": {
         "hidden": true

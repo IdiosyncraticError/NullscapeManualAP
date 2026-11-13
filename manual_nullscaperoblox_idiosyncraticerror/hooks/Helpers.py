@@ -6,22 +6,27 @@ from BaseClasses import MultiWorld
 # Return True to enable the category, False to disable it, or None to use the default behavior
 def before_is_category_enabled(multiworld: MultiWorld, player: int, category_name: str) -> Optional[bool]:
 
+    # solo locations/upgs only disable in party only
     if category_name == "Solo":
         from ..Helpers import get_option_value
-        return get_option_value(multiworld, player, "party_size") == 0
+        return get_option_value(multiworld, player, "party_size") != 1
 
+    # party locations/upgs only disable in solo only
     if category_name == "Party":
         from ..Helpers import get_option_value
-        return get_option_value(multiworld, player, "party_size") == 1
+        return get_option_value(multiworld, player, "party_size") != 0
 
+    # upgs not in casual only show up if its not casual only
     if category_name == "Standard+":
         from ..Helpers import get_option_value
         return get_option_value(multiworld, player, "lobby_difficulty") != 0
-    
+
+    # upgs not in extreme only show up if its not extreme only
     if category_name == "Extreme-":
         from ..Helpers import is_option_enabled
         return get_option_value(multiworld, player, "lobby_diffifculty") != 1
 
+    # if shopsanity is on, turn on all upg buying locations
     if category_name == "Buy Upgrades":
         from ..Helpers import is_option_enabled
         return is_option_enabled(multiworld, player, "shopsanity")
