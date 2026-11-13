@@ -5,36 +5,27 @@ from BaseClasses import MultiWorld
 # Use this if you want to override the default behavior of is_option_enabled
 # Return True to enable the category, False to disable it, or None to use the default behavior
 def before_is_category_enabled(multiworld: MultiWorld, player: int, category_name: str) -> Optional[bool]:
-    aggregate = True
-    triggered = False
-
-    if category_name == "Buy Upgrades":
-        from ..Helpers import is_option_enabled
-        aggregate &= is_option_enabled(multiworld, player, "shopsanity")
-        triggered = True
 
     if category_name == "Solo":
         from ..Helpers import get_option_value
-        aggregate &= get_option_value(multiworld, player, "party_size") == 0
-        triggered = True
+        return get_option_value(multiworld, player, "party_size") == 0
 
     if category_name == "Party":
         from ..Helpers import get_option_value
-        aggregate &= get_option_value(multiworld, player, "party_size") == 1
-        triggered = True
+        return get_option_value(multiworld, player, "party_size") == 1
 
     if category_name == "Standard+":
         from ..Helpers import get_option_value
-        aggregate &= not get_option_value(multiworld, player, "casual_only")
-        triggered = True
+        return not get_option_value(multiworld, player, "casual_only")
     
     if category_name == "Extreme-":
-        from ..Helpers import get_option_value
-        aggregate &= not get_option_value(multiworld, player, "extreme_only")
-        triggered = True
+            from ..Helpers import get_option_value
+            return not get_option_value(multiworld, player, "extreme_only")
+
+    if category_name == "Buy Upgrades":
+            from ..Helpers import is_option_enabled
+            return is_option_enabled(multiworld, player, "shopsanity")
     
-    if triggered:
-        return aggregate
     return None
 
 # Use this if you want to override the default behavior of is_option_enabled
