@@ -1095,7 +1095,8 @@
         "region": "lvl 0",
         "category": [
             "Buy Upgrades",
-            "Level 3+"
+            "Level 3+",
+            "Solo"
         ],
         "requires": "{shopsanityReq(Adrenaline, 0)}"
     },
@@ -1248,7 +1249,8 @@
         "region": "lvl 5",
         "category": [
             "Buy Upgrades",
-            "Level 5+"
+            "Level 5+",
+            "Standard+"
         ],
         "requires": "{shopsanityReq(Defuse Kit, 1)}"
     },
@@ -1257,7 +1259,8 @@
         "region": "lvl 5",
         "category": [
             "Buy Upgrades",
-            "Level 8+"
+            "Level 8+",
+            "Standard+"
         ],
         "requires": "{shopsanityReq(Defuse Kit, 2)}"
     },
@@ -1266,7 +1269,8 @@
         "region": "lvl 10",
         "category": [
             "Buy Upgrades",
-            "Level 10+"
+            "Level 10+",
+            "Standard+"
         ],
         "requires": "{shopsanityReq(Defuse Kit, 3)}"
     },
@@ -1275,7 +1279,8 @@
         "region": "lvl 5",
         "category": [
             "Buy Upgrades",
-            "Level 5+"
+            "Level 5+",
+            "Standard+"
         ],
         "requires": "{shopsanityReq(Grace Wings, 0)}"
     },
@@ -1320,7 +1325,9 @@
         "region": "lvl 5",
         "category": [
             "Buy Upgrades",
-            "Level 8+"
+            "Level 8+",
+            "Party",
+            "Extreme-"
         ],
         "requires": "{shopsanityReq(Health Insurance, 0)}"
     },
@@ -1356,7 +1363,8 @@
         "region": "lvl 5",
         "category": [
             "Buy Upgrades",
-            "Level 8+"
+            "Level 8+",
+            "Standard+"
         ],
         "requires": "{shopsanityReq(Radar Module Tripmines, 0)}"
     },
@@ -1365,7 +1373,8 @@
         "region": "lvl 5",
         "category": [
             "Buy Upgrades",
-            "Level 8+"
+            "Level 8+",
+            "Party"
         ],
         "requires": "{shopsanityReq(Final Stand, 0)}"
     },
@@ -1455,7 +1464,8 @@
         "region": "lvl 10",
         "category": [
             "Buy Upgrades",
-            "Level 13+"
+            "Level 13+",
+            "Extreme-"
         ],
         "requires": "{shopsanityReq(Soul Tracers, 0)}"
     },
@@ -1590,7 +1600,8 @@
         "region": "lvl 20",
         "category": [
             "Buy Upgrades",
-            "Level 20+"
+            "Level 20+",
+            "Standard+"
         ],
         "requires": "{shopsanityReq(Miniature Hourglass, 0)}"
     },
