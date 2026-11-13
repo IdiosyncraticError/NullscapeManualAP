@@ -32,3 +32,4 @@ this branch specific things:
 - option to add shopsanity to stack overflowed items (arrogance and conceit)
 - also i guess add option to be unable to buy the extra stacks until you have the item (aka we adding more)
 - one day add altars as a randomizable option
+- edit item config so that if shopsanity is turned off, paycheck is 3 progression 2 skip balancing, magnet is 2 progression 1 progression skip balancing, idol is 2 progression 3 skip balancing

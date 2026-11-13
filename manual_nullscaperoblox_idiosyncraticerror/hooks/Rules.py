@@ -110,6 +110,16 @@ def shopsanityReq(world: World, item: str, count: int):
         "Drowned Aegis": "More Altars"
     }
 
+    stack_amount = {
+        "Paycheck":5,
+        "Business License":2,
+        "Swiftness Ring":3,
+        "Subspacial Barrier":2,
+        "Gift Magnet":3,
+        "Gift Idol":5,
+        "Magnified Levels":3
+    }
+
     not_extreme = [
         "Health Insurance",
         "Soul Tracers",
@@ -142,6 +152,13 @@ def shopsanityReq(world: World, item: str, count: int):
         return ""
     if world.options.party_size.value == 1 and item in not_party:
         return ""
+
+    # check if this is a arrogance/conceit location and arro/conceit items are turned on
+    if item in stack_amount and count > stack_amount[item]:
+        if world.options.delusion_upg_item.value == True:
+            output += "|" + item + ":" + str(count) + "|"
+        else:
+            count -= 1
         
     # set count to 0 for all items that dont stack
     if count > 0:

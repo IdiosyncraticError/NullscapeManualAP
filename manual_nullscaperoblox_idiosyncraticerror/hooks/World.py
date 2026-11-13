@@ -116,6 +116,15 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
         item_config["Quixotic Wing"] = {"progression_skip_balancing":1}
         item_config["Transient Pennon"] = {"progression_skip_balancing":1}
 
+    if is_option_enabled(multiworld, player, "delusion_upg_item"):
+        item_config["Paycheck"] = {"progression":6}
+        item_config["Swiftness Ring"] = {"progression":4}
+        item_config["Business License"] = {"progression":3}
+        item_config["Subspacial Barrier"] = {"progression":3}
+        item_config["Gift Magnet"] = {"progression":4}
+        item_config["Gift Idol"] = {"progression":6}
+        item_config["Magnified Levels"] = {"progression":4}
+
     return item_config
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
