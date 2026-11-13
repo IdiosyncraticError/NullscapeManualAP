@@ -31,7 +31,7 @@ def requiresMelee():
 def checkWin(world: World, character: str):
     """returns require string based on region of goal level"""
     region_reqs = [
-        "|Business License| and |Swiftness Ring:2| and |Medal|",
+        "|Business License:1| and |Swiftness Ring:2| and |Medal|",
         "{OptOne(|Grace Wings|)} and |Double Jump| and |Ice Skates| and |Pocket Bell| and |Fanny Pack|",
         "|Ninja Belt| and |Helmet| and {OptOne(|Defuse Kit:3|)} and |Advanced Gravity Coil| and |Subspacial Barrier:1|",
         "|Sports Shoes| and |Matrix Tetrahedron| and |Shark Tail| and |Shield|",
@@ -63,7 +63,7 @@ def checkWin(world: World, character: str):
 def checkPrisoner(world: World):
     """returns require string based on region of goal level"""
     region_reqs = [
-        "|Business License| and |Swiftness Ring:2| and |Medal|",
+        "|Business License:1| and |Swiftness Ring:2| and |Medal|",
         "{OptOne(|Grace Wings|)} and |Double Jump| and |Ice Skates| and |Pocket Bell| and |Fanny Pack|",
         "|Ninja Belt| and |Helmet| and {OptOne(|Defuse Kit:3|)} and |Advanced Gravity Coil| and |Subspacial Barrier:1|",
         "|Sports Shoes| and |Matrix Tetrahedron| and |Shark Tail| and |Shield|",

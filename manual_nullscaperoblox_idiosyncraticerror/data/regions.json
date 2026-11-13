@@ -5,7 +5,7 @@
   },
   "lvl 5": {
     "connects_to": ["lvl 10"],
-    "requires": "|Business License| and |Swiftness Ring:2| and |Medal|"
+    "requires": "|Business License:1| and |Swiftness Ring:2| and |Medal|"
   },
   "lvl 10": {
     "connects_to": ["lvl 15"],
