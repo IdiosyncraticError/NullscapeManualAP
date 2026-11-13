@@ -64,7 +64,7 @@ def checkPrisoner(world: World):
     """returns require string based on region of goal level"""
     region_reqs = [
         "|Business License| and |Swiftness Ring:2| and |Medal|",
-        "|Grace Wings| and |Double Jump| and |Ice Skates| and |Pocket Bell| and |Fanny Pack|",
+        "{OptOne(|Grace Wings|)} and |Double Jump| and |Ice Skates| and |Pocket Bell| and |Fanny Pack|",
         "|Ninja Belt| and |Helmet| and {OptOne(|Defuse Kit:3|)} and |Advanced Gravity Coil| and |Subspacial Barrier:1|",
         "|Sports Shoes| and |Matrix Tetrahedron| and |Shark Tail| and |Shield|",
         "{OptOne(|Miniature Hourglass|)} and |Propeller Hat| and |Gift Magnet:3|",
