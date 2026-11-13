@@ -114,32 +114,15 @@
         "hidden": true
     },
     "Solo": {
-        "hidden": true,
-        "yaml_option": [
-            "solo"
-        ]
+        "hidden": true
     },
     "Party": {
-        "hidden": true,
-        "yaml_option": [
-            "party"
-        ]
+        "hidden": true
     },
     "Standard+": {
-        "hidden": true,
-        "yaml_option": [
-            "!casual_only"
-        ]
+        "hidden": true
     },
     "Extreme-": {
-        "hidden": true,
-        "yaml_option": [
-            "!extreme_only"
-        ]
-    },
-    "Buy Upgrades": {
-        "yaml_option": [
-            "shopsanity"
-        ]
+        "hidden": true
     }
 }

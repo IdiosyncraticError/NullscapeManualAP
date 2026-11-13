@@ -80,7 +80,7 @@ class RandomClassStart(Range):
 
 class FillerCount(Range):
     """
-    What percentage of your locations should be filler?
+    Percentage of filler your items should have. Based off of the number of locations in the world (X% of total locations would be filled in a solo archipelago)
     Note: 0 = none, 100 = include all locations
     """
     display_name = "Proportion of Filler"
@@ -106,10 +106,21 @@ class Extreme(Toggle):
     """
     display_name = "Extreme Mode Only"
 
+class Difficulty(Choice):
+    """
+    Select if you will be playing exclusively Casual mode, exclusively Extreme mode, or neither
+    (This setting removes extra items if you are not playing only these modes)
+    """
+    display_name = "Lobby Difficulty"
+    option_casual_only = 0
+    option_extreme_only = 1
+    option_none = 2
+    default = 2
+
 class Party(Choice):
     """
     Solo: removes all multiplayer curses and upgrades (pick this if you plan to play duo)
-    (final stand, health insurance, altar boons)
+    (final stand, health insurance)
     Party: removes Adrenaline
     Both: solo and multiplayer exclusive items are included
     """
@@ -150,6 +161,7 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["post_goal"] = PostGoalContent
     options["casual_only"] = Casual
     options["extreme_only"] = Extreme
+    options["lobby_difficulty"] = Difficulty
     options["party_size"] = Party
     options["delusions"] = Delusion
     options["enabled_delusions"] = DelusionList
@@ -185,6 +197,8 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
 # Use this Hook if you want to add your Option to an Option group (existing or not)
 def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> dict[str, list[Type[Option[Any]]]]:
     # Uses the format groups['GroupName'] = [TotalCharactersToWinWith]
+    groups["Game Options"] = [ClassWinRequirement, LevelWinRequirement, EnabledClass, RandomClassStart, FillerCount, PostGoalContent]
+    groups["Lobby Options"] = [Difficulty, Party]
     return groups
 
 def after_option_groups_created(groups: list[OptionGroup]) -> list[OptionGroup]:
