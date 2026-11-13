@@ -19,3 +19,4 @@ todo:
 - option to remove transient pennon and quixotic wing from shopsanity
   - nobody is getting ts so might as well make it an option instead of forcing ppl to manually exclude it themselves
   - i say this like ANYONE other than me is ever going to play this
+- edit shopsanity rules hook so that its {optone()} for health insurance, soul tracers, miniature hourglass, and grace wings. and final stand. (and any upgrades that may or may not get disabled for any reason Ever at all ex party size or difficulty selection)
