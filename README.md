@@ -23,3 +23,30 @@ todo:
 - edit shopsanity rules hook so that its {optone()} for health insurance, soul tracers, miniature hourglass, and grace wings. and final stand. (and any upgrades that may or may not get disabled for any reason Ever at all ex party size or difficulty selection)
 - i guess Cele checks now that cele practice mode is real
   - okay but there's no items to randomize in cele practice mode. like yeah you could reach chokepoints on higher grav + lower grav in combination with other classes, plus the grav curses are broken and can stack right now. well i GUESS.........
+
+
+test cases
+solo only:
+- extra buy final stand
+- extra buy health insurance
+- missing miniature hourglass
+- missing buy miniature hourglass
+
+
+party only:
+- missing buy soul tracer
+- missing buy final stand
+- missing buy grace wings
+- missing miniature hourglass
+- missing buy miniature hourglass
+- extra buy adrenaline
+
+both:
+- missing adrenaline
+- missing health insurance
+- missing final stand
+- missing miniature hourglass
+- missing buy miniature hourglass
+
+casual only:
+- 
