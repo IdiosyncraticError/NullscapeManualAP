@@ -430,7 +430,7 @@ for i in upgrades:
     
             delu["category"] = cat_list
     
-            delu["requires"] = "{shopsanityReq(" + i[0] + ", " + str(j + 2) + ")}"
+            delu["requires"] = "{OptAll(|Arrogance| or |Conceit|)} and {shopsanityReq(" + i[0] + ", " + str(j + 2) + ")}"
 
             output.append(delu)
 

@@ -161,14 +161,14 @@ class ExpensiveUpgs(Toggle):
 class DelusionShop(Toggle):
     """
     Enables locations for buying the extra upgrades from Arrogance/Conceit
-    Does not require Randomized Delusion Upgrades to be on. Requires Shopsanity to be on.
+    Does not require Randomized Delusion Upgrades to be on. Requires Shopsanity to be on. Does not require Delusions to be on.
     """
     display_name = "Delusion Upgrade Locations"
 
 class DelusionItem(Toggle):
     """
     The extra upgrades from Arrogance/Conceit are now randomized as items
-    Does not require Shopsanity or Delusion Upgrades to be enabled
+    Does not require Shopsanity, Delusions, or Delusion Upgrades to be enabled.
     """
     display_name = "Randomized Delusion Upgrades"
 

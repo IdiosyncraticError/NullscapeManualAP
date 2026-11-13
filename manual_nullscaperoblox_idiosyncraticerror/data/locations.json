@@ -1135,7 +1135,7 @@
             "Delusion Stacks",
             "Level 15+"
         ],
-        "requires": "{shopsanityReq(Swiftness Ring, 4)}"
+        "requires": "{OptAll(|Arrogance| or |Conceit|)} and {shopsanityReq(Swiftness Ring, 4)}"
     },
     {
         "name": "Buy Business License 1",
@@ -1163,7 +1163,7 @@
             "Delusion Stacks",
             "Level 15+"
         ],
-        "requires": "{shopsanityReq(Business License, 3)}"
+        "requires": "{OptAll(|Arrogance| or |Conceit|)} and {shopsanityReq(Business License, 3)}"
     },
     {
         "name": "Buy Paycheck 1",
@@ -1218,7 +1218,7 @@
             "Delusion Stacks",
             "Level 15+"
         ],
-        "requires": "{shopsanityReq(Paycheck, 6)}"
+        "requires": "{OptAll(|Arrogance| or |Conceit|)} and {shopsanityReq(Paycheck, 6)}"
     },
     {
         "name": "Buy Medal",
@@ -1479,7 +1479,7 @@
             "Delusion Stacks",
             "Level 15+"
         ],
-        "requires": "{shopsanityReq(Subspacial Barrier, 3)}"
+        "requires": "{OptAll(|Arrogance| or |Conceit|)} and {shopsanityReq(Subspacial Barrier, 3)}"
     },
     {
         "name": "Buy Larger Grapple Points",
@@ -1571,7 +1571,7 @@
             "Delusion Stacks",
             "Level 30+"
         ],
-        "requires": "{shopsanityReq(Gift Magnet, 4)}"
+        "requires": "{OptAll(|Arrogance| or |Conceit|)} and {shopsanityReq(Gift Magnet, 4)}"
     },
     {
         "name": "Buy Matrix Tetrahedron",
@@ -1711,7 +1711,7 @@
             "Level 30+",
             "Expensive"
         ],
-        "requires": "{shopsanityReq(Gift Idol, 6)}"
+        "requires": "{OptAll(|Arrogance| or |Conceit|)} and {shopsanityReq(Gift Idol, 6)}"
     },
     {
         "name": "Buy Drowned Aegis",
@@ -1768,7 +1768,7 @@
             "Level 30+",
             "Expensive"
         ],
-        "requires": "{shopsanityReq(Magnified Levels, 4)}"
+        "requires": "{OptAll(|Arrogance| or |Conceit|)} and {shopsanityReq(Magnified Levels, 4)}"
     },
     {
         "name": "Buy Quixotic Wing",
