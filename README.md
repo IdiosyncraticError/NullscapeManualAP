@@ -6,6 +6,7 @@ cursesanity: either you check location when taking it or you check location when
 IF YOU HAVE UNIVERSAL TRACKER INSTALLED, REMOVE IT FROM YOUR CUSTOM_WORLD FOLDER!!! This APworld uses SOFT PROGRESSION REQUIREMENTS to limit number of checks per sphere, so you will often be out-of-logic!
 
 the level logic is assigned to standard for things that change based on level (greater curses, tripmines/seamines, etc)
+okay you know what maybe ill make it change based on if you pick casual/standard/extreme but like. when i feel like it.
 
 
 todo:
@@ -20,3 +21,5 @@ todo:
   - nobody is getting ts so might as well make it an option instead of forcing ppl to manually exclude it themselves
   - i say this like ANYONE other than me is ever going to play this
 - edit shopsanity rules hook so that its {optone()} for health insurance, soul tracers, miniature hourglass, and grace wings. and final stand. (and any upgrades that may or may not get disabled for any reason Ever at all ex party size or difficulty selection)
+- i guess Cele checks now that cele practice mode is real
+  - okay but there's no items to randomize in cele practice mode. like yeah you could reach chokepoints on higher grav + lower grav in combination with other classes, plus the grav curses are broken and can stack right now. well i GUESS.........
