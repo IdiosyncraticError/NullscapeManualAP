@@ -133,6 +133,8 @@ for i in class_unlock:
     obj["category"] = ["Win Progression"]
     obj["progression"] = True
     output.append(obj)
+
+output.append({"name": "Altar of Wishes", "count": 1, "category": ["Altars", "Level 15+"], "progression_skip_balancing": True})
     
 
 with open("items.json", "w") as file:

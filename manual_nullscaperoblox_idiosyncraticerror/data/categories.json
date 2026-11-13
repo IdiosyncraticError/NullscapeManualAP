@@ -124,5 +124,10 @@
     },
     "Extreme-": {
         "hidden": true
+    },
+    "Altars": {
+        "yaml_option": [
+            "wishes"
+        ]
     }
 }

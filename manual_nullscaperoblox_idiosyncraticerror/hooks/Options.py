@@ -150,6 +150,12 @@ class Shopsanity(Toggle):
     """
     display_name = "Shopsanity"
 
+class Wish(Toggle):
+    """
+    Altar of Wish is now a randomized item
+    """
+    display_name = "Altar of Wishes"
+
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options["class_win_requirement"] = ClassWinRequirement
@@ -164,6 +170,7 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["delusions"] = Delusion
     options["enabled_delusions"] = DelusionList
     options["shopsanity"] = Shopsanity
+    options["wishes"] = Wish
 
     return options
 
@@ -194,6 +201,7 @@ def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> 
     # Uses the format groups['GroupName'] = [TotalCharactersToWinWith]
     groups["Game Options"] = [ClassWinRequirement, LevelWinRequirement, EnabledClass, RandomClassStart, FillerCount, PostGoalContent]
     groups["Lobby Options"] = [Difficulty, Party]
+    groups["Other Options"] = [Delusion, Shopsanity, Wish]
     return groups
 
 def after_option_groups_created(groups: list[OptionGroup]) -> list[OptionGroup]:
