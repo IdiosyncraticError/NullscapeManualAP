@@ -161,7 +161,7 @@ upgrades = [
     ["Spring Shoes", 1, [], 8],
     ["More Altars", 1, [], 10],
     ["Birthday Pony", 1, [], 10],
-    ["Subspacial Barrier", 2, ["Standard+"], 10, "|Defuse Kit:3|"],
+    ["Subspacial Barrier", 2, [], 10, "|Defuse Kit:3|"],
     ["Larger Grapple Points", 1, [], 13, "|Grapple Points|"],
     ["Ninja Belt", 1, [], 13],
     ["Soul Tracers", 1, ["Extreme-"], 13], #not in extreme mode

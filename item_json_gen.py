@@ -28,7 +28,7 @@ upgrades = [
     ["Spring Shoes", 1, ["Level 8+"], 4],
     ["More Altars", 1, ["Level 10+"], 4],
     ["Birthday Pony", 1, ["Level 10+"], 4],
-    ["Subspacial Barrier", 2, ["Level 10+", "Standard+"], 4],
+    ["Subspacial Barrier", 2, ["Level 10+"], 4],
     ["Larger Grapple Points", 1, ["Level 13+"], 4],
     ["Ninja Belt", 1, ["Level 13+"], 4],
     ["Soul Tracers", 1, ["Level 13+", "Extreme-"], 4], #not in extreme mode

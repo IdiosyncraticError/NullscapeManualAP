@@ -110,36 +110,49 @@ def shopsanityReq(world: World, item: str, count: int):
         "Drowned Aegis": "More Altars"
     }
 
-    potentially_disabled = [
+    not_extreme = [
         "Health Insurance",
         "Soul Tracers",
-        "Defuse Kit",
-        "Subspacial Barrier",
-        "Grace Wings",
+    ]
+
+    not_casual = [
         "Miniature Hourglass",
-        "Radar Module Tripmines",
-        "Adrenaline",
-        "Final Stand"
+        "Grace Wings",
+        "Defuse Kit",
+        "Radar Module Tripmines"
+    ]
+
+    not_solo = [
+        "Final Stand",
+        "Health Insurance"
+    ]
+
+    not_party = [
+        "Adrenaline"
     ]
 
     output = ""
+
+    # blank requirement if upgrade wont show up in the lobby
+    if world.options.extreme_only.value and item in not_extreme:
+        return ""
+    if world.options.casual_only.value and item in not_casual:
+        return ""
+    if world.options.party_size.value == 0 and item in not_solo:
+        return ""
+    if world.options.party_size.value == 1 and item in not_party:
+        return ""
+        
     # set count to 0 for all items that dont stack
-    if item in potentially_disabled:
-        output += "{OptOne("
     if count > 0:
         output += "|" + item + ":" + str(count) + "|"
     else:
         output += "|" + item + "|"
-    if item in potentially_disabled:
-        output += ")}"
 
     if item in special_case.keys():
-        if special_case[item] == "Defuse Kit:3":
-            output += "{OptOne("
-
-        output += " and |" + special_case[item] + "|"
-
-        if special_case[item] == "Defuse Kit:3":
-                    output += ")}"
+        if item == "Subspacial Barrier": #barrier in casual does not require defuse kit
+            output += " and {OptOne(" + special_case[item] + ")}"
+        else:
+            output += " and |" + special_case[item] + "|"
 
     return output

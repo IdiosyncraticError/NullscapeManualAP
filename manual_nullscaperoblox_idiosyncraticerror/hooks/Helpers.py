@@ -43,14 +43,7 @@ def before_is_location_enabled(multiworld: MultiWorld, player: int, location:  d
             if location["name"].startswith(i.removesuffix("Unlock")):
                 return True
         return False
-
-    if "Standard+" in location["category"]:
-        from ..Helpers import get_option_value
-        return not get_option_value(multiworld, player, "casual_only")
-
-    if "Extreme-" in location["category"]:
-            from ..Helpers import get_option_value
-            return not get_option_value(multiworld, player, "extreme_only")
+    
     return None
 
 # Use this if you want to override the default behavior of is_option_enabled
