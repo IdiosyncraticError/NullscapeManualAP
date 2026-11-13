@@ -135,7 +135,7 @@ def shopsanityReq(world: World, item: str, count: int):
 
     # blank requirement if upgrade wont show up in the lobby
     if world.options.extreme_only.value and item in not_extreme:
-        return ""
+        return "|Paycheck:1|"
     if world.options.casual_only.value and item in not_casual:
         return ""
     if world.options.party_size.value == 0 and item in not_solo:
@@ -149,9 +149,10 @@ def shopsanityReq(world: World, item: str, count: int):
     else:
         output += "|" + item + "|"
 
+    # if extra req has multiple stacks
     if item in special_case.keys():
         if item == "Subspacial Barrier": #barrier in casual does not require defuse kit
-            output += " and {OptOne(" + special_case[item] + ")}"
+            output += " and {OptOne(|" + special_case[item] + "|)}"
         else:
             output += " and |" + special_case[item] + "|"
 
