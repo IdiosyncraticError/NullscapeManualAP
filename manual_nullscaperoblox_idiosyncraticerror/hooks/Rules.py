@@ -43,17 +43,17 @@ def checkWin(world: World, character: str):
     win_lvl = world.options.level_win_requirement.value
     requires = "|" + character + " Unlock| and "
 
-    if win_lvl >= 10:
+    if win_lvl > 10:
         requires += region_reqs[0] + " and " + region_reqs[1]
-    if win_lvl >= 15:
+    if win_lvl > 15:
         requires += " and " + region_reqs[2]
-    if win_lvl >= 20:
+    if win_lvl > 20:
         requires += " and " + region_reqs[3]
-    if win_lvl >= 25:
+    if win_lvl > 25:
         requires += " and " + region_reqs[4]
-    if win_lvl >= 30:
+    if win_lvl > 30:
         requires += " and " + region_reqs[5]
-    if win_lvl >= 40:
+    if win_lvl > 40:
         requires += " and " + region_reqs[6]
     #keeps adding region requires depending on the win level set by option
     #done this way bcs this location would have to change region based on that option, and i dont want to deal with that
