@@ -21,11 +21,11 @@ todo:
   - okay but there's no items to randomize in cele practice mode. like yeah you could reach chokepoints on higher grav + lower grav in combination with other classes, plus the grav curses are broken and can stack right now. well i GUESS.........
 
 this branch specific things:
-- add altar of wish item + option
+  - add altar of wish item + option
 - add cele prac locations per class and per phase
 - add cele prac victory locations as beating phase on X amount of classes with same flag/location bullshit as regular level
-- setting to remove idol 5, magnified lvls 3, and the wings on shopsanity
-- option to add shopsanity to stack overflowed items (arrogance and conceit)
-- also i guess add option to be unable to buy the extra stacks until you have the item (aka we adding more)
+  - setting to remove idol 5, magnified lvls 3, and the wings on shopsanity
+  - option to add shopsanity to stack overflowed items (arrogance and conceit)
+  - also i guess add option to be unable to buy the extra stacks until you have the item (aka we adding more)
 - one day add altars as a randomizable option
 - edit item config so that if shopsanity is turned off, paycheck is 3 progression 2 skip balancing, magnet is 2 progression 1 progression skip balancing, idol is 2 progression 3 skip balancing
