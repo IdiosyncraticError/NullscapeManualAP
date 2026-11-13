@@ -13,7 +13,7 @@
   },
   "lvl 15": {
     "connects_to": ["lvl 20"],
-    "requires": "|Ninja Belt| and |Helmet| and {OptOne(|Defuse Kit:3|)} and |Advanced Gravity Coil| and {OptOne(|Subspacial Barrier|)}"
+    "requires": "|Ninja Belt| and |Helmet| and {OptOne(|Defuse Kit:3|)} and |Advanced Gravity Coil| and |Subspacial Barrier:1|"
   },
   "lvl 20": {
     "connects_to": ["lvl 25"],
