@@ -175,6 +175,7 @@ class DelusionItem(Toggle):
 class Wish(Toggle):
     """
     Altar of Wish is now a randomized item
+    >:)
     """
     display_name = "Altar of Wishes"
 
