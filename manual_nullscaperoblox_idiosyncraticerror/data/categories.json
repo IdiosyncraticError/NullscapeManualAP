@@ -50,7 +50,13 @@
     "Level 25+": {
         "hidden": true,
         "yaml_option": [
-            "level_20"
+            "level_25"
+        ]
+    },
+    "Level 30+": {
+        "hidden": true,
+        "yaml_option": [
+            "level_30"
         ]
     },
     "Win Progression": {

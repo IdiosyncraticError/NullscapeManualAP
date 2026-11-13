@@ -57,13 +57,19 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
             world.options.level_18.value = False
         if victory_level < 20:
             world.options.level_20.value = False
+        if victory_level < 25:
+            world.options.level_25.value = False
+        if victory_level < 30:
+            world.options.level_30.value = False
             
     party = get_option_value(multiworld, player, "party_size")
     
     if party == 0:
         world.options.solo.value = True
+        world.options.party.value = False
     elif party == 1:
         world.options.party.value = True
+        world.options.solo.value = False
     elif party == 2:
         world.options.solo.value = True
         world.options.party.value = True

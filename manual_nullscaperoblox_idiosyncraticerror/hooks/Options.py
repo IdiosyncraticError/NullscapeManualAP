@@ -111,7 +111,7 @@ class Party(Choice):
     Solo: removes all multiplayer curses and upgrades (pick this if you plan to play duo)
     (final stand, health insurance, altar boons)
     Party: removes Adrenaline
-    Both: solo and multiplayer exclusive items and curses are included
+    Both: solo and multiplayer exclusive items are included
     """
     display_name = "Party Size"
     option_solo = 0
@@ -174,6 +174,8 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
     options.type_hints["level_15"].visibility = Visibility.none
     options.type_hints["level_18"].visibility = Visibility.none
     options.type_hints["level_20"].visibility = Visibility.none
+    options.type_hints["level_25"].visibility = Visibility.none
+    options.type_hints["level_30"].visibility = Visibility.none
     
     options.type_hints["solo"].visibility = Visibility.none
     options.type_hints["party"].visibility = Visibility.none
