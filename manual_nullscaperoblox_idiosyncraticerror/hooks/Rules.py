@@ -138,10 +138,10 @@ def shopsanityReq(world: World, item: str, count: int):
     #    return "|Paycheck:1|"
     #if world.options.casual_only.value and item in not_casual:
     #    return ""
-    #if world.options.party_size.value == 0 and item in not_solo:
-    #    return ""
-    #if world.options.party_size.value == 1 and item in not_party:
-    #    return ""
+    if world.options.party_size.value == 0 and item in not_solo:
+        return ""
+    if world.options.party_size.value == 1 and item in not_party:
+        return ""
         
     # set count to 0 for all items that dont stack
     if count > 0:
