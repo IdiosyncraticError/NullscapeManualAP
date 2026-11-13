@@ -47,19 +47,19 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     
     victory_level = get_option_value(multiworld, player, "level_win_requirement")
     if world.options.post_goal.value == False:
-        if victory_level < 12:
+        if victory_level <= 12:
             world.options.level_12.value = False
-        if victory_level < 13:
+        if victory_level <= 13:
             world.options.level_13.value = False
-        if victory_level < 15:
+        if victory_level <= 15:
             world.options.level_15.value = False
-        if victory_level < 18:
+        if victory_level <= 18:
             world.options.level_18.value = False
-        if victory_level < 20:
+        if victory_level <= 20:
             world.options.level_20.value = False
-        if victory_level < 25:
+        if victory_level <= 25:
             world.options.level_25.value = False
-        if victory_level < 30:
+        if victory_level <= 30:
             world.options.level_30.value = False
             
     party = get_option_value(multiworld, player, "party_size")
