@@ -110,14 +110,36 @@ def shopsanityReq(world: World, item: str, count: int):
         "Drowned Aegis": "More Altars"
     }
 
+    potentially_disabled = [
+        "Health Insurance",
+        "Soul Tracers",
+        "Defuse Kit",
+        "Subspacial Barrier",
+        "Grace Wings",
+        "Miniature Hourglass",
+        "Radar Module Tripmines",
+        "Adrenaline",
+        "Final Stand"
+    ]
+
     output = ""
     # set count to 0 for all items that dont stack
+    if item in potentially_disabled:
+        output += "{OptOne("
     if count > 0:
         output += "|" + item + ":" + str(count) + "|"
     else:
         output += "|" + item + "|"
+    if item in potentially_disabled:
+        output += ")}"
 
     if item in special_case.keys():
+        if special_case[item] == "Defuse Kit:3":
+            output += "{OptOne("
+
         output += " and |" + special_case[item] + "|"
+
+        if special_case[item] == "Defuse Kit:3":
+                    output += ")}"
 
     return output
