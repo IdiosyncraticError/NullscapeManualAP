@@ -134,10 +134,10 @@ def shopsanityReq(world: World, item: str, count: int):
     output = ""
 
     # blank requirement if upgrade wont show up in the lobby
-    #if world.options.extreme_only.value and item in not_extreme:
-    #    return "|Paycheck:1|"
-    #if world.options.casual_only.value and item in not_casual:
-    #    return ""
+    if world.options.extreme_only.value and item in not_extreme:
+        return "|Paycheck:1|"
+    if world.options.casual_only.value and item in not_casual:
+        return ""
     if world.options.party_size.value == 0 and item in not_solo:
         return ""
     if world.options.party_size.value == 1 and item in not_party:
