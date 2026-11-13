@@ -9,7 +9,7 @@
   },
   "lvl 10": {
     "connects_to": ["lvl 15"],
-    "requires": "|Grace Wings| and |Double Jump| and |Ice Skates| and |Pocket Bell| and |Fanny Pack|"
+    "requires": "{OptOne(|Grace Wings|)} and |Double Jump| and |Ice Skates| and |Pocket Bell| and |Fanny Pack|"
   },
   "lvl 15": {
     "connects_to": ["lvl 20"],
@@ -24,10 +24,10 @@
     "requires": "{OptOne(|Miniature Hourglass|)} and |Propeller Hat| and |Gift Magnet:3|"
   },
   "lvl 30": {
-    "connects_to": ["lvl 40"],
-    "requires": "|Shadow Cloak| and |Gift Idol:2|"
+    "connects_to": ["lvl 35"],
+    "requires": "|Shadow Cloak| and |Gift Idol:2| and |Jet Boosters|"
   },
   "lvl 40": {
-    "requires": "|Magnified Levels| and |Jet Boosters|"
+    "requires": "|Magnified Levels|"
   }
 }
