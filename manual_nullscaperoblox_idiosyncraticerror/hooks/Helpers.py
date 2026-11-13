@@ -23,7 +23,7 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
 
     # upgs not in extreme only show up if its not extreme only
     if category_name == "Extreme-":
-        from ..Helpers import is_option_enabled
+        from ..Helpers import get_option_value
         return get_option_value(multiworld, player, "lobby_diffifculty") != 1
 
     # if shopsanity is on, turn on all upg buying locations
