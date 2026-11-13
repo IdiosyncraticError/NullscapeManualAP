@@ -359,6 +359,13 @@ for i in upgrades:
             obj["region"] = "lvl 30"
             cat_list.append("Level 30+")
         cat_list.extend(i[2])
+        if i[0] == "Transient Pennon" or i[0] == "Quixotic Wing":
+            cat_list.append("Expensive")
+        if i[0] == "Gift Idol" and j + 1 > 3:
+            cat_list.append("Expensive")
+        if i[0] == "Magnified Levels" and j + 1 == 3:
+            cat_list.append("Expensive")
+
         obj["category"] = cat_list
 
         obj["requires"] = "{shopsanityReq(" + i[0] + ", "

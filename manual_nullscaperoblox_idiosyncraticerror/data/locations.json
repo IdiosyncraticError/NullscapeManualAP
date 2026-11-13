@@ -1637,7 +1637,8 @@
         "region": "lvl 30",
         "category": [
             "Buy Upgrades",
-            "Level 30+"
+            "Level 30+",
+            "Expensive"
         ],
         "requires": "{shopsanityReq(Gift Idol, 4)}"
     },
@@ -1646,7 +1647,8 @@
         "region": "lvl 30",
         "category": [
             "Buy Upgrades",
-            "Level 30+"
+            "Level 30+",
+            "Expensive"
         ],
         "requires": "{shopsanityReq(Gift Idol, 5)}"
     },
@@ -1691,7 +1693,8 @@
         "region": "lvl 30",
         "category": [
             "Buy Upgrades",
-            "Level 30+"
+            "Level 30+",
+            "Expensive"
         ],
         "requires": "{shopsanityReq(Magnified Levels, 3)}"
     },
@@ -1700,7 +1703,8 @@
         "region": "lvl 30",
         "category": [
             "Buy Upgrades",
-            "Level 30+"
+            "Level 30+",
+            "Expensive"
         ],
         "requires": "{shopsanityReq(Quixotic Wing, 0)}"
     },
@@ -1709,7 +1713,8 @@
         "region": "lvl 30",
         "category": [
             "Buy Upgrades",
-            "Level 30+"
+            "Level 30+",
+            "Expensive"
         ],
         "requires": "{shopsanityReq(Transient Pennon, 0)}"
     }
