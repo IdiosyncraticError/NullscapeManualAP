@@ -355,6 +355,9 @@ for i in upgrades:
         elif i[3] == 30:
             obj["region"] = "lvl 30"
             cat_list.append("Level 30+")
+        else:
+            obj["region"] = "lvl 30"
+            cat_list.append("Level 30+")
         obj["category"] = cat_list
 
         obj["requires"] = "{shopsanityReq(" + i[0] + ", "

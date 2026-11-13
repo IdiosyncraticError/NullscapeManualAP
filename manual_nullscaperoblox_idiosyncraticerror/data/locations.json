@@ -1605,8 +1605,10 @@
     },
     {
         "name": "Buy Gift Idol 2",
+        "region": "lvl 30",
         "category": [
-            "Buy Upgrades"
+            "Buy Upgrades",
+            "Level 30+"
         ],
         "requires": "{shopsanityReq(Gift Idol, 2)}"
     },
@@ -1621,8 +1623,10 @@
     },
     {
         "name": "Buy Gift Idol 4",
+        "region": "lvl 30",
         "category": [
-            "Buy Upgrades"
+            "Buy Upgrades",
+            "Level 30+"
         ],
         "requires": "{shopsanityReq(Gift Idol, 4)}"
     },
@@ -1664,15 +1668,19 @@
     },
     {
         "name": "Buy Magnified Levels 2",
+        "region": "lvl 30",
         "category": [
-            "Buy Upgrades"
+            "Buy Upgrades",
+            "Level 30+"
         ],
         "requires": "{shopsanityReq(Magnified Levels, 2)}"
     },
     {
         "name": "Buy Magnified Levels 3",
+        "region": "lvl 30",
         "category": [
-            "Buy Upgrades"
+            "Buy Upgrades",
+            "Level 30+"
         ],
         "requires": "{shopsanityReq(Magnified Levels, 3)}"
     },
