@@ -24,7 +24,7 @@
     "requires": "{OptOne(|Miniature Hourglass|)} and |Propeller Hat| and |Gift Magnet:3|"
   },
   "lvl 30": {
-    "connects_to": ["lvl 35"],
+    "connects_to": ["lvl 40"],
     "requires": "|Shadow Cloak| and |Gift Idol:2| and |Jet Boosters|"
   },
   "lvl 40": {
