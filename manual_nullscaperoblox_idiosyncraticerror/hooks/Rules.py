@@ -135,12 +135,12 @@ def shopsanityReq(world: World, item: str, count: int):
 
     # blank requirement if upgrade wont show up in the lobby
     if world.options.extreme_only.value and item in not_extreme:
-        return "|Paycheck:1|"
+        return ""
     if world.options.casual_only.value and item in not_casual:
         return ""
-    if world.options.party_size.value == 0 and item in not_solo:
+    if world.options.solo.value and not world.options.party.value and item in not_solo:
         return ""
-    if world.options.party_size.value == 1 and item in not_party:
+    if world.options.party.value and not world.options.solo.value and item in not_party:
         return ""
         
     # set count to 0 for all items that dont stack
