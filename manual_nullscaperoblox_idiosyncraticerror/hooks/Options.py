@@ -153,8 +153,24 @@ class Shopsanity(Toggle):
 class ExpensiveUpgs(Toggle):
     """
     Enables Transient Pennon, Quixotic Wing, stack 3 of Magnified Levels, and stack 4 & 5 of Gift Idol in Shopsanity
+    If Delusion Upgrades is enabled, also enables stack 4 of Magnified Levels and stack 6 of Gift Idol
+    Requires Shopsanity to be on.
     """
     display_name = "Expensive Upgrades"
+
+class DelusionShop(Toggle):
+    """
+    Enables locations for buying the extra upgrades from Arrogance/Conceit
+    Does not require Randomized Delusion Upgrades to be on. Requires Shopsanity to be on.
+    """
+    display_name = "Delusion Upgrade Locations"
+
+class DelusionItem(Toggle):
+    """
+    The extra upgrades from Arrogance/Conceit are now randomized as items
+    Does not require Shopsanity or Delusion Upgrades to be enabled
+    """
+    display_name = "Randomized Delusion Upgrades"
 
 class Wish(Toggle):
     """
@@ -177,6 +193,7 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["enabled_delusions"] = DelusionList
     options["shopsanity"] = Shopsanity
     options["expensive_upgs"] = ExpensiveUpgs
+    options["delusion_upgs"] = DelusionShop
     options["wishes"] = Wish
 
     return options
@@ -208,7 +225,7 @@ def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> 
     # Uses the format groups['GroupName'] = [TotalCharactersToWinWith]
     groups["Game Options"] = [ClassWinRequirement, LevelWinRequirement, EnabledClass, RandomClassStart, FillerCount, PostGoalContent]
     groups["Lobby Options"] = [Difficulty, Party]
-    groups["Other Options"] = [Delusion, Shopsanity, ExpensiveUpgs, Wish]
+    groups["Other Options"] = [Delusion, Shopsanity, ExpensiveUpgs, DelusionShop, Wish]
     return groups
 
 def after_option_groups_created(groups: list[OptionGroup]) -> list[OptionGroup]:

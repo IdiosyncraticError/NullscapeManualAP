@@ -1128,6 +1128,16 @@
         "requires": "{shopsanityReq(Swiftness Ring, 3)}"
     },
     {
+        "name": "Buy Swiftness Ring 4",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Delusion Stacks",
+            "Level 15+"
+        ],
+        "requires": "{shopsanityReq(Swiftness Ring, 3)}"
+    },
+    {
         "name": "Buy Business License 1",
         "region": "lvl 0",
         "category": [
@@ -1142,6 +1152,16 @@
         "category": [
             "Buy Upgrades",
             "Level 5+"
+        ],
+        "requires": "{shopsanityReq(Business License, 2)}"
+    },
+    {
+        "name": "Buy Business License 3",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Delusion Stacks",
+            "Level 15+"
         ],
         "requires": "{shopsanityReq(Business License, 2)}"
     },
@@ -1187,6 +1207,16 @@
         "category": [
             "Buy Upgrades",
             "Level 13+"
+        ],
+        "requires": "{shopsanityReq(Paycheck, 5)}"
+    },
+    {
+        "name": "Buy Paycheck 6",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Delusion Stacks",
+            "Level 15+"
         ],
         "requires": "{shopsanityReq(Paycheck, 5)}"
     },
@@ -1442,6 +1472,16 @@
         "requires": "{shopsanityReq(Subspacial Barrier, 2)}"
     },
     {
+        "name": "Buy Subspacial Barrier 3",
+        "region": "lvl 15",
+        "category": [
+            "Buy Upgrades",
+            "Delusion Stacks",
+            "Level 15+"
+        ],
+        "requires": "{shopsanityReq(Subspacial Barrier, 2)}"
+    },
+    {
         "name": "Buy Larger Grapple Points",
         "region": "lvl 10",
         "category": [
@@ -1520,6 +1560,16 @@
         "category": [
             "Buy Upgrades",
             "Level 20+"
+        ],
+        "requires": "{shopsanityReq(Gift Magnet, 3)}"
+    },
+    {
+        "name": "Buy Gift Magnet 4",
+        "region": "lvl 30",
+        "category": [
+            "Buy Upgrades",
+            "Delusion Stacks",
+            "Level 30+"
         ],
         "requires": "{shopsanityReq(Gift Magnet, 3)}"
     },
@@ -1653,6 +1703,17 @@
         "requires": "{shopsanityReq(Gift Idol, 5)}"
     },
     {
+        "name": "Buy Gift Idol 6",
+        "region": "lvl 30",
+        "category": [
+            "Buy Upgrades",
+            "Delusion Stacks",
+            "Level 30+",
+            "Expensive"
+        ],
+        "requires": "{shopsanityReq(Gift Idol, 5)}"
+    },
+    {
         "name": "Buy Drowned Aegis",
         "region": "lvl 20",
         "category": [
@@ -1693,6 +1754,17 @@
         "region": "lvl 30",
         "category": [
             "Buy Upgrades",
+            "Level 30+",
+            "Expensive"
+        ],
+        "requires": "{shopsanityReq(Magnified Levels, 3)}"
+    },
+    {
+        "name": "Buy Magnified Levels 4",
+        "region": "lvl 30",
+        "category": [
+            "Buy Upgrades",
+            "Delusion Stacks",
             "Level 30+",
             "Expensive"
         ],

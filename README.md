@@ -30,4 +30,5 @@ this branch specific things:
 - add cele prac victory locations as beating phase on X amount of classes with same flag/location bullshit as regular level
 - setting to remove idol 5, magnified lvls 3, and the wings on shopsanity
 - option to add shopsanity to stack overflowed items (arrogance and conceit)
+- also i guess add option to be unable to buy the extra stacks until you have the item (aka we adding more)
 - one day add altars as a randomizable option

@@ -186,6 +186,16 @@ upgrades = [
     ["Transient Pennon", 1, [], 30]
 ]
 
+arro_conceit_upgs = [
+    "Paycheck",
+    "Business License",
+    "Swiftness Ring",
+    "Subspacial Barrier",
+    "Gift Magnet",
+    "Gift Idol",
+    "Magnified Levels"
+]
+
 output = []
 
 for i in rounds:
@@ -378,6 +388,51 @@ for i in upgrades:
         obj["requires"] += ")}"
 
         output.append(obj)
+
+        if i[0] in arro_conceit_upgs and j + 1 == i[1]:
+            delu = {}
+            delu["name"] = "Buy " + i[0] + " " + str(j + 2)
+
+            if i[3] % 5 == 3:
+                i[3] += 2
+            else:
+                i[3] += 3
+
+            if i[3] < 15:
+                i[3] = 15
+    
+            cat_list = ["Buy Upgrades", "Delusion Stacks"]
+            if i[3] == 15:
+                delu["region"] = "lvl 15"
+                cat_list.append("Level 15+")
+            elif i[3] == 18:
+                delu["region"] = "lvl 15"
+                cat_list.append("Level 18+")
+            elif i[3] == 20:
+                delu["region"] = "lvl 20"
+                cat_list.append("Level 20+")
+            elif i[3] == 25:
+                delu["region"] = "lvl 25"
+                cat_list.append("Level 25+")
+            elif i[3] == 30:
+                delu["region"] = "lvl 30"
+                cat_list.append("Level 30+")
+            else:
+                delu["region"] = "lvl 30"
+                cat_list.append("Level 30+")
+            cat_list.extend(i[2])
+            if i[0] == "Transient Pennon" or i[0] == "Quixotic Wing":
+                cat_list.append("Expensive")
+            if i[0] == "Gift Idol" and j + 1 > 3:
+                cat_list.append("Expensive")
+            if i[0] == "Magnified Levels" and j + 2 == 4:
+                cat_list.append("Expensive")
+    
+            delu["category"] = cat_list
+    
+            delu["requires"] = "{shopsanityReq(" + i[0] + ", " + str(j + 2) + ")}"
+
+            output.append(delu)
 
     
 

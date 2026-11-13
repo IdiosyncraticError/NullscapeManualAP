@@ -135,5 +135,10 @@
         "yaml_option": [
             "expensive_upgs"
         ]
+    },
+    "Delusion Stacks": {
+        "yaml_option": [
+            "delusion_upgs"
+        ]
     }
 }
