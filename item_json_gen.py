@@ -54,8 +54,8 @@ upgrades = [
 ]
 
 delusions = [
-    ["Conceit", 2],
-    ["Arrogance", 2],
+    ["Conceit", 4],
+    ["Arrogance", 4],
     ["Dependence", 4],
     ["Hope", 4],
     ["Corrosion", 4],

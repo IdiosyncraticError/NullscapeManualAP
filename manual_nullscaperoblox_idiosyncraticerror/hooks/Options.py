@@ -231,7 +231,7 @@ def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> 
     # Uses the format groups['GroupName'] = [TotalCharactersToWinWith]
     groups["Game Options"] = [ClassWinRequirement, LevelWinRequirement, EnabledClass, RandomClassStart, FillerCount, PostGoalContent]
     groups["Lobby Options"] = [Difficulty, Party]
-    groups["Other Options"] = [Delusion, Shopsanity, ExpensiveUpgs, DelusionShop, DelusionItem, CelePractice, CelePhase2, Wish]
+    groups["Other Options"] = [Delusion, DelusionList, Shopsanity, ExpensiveUpgs, DelusionShop, DelusionItem, CelePractice, CelePhase2, Wish]
     return groups
 
 def after_option_groups_created(groups: list[OptionGroup]) -> list[OptionGroup]:
