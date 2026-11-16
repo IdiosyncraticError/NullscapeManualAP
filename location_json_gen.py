@@ -419,5 +419,10 @@ for i in chaos_curses:
     obj["category"] = ["Curses", "Chaos Curses"]
     output.append(obj)
 
+for i in divine_curses:
+    obj = {}
+    obj["name"] = i
+    obj["category"] = ["Curses", "Chaos Curses", "Divine Curses"]
+
 with open("locations.json", "w") as file:
     json.dump(output, file, indent=4)

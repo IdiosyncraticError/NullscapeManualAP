@@ -139,6 +139,20 @@ class Shopsanity(Toggle):
     """
     display_name = "Shopsanity"
 
+class Chaos(Toggle):
+    """
+    Adds chaos exclusive curses as locations
+    """
+    display_name = "Chaos Mode"
+
+class Divine(Toggle):
+    """
+    Adds chaos+ exclusive curses as locations
+
+    why
+    """
+    display_name = "Chaos+ Mode"
+
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options["class_win_requirement"] = ClassWinRequirement
@@ -154,6 +168,8 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["delusions"] = Delusion
     options["enabled_delusions"] = DelusionList
     options["shopsanity"] = Shopsanity
+    options["chaos"] = Chaos
+    options["divine"] = Divine
 
     return options
 
