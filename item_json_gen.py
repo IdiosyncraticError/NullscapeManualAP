@@ -54,8 +54,8 @@ upgrades = [
 ]
 
 delusions = [
-    ["Conceit", 2],
-    ["Arrogance", 2],
+    ["Conceit", 4],
+    ["Arrogance", 4],
     ["Dependence", 4],
     ["Hope", 4],
     ["Corrosion", 4],
@@ -133,6 +133,8 @@ for i in class_unlock:
     obj["category"] = ["Win Progression"]
     obj["progression"] = True
     output.append(obj)
+
+output.append({"name": "Altar of Wishes", "count": 1, "category": ["Altars", "Level 15+"], "progression_skip_balancing": True})
     
 
 with open("items.json", "w") as file:

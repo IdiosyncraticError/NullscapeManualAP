@@ -186,6 +186,23 @@ upgrades = [
     ["Transient Pennon", 1, [], 30]
 ]
 
+arro_conceit_upgs = [
+    "Paycheck",
+    "Business License",
+    "Swiftness Ring",
+    "Subspacial Barrier",
+    "Gift Magnet",
+    "Gift Idol",
+    "Magnified Levels"
+]
+
+cele_practice = [
+    "Beat Phase 1.1",
+    "Beat Phase 1.2",
+    "Beat Phase 1.3",
+    "Beat Phase 2"
+]
+
 output = []
 
 for i in rounds:
@@ -359,6 +376,13 @@ for i in upgrades:
             obj["region"] = "lvl 30"
             cat_list.append("Level 30+")
         cat_list.extend(i[2])
+        if i[0] == "Transient Pennon" or i[0] == "Quixotic Wing":
+            cat_list.append("Expensive")
+        if i[0] == "Gift Idol" and j + 1 > 3:
+            cat_list.append("Expensive")
+        if i[0] == "Magnified Levels" and j + 1 == 3:
+            cat_list.append("Expensive")
+
         obj["category"] = cat_list
 
         obj["requires"] = "{shopsanityReq(" + i[0] + ", "
@@ -423,6 +447,58 @@ for i in divine_curses:
     obj = {}
     obj["name"] = i
     obj["category"] = ["Curses", "Chaos Curses", "Divine Curses"]
+        if i[0] in arro_conceit_upgs and j + 1 == i[1]:
+            delu = {}
+            delu["name"] = "Buy " + i[0] + " " + str(j + 2)
+
+            if i[3] % 5 == 3:
+                i[3] += 2
+            else:
+                i[3] += 3
+
+            if i[3] < 15:
+                i[3] = 15
+    
+            cat_list = ["Buy Upgrades", "Delusion Stacks"]
+            if i[3] == 15:
+                delu["region"] = "lvl 15"
+                cat_list.append("Level 15+")
+            elif i[3] == 18:
+                delu["region"] = "lvl 15"
+                cat_list.append("Level 18+")
+            elif i[3] == 20:
+                delu["region"] = "lvl 20"
+                cat_list.append("Level 20+")
+            elif i[3] == 25:
+                delu["region"] = "lvl 25"
+                cat_list.append("Level 25+")
+            elif i[3] == 30:
+                delu["region"] = "lvl 30"
+                cat_list.append("Level 30+")
+            else:
+                delu["region"] = "lvl 30"
+                cat_list.append("Level 30+")
+            cat_list.extend(i[2])
+            if i[0] == "Transient Pennon" or i[0] == "Quixotic Wing":
+                cat_list.append("Expensive")
+            if i[0] == "Gift Idol" and j + 1 > 3:
+                cat_list.append("Expensive")
+            if i[0] == "Magnified Levels" and j + 2 == 4:
+                cat_list.append("Expensive")
+    
+            delu["category"] = cat_list
+    
+            delu["requires"] = "{OptAll(|Arrogance| or |Conceit|)} and {shopsanityReq(" + i[0] + ", " + str(j + 2) + ")}"
+
+            output.append(delu)
+
+for i in cele_practice:
+    obj = {}
+    obj["name"] = i + " of Cele Practice Mode"
+    obj["category"] = ["Celestial Practice"]
+    if "Phase 2" in i:
+        obj["category"].append("Phase 2 Cele")
+    output.append(obj)
 
 with open("locations.json", "w") as file:
     json.dump(output, file, indent=4)
