@@ -1789,5 +1789,30 @@
             "Expensive"
         ],
         "requires": "{shopsanityReq(Transient Pennon, 0)}"
+    },
+    {
+        "name": "Beat Phase 1.1 of Cele Practice Mode",
+        "category": [
+            "Celestial Practice"
+        ]
+    },
+    {
+        "name": "Beat Phase 1.2 of Cele Practice Mode",
+        "category": [
+            "Celestial Practice"
+        ]
+    },
+    {
+        "name": "Beat Phase 1.3 of Cele Practice Mode",
+        "category": [
+            "Celestial Practice"
+        ]
+    },
+    {
+        "name": "Beat Phase 2 of Cele Practice Mode",
+        "category": [
+            "Celestial Practice",
+            "Phase 2 Cele"
+        ]
     }
 ]

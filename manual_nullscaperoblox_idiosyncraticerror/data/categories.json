@@ -140,5 +140,16 @@
         "yaml_option": [
             "delusion_upgs"
         ]
+    },
+    "Phase 2": {
+        "hidden": true,
+        "yaml_option": [
+            "cele_2"
+        ]
+    },
+    "Celestial Practice": {
+        "yaml_option": [
+            "cele_prac"
+        ]
     }
 }

@@ -441,7 +441,13 @@ for i in upgrades:
 
             output.append(delu)
 
-    
+for i in cele_practice:
+    obj = {}
+    obj["name"] = i + " of Cele Practice Mode"
+    obj["category"] = ["Celestial Practice"]
+    if "Phase 2" in i:
+        obj["category"].append("Phase 2 Cele")
+    output.append(obj)
 
 with open("locations.json", "w") as file:
     json.dump(output, file, indent=4)

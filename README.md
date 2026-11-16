@@ -13,18 +13,6 @@ todo:
 - add difficulty + random + chaos to items and enabling/disabling of them in settings (as well as a sanity mode for class + difficulty + random + chaos + level locations)
   - what the fuck is this again
   - random is kinda ahh i might just not do this
+  - because you cant dynamically generate locations >:(
 - add chaos and chaos+ mode as an option
-- turn casual only and extreme only into a choice option instead of two toggles
-- option to add arrogance/conceit to shopsanity for the evil Extra stacks
-  - (optone(arrogance) or optone(conceit)) and yamlenabled(extra stacks) and |this upgrade:max stacks|
-- i guess Cele checks now that cele practice mode is real
-  - okay but there's no items to randomize in cele practice mode. like yeah you could reach chokepoints on higher grav + lower grav in combination with other classes, plus the grav curses are broken and can stack right now. well i GUESS.........
-
-this branch specific things:
-  - add altar of wish item + option
-- add cele prac locations per class and per phase
-- add cele prac victory locations as beating phase on X amount of classes with same flag/location bullshit as regular level
-  - setting to remove idol 5, magnified lvls 3, and the wings on shopsanity
-  - option to add shopsanity to stack overflowed items (arrogance and conceit)
-  - also i guess add option to be unable to buy the extra stacks until you have the item (aka we adding more)
 - edit item config so that if shopsanity is turned off, paycheck is 3 progression 2 skip balancing, magnet is 2 progression 1 progression skip balancing, idol is 2 progression 3 skip balancing

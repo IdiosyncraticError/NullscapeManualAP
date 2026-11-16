@@ -94,18 +94,6 @@ class PostGoalContent(Toggle):
     """
     display_name = "Post-Goal Content"
 
-class Casual(Toggle):
-    """
-    Removes all Tripmine curses, Tripmine upgrades, Grace Wings, and Miniature Hourglass
-    """
-    display_name = "Casual Mode Only"
-
-class Extreme(Toggle):
-    """
-    Removes upgrades that do not appear in Extreme from the item pool
-    """
-    display_name = "Extreme Mode Only"
-
 class Difficulty(Choice):
     """
     Select if you will be playing exclusively Casual mode, exclusively Extreme mode, or neither
@@ -179,6 +167,20 @@ class Wish(Toggle):
     """
     display_name = "Altar of Wishes"
 
+class CelePractice(Toggle):
+    """
+    Adds beating Celestial phases in practice mode as locations
+    *THESE LOCATIONS HAVE NO REQUIREMENTS*
+    """
+    display_name = "Celestial Practice Locations"
+
+class CelePhase2(Toggle):
+    """
+    Adds beating Phase 2 as a Celestial Practice location
+    aka i have reached phase 2 once im not doing ts Bruh
+    """
+    display_name = "Beating Celestial Phase 2"
+
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options["class_win_requirement"] = ClassWinRequirement
@@ -197,6 +199,8 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["delusion_upgs"] = DelusionShop
     options["delusion_upg_item"] = DelusionItem
     options["wishes"] = Wish
+    options["cele_prac"] = CelePractice
+    options["cele_2"] = CelePhase2
 
     return options
 
@@ -227,7 +231,7 @@ def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> 
     # Uses the format groups['GroupName'] = [TotalCharactersToWinWith]
     groups["Game Options"] = [ClassWinRequirement, LevelWinRequirement, EnabledClass, RandomClassStart, FillerCount, PostGoalContent]
     groups["Lobby Options"] = [Difficulty, Party]
-    groups["Other Options"] = [Delusion, Shopsanity, ExpensiveUpgs, DelusionShop, DelusionItem, Wish]
+    groups["Other Options"] = [Delusion, Shopsanity, ExpensiveUpgs, DelusionShop, DelusionItem, CelePractice, CelePhase2, Wish]
     return groups
 
 def after_option_groups_created(groups: list[OptionGroup]) -> list[OptionGroup]:
