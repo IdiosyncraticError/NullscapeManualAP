@@ -144,7 +144,8 @@
     "Phase 2": {
         "hidden": true,
         "yaml_option": [
-            "cele_2"
+            "cele_2",
+            "cele_prac"
         ]
     },
     "Celestial Practice": {
