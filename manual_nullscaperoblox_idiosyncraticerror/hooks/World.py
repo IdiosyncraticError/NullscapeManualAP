@@ -61,18 +61,6 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
             world.options.level_25.value = False
         if victory_level <= 30:
             world.options.level_30.value = False
-            
-    party = get_option_value(multiworld, player, "party_size")
-    
-    if party == 0:
-        world.options.solo.value = True
-        world.options.party.value = False
-    elif party == 1:
-        world.options.party.value = True
-        world.options.solo.value = False
-    elif party == 2:
-        world.options.solo.value = True
-        world.options.party.value = True
     
     pass
 
@@ -127,6 +115,15 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
         item_config["Drowned Aegis"] = {"progression_skip_balancing":1}
         item_config["Quixotic Wing"] = {"progression_skip_balancing":1}
         item_config["Transient Pennon"] = {"progression_skip_balancing":1}
+
+    if is_option_enabled(multiworld, player, "delusion_upg_item"):
+        item_config["Paycheck"] = {"progression":6}
+        item_config["Swiftness Ring"] = {"progression":4}
+        item_config["Business License"] = {"progression":3}
+        item_config["Subspacial Barrier"] = {"progression":3}
+        item_config["Gift Magnet"] = {"progression":4}
+        item_config["Gift Idol"] = {"progression":6}
+        item_config["Magnified Levels"] = {"progression":4}
 
     return item_config
 

@@ -80,7 +80,7 @@ class RandomClassStart(Range):
 
 class FillerCount(Range):
     """
-    What percentage of your locations should be filler?
+    Percentage of filler your items should have. Based off of the number of locations in the world (X% of total locations would be filled in a solo archipelago)
     Note: 0 = none, 100 = include all locations
     """
     display_name = "Proportion of Filler"
@@ -94,22 +94,21 @@ class PostGoalContent(Toggle):
     """
     display_name = "Post-Goal Content"
 
-class Casual(Toggle):
+class Difficulty(Choice):
     """
-    Removes all Tripmine curses, Tripmine upgrades, Grace Wings, and Miniature Hourglass
+    Select if you will be playing exclusively Casual mode, exclusively Extreme mode, or neither
+    (This setting removes extra items if you are not playing only these modes)
     """
-    display_name = "Casual Mode Only"
-
-class Extreme(Toggle):
-    """
-    Removes upgrades that do not appear in Extreme from the item pool
-    """
-    display_name = "Extreme Mode Only"
+    display_name = "Lobby Difficulty"
+    option_casual_only = 0
+    option_extreme_only = 1
+    option_none = 2
+    default = 2
 
 class Party(Choice):
     """
     Solo: removes all multiplayer curses and upgrades (pick this if you plan to play duo)
-    (final stand, health insurance, altar boons)
+    (final stand, health insurance)
     Party: removes Adrenaline
     Both: solo and multiplayer exclusive items are included
     """
@@ -139,6 +138,49 @@ class Shopsanity(Toggle):
     """
     display_name = "Shopsanity"
 
+class ExpensiveUpgs(Toggle):
+    """
+    Enables Transient Pennon, Quixotic Wing, stack 3 of Magnified Levels, and stack 4 & 5 of Gift Idol in Shopsanity
+    If Delusion Upgrades is enabled, also enables stack 4 of Magnified Levels and stack 6 of Gift Idol
+    Requires Shopsanity to be on.
+    """
+    display_name = "Expensive Upgrades"
+
+class DelusionShop(Toggle):
+    """
+    Enables locations for buying the extra upgrades from Arrogance/Conceit
+    Does not require Randomized Delusion Upgrades to be on. Requires Shopsanity to be on. Does not require Delusions to be on.
+    """
+    display_name = "Delusion Upgrade Locations"
+
+class DelusionItem(Toggle):
+    """
+    The extra upgrades from Arrogance/Conceit are now randomized as items
+    Does not require Shopsanity, Delusions, or Delusion Upgrades to be enabled.
+    """
+    display_name = "Randomized Delusion Upgrades"
+
+class Wish(Toggle):
+    """
+    Altar of Wish is now a randomized item
+    >:)
+    """
+    display_name = "Altar of Wishes"
+
+class CelePractice(Toggle):
+    """
+    Adds beating Celestial phases in practice mode as locations
+    *THESE LOCATIONS HAVE NO REQUIREMENTS*
+    """
+    display_name = "Celestial Practice Locations"
+
+class CelePhase2(Toggle):
+    """
+    Adds beating Phase 2 as a Celestial Practice location
+    aka i have reached phase 2 once im not doing ts Bruh
+    """
+    display_name = "Beating Celestial Phase 2"
+
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options["class_win_requirement"] = ClassWinRequirement
@@ -148,12 +190,17 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["random_class_start"] = RandomClassStart
     options["filler_percent"] = FillerCount
     options["post_goal"] = PostGoalContent
-    options["casual_only"] = Casual
-    options["extreme_only"] = Extreme
+    options["lobby_difficulty"] = Difficulty
     options["party_size"] = Party
     options["delusions"] = Delusion
     options["enabled_delusions"] = DelusionList
     options["shopsanity"] = Shopsanity
+    options["expensive_upgs"] = ExpensiveUpgs
+    options["delusion_upgs"] = DelusionShop
+    options["delusion_upg_item"] = DelusionItem
+    options["wishes"] = Wish
+    options["cele_prac"] = CelePractice
+    options["cele_2"] = CelePhase2
 
     return options
 
@@ -176,15 +223,15 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
     options.type_hints["level_20"].visibility = Visibility.none
     options.type_hints["level_25"].visibility = Visibility.none
     options.type_hints["level_30"].visibility = Visibility.none
-    
-    options.type_hints["solo"].visibility = Visibility.none
-    options.type_hints["party"].visibility = Visibility.none
 
     pass
 
 # Use this Hook if you want to add your Option to an Option group (existing or not)
 def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> dict[str, list[Type[Option[Any]]]]:
     # Uses the format groups['GroupName'] = [TotalCharactersToWinWith]
+    groups["Game Options"] = [ClassWinRequirement, LevelWinRequirement, EnabledClass, RandomClassStart, FillerCount, PostGoalContent]
+    groups["Lobby Options"] = [Difficulty, Party]
+    groups["Other Options"] = [Delusion, DelusionList, Shopsanity, ExpensiveUpgs, DelusionShop, DelusionItem, CelePractice, CelePhase2, Wish]
     return groups
 
 def after_option_groups_created(groups: list[OptionGroup]) -> list[OptionGroup]:

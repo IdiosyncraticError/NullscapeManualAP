@@ -110,6 +110,16 @@ def shopsanityReq(world: World, item: str, count: int):
         "Drowned Aegis": "More Altars"
     }
 
+    stack_amount = {
+        "Paycheck":5,
+        "Business License":2,
+        "Swiftness Ring":3,
+        "Subspacial Barrier":2,
+        "Gift Magnet":3,
+        "Gift Idol":5,
+        "Magnified Levels":3
+    }
+
     not_extreme = [
         "Health Insurance",
         "Soul Tracers",
@@ -134,14 +144,21 @@ def shopsanityReq(world: World, item: str, count: int):
     output = ""
 
     # blank requirement if upgrade wont show up in the lobby
-    if world.options.extreme_only.value and item in not_extreme:
+    if world.options.lobby_difficulty.value == 1 and item in not_extreme:
         return ""
-    if world.options.casual_only.value and item in not_casual:
+    if world.options.lobby_difficulty.value == 0 and item in not_casual:
         return ""
-    if world.options.solo.value and not world.options.party.value and item in not_solo:
+    if world.options.party_size.value == 0 and item in not_solo:
         return ""
-    if world.options.party.value and not world.options.solo.value and item in not_party:
+    if world.options.party_size.value == 1 and item in not_party:
         return ""
+
+    # check if this is a arrogance/conceit location and arro/conceit items are turned on
+    if item in stack_amount and count > stack_amount[item]:
+        if world.options.delusion_upg_item.value == True:
+            output += "|" + item + ":" + str(count) + "|"
+        else:
+            count -= 1
         
     # set count to 0 for all items that dont stack
     if count > 0:

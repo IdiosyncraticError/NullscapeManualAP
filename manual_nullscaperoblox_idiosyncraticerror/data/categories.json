@@ -114,32 +114,42 @@
         "hidden": true
     },
     "Solo": {
-        "hidden": true,
-        "yaml_option": [
-            "solo"
-        ]
+        "hidden": true
     },
     "Party": {
-        "hidden": true,
-        "yaml_option": [
-            "party"
-        ]
+        "hidden": true
     },
     "Standard+": {
-        "hidden": true,
-        "yaml_option": [
-            "!casual_only"
-        ]
+        "hidden": true
     },
     "Extreme-": {
-        "hidden": true,
+        "hidden": true
+    },
+    "Altars": {
         "yaml_option": [
-            "!extreme_only"
+            "wishes"
         ]
     },
-    "Buy Upgrades": {
+    "Expensive": {
+        "hidden": true,
         "yaml_option": [
-            "shopsanity"
+            "expensive_upgs"
+        ]
+    },
+    "Delusion Stacks": {
+        "yaml_option": [
+            "delusion_upgs"
+        ]
+    },
+    "Phase 2 Cele": {
+        "hidden": true,
+        "yaml_option": [
+            "cele_2"
+        ]
+    },
+    "Celestial Practice": {
+        "yaml_option": [
+            "cele_prac"
         ]
     }
 }
