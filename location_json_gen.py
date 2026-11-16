@@ -196,6 +196,13 @@ arro_conceit_upgs = [
     "Magnified Levels"
 ]
 
+cele_practice = [
+    "Beat Phase 1.1",
+    "Beat Phase 1.2",
+    "Beat Phase 1.3",
+    "Beat Phase 2"
+]
+
 output = []
 
 for i in rounds:
