@@ -10,9 +10,7 @@ okay you know what maybe ill make it change based on if you pick casual/standard
 
 
 todo:
-- add difficulty + random + chaos to items and enabling/disabling of them in settings (as well as a sanity mode for class + difficulty + random + chaos + level locations)
-  - what the fuck is this again
+- add fancy levelsanity (shop locations w/ combinations of class, difficulty, random, chaos)
   - random is kinda ahh i might just not do this
   - because you cant dynamically generate locations >:(
-- add chaos and chaos+ mode as an option
 - edit item config so that if shopsanity is turned off, paycheck is 3 progression 2 skip balancing, magnet is 2 progression 1 progression skip balancing, idol is 2 progression 3 skip balancing
