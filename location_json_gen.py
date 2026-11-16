@@ -372,7 +372,52 @@ for i in upgrades:
 
         output.append(obj)
 
-    
+chaos_curses = [
+    "They're Here",
+    "Water Pad",
+    "Aura",
+    "Bloody Bell",
+    "Limitless",
+    "Flip Switch",
+    "Less Stairs",
+    "Tripnuke",
+    "Missile Silo",
+    "Mighty Cavalry",
+    "Teledancer",
+    "Mart Slide",
+    "Pacifier",
+    "Conga Line",
+    "Random Husk",
+    "Bigger Blast but EVIL",
+    "Aries",
+    "Supernova",
+    "Void Explosions",
+    "Stop Sign"
+]
+
+divine_curses = [
+    "Nuclear Bomb",
+    "Legion",
+    "Where's Husk?",
+    "Three Sixteenths",
+    "Accurate Bell",
+    "Husk Block",
+    "Don't Touch Me",
+    "Muted",
+    "Soy Retro",
+    "Spreadshot",
+    "Googolpede",
+    "Reversed Convergence",
+    "Stairs... Stairs...",
+    "Husk Presence",
+    "Fake Count"
+]
+
+for i in chaos_curses:
+    obj = {}
+    obj["name"] = i
+    obj["category"] = ["Curses", "Chaos Curses"]
+    output.append(obj)
 
 with open("locations.json", "w") as file:
     json.dump(output, file, indent=4)
