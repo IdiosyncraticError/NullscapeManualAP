@@ -138,6 +138,19 @@ class Shopsanity(Toggle):
     """
     display_name = "Shopsanity"
 
+class Chaos(Toggle):
+    """
+    Adds chaos exclusive curses as locations
+    """
+    display_name = "Chaos Mode"
+
+class Divine(Toggle):
+    """
+    Adds chaos+ exclusive curses as locations
+
+    why
+    """
+    display_name = "Chaos+ Mode"
 class ExpensiveUpgs(Toggle):
     """
     Enables Transient Pennon, Quixotic Wing, stack 3 of Magnified Levels, and stack 4 & 5 of Gift Idol in Shopsanity
@@ -195,6 +208,8 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["delusions"] = Delusion
     options["enabled_delusions"] = DelusionList
     options["shopsanity"] = Shopsanity
+    options["chaos"] = Chaos
+    options["divine"] = Divine
     options["expensive_upgs"] = ExpensiveUpgs
     options["delusion_upgs"] = DelusionShop
     options["delusion_upg_item"] = DelusionItem

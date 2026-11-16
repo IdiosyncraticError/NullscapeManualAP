@@ -151,5 +151,17 @@
         "yaml_option": [
             "cele_prac"
         ]
+    },
+    "Chaos Curses": {
+        "hidden": true,
+        "yaml_option": [
+            "chaos"
+        ]
+    },
+    "Divine Curses": {
+        "hidden": true,
+        "yaml_option": [
+            "divine"
+        ]
     }
 }
